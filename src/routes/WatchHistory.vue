@@ -15,7 +15,7 @@
                 Watched {{ doc.timeAgo }}
               </span>
             </template>
-            <span>{{ doc.timestamp.toString() }}</span>
+            <span>{{ doc.formattedDate }}</span>
           </v-tooltip><br />
         </VideoItem>
       </v-col>
@@ -57,6 +57,7 @@ export default {
     async loadData () {
       this.data = (await getWatchedVideos()).map(doc => {
         doc.timeAgo = LibPiped.timeAgo(doc.timestamp)
+        doc.formattedDate = LibPiped.formatFullDate(doc.timestamp)
         return doc
       })
       this.loaded = true

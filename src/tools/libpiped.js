@@ -7,6 +7,11 @@ TimeAgo.addDefaultLocale(en)
 const timeAgo = new TimeAgo('en-US')
 
 class LibPiped {
+  intlDTF = new Intl.DateTimeFormat([], {
+    dateStyle: 'full',
+    timeStyle: 'full'
+  })
+
   timeFormat (duration) {
     const pad = function (num, size) {
       return ('000' + num).slice(size * -1)
@@ -24,6 +29,10 @@ class LibPiped {
     str += pad(minutes, 2) + ':' + pad(seconds, 2)
 
     return str
+  }
+
+  formatFullDate (date) {
+    return this.intlDTF.format(date)
   }
 
   numberFormat (num) {
