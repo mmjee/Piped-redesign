@@ -1,8 +1,8 @@
 <template>
   <v-progress-linear height="1vh" indeterminate v-if="loaded === false" />
   <v-container fluid v-else>
-    <v-row justify="center">
-      <v-col md="4" offset-md="1">
+    <v-row>
+      <v-col md="2">
         <v-btn outlined @click="deleteWatchHistory" x-large>Delete History</v-btn>
       </v-col>
     </v-row>
