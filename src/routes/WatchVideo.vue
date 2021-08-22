@@ -95,6 +95,7 @@ import Player from '@/components/Player.vue'
 import VideoItem from '@/components/VideoItem.vue'
 import ErrorHandler from '@/components/ErrorHandler.vue'
 import VideoComment from '@/components/VideoComment'
+import { addWatchedVideo } from '@/store/watched-videos-db'
 
 export default {
   name: 'WatchVideo',
@@ -196,8 +197,8 @@ export default {
       })
     },
 
-    async getVideoData () {
-      await this.fetchVideo()
+    getVideoData () {
+      return this.fetchVideo()
         .then(data => {
           this.video = data
         })
@@ -213,6 +214,8 @@ export default {
                 .replaceAll('\n', '<br>')
             )
           }
+        }).then(() => {
+          return addWatchedVideo(this.video)
         })
     },
     async getSponsors () {

@@ -42,6 +42,10 @@ const routes = [
   {
     path: '/:videoId([a-zA-Z0-9_-]{11})',
     component: () => import('@/components/VideoRedirect')
+  },
+  {
+    path: '/watch-history',
+    component: () => import('@/routes/WatchHistory')
   }
 ]
 
