@@ -15,7 +15,7 @@ export default new Vuetify({
         warning: colors.deepOrange.base,
         info: colors.blue.base,
         success: colors.green.base
-      },
-    },
-  },
+      }
+    }
+  }
 })
