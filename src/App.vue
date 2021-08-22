@@ -56,6 +56,11 @@ export default {
         id: 'trending',
         name: 'Trending',
         to: '/'
+      },
+      {
+        id: 'watch-history',
+        name: 'Watch History',
+        to: '/watch-history'
       }
     ]
   }),

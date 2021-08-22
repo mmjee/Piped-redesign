@@ -215,7 +215,7 @@ export default {
             )
           }
         }).then(() => {
-          return addWatchedVideo(this.video)
+          return addWatchedVideo(this.video, this.$route.fullPath)
         })
     },
     async getSponsors () {
