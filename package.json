@@ -7,6 +7,8 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@babel/eslint-parser": "^7.15.0",
+    "@fontsource/baloo-da-2": "^4.5.0",
     "core-js": "^3.16.1",
     "dompurify": "^2.3.1",
     "hotkeys-js": "^3.8.7",
@@ -19,6 +21,7 @@
     "sass-loader": "^10",
     "shaka-player": "^3.2.0",
     "vue": "^2.6.14",
+    "vue-i18n": "^8.25.0",
     "vue-meta": "^2.4.0",
     "vue-router": "^3.5.2",
     "vuetify": "^2.5.8",
@@ -33,7 +36,6 @@
     "@vue/cli-plugin-vuex": "~4.5.13",
     "@vue/cli-service": "~4.5.13",
     "@vue/eslint-config-standard": "^6.1.0",
-    "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
     "eslint-plugin-import": "^2.24.0",
     "eslint-plugin-node": "^11.1.0",
@@ -57,7 +59,7 @@
       "@vue/standard"
     ],
     "parserOptions": {
-      "parser": "babel-eslint"
+      "parser": "@babel/eslint-parser"
     },
     "rules": {}
   },

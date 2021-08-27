@@ -1,0 +1,22 @@
+@mixin addFonts ($font-primary) {
+  .v-application {
+    [class*='text-'],[class*='body-'] {
+      color: #36405a;
+      font-family: $font-primary, sans-serif !important;
+    }
+    .headline, .title {
+      font-family: $font-primary, sans-serif !important;
+    }
+
+    font-family: $font-primary, sans-serif !important;
+  }
+}
+
+.bengali {
+  @include addFonts('Baloo Da 2');
+}
+/*
+.latin {
+  @include addFonts('Some Font');
+}
+*/
