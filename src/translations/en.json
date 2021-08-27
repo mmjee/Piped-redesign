@@ -7,9 +7,6 @@
         "preferences": "Preferences",
         "history": "History"
     },
-    "player": {
-        "watch_on": "Watch on"
-    },
     "actions": {
         "subscribe": "Subscribe",
         "unsubscribe": "Unsubscribe",

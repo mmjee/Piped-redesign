@@ -146,7 +146,10 @@ export default {
         })
 
         videoEl.addEventListener('volumechange', () => {
-          this.setPreference('volume', videoEl.volume)
+          this.$store.commit('setPrefs', {
+            id: 'volume',
+            value: videoEl.volume
+          })
         })
 
         videoEl.addEventListener('ended', () => {

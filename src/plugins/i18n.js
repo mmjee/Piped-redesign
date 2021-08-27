@@ -9,8 +9,9 @@ const messages = {
   en: ENTranslations
 }
 
-export const i18n = VueI18n.createI18n({
+export const i18n = new VueI18n({
   locale: 'en', // set default locale
+  fallbackLocale: 'en',
   messages
 })
 
@@ -51,7 +52,7 @@ export async function loadLocale (locale) {
   const messages = await import(/* webpackChunkName: "locale-[request]" */ `@/translations/${locale}.json`)
 
   // set locale and locale message
-  i18n.global.setLocaleMessage(locale, messages.default)
+  i18n.setLocaleMessage(locale, messages.default)
 
   return Vue.nextTick()
 }
@@ -59,7 +60,7 @@ export async function loadLocale (locale) {
 export async function changeLocale (lang) {
   await loadLocale(lang)
   await syncStylesPerLanguage(lang)
-  i18n.locale.value = lang
+  i18n.locale = lang
   window.localStorage.setItem('LOCALE', lang)
 }
 

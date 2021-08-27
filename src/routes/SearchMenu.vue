@@ -7,6 +7,7 @@
     cache-items
     class="mx-4"
     flat
+    dense
     hide-no-data
     hide-details
     label="What are you looking for?"

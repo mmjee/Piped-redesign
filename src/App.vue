@@ -4,24 +4,37 @@
       app
       color="primary"
       dark
-      flat
     >
-      <v-container class="py-0 fill-height">
-        <v-btn
-          v-for="link in links"
-          :key="link.id"
-          text
-          link
-          :to="link.to"
-        >
-          {{ link.name }}
-        </v-btn>
-
-        <v-spacer></v-spacer>
-
-        <v-responsive max-width="720">
-          <SearchMenu />
-        </v-responsive>
+      <!-- Someone help me fix this horrid design -->
+      <v-container class="py-2 fill-height">
+        <v-row>
+          <v-col md="1"
+                 v-for="link in links"
+                 :key="link.id"
+          >
+            <v-btn
+              text
+              link
+              min-width="100%"
+              :to="link.to"
+            >
+              {{ link.name }}
+            </v-btn>
+          </v-col>
+          <v-col md="1" offset="3">
+            <v-select
+              dense
+              :items="languageOptions"
+              label="Language"
+              :value="$i18n.locale"
+              @input="changeLocale($event)"
+              outlined
+            />
+          </v-col>
+          <v-col md="5">
+            <SearchMenu />
+          </v-col>
+        </v-row>
       </v-container>
     </v-app-bar>
 
@@ -33,6 +46,7 @@
 
 <script>
 import SearchMenu from '@/routes/SearchMenu'
+import { changeLocale } from '@/plugins/i18n'
 
 export default {
   name: 'App',
@@ -62,8 +76,20 @@ export default {
         name: 'Watch History',
         to: '/watch-history'
       }
+    ],
+    languageOptions: [
+      {
+        text: 'English',
+        value: 'en'
+      }
     ]
   }),
+
+  methods: {
+    changeLocale (lang) {
+      return changeLocale(lang.value)
+    }
+  },
   created () {
     this.$store.dispatch('loadState')
   }

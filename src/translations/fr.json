@@ -41,8 +41,5 @@
         "channel_name_asc": "Nom de la chaîne (A-Z)",
         "least_recent": "Le moins récent",
         "most_recent": "Le plus récent"
-    },
-    "player": {
-        "watch_on": "Regarder sur"
     }
 }
