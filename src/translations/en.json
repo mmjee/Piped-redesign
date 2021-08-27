@@ -1,11 +1,12 @@
 {
     "titles": {
+        "homepage": "Homepage",
         "trending": "Trending",
         "login": "Login",
         "register": "Register",
         "feed": "Feed",
         "preferences": "Preferences",
-        "history": "History"
+        "history": "Watch History"
     },
     "actions": {
         "subscribe": "Subscribe",

@@ -8,26 +8,25 @@
       <!-- Someone help me fix this horrid design -->
       <v-container class="py-2 fill-height">
         <v-row>
-          <v-col md="1"
-                 v-for="link in links"
-                 :key="link.id"
-          >
+          <v-col md="5">
             <v-btn
               text
               link
-              min-width="100%"
+              v-for="link in links"
+              :key="link.id"
               :to="link.to"
+              class="mr-1"
             >
-              {{ link.name }}
+              {{ $t(link.name) }}
             </v-btn>
           </v-col>
-          <v-col md="1" offset="3">
+          <v-col md="1" offset="1">
             <v-select
               dense
               :items="languageOptions"
               label="Language"
               :value="$i18n.locale"
-              @input="changeLocale($event)"
+              @input="changeLocale"
               outlined
             />
           </v-col>
@@ -53,41 +52,52 @@ export default {
   components: {
     SearchMenu
   },
-  metaInfo: {
-    title: 'Homepage',
-    // all titles will be injected into this template
-    titleTemplate: '%s - Piped'
+  metaInfo () {
+    return {
+      title: this.$t('titles.homepage'),
+      // all titles will be injected into this template
+      titleTemplate: '%s - Piped'
+    }
   },
 
   data: () => ({
     links: [
       {
         id: 'prefs',
-        name: 'Preferences',
+        name: 'titles.preferences',
         to: '/preferences'
       },
       {
         id: 'trending',
-        name: 'Trending',
+        name: 'titles.trending',
         to: '/'
       },
       {
         id: 'watch-history',
-        name: 'Watch History',
+        name: 'titles.history',
         to: '/watch-history'
       }
     ],
     languageOptions: [
-      {
-        text: 'English',
-        value: 'en'
-      }
-    ]
+      { value: 'zh_Hant', text: 'Chinese (Traditional)' },
+      { value: 'en', text: 'English' },
+      { value: 'fr', text: 'French' },
+      { value: 'de', text: 'German' },
+      { value: 'el', text: 'Greek' },
+      { value: 'lt', text: 'Lithuanian' },
+      { value: 'ml', text: 'Malayalam' },
+      { value: 'nb_NO', text: 'Norwegian Bokmål' },
+      { value: 'tr', text: 'Turkish' },
+      { value: 'bn_latn', text: 'Bengali (Latin)' },
+      { value: 'bn_beng', text: 'Bengali (বাংলা)' }
+    ].sort((a, b) => {
+      return a.text.localeCompare(b.text)
+    })
   }),
 
   methods: {
     changeLocale (lang) {
-      return changeLocale(lang.value)
+      return changeLocale(lang)
     }
   },
   created () {
