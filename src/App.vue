@@ -8,7 +8,7 @@
       <!-- Someone help me fix this horrid design -->
       <v-container class="py-2 fill-height">
         <v-row>
-          <v-col md="5">
+          <v-col md="6">
             <v-btn
               text
               link
@@ -20,7 +20,7 @@
               {{ $t(link.name) }}
             </v-btn>
           </v-col>
-          <v-col md="1" offset="1">
+          <v-col md="1">
             <v-select
               dense
               :items="languageOptions"
