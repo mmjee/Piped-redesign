@@ -5,12 +5,7 @@
         "store_watch_history": "İzleme Geçmişini Sakla",
         "minimize_description": "Açıklamayı öntanımlı olarak küçült",
         "show_comments": "Yorumları Göster",
-        "default_homepage": "Öntanımlı Ana Sayfa",
-        "country_selection": "Ülke Seçimi",
         "buffering_goal": "Arabelleğe Alma Hedefi (saniye cinsinden)",
-        "default_quality": "Öntanımlı Kalite",
-        "audio_only": "Yalnızca Ses",
-        "autoplay_video": "Videoyu Otomatik Oynat",
         "light": "Açık",
         "dark": "Koyu",
         "auto": "Otomatik",
@@ -41,5 +36,12 @@
         "register": "Kaydol",
         "login": "Oturum Aç",
         "trending": "Öne Çıkanlar"
+    },
+    "preferences": {
+        "homepage": "Öntanımlı Ana Sayfa",
+        "region": "Ülke Seçimi",
+        "quality": "Öntanımlı Kalite",
+        "listen": "Yalnızca Ses",
+        "playerAutoplay": "Videoyu Otomatik Oynat"
     }
 }

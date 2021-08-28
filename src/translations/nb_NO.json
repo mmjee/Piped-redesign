@@ -2,9 +2,7 @@
     "actions": {
         "instances_list": "Liste over instanser",
         "minimize_description": "Minimer beskrivelse som forvalg",
-        "country_selection": "Land",
         "buffering_goal": "Mellomlagringsmål (i sekunder)",
-        "autoplay_video": "Spill video automatisk",
         "skip_non_music": "Hopp over musikk:Del uten musikk",
         "auto": "Auto",
         "skip_self_promo": "Hopp over ubetalt/selvpromotering",
@@ -16,9 +14,6 @@
         "language_selection": "Språk",
         "store_watch_history": "Lagre visningshistorikk",
         "show_comments": "Vis kommentarer",
-        "default_homepage": "Forvalgt hjemmeside",
-        "default_quality": "Forvalgt kvalitet",
-        "audio_only": "Kun lyd",
         "light": "Lys",
         "dark": "Mørk",
         "theme": "Drakt",
@@ -41,5 +36,12 @@
         "register": "Registrering",
         "login": "Logg inn",
         "trending": "På vei opp"
+    },
+    "preferences": {
+        "region": "Land",
+        "playerAutoplay": "Spill video automatisk",
+        "homepage": "Forvalgt hjemmeside",
+        "quality": "Forvalgt kvalitet",
+        "listen": "Kun lyd"
     }
 }

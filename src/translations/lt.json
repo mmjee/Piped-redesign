@@ -7,12 +7,7 @@
         "store_watch_history": "Saugoti žiūrėjimo istoriją",
         "minimize_description": "Suskleisti aprašymą automatiškai",
         "show_comments": "Rodyti komentarus",
-        "default_homepage": "Numatytasis pagrindinis puslapis",
-        "country_selection": "Šalies pasirinkimas",
         "buffering_goal": "Užkrovimo tikslas (sekundėmis)",
-        "default_quality": "Numatytoji kokybė",
-        "audio_only": "Tik garsas",
-        "autoplay_video": "Automatiškai leisti vaizdo įrašus",
         "light": "Šviesi",
         "auto": "Automatinė",
         "dark": "Tamsi",
@@ -41,5 +36,12 @@
         "login": "Prisijungti",
         "trending": "Tendencijos",
         "history": "Istorija"
+    },
+    "preferences": {
+        "homepage": "Numatytasis pagrindinis puslapis",
+        "region": "Šalies pasirinkimas",
+        "quality": "Numatytoji kokybė",
+        "listen": "Tik garsas",
+        "playerAutoplay": "Automatiškai leisti vaizdo įrašus"
     }
 }

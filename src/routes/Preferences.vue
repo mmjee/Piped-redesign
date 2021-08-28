@@ -1,13 +1,13 @@
 <template>
   <v-container fluid>
-    <h1 class="text-h4 text-center">Preferences</h1>
+    <h1 class="text-h4 text-center">{{ $t('titles.preferences') }}</h1>
     <v-divider class="ma-4" />
     <div style="display: flex;" v-for="(opt, optId) in options" :key="optId">
       <v-simple-checkbox v-if="opt.type === 'bool'" :value="$store.getters.getPreferenceBoolean(opt.id, opt.default)" @input="setValue(opt.id, $event)" />
-      <v-select v-else-if="opt.type === 'select'" :label="opt.label" :value="$store.getters.getPreferenceString(opt.id, opt.default)" @input="setValue(opt.id, $event)" :items="opt.options" />
-      <p v-if="opt.type === 'bool'">{{ opt.label }}</p><br />
+      <v-select v-else-if="opt.type === 'select'" :label="$t('preferences.' + opt.id)" :value="$store.getters.getPreferenceString(opt.id, opt.default)" @input="setValue(opt.id, $event)" :items="opt.options" />
+      <p v-if="opt.type === 'bool'">{{ $t('preferences.' + opt.id) }}</p><br />
     </div>
-    <h5 class="text-h5">Instances</h5>
+    <h5 class="text-h5">{{ $t('actions.instances_list') }}</h5>
     <v-data-table :headers="tableHeaders" :items="instances" />
   </v-container>
 </template>
@@ -25,19 +25,16 @@ export default {
         {
           id: 'playerAutoplay',
           type: 'bool',
-          default: true,
-          label: 'Autoplay Video'
+          default: true
         },
         {
           id: 'listen',
           type: 'bool',
-          default: false,
-          label: 'Audio Only'
+          default: false
         },
         {
           id: 'quality',
           type: 'select',
-          label: 'Default resolution',
           default: 0,
           options: [
             {

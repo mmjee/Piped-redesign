@@ -10,12 +10,7 @@
         "store_watch_history": "Wiedergabeverlauf speichern",
         "minimize_description": "Beschreibung standardmäßig minimieren",
         "show_comments": "Kommentare anzeigen",
-        "default_homepage": "Standard-Startseite",
-        "country_selection": "Länderauswahl",
         "buffering_goal": "Pufferungsziel (in Sekunden)",
-        "default_quality": "Standardqualität",
-        "audio_only": "Nur Audio",
-        "autoplay_video": "Video automatisch abspielen",
         "light": "Hell",
         "dark": "Dunkel",
         "auto": "Automatisch",
@@ -41,5 +36,12 @@
         "register": "Registrieren",
         "login": "Anmelden",
         "trending": "Trends"
+    },
+    "preferences": {
+        "homepage": "Standard-Startseite",
+        "region": "Länderauswahl",
+        "quality": "Standardqualität",
+        "listen": "Nur Audio",
+        "playerAutoplay": "Video automatisch abspielen"
     }
 }
