@@ -9,69 +9,6 @@
     </div>
     <h5 class="text-h5">Instances</h5>
     <v-data-table :headers="tableHeaders" :items="instances" />
-    <!-- <br />
-    <b>Audio Only</b>
-    <br />
-    <input class="uk-checkbox" v-model="listen" @change="onChange($event)" type="checkbox" />
-    <br />
-    <b>Default Quality</b>
-    <br />
-    <select class="uk-select uk-width-auto" v-model="defaultQuality" @change="onChange($event)">
-      <option value="0">Auto</option>
-      <option :key="resolution" v-for="resolution in resolutions" :value="resolution">{{ resolution }}p</option>
-    </select>
-    <br />
-    <b>Buffering Goal</b>
-    <br />
-    <input class="uk-input uk-width-auto" v-model="bufferingGoal" @change="onChange($event)" type="text" />
-    <br />
-    <b>Country Selection</b>
-    <br />
-    <select class="uk-select uk-width-auto" v-model="country" @change="onChange($event)">
-      <option :key="country.code" v-for="country in countryMap" :value="country.code">{{ country.name }}</option>
-    </select>
-    <br />
-    <b>Default Homepage</b>
-    <br />
-    <select class="uk-select uk-width-auto" v-model="defaultHomepage" @change="onChange($event)">
-      <option value="trending">Trending</option>
-      <option value="feed">Feed</option>
-    </select>
-    <br />
-    <b>Show Comments</b>
-    <br />
-    <input class="uk-checkbox" v-model="showComments" @change="onChange($event)" type="checkbox" />
-    <h2>Instances List</h2>
-    <table class="uk-table">
-      <thead>
-      <tr>
-        <th>Instance Name</th>
-        <th>Instance Locations</th>
-        <th>Has CDN?</th>
-        <th>SSL Score</th>
-      </tr>
-      </thead>
-      <tbody v-bind:key="instance.name" v-for="instance in instances">
-      <tr>
-        <td>{{ instance.name }}</td>
-        <td>{{ instance.locations }}</td>
-        <td>{{ instance.cdn }}</td>
-        <td>
-          <a :href="sslScore(instance.apiurl)" target="_blank">Click Here</a>
-        </td>
-      </tr>
-      </tbody>
-    </table>
-
-    <hr />
-
-    <b>Instance Selection:</b>
-    <br />
-    <select class="uk-select uk-width-auto" v-model="selectedInstance" @change="onChange($event)">
-      <option v-bind:key="instance.name" v-for="instance in instances" v-bind:value="instance.apiurl">
-        {{ instance.name }}
-      </option>
-    </select> -->
   </v-container>
 </template>
 
