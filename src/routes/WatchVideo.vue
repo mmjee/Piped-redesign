@@ -16,7 +16,7 @@
           <v-card-subtitle class="subtitle-1">
             <v-row>
               <v-col md="4" align-self="start">
-                {{ addCommas(video.views) }} views
+                {{ $tc('counts.views', video.views, { n: addCommas(video.views) }) }}
                 •
                 {{ video.uploadDate }}
               </v-col>
@@ -66,6 +66,7 @@
               Sponsors Segments: {{ sponsors.segments.length }}
             </div>
             <div>
+              <!-- TODO translate -->
               <v-checkbox dense :value="this.$store.getters.getPreferenceBoolean('autoplay')" @change="onAutoplayChg" label="Autoplay next video" />
               <v-checkbox dense v-model="selectedAutoLoop" label="Loop this video" />
             </div>
@@ -78,7 +79,7 @@
       <v-col md="8" offset-md="1" v-if="comments && comments.comments">
         <h5 class="text-h4 text-center my-4">Comments</h5>
         <VideoComment v-for="comment in comments.comments" :key="comment.commentId" :comment="comment" :video="video" class="my-4" />
-        <v-progress-linear indeterminate v-intersect="onCommentsProgressIntersect" v-if="comments.comments.length !== 0" />
+        <v-progress-linear indeterminate v-intersect="onCommentsProgressIntersect" v-if="comments.comments.length !== 0 && comments.nextpage != null" />
       </v-col>
       <v-col md="2" v-if="video && video.relatedStreams">
         <h5 class="text-h4 text-center my-4">Related Videos</h5>

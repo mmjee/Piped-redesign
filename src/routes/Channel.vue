@@ -25,7 +25,7 @@
             <VideoItem :height="270" :width="480" :video="video" />
           </v-col>
         </v-row>
-        <v-progress-linear indeterminate v-intersect="onRelatedStreamsEndIntersect" />
+        <v-progress-linear v-if="channel.nextpage != null" indeterminate v-intersect="onRelatedStreamsEndIntersect" />
       </div>
     </v-container>
 </template>

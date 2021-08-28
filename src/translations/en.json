@@ -9,7 +9,8 @@
         "history": "Watch History"
     },
     "counts": {
-        "videos": "No videos | One Video | {count} Videos"
+        "videos": "No videos | One Video | {count} Videos",
+        "views": "No views | One view | {n} views"
     },
     "actions": {
         "subscribe": "Subscribe",

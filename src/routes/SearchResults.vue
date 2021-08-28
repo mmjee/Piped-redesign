@@ -18,7 +18,7 @@
           <GenericDisplayItem :height="270" :width="480" :item="video" v-else />
         </v-col>
       </v-row>
-      <v-progress-linear indeterminate v-intersect="onSearchResultsEndIntersect" />
+      <v-progress-linear indeterminate v-intersect="onSearchResultsEndIntersect" v-if="results.nextpage != null" />
     </div>
   </v-container>
 </template>
