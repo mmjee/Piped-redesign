@@ -1,16 +1,16 @@
 {
     "titles": {
-        "trending": "Trending",
-        "login": "Login",
-        "register": "Register",
-        "feed": "Āpanāra phiḍ",
-        "preferences": "Pachanda anuyāẏī māniẏē nin",
-        "history": "Ēkhana paryanta ki dēkhēchēn"
+        "trending": "জনপ্রিয় ভিডিও",
+        "login": "অ্যাকাউন্টে লগইন",
+        "register": "একাউন্ট বানান",
+        "feed": "আপনার ফিড",
+        "preferences": "পছন্দ অনুযায়ী মানিয়ে নিন",
+        "history": "দেখার ইতিহাস"
     },
     "actions": {
-        "subscribe": "Sadasyatā nin",
-        "unsubscribe": "Sadasyatā parityāga",
-        "view_subscriptions": "Sadasyatāra tālikā",
+        "subscribe": "সদস্যতা নিন",
+        "unsubscribe": "সদস্যতা পরিত্যাগ",
+        "view_subscriptions": "সদস্যতার তালিকা",
         "sort_by": "Sort by:",
         "most_recent": "Most Recent",
         "least_recent": "Least Recent",
@@ -30,17 +30,20 @@
         "auto": "Auto",
         "dark": "Dark",
         "light": "Light",
-        "playerAutoplay": "Autoplay Video",
-        "listen": "Audio Only",
-        "quality": "Default Quality",
         "buffering_goal": "Buffering Goal (in seconds)",
-        "region": "Country Selection",
-        "homepage": "Default Homepage",
         "show_comments": "Show Comments",
         "minimize_description": "Minimize Description by default",
         "store_watch_history": "Store Watch History",
         "language_selection": "Language Selection",
         "instances_list": "Instances List",
         "enabled_codecs": "Enabled Codecs (Multiple)"
+    },
+    "preferences": {
+        "playerAutoplay": "ভিডিও নিজে থেকে চলবে কি না",
+        "listen": "শুধু আওয়াজ শুনবেন কি না",
+        "quality": "ডিফল্ট ভিডিও রেজোলিউশন",
+        "region": "দেশ",
+        "homepage": "ওয়েবসাইট খোলার পর কি দেখবেন গতানুগতিক",
+        "instance": "Instance"
     }
 }
