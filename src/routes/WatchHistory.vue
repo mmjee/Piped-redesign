@@ -53,6 +53,12 @@ export default {
     ]
   }),
 
+  metaInfo () {
+    return {
+      title: this.$t('titles.history')
+    }
+  },
+
   methods: {
     async loadData () {
       this.data = (await getWatchedVideos()).map(doc => {

@@ -96,8 +96,10 @@ export default {
       ]
     }
   },
-  metaInfo: {
-    title: 'Preferences'
+  metaInfo () {
+    return {
+      title: this.$t('titles.preferences')
+    }
   },
 
   mounted () {
