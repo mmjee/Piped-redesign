@@ -87,9 +87,10 @@ export default {
       { value: 'lt', text: 'Lithuanian' },
       { value: 'ml', text: 'Malayalam' },
       { value: 'nb_NO', text: 'Norwegian Bokmål' },
-      { value: 'tr', text: 'Turkish' },
-      { value: 'bn_latn', text: 'Bengali (Latin)' },
-      { value: 'bn_beng', text: 'Bengali (বাংলা)' }
+      { value: 'tr', text: 'Turkish' }
+      // Incomplete, DO NOT USE
+      /* { value: 'bn_latn', text: 'Bengali (Latin)' },
+      { value: 'bn_beng', text: 'Bengali (বাংলা)' } */
     ].sort((a, b) => {
       return a.text.localeCompare(b.text)
     })
