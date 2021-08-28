@@ -12,6 +12,9 @@
         "videos": "No videos | One Video | {count} Videos",
         "views": "No views | One view | {n} views"
     },
+    "misc": {
+        "searchBarLabel": "What are you looking for?"
+    },
     "actions": {
         "subscribe": "Subscribe",
         "unsubscribe": "Unsubscribe",
