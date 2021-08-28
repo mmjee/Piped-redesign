@@ -25,14 +25,14 @@ async function syncStylesPerLanguage (locale) {
     case 'lt':
     case 'ml':
     case 'tr':
-    case 'bn-latn':
+    case 'bn_latn':
       // Don't need to import fonts because Latin fonts are always loaded
       document.body.classList.remove(...document.body.classList)
       document.body.classList.add('latin')
       break
     // Bengali script
-    case 'bn-beng':
-      await import('@fontsource/baloo-da-2/index.css')
+    case 'bn_beng':
+      await import('@fontsource/baloo-da-2/bengali.css')
       document.body.classList.remove(...document.body.classList)
       document.body.classList.add('bengali')
       break

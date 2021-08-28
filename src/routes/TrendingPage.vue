@@ -1,6 +1,6 @@
 <template>
   <v-container fluid>
-    <h3 class="display-1 justify-center">Trending</h3>
+    <h3 class="text-h4 justify-center">{{ $t('titles.trending') }}</h3>
 
     <v-divider class="my-4" />
 
@@ -24,8 +24,10 @@ export default {
     }
   },
 
-  metaInfo: {
-    title: 'Trending'
+  metaInfo () {
+    return {
+      title: this.$t('titles.trending')
+    }
   },
 
   mounted () {

@@ -6,7 +6,7 @@
         <v-col md="8" offset-md="2">
           <v-card>
             <v-img v-if="playlist.avatarUrl" :src="playlist.avatarUrl" />
-            <v-card-title class="display-1">
+            <v-card-title class="text-h4">
               {{ playlist.name }}
             </v-card-title>
             <v-card-text>
@@ -47,37 +47,6 @@
         </v-col>
       </v-row>
     </v-container>
-    <div v-else-if="playlist" v-show="!playlist.error">
-        <h1 class="uk-text-center">
-            <img v-bind:src="playlist.avatarUrl" height="48" width="48" loading="lazy" />
-            {{ playlist.name }}
-        </h1>
-
-        <b
-            ><router-link class="uk-text-justify" v-bind:to="playlist.uploaderUrl || '/'">
-                <img v-bind:src="playlist.uploaderAvatar" loading="lazy" />
-                {{ playlist.uploader }}</router-link
-            ></b
-        >
-
-        <div class="uk-align-right">
-            <b>{{ playlist.videos }} Videos</b>
-            <br />
-            <a :href="getRssUrl"><font-awesome-icon icon="rss"></font-awesome-icon></a>
-        </div>
-
-        <hr />
-
-        <div class="uk-grid-xl" uk-grid="parallax: 0">
-            <div
-                class="uk-width-1-2 uk-width-1-3@m uk-width-1-4@l uk-width-1-5@xl"
-                v-bind:key="video.url"
-                v-for="video in this.playlist.relatedStreams"
-            >
-                <VideoItem :video="video" height="94" width="168" />
-            </div>
-        </div>
-    </div>
 </template>
 
 <script>

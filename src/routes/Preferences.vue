@@ -1,6 +1,6 @@
 <template>
   <v-container fluid>
-    <h1 class="display-1 text-center">Preferences</h1>
+    <h1 class="text-h4 text-center">Preferences</h1>
     <v-divider class="ma-4" />
     <div style="display: flex;" v-for="(opt, optId) in options" :key="optId">
       <v-simple-checkbox v-if="opt.type === 'bool'" :value="$store.getters.getPreferenceBoolean(opt.id, opt.default)" @input="setValue(opt.id, $event)" />

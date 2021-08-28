@@ -9,6 +9,7 @@
   "dependencies": {
     "@babel/eslint-parser": "^7.15.0",
     "@fontsource/baloo-da-2": "^4.5.0",
+    "@fontsource/roboto": "^4.5.0",
     "core-js": "^3.16.1",
     "dompurify": "^2.3.1",
     "hotkeys-js": "^3.8.7",
