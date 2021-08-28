@@ -21,15 +21,6 @@
                   <div class="text-h5 ml-4">
                     {{ playlist.uploader }}
                   </div>
-                  <div class="ml-4">
-                    <v-btn
-                      v-if="$store.state.isAuthenticated"
-                      @click="subscribeHandler"
-                      color="primary"
-                    >
-                      {{ subscribed ? "Unsubscribe" : "Subscribe" }}
-                    </v-btn>
-                  </div>
                 </div>
               </router-link>
               <h5 class="text-h5 ml-16">{{ playlist.videos }} Videos</h5>
