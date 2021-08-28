@@ -23,7 +23,7 @@
                   </div>
                 </div>
               </router-link>
-              <h5 class="text-h5 ml-16">{{ playlist.videos }} Videos</h5>
+              <h5 class="text-h5 ml-16">{{ $tc('counts.videos', playlist.videos) }}</h5>
             </v-card-text>
             <v-card-actions>
               <v-btn icon x-large link :href="getRssUrl"><v-icon x-large>mdi-rss-box</v-icon></v-btn>

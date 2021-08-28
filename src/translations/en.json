@@ -8,6 +8,9 @@
         "preferences": "Preferences",
         "history": "Watch History"
     },
+    "counts": {
+        "videos": "No videos | One Video | {count} Videos"
+    },
     "actions": {
         "subscribe": "Subscribe",
         "unsubscribe": "Unsubscribe",
