@@ -35,7 +35,8 @@
         "preferences": "Innstillinger",
         "register": "Registrering",
         "login": "Logg inn",
-        "trending": "På vei opp"
+        "trending": "På vei opp",
+        "homepage": "Hjemmeside"
     },
     "preferences": {
         "region": "Land",
@@ -43,5 +44,8 @@
         "homepage": "Forvalgt hjemmeside",
         "quality": "Forvalgt kvalitet",
         "listen": "Kun lyd"
+    },
+    "counts": {
+        "videos": "Ingen videoer | Én video | {count} videroer"
     }
 }
