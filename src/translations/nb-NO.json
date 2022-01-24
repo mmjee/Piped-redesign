@@ -27,7 +27,8 @@
         "sort_by": "Sorter etter:",
         "view_subscriptions": "Vis abonnementer",
         "unsubscribe": "Opphev abonnement",
-        "subscribe": "Abonner"
+        "subscribe": "Abonner",
+        "enabled_codecs": "Påskrudde kodek (flere)"
     },
     "titles": {
         "feed": "Strøm",
@@ -43,9 +44,26 @@
         "playerAutoplay": "Spill video automatisk",
         "homepage": "Forvalgt hjemmeside",
         "quality": "Forvalgt kvalitet",
-        "listen": "Kun lyd"
+        "listen": "Kun lyd",
+        "skipToLastPoint": "Hopp til sist sette punkt når du ser en video du allerede har sett",
+        "selectedSkip": "Segmenter å hoppe over",
+        "disableLBRY": "Skru av LBRY",
+        "bufferGoal": "Hurtiglagringsmål",
+        "instance": "Instans",
+        "feedColumns": "Antall kolonner i informasjonskanalssider",
+        "proxyLBRY": "Hurtiglagre LBRY-videoer",
+        "sponsorblock": "Skru på SponsorBlock"
     },
     "counts": {
-        "videos": "Ingen videoer | Én video | {count} videroer"
+        "videos": "Ingen videoer | Én video | {count} videroer",
+        "views": "Ingen visninger | Én visning | {n} visninger"
+    },
+    "errors": {
+        "trendingFetchError": "Kunne ikke hente inn videoer på vei opp. Sjekk hvorvidt landet ditt støttes av YouTube"
+    },
+    "misc": {
+        "searchBarLabel": "Hva ser du etter?",
+        "lastWatchedTill": "Sist sett til {t}",
+        "watchedAgo": "Sett {t} til {p}"
     }
 }
