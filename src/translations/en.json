@@ -53,7 +53,7 @@
     },
     "preferences": {
         "feedColumns": "Count of Columns in Feed Pages",
-        "sponsorblock": "Enable Sponsorblock",
+        "sponsorblock": "Enable SponsorBlock",
         "selectedSkip": "Segments to Skip",
         "skipToLastPoint": "Skip to the last watched point when encountering a video already seen",
         "disableLBRY": "Disable LBRY",
