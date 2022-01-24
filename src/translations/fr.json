@@ -5,7 +5,8 @@
         "register": "S'inscrire",
         "feed": "Abonnements",
         "preferences": "Préférences",
-        "history": "Historique"
+        "history": "Historique",
+        "homepage": "Page d'accueil"
     },
     "actions": {
         "subscribe": "S'abonner",
@@ -35,13 +36,33 @@
         "sort_by": "Trier par :",
         "channel_name_asc": "Nom de la chaîne (A-Z)",
         "least_recent": "Le moins récent",
-        "most_recent": "Le plus récent"
+        "most_recent": "Le plus récent",
+        "enabled_codecs": "Activer les codecs (plusieurs)"
     },
     "preferences": {
         "homepage": "Page d'accueil par défaut",
         "region": "Sélection du pays",
         "playerAutoplay": "Lire automatique la vidéo",
         "quality": "Qualité par défaut",
-        "listen": "Audio seulement"
+        "listen": "Audio seulement",
+        "sponsorblock": "Activer SponsorBlock",
+        "disableLBRY": "Désactiver LBRY",
+        "feedColumns": "Nombre de colonnes dans la page de flux",
+        "instance": "Instance",
+        "selectedSkip": "Segments à passer",
+        "bufferGoal": "Objectif de mise en mémoire",
+        "skipToLastPoint": "Reprendre à partir de la dernière position pour les vidéos déjà lue"
+    },
+    "counts": {
+        "views": "Aucune vue | Une vue | {n} vues",
+        "videos": "Aucune vidéo | Une vidéo | {count} vidéos"
+    },
+    "misc": {
+        "searchBarLabel": "Qu'est-ce que vous recherchez ?",
+        "lastWatchedTill": "Dernière vue depuis {t}",
+        "watchedAgo": "Vu {t} depuis {p}"
+    },
+    "errors": {
+        "trendingFetchError": "Échec de la récupération des vidéos populaires. Veuillez vérifier si votre pays est supporté par YouTube"
     }
 }
