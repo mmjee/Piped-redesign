@@ -19,10 +19,12 @@ export const i18n = new VueI18n({
 
 export const TIME_AGO_EXCEPTIONS = {
 	'bn-Beng': 'bn',
-	'nb-NO': 'nb'
+	'nb-NO': 'nb',
+	ckb: 'ku'
 }
 
 export const COUNTRY_I18N_EXCEPTIONS = {
+	ckb: 'ku',
 	'bn-Beng': 'bn',
 	'nb-NO': 'nb',
 	'zh-Hant': 'zh',
@@ -52,6 +54,11 @@ async function syncStylesPerLanguage (locale) {
 			break
 		// Other languages
 		// NOTE: if you are a native speaker & want to see a different font, just email me or join the channel
+		case 'ckb':
+			await import('@fontsource/noto-naskh-arabic/arabic.css')
+			document.body.classList.remove(...document.body.classList)
+			document.body.classList.add('sorani-kurdish')
+			break
 		case 'zh-Hant':
 			await import('@fontsource/noto-sans-tc/chinese-traditional.css')
 			document.body.classList.remove(...document.body.classList)

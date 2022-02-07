@@ -9,6 +9,7 @@
   "dependencies": {
     "@babel/eslint-parser": "^7.16.3",
     "@fontsource/baloo-da-2": "^4.5.2",
+    "@fontsource/noto-naskh-arabic": "^4.5.3",
     "@fontsource/noto-sans-jp": "^4.5.2",
     "@fontsource/noto-sans-kr": "^4.5.2",
     "@fontsource/noto-sans-sc": "^4.5.2",

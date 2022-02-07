@@ -123,7 +123,8 @@ export default {
 			{ value: 'ml', text: 'Malayalam' },
 			{ value: 'nb-NO', text: 'Norwegian Bokmål' },
 			{ value: 'tr', text: 'Turkish' },
-			{ value: 'bn-Beng', text: 'Bengali (বাংলা)' }
+			{ value: 'bn-Beng', text: 'Bengali (বাংলা)' },
+			{ value: 'ckb', text: 'Sorani Kurdish' }
 			// Incomplete, DO NOT USE
 			/* { value: 'bn_latn', text: 'Bengali (Latin)' }, */
 		].sort((a, b) => {

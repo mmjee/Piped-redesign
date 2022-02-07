@@ -43,6 +43,10 @@
   @include addFonts('Nunito Sans');
 }
 
+.sorani-kurdish {
+  @include addFonts('Noto Naskh Arabic')
+}
+
 .v-application {
   max-width: 100vw;
   overflow: hidden;

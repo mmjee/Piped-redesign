@@ -946,6 +946,11 @@
   resolved "https://registry.yarnpkg.com/@fontsource/baloo-da-2/-/baloo-da-2-4.5.2.tgz#95321e09002be5ece6a490f6030247bedc4d55fe"
   integrity sha512-cBTw52mmCLjRyvyD019vdXYaKbayT9KbFAMxx+3Wkju66898282DygnNr6HPNCGGcmJvhrHd67KkJkqIJjjgmw==
 
+"@fontsource/noto-naskh-arabic@^4.5.3":
+  version "4.5.3"
+  resolved "https://registry.yarnpkg.com/@fontsource/noto-naskh-arabic/-/noto-naskh-arabic-4.5.3.tgz#1dc63eb985f2eeecc07e90e9349cd1203f5f4638"
+  integrity sha512-esH7Lawhlda6bE+FMQdqmNaMH1pePepz4q5ULShRgu4O/vuAuYoNbBW/ZgGUncY22sFwAlGKvsZ46Co9Y2LzCw==
+
 "@fontsource/noto-sans-jp@^4.5.2":
   version "4.5.2"
   resolved "https://registry.yarnpkg.com/@fontsource/noto-sans-jp/-/noto-sans-jp-4.5.2.tgz#f0072160a90ec2ede01a9c6039d74e7e57844767"

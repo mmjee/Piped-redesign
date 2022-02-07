@@ -77,7 +77,11 @@ export default {
 			}
 
 			if (videoId) {
-				const lastVideo = await findLastWatch(videoId)
+				let lastVideo = null
+				try {
+					lastVideo = await findLastWatch(videoId)
+				} catch (e) {
+				}
 				if (lastVideo != null) {
 					this.alreadyWatched = true
 					this.progress = lastVideo.progressPcnt
