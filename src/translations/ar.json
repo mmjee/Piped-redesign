@@ -1,0 +1,69 @@
+{
+    "titles": {
+        "homepage": "الصفحة الرئيسية",
+        "trending": "الرائجة",
+        "login": "تسجيل الدخول",
+        "register": "التسجيل",
+        "feed": "الخلاصة",
+        "preferences": "إعدادات",
+        "history": "سجل المشاهدة"
+    },
+    "counts": {
+        "videos": "لا توجد مقاطع فيديو | فيديو واحد | {count} فيديوات",
+        "views": "لا مشاهدات | مشاهدة واحدة | {n} مشاهدات"
+    },
+    "errors": {
+        "trendingFetchError": "تعذر تحميل المقاطع الفيديو الرائجة. تحقق مما إذا كان بلدك مدعوما من YouTube"
+    },
+    "misc": {
+        "searchBarLabel": "ما الذي تبحث عنه?",
+        "lastWatchedTill": "آخر مشاهدة حتى {t}",
+        "watchedAgo": "شاهد {t} حتى {p}"
+    },
+    "actions": {
+        "subscribe": "اشترك",
+        "unsubscribe": "إلغاء الاشتراك",
+        "view_subscriptions": "عرض الاشتراكات",
+        "sort_by": "الفرز حسب:",
+        "most_recent": "الأحدث",
+        "least_recent": "الأقدم",
+        "channel_name_asc": "اسم القناة (A-Z)",
+        "channel_name_desc": "اسم القناة (Z-A)",
+        "back": "رجوع",
+        "uses_api_from": "يستخدم واجهة برمجة التطبيقات من ",
+        "enable_sponsorblock": "تفعيل Sponsorblock",
+        "skip_sponsors": "تخطي الرعاة",
+        "skip_intro": "تخطي الفاصل / مقدمة الرسوم المتحركة",
+        "skip_outro": "تخطي بطاقات النهاية/الاعتمادات",
+        "skip_preview": "تخطي معاينة / خلاصة",
+        "skip_interaction": "تخطي تذكير التفاعل (اشترك)",
+        "skip_self_promo": "تخطي الترويج غير المدفوع/الذاتي",
+        "skip_non_music": "تخطي الموسيقى: قسم غير الموسيقى",
+        "theme": "السمة",
+        "auto": "تلقائي",
+        "dark": "داكن",
+        "light": " فاتح",
+        "buffering_goal": "هدف التخزين المؤقت (بالثواني)",
+        "show_comments": "إظهار التعليقات",
+        "minimize_description": "تصغير الوصف بشكل افتراضي",
+        "store_watch_history": "حفظ سجل مشاهدة",
+        "language_selection": "تحديد اللغة",
+        "instances_list": "قائمة الخوادم",
+        "enabled_codecs": "برامج الترميز الممكنة (متعددة)"
+    },
+    "preferences": {
+        "feedColumns": "عدد الأعمدة في صفحة الخلاصة",
+        "sponsorblock": "تفعيل SponsorBlock",
+        "selectedSkip": "تخطي أجزاء من الفيديو",
+        "skipToLastPoint": "تخطي إلى آخر نقطة مشاهدة عند مواجهة فيديو تم مشاهدته بالفعل",
+        "disableLBRY": "تعطيل LBRY",
+        "proxyLBRY": "توكيل فيديوات LBRY",
+        "playerAutoplay": "التشغيل التلقائي للفيديو",
+        "bufferGoal": "هدف التخزين المؤقت",
+        "listen": "الصوت فقط",
+        "quality": "الجودة الافتراضية",
+        "region": "اختيار البلد",
+        "homepage": "الصفحة الرئيسية الافتراضية",
+        "instance": "الخادم"
+    }
+}
