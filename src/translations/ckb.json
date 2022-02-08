@@ -1,1 +1,69 @@
-{}
+{
+    "titles": {
+        "homepage": "پەڕەی سەرەکی",
+        "trending": "ڕەوەت",
+        "login": "چوونەژوورەوە",
+        "register": "تۆمارکردن",
+        "feed": "پوختە",
+        "preferences": "ڕێکخستنەکان",
+        "history": "مێژووی سەیرکردن"
+    },
+    "counts": {
+        "videos": "بێ ڤیدیۆ | یەک ڤیدیۆ | {count} ڤیدیۆ",
+        "views": "هیچ بینینێک نییە | یەک بینین | {n} بینین"
+    },
+    "errors": {
+        "trendingFetchError": "نەتوانرا ڤیدیۆ ڕەوەتەکان وەربگیرێن. بپشکنە کە ئایا وڵاتەکەت لەلایەن یوتوبەوە پشتگیری دەکرێت یان نا"
+    },
+    "misc": {
+        "searchBarLabel": "بە دوای چی دەگەڕێیت?",
+        "lastWatchedTill": "سەیری دەکرد تا {t}",
+        "watchedAgo": "سەیرکراوە {t} تا {p}"
+    },
+    "actions": {
+        "subscribe": "بەشداریکردن",
+        "unsubscribe": "بەشداری نەکردن",
+        "view_subscriptions": "بینینی بەشداریکردنەکان",
+        "sort_by": "پۆلێنکردن بەپێی:",
+        "most_recent": "تازەترین",
+        "least_recent": "کۆنترین",
+        "channel_name_asc": "ناوی کەناڵ (A-Z)",
+        "channel_name_desc": "ناوی کەناڵ (Z-A)",
+        "back": "گەڕانەوە",
+        "uses_api_from": "API بەکاردێنێت لە ",
+        "enable_sponsorblock": "چالاککردنی سپۆنسەربلوک",
+        "skip_sponsors": "پەڕین لە سپۆنسەرەکان",
+        "skip_intro": "پەڕین لە سەرەتاکان",
+        "skip_outro": "پەڕین لە کۆتاییەکان",
+        "skip_preview": "پەڕین لە دووبارە بوونەوە",
+        "skip_interaction": "پەڕین لە بەبیرهێنانەوەی بەشداری کردن",
+        "skip_self_promo": "پەڕین لە ڕێکلام",
+        "skip_non_music": "پەڕین لە میۆزیک",
+        "theme": "ڕووکار",
+        "auto": "خۆکار",
+        "dark": "تاریک",
+        "light": "ڕووناک",
+        "buffering_goal": "ئامانجی بەفەرکردن (بە چرکە)",
+        "show_comments": "نیشاندانی سەرنجەکان",
+        "minimize_description": "وەسفەکە بە بنەڕەت بچووک بکەوە",
+        "store_watch_history": "پاشەکەوت کردنی مێژووی سەیرکراوەکان",
+        "language_selection": "دەستنیشانکردنی زمان",
+        "instances_list": "لیستی نموونەی ڕاژەکان",
+        "enabled_codecs": "چاڵاک کردنی کۆدێکەکانی (هەمەجۆر)"
+    },
+    "preferences": {
+        "feedColumns": "ژمارەی ئەستوونەکان لە پەڕەی پوختەکان",
+        "sponsorblock": "چالاککردنی سپۆنسەربلوک",
+        "selectedSkip": "پەڕین لە بەشەکان",
+        "skipToLastPoint": "پەڕین بۆ دوایین خاڵی سەیرکراو کاتێک ڕووبەڕووی ڤیدیۆیەک دەبیەوە کە پێشتر سەیرکراوە",
+        "disableLBRY": "ناچالاککردنی LBRY",
+        "proxyLBRY": "پەخشکردنی ڤیدیۆیەکانی LBRY",
+        "playerAutoplay": "کارکردنی خۆکارانەی ڤیدیۆی",
+        "bufferGoal": "ئامانجی بەفەرکردن",
+        "listen": "تەنها دەنگ",
+        "quality": "کوالێتی بنەڕەت",
+        "region": "هەڵبژاردەی وڵات",
+        "homepage": "پەڕەی سەرەکی بنەڕەت",
+        "instance": "نموونە ڕاژە"
+    }
+}
