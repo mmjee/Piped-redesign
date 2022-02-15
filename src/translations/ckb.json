@@ -16,7 +16,7 @@
         "trendingFetchError": "نەتوانرا ڤیدیۆ ڕەوەتەکان وەربگیرێن. بپشکنە کە ئایا وڵاتەکەت لەلایەن یوتوبەوە پشتگیری دەکرێت یان نا"
     },
     "misc": {
-        "searchBarLabel": "بە دوای چی دەگەڕێیت?",
+        "searchBarLabel": "بە دوای چی دەگەڕێیت؟",
         "lastWatchedTill": "سەیری دەکرد تا {t}",
         "watchedAgo": "سەیرکراوە {t} تا {p}"
     },
@@ -24,6 +24,7 @@
         "subscribe": "بەشداریکردن",
         "unsubscribe": "بەشداری نەکردن",
         "view_subscriptions": "بینینی بەشداریکردنەکان",
+        "rss_of_subscriptions": "RSS ی بەشداریەکانت",
         "sort_by": "پۆلێنکردن بەپێی:",
         "most_recent": "تازەترین",
         "least_recent": "کۆنترین",
