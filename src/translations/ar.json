@@ -16,7 +16,7 @@
         "trendingFetchError": "تعذر تحميل المقاطع الفيديو الرائجة. تحقق مما إذا كان بلدك مدعوما من YouTube"
     },
     "misc": {
-        "searchBarLabel": "ما الذي تبحث عنه?",
+        "searchBarLabel": "ما الذي تبحث عنه؟",
         "lastWatchedTill": "آخر مشاهدة حتى {t}",
         "watchedAgo": "شاهد {t} حتى {p}"
     },
