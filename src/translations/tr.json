@@ -27,7 +27,9 @@
         "sort_by": "Sıralama ölçütü:",
         "view_subscriptions": "Abonelikleri Görüntüle",
         "unsubscribe": "Abonelikten çık",
-        "subscribe": "Abone ol"
+        "subscribe": "Abone ol",
+        "rss_of_subscriptions": "Aboneliklerinizin RSS'si",
+        "enabled_codecs": "Etkin Kod Çözücüler (Çoklu)"
     },
     "titles": {
         "history": "Geçmiş",
@@ -35,13 +37,32 @@
         "feed": "Akış",
         "register": "Kaydol",
         "login": "Oturum Aç",
-        "trending": "Öne Çıkanlar"
+        "trending": "Öne Çıkanlar",
+        "homepage": "Ana Sayfa"
     },
     "preferences": {
         "homepage": "Öntanımlı Ana Sayfa",
         "region": "Ülke Seçimi",
         "quality": "Öntanımlı Kalite",
         "listen": "Yalnızca Ses",
-        "playerAutoplay": "Videoyu Otomatik Oynat"
+        "playerAutoplay": "Videoyu Otomatik Oynat",
+        "skipToLastPoint": "Daha önce izlenen bir videoyla karşılaşıldığında son izlenen noktaya atla",
+        "bufferGoal": "Arabelleğe Alma Hedefi",
+        "selectedSkip": "Atlanacak Bölümler",
+        "disableLBRY": "LBRY'i devre dışı bırak",
+        "proxyLBRY": "LBRY videolarını vekil üzerinden getir",
+        "feedColumns": "Akış Sayfalarındaki Sütun Sayısı",
+        "sponsorblock": "SponsorBlock'u Etkinleştir",
+        "instance": "Örnek"
+    },
+    "counts": {
+        "videos": "Video yok | Bir Video | {count} Video",
+        "views": "Görüntüleme yok | Bir görüntüleme | {n} görüntüleme"
+    },
+    "errors": {
+        "trendingFetchError": "Öne çıkan videolar getirilemedi. Ülkenizin YouTube tarafından desteklenip desteklenmediğini denetleyin"
+    },
+    "misc": {
+        "searchBarLabel": "Ne arıyorsunuz?"
     }
 }
