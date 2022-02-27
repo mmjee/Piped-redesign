@@ -16,8 +16,7 @@
         "preferences": "偏好設定",
         "feed": "摘要",
         "trending": "趨勢",
-        "register": "註冊",
-        "login": "登錄"
+        "register": "註冊"
     },
     "preferences": {
         "region": "國家/地區選擇"
