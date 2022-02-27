@@ -29,14 +29,15 @@
         "unsubscribe": "Abonelikten çık",
         "subscribe": "Abone ol",
         "rss_of_subscriptions": "Aboneliklerinizin RSS'si",
-        "enabled_codecs": "Etkin Kod Çözücüler (Çoklu)"
+        "enabled_codecs": "Etkin Kod Çözücüler (Çoklu)",
+        "logInSignUp": "Oturum Aç/Kaydol",
+        "logOut": "Oturumu Kapat"
     },
     "titles": {
         "history": "Geçmiş",
         "preferences": "Tercihler",
         "feed": "Akış",
         "register": "Kaydol",
-        "login": "Oturum Aç",
         "trending": "Öne Çıkanlar",
         "homepage": "Ana Sayfa"
     },
@@ -63,6 +64,8 @@
         "trendingFetchError": "Öne çıkan videolar getirilemedi. Ülkenizin YouTube tarafından desteklenip desteklenmediğini denetleyin"
     },
     "misc": {
-        "searchBarLabel": "Ne arıyorsunuz?"
+        "searchBarLabel": "Ne arıyorsunuz?",
+        "lastWatchedTill": "En son {t} tarihine kadar izlendi",
+        "watchedAgo": "{p} tarihine kadar {t} izlendi"
     }
 }
