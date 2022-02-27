@@ -2,7 +2,6 @@
     "titles": {
         "homepage": "الصفحة الرئيسية",
         "trending": "الرائجة",
-        "login": "تسجيل الدخول",
         "register": "التسجيل",
         "feed": "الخلاصة",
         "preferences": "إعدادات",
@@ -43,14 +42,16 @@
         "theme": "السمة",
         "auto": "تلقائي",
         "dark": "داكن",
-        "light": " فاتح",
+        "light": "فاتح",
         "buffering_goal": "هدف التخزين المؤقت (بالثواني)",
         "show_comments": "إظهار التعليقات",
         "minimize_description": "تصغير الوصف بشكل افتراضي",
         "store_watch_history": "حفظ سجل مشاهدة",
         "language_selection": "تحديد اللغة",
         "instances_list": "قائمة الخوادم",
-        "enabled_codecs": "برامج الترميز الممكنة (متعددة)"
+        "enabled_codecs": "برامج الترميز الممكنة (متعددة)",
+        "logInSignUp": "تسجيل الدخول/إنشاء حساب",
+        "logOut": "تسجيل الخروج"
     },
     "preferences": {
         "feedColumns": "عدد الأعمدة في صفحة الخلاصة",
