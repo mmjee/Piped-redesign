@@ -2,7 +2,6 @@
     "titles": {
         "homepage": "پەڕەی سەرەکی",
         "trending": "ڕەوەت",
-        "login": "چوونەژوورەوە",
         "register": "تۆمارکردن",
         "feed": "پوختە",
         "preferences": "ڕێکخستنەکان",
@@ -50,7 +49,9 @@
         "store_watch_history": "پاشەکەوت کردنی مێژووی سەیرکراوەکان",
         "language_selection": "دەستنیشانکردنی زمان",
         "instances_list": "لیستی نموونەی ڕاژەکان",
-        "enabled_codecs": "چاڵاک کردنی کۆدێکەکانی (هەمەجۆر)"
+        "enabled_codecs": "چاڵاک کردنی کۆدێکەکانی (هەمەجۆر)",
+        "logOut": "چوونە دەرەوە",
+        "logInSignUp": "چوونەژوورەوە/تۆمارکردن"
     },
     "preferences": {
         "feedColumns": "ژمارەی ئەستوونەکان لە پەڕەی پوختەکان",
