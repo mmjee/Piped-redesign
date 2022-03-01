@@ -31,7 +31,10 @@
         "rss_of_subscriptions": "Aboneliklerinizin RSS'si",
         "enabled_codecs": "Etkin Kod Çözücüler (Çoklu)",
         "logInSignUp": "Oturum Aç/Kaydol",
-        "logOut": "Oturumu Kapat"
+        "logOut": "Oturumu Kapat",
+        "loadReplies": "Yanıtları Yükle",
+        "hideReplies": "Yanıtları Gizle",
+        "showReplies": "Yanıtları Göster"
     },
     "titles": {
         "history": "Geçmiş",
