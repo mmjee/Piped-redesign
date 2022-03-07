@@ -51,7 +51,10 @@
         "instances_list": "قائمة الخوادم",
         "enabled_codecs": "برامج الترميز الممكنة (متعددة)",
         "logInSignUp": "تسجيل الدخول/إنشاء حساب",
-        "logOut": "تسجيل الخروج"
+        "logOut": "تسجيل الخروج",
+        "loadReplies": "تحميل الردود",
+        "hideReplies": "إخفاء الردود",
+        "showReplies": "إظهار الردود"
     },
     "preferences": {
         "feedColumns": "عدد الأعمدة في صفحة الخلاصة",
