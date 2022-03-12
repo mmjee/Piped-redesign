@@ -70,5 +70,13 @@
         "region": "هەڵبژاردەی وڵات",
         "homepage": "پەڕەی سەرەکی بنەڕەت",
         "instance": "نموونە ڕاژە"
+    },
+    "video_sharing_panel": {
+        "share": "هاوبەشکردن",
+        "with_timestamps": "لەگەڵ کاتی ئێستا",
+        "without_timestamps": "بەبێ کاتی ئێستا",
+        "via_pm": "بە ڕێگای Piped Material",
+        "title": "هاوبەشکردنی ڤیدیۆ",
+        "via_yt": "بە ڕێگای YouTube"
     }
 }
