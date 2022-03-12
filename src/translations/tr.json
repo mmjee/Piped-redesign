@@ -70,5 +70,13 @@
         "searchBarLabel": "Ne arıyorsunuz?",
         "lastWatchedTill": "En son {t} tarihine kadar izlendi",
         "watchedAgo": "{p} tarihine kadar {t} izlendi"
+    },
+    "video_sharing_panel": {
+        "title": "Bu videoyu paylaş",
+        "share": "Paylaş",
+        "with_timestamps": "Zaman Damgalarıyla",
+        "without_timestamps": "Zaman Damgaları Olmadan",
+        "via_yt": "YouTube ile",
+        "via_pm": "Piped Material ile"
     }
 }
