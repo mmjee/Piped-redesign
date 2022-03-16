@@ -1,0 +1,82 @@
+{
+    "video_sharing_panel": {
+        "without_timestamps": "Bez času",
+        "title": "Sdílet toto video",
+        "share": "Sdílet",
+        "with_timestamps": "S časem",
+        "via_pm": "Přes Piped Material",
+        "via_yt": "Přes YouTube"
+    },
+    "titles": {
+        "register": "Zaregistrovat se",
+        "preferences": "Nastavení",
+        "history": "Historie sledování",
+        "feed": "Kanál",
+        "homepage": "Domovská stránka",
+        "trending": "Trendy"
+    },
+    "counts": {
+        "videos": "Žádná videa | Jedno video | {count} videí",
+        "views": "Žádná zhlédnutí | Jedno zhlédnutí | {n} zhlédnutí"
+    },
+    "errors": {
+        "trendingFetchError": "Nepodařilo se načíst trendy videa. Zkontrolujte, zda je vaše země podporována YouTube"
+    },
+    "misc": {
+        "searchBarLabel": "Co hledáte?",
+        "lastWatchedTill": "Naposledy zhlédnuto do {t}",
+        "watchedAgo": "Zhlédnuto {t} do {p}"
+    },
+    "actions": {
+        "loadReplies": "Načíst odpovědi",
+        "hideReplies": "Skrýt odpovědi",
+        "most_recent": "Nejnovější",
+        "channel_name_asc": "Název kanálu (A-Z)",
+        "back": "Zpět",
+        "skip_outro": "Přeskakovat koncové karty / titulky",
+        "skip_preview": "Přeskakovat náhled / shrnutí",
+        "theme": "Motiv",
+        "buffering_goal": "Cíl vyrovnávací paměti (v sekundách)",
+        "show_comments": "Zobrazit komentáře",
+        "instances_list": "Seznam instancí",
+        "logOut": "Odhlásit se",
+        "logInSignUp": "Přihlášení/Registrace",
+        "subscribe": "Odebírat",
+        "rss_of_subscriptions": "RSS vašich odběrů",
+        "sort_by": "Řadit dle:",
+        "showReplies": "Zobrazit odpovědi",
+        "view_subscriptions": "Zobrazit odběry",
+        "unsubscribe": "Zrušit odběr",
+        "channel_name_desc": "Název kanálu (Z-A)",
+        "uses_api_from": "Používá API z ",
+        "least_recent": "Nejstarší",
+        "enable_sponsorblock": "Povolit SponsorBlock",
+        "skip_sponsors": "Přeskakovat sponzory",
+        "skip_intro": "Přeskakovat přestávky / úvodní animace",
+        "minimize_description": "Automaticky skrýt popis",
+        "skip_interaction": "Přeskakovat připomenutí interakce (odběr)",
+        "language_selection": "Výběr jazyka",
+        "auto": "Automatický",
+        "light": "Světlý",
+        "skip_non_music": "Přeskakovat hudba: nehudební sekce",
+        "skip_self_promo": "Přeskakovat neplacenou / vlastní propagaci",
+        "dark": "Tmavý",
+        "store_watch_history": "Ukládat historii sledování",
+        "enabled_codecs": "Povolené kodeky (několik)"
+    },
+    "preferences": {
+        "feedColumns": "Počet sloupců ve stránce kanálu",
+        "sponsorblock": "Povolit SponsorBlock",
+        "selectedSkip": "Segmenty k přeskočení",
+        "skipToLastPoint": "Při nalezení již sledovaného videa přeskočit na poslední bod sledování",
+        "disableLBRY": "Zakázat LBRY",
+        "proxyLBRY": "Načítat videa LBRY přes proxy",
+        "playerAutoplay": "Automaticky přehrávat videa",
+        "listen": "Pouze zvuk",
+        "region": "Výběr země",
+        "homepage": "Výchozí domovská stránka",
+        "instance": "Instance",
+        "quality": "Výchozí kvalita",
+        "bufferGoal": "Cíl vyrovnávací paměti"
+    }
+}
