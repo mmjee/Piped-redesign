@@ -1,0 +1,79 @@
+{
+    "titles": {
+        "trending": "Tendencias",
+        "feed": "Suscripciones",
+        "preferences": "Preferencias",
+        "homepage": "Página principal",
+        "register": "Registrarse",
+        "history": "Historial de reproducción"
+    },
+    "misc": {
+        "searchBarLabel": "¿Qué es lo que estás buscando?",
+        "lastWatchedTill": "Última vez visto hasta {t}"
+    },
+    "video_sharing_panel": {
+        "title": "Comparte este vídeo",
+        "share": "Compartir",
+        "with_timestamps": "Con marcas de tiempo",
+        "without_timestamps": "Sin marcas de tiempo",
+        "via_yt": "Vía YouTube",
+        "via_pm": "Vía Piped Material"
+    },
+    "actions": {
+        "logInSignUp": "Iniciar sesión/Registrarse",
+        "logOut": "Cerrar sesión",
+        "loadReplies": "Cargar respuestas",
+        "subscribe": "Suscribirse",
+        "unsubscribe": "Desuscribirse",
+        "view_subscriptions": "Ver suscripciones",
+        "sort_by": "Ordenado por:",
+        "most_recent": "Más reciente",
+        "least_recent": "Menos reciente",
+        "channel_name_asc": "Nombre (A-Z)",
+        "channel_name_desc": "Nombre (Z-A)",
+        "back": "Atrás",
+        "uses_api_from": "Utiliza la API de ",
+        "enable_sponsorblock": "Activar Sponsorblock",
+        "skip_sponsors": "Omitir sponsors",
+        "skip_intro": "Omitir interludio/Intro animada",
+        "skip_preview": "Omitir previsualización/Recapitulación",
+        "skip_interaction": "Omitir recordatorio de interacción (suscribirse)",
+        "skip_self_promo": "Omitir autopromoción",
+        "skip_non_music": "Omitir música: sección no musical",
+        "theme": "Tema",
+        "auto": "Automático",
+        "skip_outro": "Omitir créditos",
+        "show_comments": "Mostrar comentarios",
+        "minimize_description": "Minimizar la descripción por defecto",
+        "store_watch_history": "Registrar historial de visualización",
+        "language_selection": "Selección de idiomas",
+        "instances_list": "Listado de instancias",
+        "enabled_codecs": "Habilitar códecs (Múltiples)",
+        "rss_of_subscriptions": "RSS de tus suscripciones",
+        "hideReplies": "Ocultar respuestas",
+        "dark": "Oscuro",
+        "light": "Claro",
+        "showReplies": "Mostrar respuestas"
+    },
+    "counts": {
+        "videos": "Sin vídeos | Un vídeo | {count} vídeos",
+        "views": "Sin visualizaciones | Una visualización | {n} visualizaciones"
+    },
+    "errors": {
+        "trendingFetchError": "No se pudieron recuperar los vídeos en tendencia. Comprueba si YouTube está disponible para tu país"
+    },
+    "preferences": {
+        "feedColumns": "",
+        "sponsorblock": "Habilitar SponsorBlock",
+        "selectedSkip": "Segmentos a omitir",
+        "skipToLastPoint": "Omitir hasta el último momento visto con un vídeo ya visto",
+        "region": "Selección de país",
+        "instance": "Instancia",
+        "homepage": "Página principal por defecto",
+        "playerAutoplay": "Autorreproducir vídeo",
+        "quality": "Calidad por defecto",
+        "disableLBRY": "Deshabilitar LBRY",
+        "proxyLBRY": "Vídeos de proxy LBRY",
+        "listen": "Solo audio"
+    }
+}
