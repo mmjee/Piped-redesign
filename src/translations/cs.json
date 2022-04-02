@@ -17,7 +17,8 @@
     },
     "counts": {
         "videos": "Žádná videa | Jedno video | {count} videí",
-        "views": "Žádná zhlédnutí | Jedno zhlédnutí | {n} zhlédnutí"
+        "views": "Žádná zhlédnutí | Jedno zhlédnutí | {n} zhlédnutí",
+        "subscribers": "Žádní odběratelé | 1 odběratel | {formatted} odběratelů"
     },
     "errors": {
         "trendingFetchError": "Nepodařilo se načíst trendy videa. Zkontrolujte, zda je vaše země podporována YouTube"
