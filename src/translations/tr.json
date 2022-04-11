@@ -42,7 +42,8 @@
         "feed": "Akış",
         "register": "Kaydol",
         "trending": "Öne Çıkanlar",
-        "homepage": "Ana Sayfa"
+        "homepage": "Ana Sayfa",
+        "playlists": "Oynatma Listeleri"
     },
     "preferences": {
         "homepage": "Öntanımlı Ana Sayfa",
@@ -79,5 +80,11 @@
         "without_timestamps": "Zaman Damgaları Olmadan",
         "via_yt": "YouTube ile",
         "via_pm": "Piped Material ile"
+    },
+    "playlists": {
+        "add_to_playlist": "Oynatma listesine ekle",
+        "confirm_addition": "Eklemeyi onayla",
+        "playlist_field_name": "Oynatma Listesi Adı",
+        "create_playlist": "Oynatma Listesi Oluştur"
     }
 }
