@@ -1,10 +1,10 @@
 {
     "actions": {
-        "skip_outro": "Nachspann überspringen",
+        "skip_outro": "Abspann überspringen",
         "skip_non_music": "Musik überspringen: Nicht-Musik-Bereich",
         "skip_self_promo": "Unbezahlte Werbung/Eigenwerbung überspringen",
         "skip_interaction": "Interaktionserinnerung überspringen (Abonnieren)",
-        "skip_preview": "Vorschau/Zusammenfassung überspringen",
+        "skip_preview": "Vorschau/Recap überspringen",
         "instances_list": "Liste der Instanzen",
         "language_selection": "Sprachauswahl",
         "store_watch_history": "Wiedergabeverlauf speichern",
@@ -27,20 +27,64 @@
         "sort_by": "Sortieren nach:",
         "view_subscriptions": "Abonnements anzeigen",
         "unsubscribe": "Deabonnieren",
-        "subscribe": "Abonnieren"
+        "subscribe": "Abonnieren",
+        "rss_of_subscriptions": "RSS deiner Abonnements",
+        "enabled_codecs": "Aktivierte Codecs (Mehrfachauswahl)",
+        "logInSignUp": "Einloggen/Registrieren",
+        "logOut": "Ausloggen",
+        "hideReplies": "Antworten verstecken",
+        "showReplies": "Antworten anzeigen",
+        "loadReplies": "Antworten laden"
     },
     "titles": {
         "history": "Verlauf",
         "preferences": "Einstellungen",
         "feed": "Feed",
         "register": "Registrieren",
-        "trending": "Trends"
+        "trending": "Trends",
+        "homepage": "Homepage",
+        "playlists": "Playlists"
     },
     "preferences": {
-        "homepage": "Standard-Startseite",
+        "homepage": "Standard-Homepage",
         "region": "Länderauswahl",
         "quality": "Standardqualität",
         "listen": "Nur Audio",
-        "playerAutoplay": "Video automatisch abspielen"
+        "playerAutoplay": "Video automatisch abspielen",
+        "skipToLastPoint": "Bei der Wiedergabe eines bereits gesehen Videos zum letzten angesehenen Punkt springen",
+        "feedColumns": "Anzahl der Spalten auf Feed-Seiten",
+        "sponsorblock": "SponsorBlock aktivieren",
+        "disableLBRY": "LBRY deaktivieren",
+        "instance": "Instanz",
+        "proxyLBRY": "LBRY-Videos durch einen Proxy leiten",
+        "bufferGoal": "Pufferziel",
+        "selectedSkip": "Überspringe Segmente"
+    },
+    "counts": {
+        "videos": "Keine Videos | Ein Video | {count} Videos",
+        "views": "Keine Aufrufe | Ein Aufruf | {n} Aufrufe",
+        "subscribers": "Keine Abonnent:innen | Ein:e Abonnent:in | {formatted} Abonennt:innen"
+    },
+    "errors": {
+        "trendingFetchError": "Konnte angesagte Videos nicht abrufen. Bitte überprüfe, ob dein Land von YouTube unterstützt wird"
+    },
+    "video_sharing_panel": {
+        "with_timestamps": "Mit Zeitstempeln",
+        "via_pm": "Über Piped Material",
+        "title": "Dieses Video teilen",
+        "share": "Teilen",
+        "without_timestamps": "Ohne Zeitstempel",
+        "via_yt": "Über YouTube"
+    },
+    "misc": {
+        "watchedAgo": "{t} angeschaut bis {p}",
+        "searchBarLabel": "Wonach suchst du?",
+        "lastWatchedTill": "Zuletzt angeschaut bis {t}"
+    },
+    "playlists": {
+        "add_to_playlist": "Zu einer Playlist hinzufügen",
+        "confirm_addition": "Hinzufügen bestätigen",
+        "create_playlist": "Playlist erstellen",
+        "playlist_field_name": "Playlist Name"
     }
 }
