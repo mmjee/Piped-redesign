@@ -13,12 +13,13 @@
         "history": "Historie sledování",
         "feed": "Kanál",
         "homepage": "Domovská stránka",
-        "trending": "Trendy"
+        "trending": "Trendy",
+        "playlists": "Playlisty"
     },
     "counts": {
         "videos": "Žádná videa | Jedno video | {count} videí",
         "views": "Žádná zhlédnutí | Jedno zhlédnutí | {n} zhlédnutí",
-        "subscribers": "Žádní odběratelé | 1 odběratel | {formatted} odběratelů"
+        "subscribers": "Žádní odběratelé | Jeden odběratel | {formatted} odběratelů"
     },
     "errors": {
         "trendingFetchError": "Nepodařilo se načíst trendy videa. Zkontrolujte, zda je vaše země podporována YouTube"
@@ -79,5 +80,11 @@
         "instance": "Instance",
         "quality": "Výchozí kvalita",
         "bufferGoal": "Cíl vyrovnávací paměti"
+    },
+    "playlists": {
+        "add_to_playlist": "Přidat do playlistu",
+        "confirm_addition": "Potvrdit přidání",
+        "create_playlist": "Vytvořit playlist",
+        "playlist_field_name": "Název playlistu"
     }
 }
