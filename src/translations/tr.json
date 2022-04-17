@@ -63,7 +63,7 @@
     "counts": {
         "videos": "Video yok | Bir Video | {count} Video",
         "views": "Görüntüleme yok | Bir görüntüleme | {n} görüntüleme",
-        "subscribers": "Abone yok | 1 abone | {formatted} abone"
+        "subscribers": "Abone yok | Bir abone | {formatted} abone"
     },
     "errors": {
         "trendingFetchError": "Öne çıkan videolar getirilemedi. Ülkenizin YouTube tarafından desteklenip desteklenmediğini denetleyin"
