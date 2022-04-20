@@ -51,7 +51,7 @@
         "quality": "Standardqualität",
         "listen": "Nur Audio",
         "playerAutoplay": "Video automatisch abspielen",
-        "skipToLastPoint": "Bei der Wiedergabe eines bereits gesehen Videos zum letzten angesehenen Punkt springen",
+        "skipToLastPoint": "Bei der Wiedergabe eines bereits gesehenen Videos zum letzten angesehenen Punkt springen",
         "feedColumns": "Anzahl der Spalten auf Feed-Seiten",
         "sponsorblock": "SponsorBlock aktivieren",
         "disableLBRY": "LBRY deaktivieren",
@@ -63,7 +63,7 @@
     "counts": {
         "videos": "Keine Videos | Ein Video | {count} Videos",
         "views": "Keine Aufrufe | Ein Aufruf | {n} Aufrufe",
-        "subscribers": "Keine Abonnent:innen | Ein:e Abonnent:in | {formatted} Abonennt:innen"
+        "subscribers": "Keine Abonnent:innen | Ein:e Abonnent:in | {formatted} Abonnent:innen"
     },
     "errors": {
         "trendingFetchError": "Konnte angesagte Videos nicht abrufen. Bitte überprüfe, ob dein Land von YouTube unterstützt wird"
