@@ -5,7 +5,8 @@
         "register": "التسجيل",
         "feed": "الخلاصة",
         "preferences": "إعدادات",
-        "history": "سجل المشاهدة"
+        "history": "سجل المشاهدة",
+        "playlists": "قوائم التشغيل"
     },
     "counts": {
         "videos": "لا توجد مقاطع فيديو | فيديو واحد | {count} فيديوات",
@@ -79,5 +80,11 @@
         "without_timestamps": "بدون التوقيت الحالي",
         "title": "شارك هذا الفيديو",
         "via_pm": "بواسطة Piped Material"
+    },
+    "playlists": {
+        "add_to_playlist": "إضافة إلى قائمة التشغيل",
+        "confirm_addition": "تأكيد الإضافة",
+        "create_playlist": "إنشاء قائمة تشغيل",
+        "playlist_field_name": "اسم قائمة التشغيل"
     }
 }
