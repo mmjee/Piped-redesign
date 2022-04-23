@@ -5,7 +5,8 @@
         "register": "تۆمارکردن",
         "feed": "پوختە",
         "preferences": "ڕێکخستنەکان",
-        "history": "مێژووی سەیرکردن"
+        "history": "مێژووی سەیرکردن",
+        "playlists": "لیستی ڤیدیۆکان"
     },
     "counts": {
         "videos": "بێ ڤیدیۆ | یەک ڤیدیۆ | {count} ڤیدیۆ",
@@ -79,5 +80,11 @@
         "via_pm": "بە ڕێگای Piped Material",
         "title": "هاوبەشکردنی ڤیدیۆ",
         "via_yt": "بە ڕێگای YouTube"
+    },
+    "playlists": {
+        "add_to_playlist": "زیادکردن بۆ لیستی ڤیدیۆکان",
+        "confirm_addition": "دووپاتکردنەوەی زیادکردن",
+        "create_playlist": "دروستکردنی لیستی ڤیدیۆکان",
+        "playlist_field_name": "‎ناوی لیستی ڤیدیۆکان"
     }
 }
