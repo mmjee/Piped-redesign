@@ -1,0 +1,90 @@
+{
+    "titles": {
+        "preferences": "Preferensi",
+        "homepage": "Beranda",
+        "trending": "Sedang Tren",
+        "register": "Daftar",
+        "feed": "Umpan",
+        "history": "Riwayat Tontonan",
+        "playlists": "Daftar Putar"
+    },
+    "playlists": {
+        "playlist_field_name": "Nama Daftar Putar",
+        "add_to_playlist": "Tambahkan ke Daftar Putar",
+        "confirm_addition": "Konfirmasi penambahan",
+        "create_playlist": "Buat Daftar Putar"
+    },
+    "misc": {
+        "searchBarLabel": "Apa yang sedang Anda cari?",
+        "lastWatchedTill": "Terakhir ditonton sampai {t}",
+        "watchedAgo": "Menonton {t} sampai {p}"
+    },
+    "video_sharing_panel": {
+        "title": "Bagikan video ini",
+        "share": "Bagikan",
+        "with_timestamps": "Dengan Stempel Waktu",
+        "without_timestamps": "Tanpa Stempel Waktu",
+        "via_pm": "Melalui Piped Material",
+        "via_yt": "Melalui YouTube"
+    },
+    "actions": {
+        "logInSignUp": "Masuk/Daftar",
+        "logOut": "Keluar",
+        "loadReplies": "Muat Balasan",
+        "hideReplies": "Sembunyikan Balasan",
+        "showReplies": "Tampilkan Balasan",
+        "rss_of_subscriptions": "RSS dari langganan Anda",
+        "channel_name_asc": "Nama Saluran (A-Z)",
+        "channel_name_desc": "Nama Saluran (Z-A)",
+        "enable_sponsorblock": "Aktifkan SponsorBlock",
+        "skip_sponsors": "Lewati Sponsor",
+        "skip_intro": "Lewatkan Animasi Intermisi/Intro",
+        "skip_outro": "Lewatkan Kartu Akhir/Kredit",
+        "skip_preview": "Lewatkan Tampilan/Rekap",
+        "skip_interaction": "Lewatkan Interaksi Pengingat (Berlangganan)",
+        "skip_self_promo": "Lewatkan Promosi Tak Berbayar/Diri",
+        "skip_non_music": "Lewatkan Musik: Bagian Non-Musik",
+        "theme": "Tema",
+        "auto": "Otomatis",
+        "dark": "Gelap",
+        "light": "Terang",
+        "buffering_goal": "Sasaran Buffering (dalam detik)",
+        "show_comments": "Tampilkan Komentar",
+        "minimize_description": "Kecilkan Deskripsi secara default",
+        "enabled_codecs": "Kodek Aktif (Beberapa)",
+        "unsubscribe": "Batalkan langganan",
+        "subscribe": "Berlangganan",
+        "view_subscriptions": "Tampilkan Langganan",
+        "most_recent": "Paling Terkini",
+        "sort_by": "Urutkan berdasarkan:",
+        "store_watch_history": "Simpan Riwayat Tontonan",
+        "least_recent": "Paling Tidak Terkini",
+        "back": "Kembali",
+        "uses_api_from": "Menggunakan API dari ",
+        "language_selection": "Pemilihan Bahasa",
+        "instances_list": "Daftar Instansi"
+    },
+    "preferences": {
+        "feedColumns": "Jumlah Kolom di Laman Umpan",
+        "selectedSkip": "Segmen untuk dilewatkan",
+        "skipToLastPoint": "Lewatkan ke titik tontonan terakhir ketika menonton sebuah video yang telah dilihat sebelumnya",
+        "disableLBRY": "Nonaktifkan LBRY",
+        "proxyLBRY": "Proksi video LBRY",
+        "playerAutoplay": "Mainkan Video Secara Otomatis",
+        "bufferGoal": "Sasaran Buffering",
+        "listen": "Hanya Audio",
+        "quality": "Kualitas Bawaan",
+        "region": "Pemilihan Negara",
+        "homepage": "Beranda Bawaan",
+        "instance": "Instansi",
+        "sponsorblock": "Aktifkan SponsorBlock"
+    },
+    "counts": {
+        "subscribers": "Tidak ada pelanggan | Satu pelanggan | {formatted} pelanggan",
+        "videos": "Tidak ada video | Satu Video | {count} Video",
+        "views": "Tidak ada tontonan | Satu ditonton | {n} ditonton"
+    },
+    "errors": {
+        "trendingFetchError": "Tidak dapat mendapatkan video yang sedang tren. Periksa jika negara Anda didukung oleh YouTube"
+    }
+}
