@@ -71,7 +71,8 @@
         "quality": "الجودة الافتراضية",
         "region": "اختيار البلد",
         "homepage": "الصفحة الرئيسية الافتراضية",
-        "instance": "الخادم"
+        "instance": "الخادم",
+        "clickbaitThumbnailAvoidance": "استبدال الصور المصغرة بإطار من الفيديو"
     },
     "video_sharing_panel": {
         "share": "مشاركة",
