@@ -71,7 +71,8 @@
         "quality": "کوالێتی بنەڕەت",
         "region": "هەڵبژاردەی وڵات",
         "homepage": "پەڕەی سەرەکی بنەڕەت",
-        "instance": "نموونە ڕاژە"
+        "instance": "نموونە ڕاژە",
+        "clickbaitThumbnailAvoidance": "گۆڕینی وێنە بچووک کراوەکان بە بەشێک لە ڤیدیۆیەکە"
     },
     "video_sharing_panel": {
         "share": "هاوبەشکردن",
