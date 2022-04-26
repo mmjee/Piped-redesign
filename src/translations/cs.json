@@ -79,7 +79,8 @@
         "homepage": "Výchozí domovská stránka",
         "instance": "Instance",
         "quality": "Výchozí kvalita",
-        "bufferGoal": "Cíl vyrovnávací paměti"
+        "bufferGoal": "Cíl vyrovnávací paměti",
+        "clickbaitThumbnailAvoidance": "Nahradit výchozí náhledy automaticky generovanými"
     },
     "playlists": {
         "add_to_playlist": "Přidat do playlistu",
