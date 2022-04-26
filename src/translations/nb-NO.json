@@ -28,7 +28,13 @@
         "view_subscriptions": "Vis abonnementer",
         "unsubscribe": "Opphev abonnement",
         "subscribe": "Abonner",
-        "enabled_codecs": "Påskrudde kodek (flere)"
+        "enabled_codecs": "Påskrudde kodek (flere)",
+        "logInSignUp": "Logg inn/registrer deg",
+        "logOut": "Logg ut",
+        "loadReplies": "Last inn svar",
+        "showReplies": "Vis svar",
+        "rss_of_subscriptions": "RSS for dine abonnementer",
+        "hideReplies": "Skjul svar"
     },
     "titles": {
         "feed": "Strøm",
@@ -36,7 +42,8 @@
         "preferences": "Innstillinger",
         "register": "Registrering",
         "trending": "På vei opp",
-        "homepage": "Hjemmeside"
+        "homepage": "Hjemmeside",
+        "playlists": "Spillelister"
     },
     "preferences": {
         "region": "Land",
@@ -51,11 +58,13 @@
         "instance": "Instans",
         "feedColumns": "Antall kolonner i informasjonskanalssider",
         "proxyLBRY": "Hurtiglagre LBRY-videoer",
-        "sponsorblock": "Skru på SponsorBlock"
+        "sponsorblock": "Skru på SponsorBlock",
+        "clickbaitThumbnailAvoidance": "Erstatt forvalgte miniatyrbilder med et som er autogenerert"
     },
     "counts": {
         "videos": "Ingen videoer | Én video | {count} videroer",
-        "views": "Ingen visninger | Én visning | {n} visninger"
+        "views": "Ingen visninger | Én visning | {n} visninger",
+        "subscribers": "Ingen abonnenter | Én abonnent | {formatted} abonnenter"
     },
     "errors": {
         "trendingFetchError": "Kunne ikke hente inn videoer på vei opp. Sjekk hvorvidt landet ditt støttes av YouTube"
@@ -64,5 +73,19 @@
         "searchBarLabel": "Hva ser du etter?",
         "lastWatchedTill": "Sist sett til {t}",
         "watchedAgo": "Sett {t} til {p}"
+    },
+    "video_sharing_panel": {
+        "without_timestamps": "Uten tidsstempler",
+        "with_timestamps": "Med tidsstempler",
+        "via_pm": "Via Piped Material",
+        "via_yt": "Via YouTube",
+        "title": "Del denne videoen",
+        "share": "Del"
+    },
+    "playlists": {
+        "add_to_playlist": "Legg til i spilleliste",
+        "confirm_addition": "Bekreft tillegging",
+        "create_playlist": "Opprett spilleliste",
+        "playlist_field_name": "Spillelistenavn"
     }
 }
