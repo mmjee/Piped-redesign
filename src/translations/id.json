@@ -77,7 +77,8 @@
         "region": "Pemilihan Negara",
         "homepage": "Beranda Bawaan",
         "instance": "Instansi",
-        "sponsorblock": "Aktifkan SponsorBlock"
+        "sponsorblock": "Aktifkan SponsorBlock",
+        "clickbaitThumbnailAvoidance": "Menggantikan thunbnail default dengan yang dibuat secara otomatis"
     },
     "counts": {
         "subscribers": "Tidak ada pelanggan | Satu pelanggan | {formatted} pelanggan",
