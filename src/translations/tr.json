@@ -58,7 +58,8 @@
         "proxyLBRY": "LBRY videolarını vekil üzerinden getir",
         "feedColumns": "Akış Sayfalarındaki Sütun Sayısı",
         "sponsorblock": "SponsorBlock'u Etkinleştir",
-        "instance": "Örnek"
+        "instance": "Örnek",
+        "clickbaitThumbnailAvoidance": "Öntanımlı küçük resimleri otomatik oluşturulan küçük resimlerle değiştir"
     },
     "counts": {
         "videos": "Video yok | Bir Video | {count} Video",
