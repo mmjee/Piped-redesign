@@ -1,0 +1,48 @@
+{
+    "titles": {
+        "preferences": "Preferências",
+        "history": "Histórico",
+        "trending": "Tendência",
+        "register": "Registrar",
+        "homepage": "Pagina inicial",
+        "playlists": "Playlists",
+        "feed": "Feed"
+    },
+    "counts": {
+        "videos": "Nenhum vídeo | Um vídeo | {count} vídeos",
+        "subscribers": "Sem inscritos | Um inscrito | inscritos {formatted}",
+        "views": "Sem visualizações | Uma visualização| {n} visualizações"
+    },
+    "playlists": {
+        "playlist_field_name": "Nome da playlist",
+        "add_to_playlist": "Adicionar à Playlist",
+        "confirm_addition": "Confirmar adição",
+        "create_playlist": "Criar playlist"
+    },
+    "misc": {
+        "searchBarLabel": "O que você está procurando?",
+        "lastWatchedTill": "Última visualização até {t}",
+        "watchedAgo": "Assistiu {t} até {p}"
+    },
+    "video_sharing_panel": {
+        "with_timestamps": "Com marcações de tempo",
+        "without_timestamps": "Sem marcações de tempo",
+        "via_pm": "Via Piped Material",
+        "via_yt": "Via YouTube",
+        "share": "Compartilhar",
+        "title": "Compartilhe este vídeo"
+    },
+    "actions": {
+        "logInSignUp": "Entrar/Registrar",
+        "logOut": "Sair",
+        "loadReplies": "Carregar comentários",
+        "hideReplies": "Ocultar comentários",
+        "subscribe": "Inscreva-se",
+        "unsubscribe": "Cancelar inscrição",
+        "showReplies": "Mostrar comentários",
+        "view_subscriptions": "Ver inscrições"
+    },
+    "errors": {
+        "trendingFetchError": "Não foi possível buscar os vídeos em alta. Verifique se seu país é compatível com o YouTube"
+    }
+}
