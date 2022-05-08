@@ -72,7 +72,9 @@
         "region": "هەڵبژاردەی وڵات",
         "homepage": "پەڕەی سەرەکی بنەڕەت",
         "instance": "نموونە ڕاژە",
-        "clickbaitThumbnailAvoidance": "گۆڕینی وێنە بچووک کراوەکان بە بەشێک لە ڤیدیۆیەکە"
+        "clickbaitThumbnailAvoidance": "گۆڕینی وێنە بچووک کراوەکان بە بەشێک لە ڤیدیۆیەکە",
+        "showComments": "نیشاندانی سەرنجەکان",
+        "showRelatedVideos": "نیشاندانی ڤیدیۆ پەیوەندیدارەکان"
     },
     "video_sharing_panel": {
         "share": "هاوبەشکردن",
