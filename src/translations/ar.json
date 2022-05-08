@@ -72,7 +72,9 @@
         "region": "اختيار البلد",
         "homepage": "الصفحة الرئيسية الافتراضية",
         "instance": "الخادم",
-        "clickbaitThumbnailAvoidance": "استبدال الصور المصغرة بإطار من الفيديو"
+        "clickbaitThumbnailAvoidance": "استبدال الصور المصغرة بإطار من الفيديو",
+        "showComments": "إظهار التعليقات",
+        "showRelatedVideos": "عرض مقاطع الفيديو ذات الصلة"
     },
     "video_sharing_panel": {
         "share": "مشاركة",
