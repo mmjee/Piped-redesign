@@ -59,7 +59,9 @@
         "feedColumns": "Akış Sayfalarındaki Sütun Sayısı",
         "sponsorblock": "SponsorBlock'u Etkinleştir",
         "instance": "Örnek",
-        "clickbaitThumbnailAvoidance": "Öntanımlı küçük resimleri otomatik oluşturulan küçük resimlerle değiştir"
+        "clickbaitThumbnailAvoidance": "Öntanımlı küçük resimleri otomatik oluşturulan küçük resimlerle değiştir",
+        "showRelatedVideos": "İlgili Videoları Göster",
+        "showComments": "Yorumları Göster"
     },
     "counts": {
         "videos": "Video yok | Bir Video | {count} Video",
