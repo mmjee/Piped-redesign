@@ -80,7 +80,9 @@
         "instance": "Instance",
         "quality": "Výchozí kvalita",
         "bufferGoal": "Cíl vyrovnávací paměti",
-        "clickbaitThumbnailAvoidance": "Nahradit výchozí náhledy automaticky generovanými"
+        "clickbaitThumbnailAvoidance": "Nahradit výchozí náhledy automaticky generovanými",
+        "showRelatedVideos": "Zobrazit podobná videa",
+        "showComments": "Zobrazit komentáře"
     },
     "playlists": {
         "add_to_playlist": "Přidat do playlistu",
