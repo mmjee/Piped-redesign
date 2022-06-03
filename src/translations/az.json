@@ -1,0 +1,93 @@
+{
+    "video_sharing_panel": {
+        "without_timestamps": "Vaxt Ştampları Olmadan",
+        "title": "Bu videonu paylaşın",
+        "share": "Paylaşın",
+        "with_timestamps": "Vaxt Möhürləriylə",
+        "via_pm": "Piped Materialı Vasitəsilə",
+        "via_yt": "YouTube Vasitəsilə"
+    },
+    "titles": {
+        "homepage": "Əsas Səhifə",
+        "trending": "Trendlər",
+        "register": "Qeydiyyatdan Keçin",
+        "feed": "Axın",
+        "preferences": "Seçimlər",
+        "history": "Tarixçəyə Baxın",
+        "playlists": "Pleylistlər"
+    },
+    "counts": {
+        "subscribers": "Abunəçi yoxdur | Bir abunəçi | {formatlaşdırılmış} abunəçi",
+        "videos": "Video yoxdur | Bir Video | {count} Videolar",
+        "views": "Baxış yoxdur | Bir baxış | {n} baxış"
+    },
+    "playlists": {
+        "add_to_playlist": "Pleylistə əlavə edin",
+        "confirm_addition": "Əlavəni təsdiqləyin",
+        "create_playlist": "Pleylist Yaradın",
+        "playlist_field_name": "Pleylist Adı"
+    },
+    "misc": {
+        "searchBarLabel": "Nə axtarırsız?",
+        "lastWatchedTill": "Ən son {t} tarixinə kimi baxıldı",
+        "watchedAgo": "{p} tarixinə qədər {t} baxıldı"
+    },
+    "errors": {
+        "trendingFetchError": "Trend olan videoları əldə etmək mümkün olmadı. Ölkənizin YouTube tərəfindən dəstəkləndiyinə əmin olun"
+    },
+    "actions": {
+        "logOut": "Çıxış",
+        "theme": "Mövzu",
+        "hideReplies": "Cavabları Gizlədin",
+        "rss_of_subscriptions": "Abunəliklərinizin RSS-si",
+        "channel_name_desc": "Kanal Adı (Z-A)",
+        "back": "Geri",
+        "enable_sponsorblock": "SponsorBloku Aktivləşdirin",
+        "skip_interaction": "Qarşılıqlı Əlaqə Xatırlatıcısını Atlayın (Abunə Olun)",
+        "show_comments": "Şərhləri Göstərin",
+        "auto": "Avtomatik",
+        "dark": "Tünd",
+        "light": "Açıq",
+        "buffering_goal": "Tamponlama Məqsədi (saniyələrlə)",
+        "store_watch_history": "Baxış Tarixçəsini Saxlayın",
+        "instances_list": "Nümunələr Siyahısı",
+        "enabled_codecs": "Aktiv Kodeklər (Birdən çox)",
+        "logInSignUp": "Daxil olun/Qeydiyyatdan keçin",
+        "loadReplies": "Cavabları Yükləyin",
+        "showReplies": "Cavabları Göstərin",
+        "subscribe": "Abunə Olun",
+        "unsubscribe": "Abunəlikdən Çıxın",
+        "view_subscriptions": "Abunəliklərə Baxın",
+        "sort_by": "Sıralama növü:",
+        "most_recent": "Ən Son",
+        "least_recent": "Ən Köhnə",
+        "channel_name_asc": "Kanal Adı (A-Z)",
+        "uses_api_from": "API-dən İstifadə Edir ",
+        "skip_sponsors": "Sponsorları Ötürün",
+        "skip_intro": "Fasilə/Giriş Animasiyasını Ötürün",
+        "skip_outro": "Son Kartları/Töhfə Verənləri Ötürün",
+        "skip_preview": "Önizləməni/Xülasəni Ötürün",
+        "skip_self_promo": "Ödənişsiz/Özünü Tanıtmanı Ötürün",
+        "skip_non_music": "Musiqisiz Bölümü Atla: Musiqi Olmayan Bölmə",
+        "minimize_description": "Açıqlamanı Defolt Olaraq Kiçildin",
+        "language_selection": "Dil Seçimi"
+    },
+    "preferences": {
+        "bufferGoal": "Tamponlama Hədəfi",
+        "selectedSkip": "Ötürüləcək Seqmentlər",
+        "skipToLastPoint": "Artıq baxılmış video ilə qarşılaşdığınız zaman son baxılan nöqtəyə atla",
+        "homepage": "Defolt Əsas Səhifə",
+        "clickbaitThumbnailAvoidance": "Defolt miniatürləri avtomatik yaradılan ilə əvəz edin",
+        "feedColumns": "Axın Səhifələrindəki Sütunların Sayı",
+        "sponsorblock": "SponsorBlok-u Aktivləşdirin",
+        "playerAutoplay": "Videonu Avtomatik Oynat",
+        "listen": "Yalnız Səs",
+        "quality": "Defolt Keyfiyyət",
+        "region": "Ölkə Seçimi",
+        "instance": "Nümunə",
+        "disableLBRY": "LBRY-ni Söndürün",
+        "proxyLBRY": "Proksi LBRY videoları",
+        "showComments": "Şərhləri Göstərin",
+        "showRelatedVideos": "Əlaqədar Videoları Göstərin"
+    }
+}
