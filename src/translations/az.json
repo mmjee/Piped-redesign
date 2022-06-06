@@ -1,6 +1,6 @@
 {
     "video_sharing_panel": {
-        "without_timestamps": "Vaxt Ştampları Olmadan",
+        "without_timestamps": "Vaxt Möhürləri Olmadan",
         "title": "Bu videonu paylaşın",
         "share": "Paylaşın",
         "with_timestamps": "Vaxt Möhürləriylə",
@@ -17,7 +17,7 @@
         "playlists": "Pleylistlər"
     },
     "counts": {
-        "subscribers": "Abunəçi yoxdur | Bir abunəçi | {formatlaşdırılmış} abunəçi",
+        "subscribers": "Abunəçi yoxdur | Bir abunəçi | {formatted} abunəçi",
         "videos": "Video yoxdur | Bir Video | {count} Videolar",
         "views": "Baxış yoxdur | Bir baxış | {n} baxış"
     },
@@ -28,9 +28,9 @@
         "playlist_field_name": "Pleylist Adı"
     },
     "misc": {
-        "searchBarLabel": "Nə axtarırsız?",
-        "lastWatchedTill": "Ən son {t} tarixinə kimi baxıldı",
-        "watchedAgo": "{p} tarixinə qədər {t} baxıldı"
+        "searchBarLabel": "Nə axtarırsınız?",
+        "lastWatchedTill": "Ən son {t} hissəsinə kimi baxıldı",
+        "watchedAgo": "{p} hissəsinə qədər {t} baxıldı"
     },
     "errors": {
         "trendingFetchError": "Trend olan videoları əldə etmək mümkün olmadı. Ölkənizin YouTube tərəfindən dəstəkləndiyinə əmin olun"
@@ -43,7 +43,7 @@
         "channel_name_desc": "Kanal Adı (Z-A)",
         "back": "Geri",
         "enable_sponsorblock": "SponsorBloku Aktivləşdirin",
-        "skip_interaction": "Qarşılıqlı Əlaqə Xatırlatıcısını Atlayın (Abunə Olun)",
+        "skip_interaction": "İnteraksiya Xatırladıcısını Ötürün (Abunə Olun)",
         "show_comments": "Şərhləri Göstərin",
         "auto": "Avtomatik",
         "dark": "Tünd",
@@ -59,25 +59,25 @@
         "unsubscribe": "Abunəlikdən Çıxın",
         "view_subscriptions": "Abunəliklərə Baxın",
         "sort_by": "Sıralama növü:",
-        "most_recent": "Ən Son",
+        "most_recent": "Ən Yeni",
         "least_recent": "Ən Köhnə",
         "channel_name_asc": "Kanal Adı (A-Z)",
         "uses_api_from": "API-dən İstifadə Edir ",
         "skip_sponsors": "Sponsorları Ötürün",
         "skip_intro": "Fasilə/Giriş Animasiyasını Ötürün",
-        "skip_outro": "Son Kartları/Töhfə Verənləri Ötürün",
-        "skip_preview": "Önizləməni/Xülasəni Ötürün",
-        "skip_self_promo": "Ödənişsiz/Özünü Tanıtmanı Ötürün",
-        "skip_non_music": "Musiqisiz Bölümü Atla: Musiqi Olmayan Bölmə",
+        "skip_outro": "Son Kartları/Kanal Nişanı",
+        "skip_preview": "Önizləməni/Anonsu Ötürün",
+        "skip_self_promo": "Ödənişsiz/Özünü Reklamı Ötürün",
+        "skip_non_music": "Musiqisizliyi ötür: Musiqi Olmayan Hissə",
         "minimize_description": "Açıqlamanı Defolt Olaraq Kiçildin",
         "language_selection": "Dil Seçimi"
     },
     "preferences": {
         "bufferGoal": "Tamponlama Hədəfi",
         "selectedSkip": "Ötürüləcək Seqmentlər",
-        "skipToLastPoint": "Artıq baxılmış video ilə qarşılaşdığınız zaman son baxılan nöqtəyə atla",
+        "skipToLastPoint": "Artıq baxılmış video ilə qarşılaşdığınızda son baxılan nöqtəyə keçin",
         "homepage": "Defolt Əsas Səhifə",
-        "clickbaitThumbnailAvoidance": "Defolt miniatürləri avtomatik yaradılan ilə əvəz edin",
+        "clickbaitThumbnailAvoidance": "Defolt miniatürləri avtomatik yaradılanlarla əvəz edin",
         "feedColumns": "Axın Səhifələrindəki Sütunların Sayı",
         "sponsorblock": "SponsorBlok-u Aktivləşdirin",
         "playerAutoplay": "Videonu Avtomatik Oynat",
@@ -86,8 +86,8 @@
         "region": "Ölkə Seçimi",
         "instance": "Nümunə",
         "disableLBRY": "LBRY-ni Söndürün",
-        "proxyLBRY": "Proksi LBRY videoları",
+        "proxyLBRY": "Proksidən LBRY videoları",
         "showComments": "Şərhləri Göstərin",
-        "showRelatedVideos": "Əlaqədar Videoları Göstərin"
+        "showRelatedVideos": "Əlaqədar Videoları Göstər"
     }
 }
