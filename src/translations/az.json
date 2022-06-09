@@ -9,7 +9,7 @@
     },
     "titles": {
         "homepage": "Əsas Səhifə",
-        "trending": "Trendlər",
+        "trending": "Populyar",
         "register": "Qeydiyyatdan Keçin",
         "feed": "Axın",
         "preferences": "Seçimlər",
@@ -18,12 +18,12 @@
     },
     "counts": {
         "subscribers": "Abunəçi yoxdur | Bir abunəçi | {formatted} abunəçi",
-        "videos": "Video yoxdur | Bir Video | {count} Videolar",
+        "videos": "Video yoxdur | Bir Video | {count} Video",
         "views": "Baxış yoxdur | Bir baxış | {n} baxış"
     },
     "playlists": {
-        "add_to_playlist": "Pleylistə əlavə edin",
-        "confirm_addition": "Əlavəni təsdiqləyin",
+        "add_to_playlist": "Pleylistə Əlavə Edin",
+        "confirm_addition": "Seçimi Təsdiqləyin",
         "create_playlist": "Pleylist Yaradın",
         "playlist_field_name": "Pleylist Adı"
     },
@@ -33,7 +33,7 @@
         "watchedAgo": "{p} hissəsinə qədər {t} baxıldı"
     },
     "errors": {
-        "trendingFetchError": "Trend olan videoları əldə etmək mümkün olmadı. Ölkənizin YouTube tərəfindən dəstəkləndiyinə əmin olun"
+        "trendingFetchError": "Populyar videoları əldə etmək mümkün olmadı. Ölkənizin YouTube tərəfindən dəstəkləndiyinə əmin olun"
     },
     "actions": {
         "logOut": "Çıxış",
@@ -48,7 +48,7 @@
         "auto": "Avtomatik",
         "dark": "Tünd",
         "light": "Açıq",
-        "buffering_goal": "Tamponlama Məqsədi (saniyələrlə)",
+        "buffering_goal": "Buferləmə Hədəfi (millisaniyə)",
         "store_watch_history": "Baxış Tarixçəsini Saxlayın",
         "instances_list": "Nümunələr Siyahısı",
         "enabled_codecs": "Aktiv Kodeklər (Birdən çox)",
@@ -73,7 +73,7 @@
         "language_selection": "Dil Seçimi"
     },
     "preferences": {
-        "bufferGoal": "Tamponlama Hədəfi",
+        "bufferGoal": "Buferləmə Hədəfi",
         "selectedSkip": "Ötürüləcək Seqmentlər",
         "skipToLastPoint": "Artıq baxılmış video ilə qarşılaşdığınızda son baxılan nöqtəyə keçin",
         "homepage": "Defolt Əsas Səhifə",
