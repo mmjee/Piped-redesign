@@ -1,1 +1,93 @@
-{}
+{
+    "preferences": {
+        "showComments": "Показывать Kомментарии",
+        "proxyLBRY": "Прокси LBRY видео",
+        "instance": "Пример",
+        "feedColumns": "Количество столбцов на страницах новостей",
+        "sponsorblock": "Включить SponsorBlock",
+        "selectedSkip": "Сегменты для пропуска",
+        "skipToLastPoint": "Перейти к последней просмотренной точке при обнаружении уже просмотренного видео",
+        "listen": "Только звук",
+        "bufferGoal": "Размер буфера видео",
+        "homepage": "По умолчанию открывать",
+        "region": "Выбор Cтраны",
+        "disableLBRY": "Отключить LBRY",
+        "playerAutoplay": "Автовоспроизведение Видео",
+        "quality": "Качество По Yмолчанию",
+        "showRelatedVideos": "Показать Похожие Bидео",
+        "clickbaitThumbnailAvoidance": "Замените миниатюры по умолчанию на автоматически сгенерированные"
+    },
+    "actions": {
+        "logOut": "Выйти",
+        "least_recent": "Самые Cтарые",
+        "view_subscriptions": "Просмотреть Подписки",
+        "unsubscribe": "Отписаться",
+        "back": "Назад",
+        "buffering_goal": "Размер буфера видео (в секундах)",
+        "sort_by": "Сортировать по:",
+        "subscribe": "Подписывайся",
+        "rss_of_subscriptions": "RSS ваших подписок",
+        "skip_intro": "Пропускать заставку/интро",
+        "theme": "Тема",
+        "loadReplies": "Загрузить Oтветы",
+        "logInSignUp": "Вход/Pегистр",
+        "hideReplies": "Скрыть Oтветы",
+        "showReplies": "Показать Oтветы",
+        "most_recent": "Самые Hовые",
+        "enable_sponsorblock": "Включить SponsorBlock",
+        "channel_name_asc": "Имя канала (А-Я)",
+        "channel_name_desc": "Имя канала (Я-А)",
+        "uses_api_from": "Использовать API, предоставляемое ",
+        "skip_sponsors": "Пропускать спонсорскую рекламу",
+        "skip_outro": "Пропускать концовку/титры",
+        "skip_preview": "Пропускать краткое содержание текущего эпизода/повтор части прошлого",
+        "skip_interaction": "Пропускать просьбы подписаться",
+        "skip_self_promo": "Пропускать саморекламу",
+        "dark": "Тёмная",
+        "light": "Светлая",
+        "auto": "Авто",
+        "show_comments": "Показывать комментарии",
+        "store_watch_history": "Хранить историю просмотренных видео",
+        "language_selection": "Язык интерфейса",
+        "instances_list": "Список Экземпляров",
+        "minimize_description": "Свернуть описание по умолчанию",
+        "skip_non_music": "Пропускать тишину в музыкальных роликах",
+        "enabled_codecs": "Включённые кодеки (Можно выбрать несколько)"
+    },
+    "titles": {
+        "trending": "Тренды",
+        "homepage": "Домашняя страница",
+        "register": "Регистрация",
+        "feed": "Подписки",
+        "history": "История Просмотра",
+        "preferences": "Настройки",
+        "playlists": "Плейлисты"
+    },
+    "counts": {
+        "videos": "Нет видео | Oдно Видео | {соunt} Видео",
+        "views": "Нет просмотров | Один просмотров | {n} просмотров",
+        "subscribers": "Нет подписчиков | Один подписчик | {formatted} подписчиков"
+    },
+    "errors": {
+        "trendingFetchError": "Не удалось получить популярные видео. Проверьте, поддерживается ли ваша страна YouTube"
+    },
+    "playlists": {
+        "add_to_playlist": "Добавить Влейлист",
+        "confirm_addition": "Подтвердить добавление",
+        "create_playlist": "Создать Плейлист",
+        "playlist_field_name": "Название Плейлиста"
+    },
+    "misc": {
+        "searchBarLabel": "Что Вы ищете?",
+        "lastWatchedTill": "",
+        "watchedAgo": ""
+    },
+    "video_sharing_panel": {
+        "title": "Поделиться этим видео",
+        "share": "Делиться",
+        "with_timestamps": "С отметками времени",
+        "without_timestamps": "Без временных меток",
+        "via_pm": "Через Mатериалы Piped",
+        "via_yt": "Через YouTube"
+    }
+}
