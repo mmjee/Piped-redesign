@@ -17,7 +17,7 @@
         "playlists": "Playlisty"
     },
     "counts": {
-        "videos": "Žádná videa | Jedno video | {count} videí",
+        "videos": "Žádná videa | Jedno video | {formatted} videí",
         "views": "Žádná zhlédnutí | Jedno zhlédnutí | {n} zhlédnutí",
         "subscribers": "Žádní odběratelé | Jeden odběratel | {formatted} odběratelů"
     },
