@@ -64,7 +64,7 @@
         "showComments": "Yorumları Göster"
     },
     "counts": {
-        "videos": "Video yok | Bir Video | {count} Video",
+        "videos": "Video yok | Bir Video | {formatted} Video",
         "views": "Görüntüleme yok | Bir görüntüleme | {n} görüntüleme",
         "subscribers": "Abone yok | Bir abone | {formatted} abone"
     },
