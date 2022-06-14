@@ -61,7 +61,8 @@
         "instance": "Örnek",
         "clickbaitThumbnailAvoidance": "Öntanımlı küçük resimleri otomatik oluşturulan küçük resimlerle değiştir",
         "showRelatedVideos": "İlgili Videoları Göster",
-        "showComments": "Yorumları Göster"
+        "showComments": "Yorumları Göster",
+        "showMarkers": "SponsorBlock İşaretlerini Göster"
     },
     "counts": {
         "videos": "Video yok | Bir Video | {formatted} Video",
