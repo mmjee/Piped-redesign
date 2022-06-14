@@ -80,11 +80,12 @@
         "sponsorblock": "Aktifkan SponsorBlock",
         "clickbaitThumbnailAvoidance": "Menggantikan thunbnail default dengan yang dibuat secara otomatis",
         "showComments": "Tampilkan Komentar",
-        "showRelatedVideos": "Tampilkan Video Terkait"
+        "showRelatedVideos": "Tampilkan Video Terkait",
+        "showMarkers": "Tampilkan Penanda SponsorBlock"
     },
     "counts": {
         "subscribers": "Tidak ada pelanggan | Satu pelanggan | {formatted} pelanggan",
-        "videos": "Tidak ada video | Satu Video | {count} Video",
+        "videos": "Tidak ada video | Satu Video | {formatted} Video",
         "views": "Tidak ada tontonan | Satu ditonton | {n} ditonton"
     },
     "errors": {
