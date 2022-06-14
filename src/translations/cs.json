@@ -82,7 +82,8 @@
         "bufferGoal": "Cíl vyrovnávací paměti",
         "clickbaitThumbnailAvoidance": "Nahradit výchozí náhledy automaticky generovanými",
         "showRelatedVideos": "Zobrazit podobná videa",
-        "showComments": "Zobrazit komentáře"
+        "showComments": "Zobrazit komentáře",
+        "showMarkers": "Zobrazit značky SponsorBlock"
     },
     "playlists": {
         "add_to_playlist": "Přidat do playlistu",
