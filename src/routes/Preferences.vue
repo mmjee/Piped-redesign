@@ -154,14 +154,14 @@ export default {
 					label: 'Selected Segments to Skip',
 					multi: true,
 					options: [
-						{ text: 'actions.skip_sponsors', value: 'sponsors' },
+						{ text: 'actions.skip_sponsors', value: 'sponsor' },
 						{ text: 'actions.skip_intro', value: 'intro' },
 						{ text: 'actions.skip_outro', value: 'outro' },
 						{ text: 'actions.skip_preview', value: 'preview' },
 						{ text: 'actions.skip_interaction', value: 'interaction' },
 						{ text: 'actions.skip_self_promo', value: 'selfpromo' },
 						{ text: 'actions.skip_non_music', value: 'music_offtopic' },
-						{ text: 'actions.skip_poi_highlights', value: 'poi_highlights' },
+						{ text: 'actions.skip_poi_highlights', value: 'poi_highlight' },
 						{ text: 'actions.skip_filler', value: 'filler' }
 					].map(o => {
 						o.text = this.$i18n.t(o.text)
