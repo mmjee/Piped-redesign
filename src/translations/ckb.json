@@ -9,7 +9,7 @@
         "playlists": "لیستی ڤیدیۆکان"
     },
     "counts": {
-        "videos": "بێ ڤیدیۆ | یەک ڤیدیۆ | {count} ڤیدیۆ",
+        "videos": "بێ ڤیدیۆ | یەک ڤیدیۆ | {formatted} ڤیدیۆ",
         "views": "هیچ بینینێک نییە | یەک بینین | {n} بینین",
         "subscribers": "هیچ بەشداربووێک نییە | یەک بەشداربوو | {formatted} بەشداربوو"
     },
@@ -74,7 +74,8 @@
         "instance": "نموونە ڕاژە",
         "clickbaitThumbnailAvoidance": "گۆڕینی وێنە بچووک کراوەکان بە بەشێک لە ڤیدیۆیەکە",
         "showComments": "نیشاندانی سەرنجەکان",
-        "showRelatedVideos": "نیشاندانی ڤیدیۆ پەیوەندیدارەکان"
+        "showRelatedVideos": "نیشاندانی ڤیدیۆ پەیوەندیدارەکان",
+        "showMarkers": "نیشانەکانی سپۆنسربلۆک پیشان بدە"
     },
     "video_sharing_panel": {
         "share": "هاوبەشکردن",
