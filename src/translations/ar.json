@@ -9,7 +9,7 @@
         "playlists": "قوائم التشغيل"
     },
     "counts": {
-        "videos": "لا توجد مقاطع فيديو | فيديو واحد | {count} فيديوات",
+        "videos": "لا توجد مقاطع فيديو | فيديو واحد | {formatted} فيديوات",
         "views": "لا مشاهدات | مشاهدة واحدة | {n} مشاهدات",
         "subscribers": "لا يوجد مشتركون | مشترك واحد | {formatted} مشترك"
     },
@@ -74,7 +74,8 @@
         "instance": "الخادم",
         "clickbaitThumbnailAvoidance": "استبدال الصور المصغرة بإطار من الفيديو",
         "showComments": "إظهار التعليقات",
-        "showRelatedVideos": "عرض مقاطع الفيديو ذات الصلة"
+        "showRelatedVideos": "عرض مقاطع الفيديو ذات الصلة",
+        "showMarkers": "إظهار علامات Sponsorblock"
     },
     "video_sharing_panel": {
         "share": "مشاركة",
