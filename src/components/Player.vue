@@ -311,34 +311,34 @@ export default {
 				let color
 				switch (segment.category) {
 					case 'sponsor':
-						color = '#00d400'
+						color = '#b8bb26'
 						break
 					case 'selfpromo':
-						color = '#ffff00'
+						color = '#fabd2f'
 						break
 					case 'interaction':
-						color = '#cc00ff'
+						color = '#d3869b'
 						break
 					case 'poi_highlight':
-						color = '#ff1684'
+						color = '#b16286'
 						break
 					case 'intro':
-						color = '#00ffff'
+						color = '#83A598'
 						break
 					case 'outro':
-						color = '#0202ed'
+						color = '#8ec07c'
 						break
 					case 'preview':
-						color = '#008fd6'
+						color = '#458588'
 						break
 					case 'filler':
-						color = '#7300FF'
+						color = '#689d6a'
 						break
 					case 'music_offtopic':
-						color = '#ff9900'
+						color = '#fe8019'
 						break
 					default:
-						color = 'white'
+						color = '#fbf1c7'
 				}
 				array.push(`transparent ${start}%`)
 				array.push(`${color} ${start}%`)
