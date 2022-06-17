@@ -9,16 +9,46 @@
         "subscribe": "訂閱",
         "sort_by": "排序方式:",
         "view_subscriptions": "查看訂閱",
-        "language_selection": "語言選擇"
+        "language_selection": "語言選擇",
+        "showReplies": "顯示回覆",
+        "hideReplies": "隱藏回覆",
+        "logOut": "登出",
+        "logInSignUp": "登入/註冊",
+        "loadReplies": "載入回覆",
+        "most_recent": "最近",
+        "back": "返回",
+        "show_comments": "顯示評論",
+        "auto": "自動",
+        "dark": "深色",
+        "light": "明亮",
+        "theme": "主題"
     },
     "titles": {
         "history": "歷史記錄",
         "preferences": "偏好設定",
         "feed": "摘要",
         "trending": "趨勢",
-        "register": "註冊"
+        "register": "註冊",
+        "homepage": "首頁",
+        "playlists": "播放清單"
     },
     "preferences": {
-        "region": "國家/地區選擇"
+        "region": "國家/地區選擇",
+        "playerAutoplay": "自動播放影片"
+    },
+    "video_sharing_panel": {
+        "share": "分享",
+        "title": "分享這個影片"
+    },
+    "counts": {
+        "videos": "無影片| 一個影片 | {formatted} 影片",
+        "subscribers": "無訂閱者| 一個訂閱者 | {formatted} 訂閱者",
+        "views": "無觀看次數| 一個觀看次數 | {formatted} 觀看次數"
+    },
+    "playlists": {
+        "confirm_addition": "確定加入",
+        "add_to_playlist": "加入到播放清單",
+        "create_playlist": "建立播放清單",
+        "playlist_field_name": "播放清單名稱"
     }
 }
