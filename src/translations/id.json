@@ -62,7 +62,9 @@
         "back": "Kembali",
         "uses_api_from": "Menggunakan API dari ",
         "language_selection": "Pemilihan Bahasa",
-        "instances_list": "Daftar Instansi"
+        "instances_list": "Daftar Instansi",
+        "skip_filler": "Lewati Pengisi",
+        "skip_poi_highlights": "Lewati Sorotan"
     },
     "preferences": {
         "feedColumns": "Jumlah Kolom di Laman Umpan",

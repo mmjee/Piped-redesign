@@ -34,7 +34,9 @@
         "logOut": "Oturumu Kapat",
         "loadReplies": "Yanıtları Yükle",
         "hideReplies": "Yanıtları Gizle",
-        "showReplies": "Yanıtları Göster"
+        "showReplies": "Yanıtları Göster",
+        "skip_poi_highlights": "Özetleri Atla",
+        "skip_filler": "Dolguları Atla"
     },
     "titles": {
         "history": "Geçmiş",
