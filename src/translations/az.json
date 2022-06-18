@@ -18,7 +18,7 @@
     },
     "counts": {
         "subscribers": "Abunəçi yoxdur | Bir abunəçi | {formatted} abunəçi",
-        "videos": "Video yoxdur | Bir Video | {count} Video",
+        "videos": "Video yoxdur | Bir Video | {formatted} Video",
         "views": "Baxış yoxdur | Bir baxış | {n} baxış"
     },
     "playlists": {
@@ -70,7 +70,9 @@
         "skip_self_promo": "Ödənişsiz/Özünü Reklamı Ötürün",
         "skip_non_music": "Musiqisizliyi ötür: Musiqi Olmayan Hissə",
         "minimize_description": "Açıqlamanı Defolt Olaraq Kiçildin",
-        "language_selection": "Dil Seçimi"
+        "language_selection": "Dil Seçimi",
+        "skip_poi_highlights": "Anonsu Ötürün",
+        "skip_filler": "Doldurucuları Ötürün"
     },
     "preferences": {
         "bufferGoal": "Buferləmə Hədəfi",
@@ -88,6 +90,7 @@
         "disableLBRY": "LBRY-ni Söndürün",
         "proxyLBRY": "Proksidən LBRY videoları",
         "showComments": "Şərhləri Göstərin",
-        "showRelatedVideos": "Əlaqədar Videoları Göstər"
+        "showRelatedVideos": "Əlaqədar Videoları Göstər",
+        "showMarkers": "SponsorBlok İşarələrini Göstərin"
     }
 }
