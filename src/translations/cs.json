@@ -64,7 +64,9 @@
         "skip_self_promo": "Přeskakovat neplacenou / vlastní propagaci",
         "dark": "Tmavý",
         "store_watch_history": "Ukládat historii sledování",
-        "enabled_codecs": "Povolené kodeky (několik)"
+        "enabled_codecs": "Povolené kodeky (několik)",
+        "skip_filler": "Přeskočit filtry",
+        "skip_poi_highlights": "Přeskočit zvýraznění"
     },
     "preferences": {
         "feedColumns": "Počet sloupců ve stránce kanálu",
