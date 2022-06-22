@@ -1,1 +1,96 @@
-{}
+{
+    "preferences": {
+        "clickbaitThumbnailAvoidance": "用自动生成的缩略图替换默认缩略图",
+        "listen": "仅音频",
+        "bufferGoal": "缓冲目标",
+        "disableLBRY": "禁用 LBRY",
+        "showMarkers": "显示赞助标记",
+        "quality": "默认质量",
+        "skipToLastPoint": "遇到看过的视频时，跳到上次观看的地方",
+        "region": "国家/地区选择",
+        "sponsorblock": "启用 SponsorBlock",
+        "selectedSkip": "跳过的部分",
+        "homepage": "默认主页",
+        "instance": "实例",
+        "feedColumns": "Feed 页面中的列数",
+        "playerAutoplay": "自动播放视频",
+        "proxyLBRY": "代理 LBRY 视频",
+        "showComments": "显示评论",
+        "showRelatedVideos": "显示相关视频"
+    },
+    "titles": {
+        "homepage": "主页",
+        "trending": "热门",
+        "register": "注册",
+        "preferences": "偏好",
+        "history": "观看历史",
+        "feed": "RSS 订阅源",
+        "playlists": "播放列表"
+    },
+    "counts": {
+        "videos": "没有视频 | 一个视频 | {formatted} 个视频",
+        "subscribers": "没有订阅者|一个订阅者|{formatted} 个订阅者",
+        "views": "没有观看 | 一个观看 | {n} 个观看"
+    },
+    "actions": {
+        "auto": "自动",
+        "store_watch_history": "商店观看记录",
+        "skip_outro": "跳过片尾插画/演员列表",
+        "buffering_goal": "缓冲目标（以秒为单位）",
+        "logInSignUp": "登录/注册",
+        "logOut": "退出登录",
+        "loadReplies": "加载回复",
+        "hideReplies": "隐藏回复",
+        "showReplies": "显示回复",
+        "subscribe": "订阅",
+        "unsubscribe": "取消订阅",
+        "view_subscriptions": "查看订阅",
+        "rss_of_subscriptions": "您订阅的 RSS",
+        "most_recent": "最新",
+        "channel_name_asc": "频道名称(A-Z)",
+        "channel_name_desc": "频道名称(Z-A)",
+        "back": "返回",
+        "skip_intro": "跳过中场休息/介绍动画",
+        "skip_preview": "跳过预览/回顾",
+        "uses_api_from": "使用的API来自 ",
+        "enable_sponsorblock": "启用 SponsorBlock",
+        "light": "浅色",
+        "skip_interaction": "跳过互动提醒（订阅）",
+        "skip_non_music": "跳过音乐：非音乐部分",
+        "theme": "主题",
+        "skip_self_promo": "跳过无偿/自我推销",
+        "show_comments": "显示评论",
+        "minimize_description": "默认最小化描述",
+        "least_recent": "最旧",
+        "skip_poi_highlights": "跳过高亮",
+        "dark": "深色",
+        "skip_filler": "跳过筛选",
+        "language_selection": "语言选择",
+        "instances_list": "实例列表",
+        "enabled_codecs": "启用编解码器（多个）",
+        "sort_by": "排序方式：",
+        "skip_sponsors": "跳过赞助商"
+    },
+    "errors": {
+        "trendingFetchError": "无法获取热门视频。请检查您所在的国家/地区是否受 YouTube 支持"
+    },
+    "playlists": {
+        "add_to_playlist": "添加到播放列表",
+        "confirm_addition": "确认添加",
+        "create_playlist": "创建播放列表",
+        "playlist_field_name": "播放列表名称"
+    },
+    "misc": {
+        "searchBarLabel": "您要查找什么？",
+        "lastWatchedTill": "上次看到 {t}",
+        "watchedAgo": "观看{t} 到 {p}"
+    },
+    "video_sharing_panel": {
+        "title": "分享视频",
+        "share": "分享",
+        "with_timestamps": "带时间戳",
+        "without_timestamps": "不带时间戳",
+        "via_pm": "通过 Piped Material",
+        "via_yt": "通过 YouTube"
+    }
+}
