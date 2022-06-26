@@ -3,13 +3,13 @@
         "instances_list": "Liste over instanser",
         "minimize_description": "Minimer beskrivelse som forvalg",
         "buffering_goal": "Mellomlagringsmål (i sekunder)",
-        "skip_non_music": "Hopp over musikk:Del uten musikk",
+        "skip_non_music": "Musikk: Del uten musikk",
         "auto": "Auto",
-        "skip_self_promo": "Hopp over ubetalt/selvpromotering",
-        "skip_interaction": "Hopp over interaksjonspåminnelse (abonnering)",
-        "skip_preview": "Hopp over forhåndsvisning/reintroduksjon",
-        "skip_outro": "Skru av rulletekst/sluttpresentasjon",
-        "skip_intro": "Hopp over forvideo/introanimasjon",
+        "skip_self_promo": "Ubetalt/selvpromotering",
+        "skip_interaction": "Interaksjonspåminnelse (abonnering)",
+        "skip_preview": "Forhåndsvisning/reintroduksjon",
+        "skip_outro": "Rulletekst/sluttpresentasjon",
+        "skip_intro": "Forvideo/introanimasjon",
         "enable_sponsorblock": "Skru på sponsorblokkering",
         "language_selection": "Språk",
         "store_watch_history": "Lagre visningshistorikk",
@@ -17,7 +17,7 @@
         "light": "Lys",
         "dark": "Mørk",
         "theme": "Drakt",
-        "skip_sponsors": "Hopp over sponsorer",
+        "skip_sponsors": "Sponsorer",
         "uses_api_from": "Bruker API-et fra ",
         "back": "Tilbake",
         "channel_name_desc": "Kanalnavn (Å-A)",
@@ -34,7 +34,9 @@
         "loadReplies": "Last inn svar",
         "showReplies": "Vis svar",
         "rss_of_subscriptions": "RSS for dine abonnementer",
-        "hideReplies": "Skjul svar"
+        "hideReplies": "Skjul svar",
+        "skip_filler": "Fyllstoff",
+        "skip_poi_highlights": "Høydepunkter"
     },
     "titles": {
         "feed": "Strøm",
@@ -59,10 +61,13 @@
         "feedColumns": "Antall kolonner i informasjonskanalssider",
         "proxyLBRY": "Hurtiglagre LBRY-videoer",
         "sponsorblock": "Skru på SponsorBlock",
-        "clickbaitThumbnailAvoidance": "Erstatt forvalgte miniatyrbilder med et som er autogenerert"
+        "clickbaitThumbnailAvoidance": "Erstatt forvalgte miniatyrbilder med et som er autogenerert",
+        "showMarkers": "Vis SponsorBlock-markører",
+        "showComments": "Vis kommentarer",
+        "showRelatedVideos": "Vis relaterte videoer"
     },
     "counts": {
-        "videos": "Ingen videoer | Én video | {count} videroer",
+        "videos": "Ingen videoer | Én video | {formatted} videroer",
         "views": "Ingen visninger | Én visning | {n} visninger",
         "subscribers": "Ingen abonnenter | Én abonnent | {formatted} abonnenter"
     },
