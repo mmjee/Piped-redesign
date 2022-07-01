@@ -1,0 +1,96 @@
+{
+    "actions": {
+        "unsubscribe": "Odjavi pretplatu",
+        "view_subscriptions": "Prikaži pretplate",
+        "rss_of_subscriptions": "RSS tvojih pretplata",
+        "sort_by": "Poredaj po:",
+        "most_recent": "Najnovije",
+        "uses_api_from": "Koristi API od ",
+        "enable_sponsorblock": "Uključi blok sponsora",
+        "skip_sponsors": "Sponzori",
+        "skip_intro": "Prijelaz/Uvodna animacija",
+        "skip_outro": "Odjavna špica/Zasluge",
+        "skip_preview": "Pregled/Rekapitulacija",
+        "skip_interaction": "Podsjetnik za interakciju (zahtijeva pretplatu)",
+        "skip_self_promo": "Neplaćena/osobna promocija",
+        "skip_non_music": "Glazba: dijelovi bez glazbe",
+        "enabled_codecs": "Omogućeni kodeki (višestruki)",
+        "logInSignUp": "Prijava/Registracija",
+        "logOut": "Odjava",
+        "loadReplies": "Učitaj odgovore",
+        "hideReplies": "Sakrij odgovore",
+        "showReplies": "Prikaži odgovore",
+        "subscribe": "Pretplati se",
+        "least_recent": "Najstarije",
+        "channel_name_asc": "Ime kanala (A-Ž)",
+        "channel_name_desc": "Ime kanala (Ž-A)",
+        "back": "Natrag",
+        "skip_poi_highlights": "Sažeci",
+        "skip_filler": "Popune",
+        "theme": "Tema",
+        "auto": "Automatski",
+        "dark": "Tamna",
+        "light": "Svijetla",
+        "buffering_goal": "Cilj međuspremnika (u sekundama)",
+        "show_comments": "Prikaži komentare",
+        "minimize_description": "Standardno sakrij opis",
+        "store_watch_history": "Spremi povijest gledanja",
+        "instances_list": "Popis instanci",
+        "language_selection": "Izbor jezika"
+    },
+    "preferences": {
+        "sponsorblock": "Uključi blok sponsora",
+        "selectedSkip": "Segmenti za preskakanje",
+        "skipToLastPoint": "Prijeđi na zadnju gledano mjesto kad naiđeš na već pogledani video",
+        "playerAutoplay": "Automatski reproduciraj video",
+        "bufferGoal": "Cilj međuspremnika",
+        "listen": "Samo zvuk",
+        "quality": "Standardna kvaliteta",
+        "feedColumns": "Broj stupaca na stranicama članaka",
+        "region": "Izbor zemlje",
+        "homepage": "Standardna početna stranica",
+        "instance": "Instanca",
+        "disableLBRY": "Deaktiviraj LBRY",
+        "clickbaitThumbnailAvoidance": "Zamijeni standardne minijature automatski generiranim",
+        "proxyLBRY": "Proxy LBRY videi",
+        "showComments": "Prikaži komentare",
+        "showRelatedVideos": "Prikaži povezane videa",
+        "showMarkers": "Prikaži oznake bloka sponzora"
+    },
+    "titles": {
+        "feed": "Novosti",
+        "preferences": "Osobne postavke",
+        "homepage": "Početna web-stranica",
+        "history": "Povijest gledanja",
+        "trending": "U trendu",
+        "register": "Registracija",
+        "playlists": "Popisi snimaka"
+    },
+    "counts": {
+        "subscribers": "Bez pretplatnika | Jedan pretplatnik | {formatted} pretplatnika",
+        "videos": "Bez videa | Jedan video | {formatted} videa",
+        "views": "Bez gledanja | Jedno gledanje | {n} gledanja"
+    },
+    "errors": {
+        "trendingFetchError": "Nije moguće dohvatiti videa u trendu. Provjeri podržava li YouTube tvoju zemlju"
+    },
+    "playlists": {
+        "add_to_playlist": "Dodaj na popis izvođenja",
+        "confirm_addition": "Potvrdi dodavanje",
+        "create_playlist": "Stvori popis snimaka",
+        "playlist_field_name": "Naziv popisa izvođenja"
+    },
+    "misc": {
+        "searchBarLabel": "Što tražiš?",
+        "lastWatchedTill": "Zadnje gledano do {t}",
+        "watchedAgo": "Gledano {t} do {p}"
+    },
+    "video_sharing_panel": {
+        "title": "Dijeli ovaj video",
+        "without_timestamps": "Bez vremenskih oznaka",
+        "share": "Dijeli",
+        "with_timestamps": "S vremenskim oznakama",
+        "via_pm": "Putem Piped Material stranice",
+        "via_yt": "Putem YouTube stranice"
+    }
+}
