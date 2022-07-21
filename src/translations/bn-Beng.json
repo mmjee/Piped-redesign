@@ -11,7 +11,7 @@
     "counts": {
         "subscribers": "কেউ এই channel এর সদস্যতা নায়নি | একজন মাত্র এই channel এর সদস্যতা নিয়েছেন | {formatted} জন সদস্যতা নিয়েছেন",
         "videos": "কোনো video নেই | একটা video | {formatted}টি video প্রকাশন করেছেন ইনি",
-        "views": "কেউ দেখে নি এখন পর্যন্ত | একবার মাত্র দেখা হয়েছে এই videoটি কে  | {n} বার দেখা হয়েছে এই videoটি কে"
+        "views": "কেউ দেখে নি এখন পর্যন্ত | একবার মাত্র দেখা হয়েছে এই videoটি কে | {n} বার দেখা হয়েছে এই videoটি কে"
     },
     "errors": {
         "trendingFetchError": "জনপ্রিয় video খুঁজে পাওয়া যায়নি। দেখুন আপনার নির্বাচিত দেশ কে ইউটুবে সাপোর্ট করে কি না।"
@@ -90,6 +90,20 @@
         "clickbaitThumbnailAvoidance": "videoএর যে thumbnail আছে সেটা কি একতা স্বয়ংক্রিয়ভাবে বানানো thumbnail দিয়ে প্রতিস্থাপন করে দেব?",
         "showComments": "videoটি সঙ্গে অন্নদের মন্তব্য দেখাব তো?",
         "showRelatedVideos": "আপনি কি videoর সঙ্গে অন্ন সম্পর্কিত বা প্রস্তাবিত video দেখতে চান?",
-        "showMarkers": "আপনি কি বিজ্ঞাপনের (ও অন্য বিভ্রান্তিকর জিনিসের) চিহ্নিতকারী দেখতে চান?"
+        "showMarkers": "আপনি কি বিজ্ঞাপনের (ও অন্য বিভ্রান্তিকর জিনিসের) চিহ্নিতকারী দেখতে চান?",
+        "bufferGoal": "Buffering Goal"
+    },
+    "search_results": {
+        "filterLabel": "ফলাফলগুলিকে পরিস্রুত করার জন্য উপলব্ধ বিকল্প",
+        "result_types": {
+            "all": "সব ধরনের ফলাফল",
+            "videos": "সাধারণ video",
+            "channels": "সুধু channel",
+            "playlists": "সুধু videoএর তালিকা",
+            "music_songs": "সুধু গান (YouTube Music থেকে)",
+            "music_videos": "সুধু গানের video (YouTube Music)",
+            "music_albums": "সুধু গানের পঞ্জি (album) (YouTube Music থেকে)",
+            "music_playlists": "সুধু গানের তালিকা (YouTube Music থেকে)"
+        }
     }
 }
