@@ -86,7 +86,7 @@
         "region": "Country Selection",
         "homepage": "Default Homepage",
         "instance": "Instance",
-        "clickbaitThumbnailAvoidance": "Replace default thumbnails with an automatically generated one",
+        "clickbaitThumbnailAvoidance": "Replace default thumbnails with auto-generated ones",
         "disableLBRY": "Disable LBRY",
         "proxyLBRY": "Proxy LBRY videos",
         "showComments": "Show Comments",
