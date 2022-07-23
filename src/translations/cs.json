@@ -92,5 +92,18 @@
         "confirm_addition": "Potvrdit přidání",
         "create_playlist": "Vytvořit playlist",
         "playlist_field_name": "Název playlistu"
+    },
+    "search_results": {
+        "filterLabel": "Filtrovat výsledky dle typu",
+        "result_types": {
+            "videos": "Obyčejná videa",
+            "all": "Všechny výsledky",
+            "music_playlists": "Playlisty (YouTube Music)",
+            "music_albums": "Alba (YouTube Music)",
+            "music_songs": "Skladby (YouTube Music)",
+            "music_videos": "Hudební videa (YouTube Music)",
+            "channels": "Kanály",
+            "playlists": "Playlisty"
+        }
     }
 }
