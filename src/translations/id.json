@@ -80,7 +80,7 @@
         "homepage": "Beranda Bawaan",
         "instance": "Instansi",
         "sponsorblock": "Aktifkan SponsorBlock",
-        "clickbaitThumbnailAvoidance": "Menggantikan thunbnail default dengan yang dibuat secara otomatis",
+        "clickbaitThumbnailAvoidance": "Ganti thunbnail default dengan yang dibuat secara otomatis",
         "showComments": "Tampilkan Komentar",
         "showRelatedVideos": "Tampilkan Video Terkait",
         "showMarkers": "Tampilkan Penanda SponsorBlock"
@@ -92,5 +92,18 @@
     },
     "errors": {
         "trendingFetchError": "Tidak dapat mendapatkan video yang sedang tren. Periksa jika negara Anda didukung oleh YouTube"
+    },
+    "search_results": {
+        "result_types": {
+            "videos": "Video biasa",
+            "music_videos": "Video Musik (YouTube Music)",
+            "music_albums": "Album (YouTube Music)",
+            "music_playlists": "Daftar Putar (YouTube Music)",
+            "all": "Semua hasil",
+            "music_songs": "Musik (YouTube Music)",
+            "channels": "Saluran",
+            "playlists": "Daftar putar"
+        },
+        "filterLabel": "Saring hasil berdasarkan tipe"
     }
 }
