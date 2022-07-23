@@ -51,7 +51,7 @@
         "homepage": "Standardna početna stranica",
         "instance": "Instanca",
         "disableLBRY": "Deaktiviraj LBRY",
-        "clickbaitThumbnailAvoidance": "Zamijeni standardne minijature automatski generiranim",
+        "clickbaitThumbnailAvoidance": "Zamijeni standardne minijature automatski generiranim minijaturama",
         "proxyLBRY": "Proxy LBRY videi",
         "showComments": "Prikaži komentare",
         "showRelatedVideos": "Prikaži povezane videa",
@@ -64,7 +64,7 @@
         "history": "Povijest gledanja",
         "trending": "U trendu",
         "register": "Registracija",
-        "playlists": "Popisi snimaka"
+        "playlists": "Playliste"
     },
     "counts": {
         "subscribers": "Bez pretplatnika | Jedan pretplatnik | {formatted} pretplatnika",
@@ -75,10 +75,10 @@
         "trendingFetchError": "Nije moguće dohvatiti videa u trendu. Provjeri podržava li YouTube tvoju zemlju"
     },
     "playlists": {
-        "add_to_playlist": "Dodaj na popis izvođenja",
+        "add_to_playlist": "Dodaj u playlistu",
         "confirm_addition": "Potvrdi dodavanje",
-        "create_playlist": "Stvori popis snimaka",
-        "playlist_field_name": "Naziv popisa izvođenja"
+        "create_playlist": "Stvori playlistu",
+        "playlist_field_name": "Ime playliste"
     },
     "misc": {
         "searchBarLabel": "Što tražiš?",
@@ -92,5 +92,18 @@
         "with_timestamps": "S vremenskim oznakama",
         "via_pm": "Putem Piped Material stranice",
         "via_yt": "Putem YouTube stranice"
+    },
+    "search_results": {
+        "filterLabel": "Filtriraj rezultate prema vrsti",
+        "result_types": {
+            "videos": "Obična videa",
+            "channels": "Kanali",
+            "music_songs": "Pjesme (YouTube glazba)",
+            "music_videos": "Glazbena videa (YouTube glazba)",
+            "playlists": "Playliste",
+            "music_playlists": "Playliste (YouTube glazba)",
+            "all": "Svi rezultati",
+            "music_albums": "Albumi (YouTube glazba)"
+        }
     }
 }
