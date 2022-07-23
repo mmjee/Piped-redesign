@@ -61,7 +61,7 @@
         "feedColumns": "Akış Sayfalarındaki Sütun Sayısı",
         "sponsorblock": "SponsorBlock'u Etkinleştir",
         "instance": "Örnek",
-        "clickbaitThumbnailAvoidance": "Öntanımlı küçük resimleri otomatik oluşturulan küçük resimlerle değiştir",
+        "clickbaitThumbnailAvoidance": "Öntanımlı küçük resimleri otomatik oluşturulanlarla değiştir",
         "showRelatedVideos": "İlgili Videoları Göster",
         "showComments": "Yorumları Göster",
         "showMarkers": "SponsorBlock İşaretlerini Göster"
@@ -92,5 +92,18 @@
         "confirm_addition": "Eklemeyi onayla",
         "playlist_field_name": "Oynatma Listesi Adı",
         "create_playlist": "Oynatma Listesi Oluştur"
+    },
+    "search_results": {
+        "result_types": {
+            "all": "Tüm sonuçlar",
+            "channels": "Kanallar",
+            "music_songs": "Şarkılar (YouTube Müzik)",
+            "music_videos": "Müzik Videoları (YouTube Müzik)",
+            "music_albums": "Albümler (YouTube Müzik)",
+            "videos": "Sıradan videolar",
+            "music_playlists": "Oynatma listeleri (YouTube Müzik)",
+            "playlists": "Oynatma listeleri"
+        },
+        "filterLabel": "Sonuçları türe göre filtrele"
     }
 }
