@@ -4,7 +4,7 @@
         "listen": "仅音频",
         "bufferGoal": "缓冲目标",
         "disableLBRY": "禁用 LBRY",
-        "showMarkers": "显示赞助标记",
+        "showMarkers": "显示 SponsorBlock 标记",
         "quality": "默认质量",
         "skipToLastPoint": "遇到看过的视频时，跳到上次观看的地方",
         "region": "国家/地区选择",
@@ -12,7 +12,7 @@
         "selectedSkip": "跳过的部分",
         "homepage": "默认主页",
         "instance": "实例",
-        "feedColumns": "Feed 页面中的列数",
+        "feedColumns": "订阅源页面中的列数",
         "playerAutoplay": "自动播放视频",
         "proxyLBRY": "代理 LBRY 视频",
         "showComments": "显示评论",
@@ -22,20 +22,20 @@
         "homepage": "主页",
         "trending": "趋势",
         "register": "注册",
-        "preferences": "偏好",
-        "history": "观看历史",
-        "feed": "RSS 订阅源",
+        "preferences": "首选项",
+        "history": "观看记录",
+        "feed": "订阅源",
         "playlists": "播放列表"
     },
     "counts": {
         "videos": "没有视频 | 一个视频 | {formatted} 个视频",
-        "subscribers": "没有订阅者|一个订阅者|{formatted} 个订阅者",
-        "views": "没有观看 | 一个观看 | {n} 个观看"
+        "subscribers": "无订阅者 | 一位订阅者 | {formatted} 位订阅者",
+        "views": "无人观看 | 一次观看 | {n} 次观看"
     },
     "actions": {
         "auto": "自动",
-        "store_watch_history": "商店观看记录",
-        "skip_outro": "片尾插画/演员列表",
+        "store_watch_history": "保留观看记录",
+        "skip_outro": "结束画面/结尾职员表",
         "buffering_goal": "缓冲目标（以秒为单位）",
         "logInSignUp": "登录/注册",
         "logOut": "退出登录",
@@ -47,10 +47,10 @@
         "view_subscriptions": "查看订阅",
         "rss_of_subscriptions": "您订阅的 RSS",
         "most_recent": "最新",
-        "channel_name_asc": "频道名称(A-Z)",
-        "channel_name_desc": "频道名称(Z-A)",
+        "channel_name_asc": "频道名称 (A-Z)",
+        "channel_name_desc": "频道名称 (Z-A)",
         "back": "返回",
-        "skip_intro": "中场休息/介绍动画",
+        "skip_intro": "过场/开场动画",
         "skip_preview": "预览/回顾",
         "uses_api_from": "使用的API来自 ",
         "enable_sponsorblock": "启用 SponsorBlock",
@@ -58,7 +58,7 @@
         "skip_interaction": "互动提醒（订阅）",
         "skip_non_music": "音乐：非音乐部分",
         "theme": "主题",
-        "skip_self_promo": "未支付/自我推销",
+        "skip_self_promo": "无偿/自我推广",
         "show_comments": "显示评论",
         "minimize_description": "默认最小化描述",
         "least_recent": "最旧",
@@ -83,14 +83,27 @@
     "misc": {
         "searchBarLabel": "您要查找什么？",
         "lastWatchedTill": "上次看到 {t}",
-        "watchedAgo": "观看{t} 到 {p}"
+        "watchedAgo": "{t} 看到 {p}"
     },
     "video_sharing_panel": {
-        "title": "分享视频",
+        "title": "分享此视频",
         "share": "分享",
         "with_timestamps": "带时间戳",
         "without_timestamps": "不带时间戳",
         "via_pm": "通过 Piped Material",
         "via_yt": "通过 YouTube"
+    },
+    "search_results": {
+        "result_types": {
+            "channels": "频道",
+            "playlists": "播放列表",
+            "music_songs": "歌曲 (YouTube Music)",
+            "music_albums": "专辑 (YouTube Music)",
+            "music_playlists": "播放列表 (YouTube Music)",
+            "all": "所有结果",
+            "videos": "普通视频",
+            "music_videos": "音乐短片 (YouTube Music)"
+        },
+        "filterLabel": "按类型筛选结果"
     }
 }
