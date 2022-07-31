@@ -34,13 +34,13 @@
         "back": "گەڕانەوە",
         "uses_api_from": "API بەکاردێنێت لە ",
         "enable_sponsorblock": "چالاککردنی سپۆنسەربلوک",
-        "skip_sponsors": "پەڕین لە سپۆنسەرەکان",
-        "skip_intro": "پەڕین لە سەرەتاکان",
-        "skip_outro": "پەڕین لە کۆتاییەکان",
-        "skip_preview": "پەڕین لە دووبارە بوونەوە",
-        "skip_interaction": "پەڕین لە بەبیرهێنانەوەی بەشداری کردن",
-        "skip_self_promo": "پەڕین لە ڕێکلام",
-        "skip_non_music": "پەڕین لە میۆزیک",
+        "skip_sponsors": "سپۆنسەرەکان",
+        "skip_intro": "سەرەتاکان",
+        "skip_outro": "کۆتاییەکان",
+        "skip_preview": "دووبارە بوونەوە",
+        "skip_interaction": "بەبیرهێنانەوەی بەشداری کردن",
+        "skip_self_promo": "ڕێکلام",
+        "skip_non_music": "میۆزیک",
         "theme": "ڕووکار",
         "auto": "خۆکار",
         "dark": "تاریک",
@@ -57,8 +57,8 @@
         "hideReplies": "وەڵامەکان بشارەوە",
         "loadReplies": "دابەزاندنی وەڵامەکان",
         "showReplies": "وەڵامەکان نیشان بدە",
-        "skip_filler": "بازدان لە پاندانەکان",
-        "skip_poi_highlights": "بازدان لە بەشە زیاتر ڕووناکییەکان"
+        "skip_filler": "دیمەنە گاڵتەجاڕییەکان",
+        "skip_poi_highlights": "گرینگترین بەشەکان"
     },
     "preferences": {
         "feedColumns": "ژمارەی ئەستوونەکان لە پەڕەی پوختەکان",
@@ -74,7 +74,7 @@
         "region": "هەڵبژاردەی وڵات",
         "homepage": "پەڕەی سەرەکی بنەڕەت",
         "instance": "نموونە ڕاژە",
-        "clickbaitThumbnailAvoidance": "گۆڕینی وێنە بچووک کراوەکان بە بەشێک لە ڤیدیۆیەکە",
+        "clickbaitThumbnailAvoidance": "گۆڕینی وێنە بچووک کراوەکان بە وێنەیەکی ئۆتۆماتیکی لە ڤیدیۆیەکە",
         "showComments": "نیشاندانی سەرنجەکان",
         "showRelatedVideos": "نیشاندانی ڤیدیۆ پەیوەندیدارەکان",
         "showMarkers": "نیشانەکانی سپۆنسربلۆک پیشان بدە"
@@ -92,5 +92,18 @@
         "confirm_addition": "دووپاتکردنەوەی زیادکردن",
         "create_playlist": "دروستکردنی لیستی ڤیدیۆکان",
         "playlist_field_name": "ناوی لیستی ڤیدیۆکان"
+    },
+    "search_results": {
+        "filterLabel": "ئەنجامەکان بەپێی جۆر پاڵێو بکە",
+        "result_types": {
+            "all": "هەموو ئەنجامەکان",
+            "videos": "ڤیدیۆی ئاسایی",
+            "channels": "کەناڵەکان",
+            "playlists": "لیستەکانی پەخشکردن",
+            "music_songs": "گۆرانیەکان (YouTube Music)",
+            "music_videos": "ڤیدیۆی میوزیک (YouTube Music)",
+            "music_albums": "ئەلبوومەکان (YouTube Music)",
+            "music_playlists": "لیستی پەخشکردن (YouTube Music)"
+        }
     }
 }
