@@ -34,13 +34,13 @@
         "back": "رجوع",
         "uses_api_from": "يستخدم واجهة برمجة التطبيقات من ",
         "enable_sponsorblock": "تفعيل Sponsorblock",
-        "skip_sponsors": "تخطي الرعاة",
-        "skip_intro": "تخطي الفاصل / مقدمة الرسوم المتحركة",
-        "skip_outro": "تخطي بطاقات النهاية/الاعتمادات",
-        "skip_preview": "تخطي معاينة / خلاصة",
-        "skip_interaction": "تخطي تذكير التفاعل (اشترك)",
-        "skip_self_promo": "تخطي الترويج غير المدفوع/الذاتي",
-        "skip_non_music": "تخطي الموسيقى: قسم غير الموسيقى",
+        "skip_sponsors": "الرعاة",
+        "skip_intro": "الفاصل / مقدمة الرسوم المتحركة",
+        "skip_outro": "بطاقات النهاية/الاعتمادات",
+        "skip_preview": "معاينة / خلاصة",
+        "skip_interaction": "تذكير التفاعل (اشترك)",
+        "skip_self_promo": "الترويج غير المدفوع/الذاتي",
+        "skip_non_music": "الموسيقى: قسم غير الموسيقى",
         "theme": "السمة",
         "auto": "تلقائي",
         "dark": "داكن",
@@ -56,7 +56,9 @@
         "logOut": "تسجيل الخروج",
         "loadReplies": "تحميل الردود",
         "hideReplies": "إخفاء الردود",
-        "showReplies": "إظهار الردود"
+        "showReplies": "إظهار الردود",
+        "skip_poi_highlights": "أبرز الأحداث",
+        "skip_filler": "مشاهد الفكاهة"
     },
     "preferences": {
         "feedColumns": "عدد الأعمدة في صفحة الخلاصة",
@@ -72,7 +74,7 @@
         "region": "اختيار البلد",
         "homepage": "الصفحة الرئيسية الافتراضية",
         "instance": "الخادم",
-        "clickbaitThumbnailAvoidance": "استبدال الصور المصغرة بإطار من الفيديو",
+        "clickbaitThumbnailAvoidance": "استبدال الصور المصغرة بإطار مستخرج تلقائيا من الفيديو",
         "showComments": "إظهار التعليقات",
         "showRelatedVideos": "عرض مقاطع الفيديو ذات الصلة",
         "showMarkers": "إظهار علامات Sponsorblock"
@@ -90,5 +92,18 @@
         "confirm_addition": "تأكيد الإضافة",
         "create_playlist": "إنشاء قائمة تشغيل",
         "playlist_field_name": "اسم قائمة التشغيل"
+    },
+    "search_results": {
+        "filterLabel": "تصفية النتائج حسب النوع",
+        "result_types": {
+            "all": "جميع النتائج",
+            "videos": "مقاطع فيديو عادية",
+            "channels": "القنوات",
+            "playlists": "قوائم التشغيل",
+            "music_albums": "ألبومات (YouTube Music)",
+            "music_songs": "الأغاني (YouTube Music)",
+            "music_videos": "مقاطع فيديو موسيقية (YouTube Music)",
+            "music_playlists": "قوائم التشغيل (YouTube Music)"
+        }
     }
 }
