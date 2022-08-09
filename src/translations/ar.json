@@ -46,7 +46,6 @@
         "dark": "داكن",
         "light": "فاتح",
         "buffering_goal": "هدف التخزين المؤقت (بالثواني)",
-        "show_comments": "إظهار التعليقات",
         "minimize_description": "تصغير الوصف بشكل افتراضي",
         "store_watch_history": "حفظ سجل مشاهدة",
         "language_selection": "تحديد اللغة",
@@ -75,7 +74,6 @@
         "homepage": "الصفحة الرئيسية الافتراضية",
         "instance": "الخادم",
         "clickbaitThumbnailAvoidance": "استبدال الصور المصغرة بإطار مستخرج تلقائيا من الفيديو",
-        "showComments": "إظهار التعليقات",
         "showRelatedVideos": "عرض مقاطع الفيديو ذات الصلة",
         "showMarkers": "إظهار علامات Sponsorblock"
     },
