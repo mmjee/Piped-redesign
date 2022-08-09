@@ -32,7 +32,6 @@
         "dark": "Tamna",
         "light": "Svijetla",
         "buffering_goal": "Cilj međuspremnika (u sekundama)",
-        "show_comments": "Prikaži komentare",
         "minimize_description": "Standardno sakrij opis",
         "store_watch_history": "Spremi povijest gledanja",
         "instances_list": "Popis instanci",
@@ -53,7 +52,6 @@
         "disableLBRY": "Deaktiviraj LBRY",
         "clickbaitThumbnailAvoidance": "Zamijeni standardne minijature automatski generiranim minijaturama",
         "proxyLBRY": "Proxy LBRY videi",
-        "showComments": "Prikaži komentare",
         "showRelatedVideos": "Prikaži povezane videa",
         "showMarkers": "Prikaži oznake bloka sponzora"
     },
