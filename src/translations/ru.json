@@ -1,6 +1,5 @@
 {
     "preferences": {
-        "showComments": "Показывать Kомментарии",
         "proxyLBRY": "Прокси LBRY видео",
         "instance": "Пример",
         "feedColumns": "Количество столбцов на страницах новостей",
@@ -46,7 +45,6 @@
         "dark": "Тёмная",
         "light": "Светлая",
         "auto": "Авто",
-        "show_comments": "Показывать комментарии",
         "store_watch_history": "Хранить историю просмотренных видео",
         "language_selection": "Язык интерфейса",
         "instances_list": "Список Экземпляров",
