@@ -13,7 +13,6 @@
         "enable_sponsorblock": "Skru på sponsorblokkering",
         "language_selection": "Språk",
         "store_watch_history": "Lagre visningshistorikk",
-        "show_comments": "Vis kommentarer",
         "light": "Lys",
         "dark": "Mørk",
         "theme": "Drakt",
@@ -63,7 +62,6 @@
         "sponsorblock": "Skru på SponsorBlock",
         "clickbaitThumbnailAvoidance": "Erstatt forvalgte miniatyrbilder med et som er autogenerert",
         "showMarkers": "Vis SponsorBlock-markører",
-        "showComments": "Vis kommentarer",
         "showRelatedVideos": "Vis relaterte videoer"
     },
     "counts": {
