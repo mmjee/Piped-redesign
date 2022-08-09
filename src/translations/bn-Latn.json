@@ -67,7 +67,6 @@
         "dark": "kr̥ṣṇābha ।",
         "light": "ujjvala ।",
         "buffering_goal": "Buffering Goal (in seconds)",
-        "show_comments": "āpani ki mantavya dēkhatē cāna ?",
         "minimize_description": "āpani ki svābhāvika bhāvē vivaraṇaṭikē saṁkṣipta rākhatē cāna ?",
         "store_watch_history": "āpani ki dēkhāra itihāsa majuta rākhatē cāna?",
         "language_selection": "āpani kōna bhāṣāẏa dēkhatē cāna ?",
@@ -88,7 +87,6 @@
         "homepage": "ōẏēvasāiṭa khōlāra para gatānugatika ki dēkhavēna",
         "instance": "āmādēra pratinidhi yē iuṭiuva ēra saṅgē sava yōgāyōga ēra niya়ntraṇa āra dēkhāśōnā karavē",
         "clickbaitThumbnailAvoidance": "videoēra yē thumbnail āchē sēṭā ki ēkatā svaya়ṁkriya়bhāvē vānānō thumbnail diẏē pratisthāpana karē dēva?",
-        "showComments": "videoṭi saṅgē annadēra mantavya dēkhāva tō?",
         "showRelatedVideos": "videoṭira saṅgē anna samparkita vā prastāvita video dēkhāva tō?",
         "showMarkers": "āpani ki vijñāpanēra (ō anya vibhrāntikara jinisēra) cihnitakārī dēkhatē cāna?"
     }
