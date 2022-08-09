@@ -67,7 +67,6 @@
         "dark": "কৃষ্ণাভ ।",
         "light": "উজ্জ্বল ।",
         "buffering_goal": "Buffering Goal (in seconds)",
-        "show_comments": "আপনি কি মন্তব্য দেখতে চান ?",
         "minimize_description": "আপনি কি স্বাভাবিক ভাবে বিবরণটিকে সংক্ষিপ্ত রাখতে চান ?",
         "store_watch_history": "আপনি কি দেখার ইতিহাস মজুত রাখতে চান?",
         "language_selection": "আপনি কোন ভাষায় দেখতে চান ?",
@@ -88,10 +87,10 @@
         "homepage": "ওয়েবসাইট খোলার পর গতানুগতিক কি দেখবেন",
         "instance": "আমাদের প্রতিনিধি যে ইউটিউব এর সঙ্গে সব যোগাযোগ এর নিয়ন্ত্রণ আর দেখাশোনা করবে",
         "clickbaitThumbnailAvoidance": "videoএর যে thumbnail আছে সেটা কি একতা স্বয়ংক্রিয়ভাবে বানানো thumbnail দিয়ে প্রতিস্থাপন করে দেব?",
-        "showComments": "videoটি সঙ্গে অন্নদের মন্তব্য দেখাব তো?",
         "showRelatedVideos": "আপনি কি videoর সঙ্গে অন্ন সম্পর্কিত বা প্রস্তাবিত video দেখতে চান?",
         "showMarkers": "আপনি কি বিজ্ঞাপনের (ও অন্য বিভ্রান্তিকর জিনিসের) চিহ্নিতকারী দেখতে চান?",
-        "bufferGoal": "Buffering Goal"
+        "bufferGoal": "Buffering Goal",
+        "disableCommentsByDefault": "মন্তব্য দেখানোর জন্য আপনার অনুমতি কি চাওয়া উচিত?"
     },
     "search_results": {
         "filterLabel": "ফলাফলগুলিকে পরিস্রুত করার জন্য উপলব্ধ বিকল্প",
