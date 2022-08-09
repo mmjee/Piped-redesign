@@ -39,7 +39,6 @@
         "skip_preview": "Náhled / shrnutí",
         "theme": "Motiv",
         "buffering_goal": "Cíl vyrovnávací paměti (v sekundách)",
-        "show_comments": "Zobrazit komentáře",
         "instances_list": "Seznam instancí",
         "logOut": "Odhlásit se",
         "logInSignUp": "Přihlášení/Registrace",
@@ -84,7 +83,6 @@
         "bufferGoal": "Cíl vyrovnávací paměti",
         "clickbaitThumbnailAvoidance": "Nahradit výchozí náhledy automaticky generovanými",
         "showRelatedVideos": "Zobrazit podobná videa",
-        "showComments": "Zobrazit komentáře",
         "showMarkers": "Zobrazit značky SponsorBlock"
     },
     "playlists": {
