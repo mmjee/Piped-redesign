@@ -23,7 +23,6 @@
         "language_selection": "Sélection de la langue",
         "store_watch_history": "Conserver l'historique de visionnage",
         "minimize_description": "Minimiser la description par défaut",
-        "show_comments": "Afficher les commentaires",
         "light": "Clair",
         "dark": "Sombre",
         "auto": "Auto",
@@ -58,7 +57,6 @@
         "selectedSkip": "Segments à passer",
         "bufferGoal": "Objectif de mise en mémoire",
         "skipToLastPoint": "Reprendre à partir de la dernière position pour les vidéos déjà lue",
-        "showComments": "Afficher les commentaires",
         "showRelatedVideos": "Afficher les vidéos similaires",
         "clickbaitThumbnailAvoidance": "Remplacer la vignette par défaut avec une automatiquement générée"
     },
