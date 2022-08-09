@@ -15,8 +15,8 @@
         "feedColumns": "订阅源页面中的列数",
         "playerAutoplay": "自动播放视频",
         "proxyLBRY": "代理 LBRY 视频",
-        "showComments": "显示评论",
-        "showRelatedVideos": "显示相关视频"
+        "showRelatedVideos": "显示相关视频",
+        "disableCommentsByDefault": "默认不显示评论"
     },
     "titles": {
         "homepage": "主页",
@@ -59,7 +59,6 @@
         "skip_non_music": "音乐：非音乐部分",
         "theme": "主题",
         "skip_self_promo": "无偿/自我推广",
-        "show_comments": "显示评论",
         "minimize_description": "默认最小化描述",
         "least_recent": "最旧",
         "skip_poi_highlights": "高亮",
