@@ -44,7 +44,6 @@
         "back": "Geri",
         "enable_sponsorblock": "SponsorBloku Aktivləşdirin",
         "skip_interaction": "İnteraksiya Xatırladıcısını (Abunə Olun)",
-        "show_comments": "Şərhləri Göstərin",
         "auto": "Avtomatik",
         "dark": "Tünd",
         "light": "Açıq",
@@ -89,7 +88,6 @@
         "instance": "Nümunə",
         "disableLBRY": "LBRY-ni Söndürün",
         "proxyLBRY": "Proksidən LBRY videoları",
-        "showComments": "Şərhləri Göstərin",
         "showRelatedVideos": "Əlaqədar Videoları Göstər",
         "showMarkers": "SponsorBlok İşarələrini Göstərin"
     }
