@@ -49,7 +49,6 @@
         "dark": "Gelap",
         "light": "Terang",
         "buffering_goal": "Sasaran Buffering (dalam detik)",
-        "show_comments": "Tampilkan Komentar",
         "minimize_description": "Kecilkan Deskripsi secara default",
         "enabled_codecs": "Kodek Aktif (Beberapa)",
         "unsubscribe": "Batalkan langganan",
@@ -81,7 +80,6 @@
         "instance": "Instansi",
         "sponsorblock": "Aktifkan SponsorBlock",
         "clickbaitThumbnailAvoidance": "Ganti thunbnail default dengan yang dibuat secara otomatis",
-        "showComments": "Tampilkan Komentar",
         "showRelatedVideos": "Tampilkan Video Terkait",
         "showMarkers": "Tampilkan Penanda SponsorBlock"
     },
