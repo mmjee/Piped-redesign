@@ -35,7 +35,8 @@
         "hideReplies": "Yanıtları Gizle",
         "showReplies": "Yanıtları Göster",
         "skip_poi_highlights": "Özetler",
-        "skip_filler": "Dolgular"
+        "skip_filler": "Dolgular",
+        "loadComments": "Yorumları Yükle"
     },
     "titles": {
         "history": "Geçmiş",
@@ -62,7 +63,8 @@
         "instance": "Örnek",
         "clickbaitThumbnailAvoidance": "Öntanımlı küçük resimleri otomatik oluşturulanlarla değiştir",
         "showRelatedVideos": "İlgili Videoları Göster",
-        "showMarkers": "SponsorBlock İşaretlerini Göster"
+        "showMarkers": "SponsorBlock İşaretlerini Göster",
+        "disableCommentsByDefault": "Yorumları öntanımlı olarak gösterme"
     },
     "counts": {
         "videos": "Video yok | Bir Video | {formatted} Video",
