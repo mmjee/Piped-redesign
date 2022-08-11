@@ -81,7 +81,8 @@
         "sponsorblock": "Aktifkan SponsorBlock",
         "clickbaitThumbnailAvoidance": "Ganti thunbnail default dengan yang dibuat secara otomatis",
         "showRelatedVideos": "Tampilkan Video Terkait",
-        "showMarkers": "Tampilkan Penanda SponsorBlock"
+        "showMarkers": "Tampilkan Penanda SponsorBlock",
+        "disableCommentsByDefault": "Jangan tampilkan komentar secara bawaan"
     },
     "counts": {
         "subscribers": "Tidak ada pelanggan | Satu pelanggan | {formatted} pelanggan",
