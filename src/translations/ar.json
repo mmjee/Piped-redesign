@@ -57,7 +57,8 @@
         "hideReplies": "إخفاء الردود",
         "showReplies": "إظهار الردود",
         "skip_poi_highlights": "أبرز الأحداث",
-        "skip_filler": "مشاهد الفكاهة"
+        "skip_filler": "مشاهد الفكاهة",
+        "loadComments": "تحميل التعليقات"
     },
     "preferences": {
         "feedColumns": "عدد الأعمدة في صفحة الخلاصة",
@@ -75,7 +76,8 @@
         "instance": "الخادم",
         "clickbaitThumbnailAvoidance": "استبدال الصور المصغرة بإطار مستخرج تلقائيا من الفيديو",
         "showRelatedVideos": "عرض مقاطع الفيديو ذات الصلة",
-        "showMarkers": "إظهار علامات Sponsorblock"
+        "showMarkers": "إظهار علامات Sponsorblock",
+        "disableCommentsByDefault": "عدم عرض التعليقات بشكل افتراضي"
     },
     "video_sharing_panel": {
         "share": "مشاركة",
