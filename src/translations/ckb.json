@@ -57,7 +57,8 @@
         "loadReplies": "دابەزاندنی وەڵامەکان",
         "showReplies": "وەڵامەکان نیشان بدە",
         "skip_filler": "دیمەنە گاڵتەجاڕییەکان",
-        "skip_poi_highlights": "گرینگترین بەشەکان"
+        "skip_poi_highlights": "گرینگترین بەشەکان",
+        "loadComments": "کۆمێنتەکان بار بکە"
     },
     "preferences": {
         "feedColumns": "ژمارەی ئەستوونەکان لە پەڕەی پوختەکان",
@@ -75,7 +76,8 @@
         "instance": "نموونە ڕاژە",
         "clickbaitThumbnailAvoidance": "گۆڕینی وێنە بچووک کراوەکان بە وێنەیەکی ئۆتۆماتیکی لە ڤیدیۆیەکە",
         "showRelatedVideos": "نیشاندانی ڤیدیۆ پەیوەندیدارەکان",
-        "showMarkers": "نیشانەکانی سپۆنسربلۆک پیشان بدە"
+        "showMarkers": "نیشانەکانی سپۆنسربلۆک پیشان بدە",
+        "disableCommentsByDefault": "بە بنەڕەتی کۆمێنتەکان پیشان مەدە"
     },
     "video_sharing_panel": {
         "share": "هاوبەشکردن",
