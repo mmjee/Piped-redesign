@@ -68,7 +68,8 @@
         "instances_list": "实例列表",
         "enabled_codecs": "启用编解码器（多个）",
         "sort_by": "排序方式：",
-        "skip_sponsors": "赞助商"
+        "skip_sponsors": "赞助商",
+        "loadComments": "加载评论"
     },
     "errors": {
         "trendingFetchError": "无法获取热门视频。请检查您所在的国家/地区是否受 YouTube 支持"
