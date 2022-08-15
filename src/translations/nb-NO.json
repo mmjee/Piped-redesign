@@ -35,7 +35,8 @@
         "rss_of_subscriptions": "RSS for dine abonnementer",
         "hideReplies": "Skjul svar",
         "skip_filler": "Fyllstoff",
-        "skip_poi_highlights": "Høydepunkter"
+        "skip_poi_highlights": "Høydepunkter",
+        "loadComments": "Last inn kommentarer"
     },
     "titles": {
         "feed": "Strøm",
@@ -62,7 +63,8 @@
         "sponsorblock": "Skru på SponsorBlock",
         "clickbaitThumbnailAvoidance": "Erstatt forvalgte miniatyrbilder med et som er autogenerert",
         "showMarkers": "Vis SponsorBlock-markører",
-        "showRelatedVideos": "Vis relaterte videoer"
+        "showRelatedVideos": "Vis relaterte videoer",
+        "disableCommentsByDefault": "Ikke vis kommentarer som forvalg"
     },
     "counts": {
         "videos": "Ingen videoer | Én video | {formatted} videroer",
@@ -90,5 +92,18 @@
         "confirm_addition": "Bekreft tillegging",
         "create_playlist": "Opprett spilleliste",
         "playlist_field_name": "Spillelistenavn"
+    },
+    "search_results": {
+        "filterLabel": "Filtrer resultater etter type",
+        "result_types": {
+            "videos": "Vanlige videoer",
+            "channels": "Kanaler",
+            "playlists": "Spillelister",
+            "music_songs": "Spor (YouTube Music)",
+            "music_videos": "Musikkvideoer (YouTube Music)",
+            "music_albums": "Album (YouTube Music)",
+            "music_playlists": "Spillelister (YouTube Music)",
+            "all": "Alle resultater"
+        }
     }
 }
