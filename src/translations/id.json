@@ -63,7 +63,8 @@
         "language_selection": "Pemilihan Bahasa",
         "instances_list": "Daftar Instansi",
         "skip_filler": "Pengisi",
-        "skip_poi_highlights": "Sorotan"
+        "skip_poi_highlights": "Sorotan",
+        "loadComments": "Muat Komentar"
     },
     "preferences": {
         "feedColumns": "Jumlah Kolom di Laman Umpan",
