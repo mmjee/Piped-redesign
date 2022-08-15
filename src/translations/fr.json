@@ -12,13 +12,13 @@
         "subscribe": "S'abonner",
         "unsubscribe": "Se désabonner",
         "buffering_goal": "Objectif de mise en mémoire tampon (en secondes)",
-        "skip_non_music": "Ignorer la musique : section non musicale",
-        "skip_self_promo": "Ignorer la promotion non rémunérée / l'autopromotion",
-        "skip_interaction": "Ignorer les rappels d'interaction (S'abonner)",
-        "skip_preview": "Ignorer l'aperçu / le récapitulatif",
-        "skip_outro": "Ignorer les crédits de fin",
-        "skip_intro": "Ignorer l'animation de l'entracte/Intro",
-        "skip_sponsors": "Ignorer les sponsors",
+        "skip_non_music": "Musique : section non musicale",
+        "skip_self_promo": "Promotion non rémunérée / autopromotion",
+        "skip_interaction": "Rappels d'interaction (S'abonner)",
+        "skip_preview": "Aperçu / récapitulatif",
+        "skip_outro": "Crédits de fin",
+        "skip_intro": "Animation d'entracte / d'introduction",
+        "skip_sponsors": "Sponsors",
         "instances_list": "Liste des instances",
         "language_selection": "Sélection de la langue",
         "store_watch_history": "Conserver l'historique de visionnage",
@@ -42,7 +42,9 @@
         "showReplies": "Afficher les réponses",
         "logInSignUp": "Se connecter/s'inscrire",
         "loadReplies": "Charger les réponses",
-        "rss_of_subscriptions": "Le flux RSS de vos souscriptions"
+        "rss_of_subscriptions": "Le flux RSS de vos souscriptions",
+        "skip_poi_highlights": "Mises en avant",
+        "loadComments": "Charger les commentaires"
     },
     "preferences": {
         "homepage": "Page d'accueil par défaut",
@@ -58,11 +60,13 @@
         "bufferGoal": "Objectif de mise en mémoire",
         "skipToLastPoint": "Reprendre à partir de la dernière position pour les vidéos déjà lue",
         "showRelatedVideos": "Afficher les vidéos similaires",
-        "clickbaitThumbnailAvoidance": "Remplacer la vignette par défaut avec une automatiquement générée"
+        "clickbaitThumbnailAvoidance": "Remplacer les vignettes par défaut en en générant automatiquement",
+        "disableCommentsByDefault": "Ne pas afficher les commentaires par défaut",
+        "showMarkers": "Afficher les marqueurs SponsorBlock"
     },
     "counts": {
         "views": "Aucune vue | Une vue | {n} vues",
-        "videos": "Aucune vidéo | Une vidéo | {count} vidéos",
+        "videos": "Aucune vidéo | Une vidéo | {formatted} vidéos",
         "subscribers": "Aucun abonné | Un abonné | {formatted} abonnés"
     },
     "misc": {
@@ -77,12 +81,27 @@
         "via_yt": "Via YouTube",
         "title": "Partager cette vidéo",
         "share": "Partager",
-        "via_pm": "Via Piped Material"
+        "via_pm": "Via Piped Material",
+        "with_timestamps": "Avec horodatages",
+        "without_timestamps": "Sans horodatages"
     },
     "playlists": {
         "add_to_playlist": "Ajouter à la liste de lecture",
         "confirm_addition": "Confirmer l'ajout",
         "create_playlist": "Créer une liste de lecture",
         "playlist_field_name": "Nom de la liste de lecture"
+    },
+    "search_results": {
+        "result_types": {
+            "playlists": "Listes de lecture",
+            "videos": "Vidéos ordinaires",
+            "music_songs": "Chansons (YouTube Music)",
+            "music_albums": "Alb",
+            "channels": "Chaines",
+            "music_playlists": "Listes de lecture (YouTube Music)",
+            "music_videos": "Clips de musique (YouTube Music)",
+            "all": "Tous les résultats"
+        },
+        "filterLabel": "Filtrer les résultats par type"
     }
 }
