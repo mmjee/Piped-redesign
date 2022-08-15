@@ -65,7 +65,8 @@
         "store_watch_history": "Ukládat historii sledování",
         "enabled_codecs": "Povolené kodeky (několik)",
         "skip_filler": "Filtry",
-        "skip_poi_highlights": "Zvýraznění"
+        "skip_poi_highlights": "Zvýraznění",
+        "loadComments": "Načíst komentáře"
     },
     "preferences": {
         "feedColumns": "Počet sloupců ve stránce kanálu",
