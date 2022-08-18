@@ -1,5 +1,5 @@
 <template>
-    <v-app :style="bgStyles">
+    <v-app :style="bgStyles" v-if="initialized">
         <v-app-bar
             app
             dense
@@ -123,6 +123,11 @@
             <router-view />
         </v-main>
     </v-app>
+    <div class="loader-svg-appvue" v-else>
+    <svg class="circular">
+      <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="5" stroke-miterlimit="10"></circle>
+    </svg>
+  </div>
 </template>
 
 <style lang="scss">
@@ -135,15 +140,84 @@
         margin-right: 0;
     }
 }
+.loader-svg-appvue {
+  $width: 100px;
+  $green: #008744;
+  $blue: #0057e7;
+  $red: #d62d20;
+  $yellow: #ffa700;
+  $white: #eee;
+  position: absolute;
+  width: $width;
+  height: $width;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  .circular {
+    animation: rotate 2s linear infinite;
+    height: $width;
+    position: relative;
+    width: $width;
+  }
+
+  .path {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+    stroke: #b6463a;
+    animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+    stroke-linecap: round;
+  }
+
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes dash {
+    0% {
+      stroke-dasharray: 1, 200;
+      stroke-dashoffset: 0;
+    }
+    50% {
+      stroke-dasharray: 89, 200;
+      stroke-dashoffset: -35;
+    }
+    100% {
+      stroke-dasharray: 89, 200;
+      stroke-dashoffset: -124;
+    }
+  }
+  @keyframes color {
+    100%,
+    0% {
+      stroke: $red;
+    }
+    40% {
+      stroke: $blue;
+    }
+    66% {
+      stroke: $green;
+    }
+    80%,
+    90% {
+      stroke: $yellow;
+    }
+  }
+}
 </style>
 
 <script>
 import { mdiBrightness6, mdiMagnify, mdiClose, mdiHome } from '@mdi/js'
 
 import SearchMenu from '@/routes/SearchMenu'
-import { changeLocale, SUPPORTED_LANGUAGES } from '@/plugins/i18n'
 import AuthenticationModal from '@/components/AuthenticationModal'
+
 import { COLOR_SCHEME_STATES } from '@/store/prefs-store'
+import { syncPMDB } from '@/store/watched-videos-db'
+
+import { initializeEDS } from '@/plugins/eds'
+import { initializeLocalLocale, changeLocale, SUPPORTED_LANGUAGES } from '@/plugins/i18n'
 
 export default {
 	name: 'App',
@@ -160,6 +234,7 @@ export default {
 	},
 
 	data: () => ({
+		initialized: false,
 		drawer: false,
 		// Only used on phones
 		searchMenuOpened: false,
@@ -266,8 +341,20 @@ export default {
 	},
 
 	created () {
-		this.$vuetify.rtl = this.$store.state.i18n.rtl
-		this.syncDarkMode()
+		initializeEDS()
+			.then(() => Promise.all([
+				syncPMDB(),
+				this.$store.dispatch('prefs/loadState'),
+				this.$store.dispatch('auth/initializeAuth'),
+				initializeLocalLocale(),
+				() => {
+					this.$vuetify.rtl = this.$store.state.i18n.rtl
+				},
+				this.syncDarkMode()
+			]))
+			.then(() => {
+				this.initialized = true
+			})
 	}
 }
 </script>
