@@ -64,7 +64,11 @@
         "instances_list": "Daftar Instansi",
         "skip_filler": "Pengisi",
         "skip_poi_highlights": "Sorotan",
-        "loadComments": "Muat Komentar"
+        "loadComments": "Muat Komentar",
+        "logOutFromAllDevices": "Keluarkan dari semua perangkat",
+        "accounts": "Akun Anda",
+        "delAccountMessage": "Apakah Anda ingin menghapus akun Anda?",
+        "confirmPWToDelAcc": "Konfirmasi kata sandi Anda untuk menghapus akun Anda"
     },
     "preferences": {
         "feedColumns": "Jumlah Kolom di Laman Umpan",
