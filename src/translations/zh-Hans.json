@@ -69,7 +69,11 @@
         "enabled_codecs": "启用编解码器（多个）",
         "sort_by": "排序方式：",
         "skip_sponsors": "赞助商",
-        "loadComments": "加载评论"
+        "loadComments": "加载评论",
+        "logOutFromAllDevices": "从所有设备退出登录",
+        "accounts": "你的账户",
+        "delAccountMessage": "你想删除账户吗？",
+        "confirmPWToDelAcc": "确认密码删除账户"
     },
     "errors": {
         "trendingFetchError": "无法获取热门视频。请检查您所在的国家/地区是否受 YouTube 支持"
