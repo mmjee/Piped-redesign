@@ -66,7 +66,11 @@
         "enabled_codecs": "Povolené kodeky (několik)",
         "skip_filler": "Filtry",
         "skip_poi_highlights": "Zvýraznění",
-        "loadComments": "Načíst komentáře"
+        "loadComments": "Načíst komentáře",
+        "logOutFromAllDevices": "Odhlásit se ze všech zařízení",
+        "delAccountMessage": "Chcete odstranit svůj účet?",
+        "confirmPWToDelAcc": "Potvrďte své heslo pro odstranění účtu",
+        "accounts": "Váš účet"
     },
     "preferences": {
         "feedColumns": "Počet sloupců ve stránce kanálu",
