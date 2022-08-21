@@ -36,7 +36,11 @@
         "showReplies": "Yanıtları Göster",
         "skip_poi_highlights": "Özetler",
         "skip_filler": "Dolgular",
-        "loadComments": "Yorumları Yükle"
+        "loadComments": "Yorumları Yükle",
+        "accounts": "Hesabınız",
+        "confirmPWToDelAcc": "Hesabınızı silmek için parolanızı doğrulayın",
+        "logOutFromAllDevices": "Tüm aygıtlarda oturumu kapat",
+        "delAccountMessage": "Hesabınızı silmek istiyor musunuz?"
     },
     "titles": {
         "history": "Geçmiş",
