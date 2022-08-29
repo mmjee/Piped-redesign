@@ -87,12 +87,13 @@
         "clickbaitThumbnailAvoidance": "Ganti thunbnail default dengan yang dibuat secara otomatis",
         "showRelatedVideos": "Tampilkan Video Terkait",
         "showMarkers": "Tampilkan Penanda SponsorBlock",
-        "disableCommentsByDefault": "Jangan tampilkan komentar secara bawaan"
+        "disableCommentsByDefault": "Jangan tampilkan komentar secara bawaan",
+        "colorScheme": "Skema Warna"
     },
     "counts": {
         "subscribers": "Tidak ada pelanggan | Satu pelanggan | {n} pelanggan",
         "videos": "Tidak ada video | Satu Video | {n} Video",
-        "views": "Tidak ada tontonan | Satu ditonton | {n} ditonton"
+        "views": "Tidak ada tampilan | Satu tampilan | {n} tampilan"
     },
     "errors": {
         "trendingFetchError": "Tidak dapat mendapatkan video yang sedang tren. Periksa jika negara Anda didukung oleh YouTube"
