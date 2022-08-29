@@ -68,7 +68,8 @@
         "clickbaitThumbnailAvoidance": "Öntanımlı küçük resimleri otomatik oluşturulanlarla değiştir",
         "showRelatedVideos": "İlgili Videoları Göster",
         "showMarkers": "SponsorBlock İşaretlerini Göster",
-        "disableCommentsByDefault": "Yorumları öntanımlı olarak gösterme"
+        "disableCommentsByDefault": "Yorumları öntanımlı olarak gösterme",
+        "colorScheme": "Renk Düzeni"
     },
     "counts": {
         "videos": "Video yok | Bir Video | {n} Video",
