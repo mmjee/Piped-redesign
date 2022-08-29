@@ -89,7 +89,8 @@
         "clickbaitThumbnailAvoidance": "Nahradit výchozí náhledy automaticky generovanými",
         "showRelatedVideos": "Zobrazit podobná videa",
         "showMarkers": "Zobrazit značky SponsorBlock",
-        "disableCommentsByDefault": "Ve výchozím nastavení nezobrazovat komentáře"
+        "disableCommentsByDefault": "Ve výchozím nastavení nezobrazovat komentáře",
+        "colorScheme": "Barevné schéma"
     },
     "playlists": {
         "add_to_playlist": "Přidat do playlistu",
