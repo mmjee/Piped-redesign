@@ -81,7 +81,7 @@
     "preferences": {
         "colorScheme": "কি রঙে আপনি দেখতে চান",
         "feedColumns": "কোনো পেজ এ কটা করে স্তম্ভ থাকবে?",
-        "sponsorblock": "আপনি কি স্পনসরব্লক সক্রিয় করতে চান ?",
+        "sponsorblock": "আপনি কি SponsorBlock সক্রিয় করতে চান ?",
         "selectedSkip": "কি কি ধরনের videoর অংশ এড়িয়ে যেতে চান আপনি ?",
         "skipToLastPoint": "পুরোনো video দেখার সময় আগে যতটা অব্দি দেখেছিলেন সেখানে চলে যাওয়া উচিত?",
         "disableLBRY": "যে video গুলি LBRY তে আছে সেগুলো কি সেখান থেকেই সরাসরি চালানো উচিত নয় ?",
