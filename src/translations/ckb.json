@@ -81,7 +81,8 @@
         "clickbaitThumbnailAvoidance": "گۆڕینی وێنە بچووک کراوەکان بە وێنەیەکی ئۆتۆماتیکی لە ڤیدیۆیەکە",
         "showRelatedVideos": "نیشاندانی ڤیدیۆ پەیوەندیدارەکان",
         "showMarkers": "نیشانەکانی سپۆنسربلۆک پیشان بدە",
-        "disableCommentsByDefault": "بە بنەڕەتی کۆمێنتەکان پیشان مەدە"
+        "disableCommentsByDefault": "بە بنەڕەتی کۆمێنتەکان پیشان مەدە",
+        "colorScheme": "هێلکاری ڕەنگەکان"
     },
     "video_sharing_panel": {
         "share": "هاوبەشکردن",
