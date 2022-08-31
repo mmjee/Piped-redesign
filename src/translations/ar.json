@@ -81,7 +81,8 @@
         "clickbaitThumbnailAvoidance": "استبدال الصور المصغرة بإطار مستخرج تلقائيا من الفيديو",
         "showRelatedVideos": "عرض مقاطع الفيديو ذات الصلة",
         "showMarkers": "إظهار علامات Sponsorblock",
-        "disableCommentsByDefault": "عدم عرض التعليقات بشكل افتراضي"
+        "disableCommentsByDefault": "عدم عرض التعليقات بشكل افتراضي",
+        "colorScheme": "نظام الألوان"
     },
     "video_sharing_panel": {
         "share": "مشاركة",
