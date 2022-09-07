@@ -36,7 +36,11 @@
         "store_watch_history": "Spremi povijest gledanja",
         "instances_list": "Popis instanci",
         "language_selection": "Izbor jezika",
-        "loadComments": "Učitaj komentare"
+        "loadComments": "Učitaj komentare",
+        "logOutFromAllDevices": "Odjavi se sa svih uređaja",
+        "confirmPWToDelAcc": "Potvrdi lozinku za brisanje računa",
+        "delAccountMessage": "Želiš li izbrisati svoj račun?",
+        "accounts": "Tvoj račun"
     },
     "preferences": {
         "sponsorblock": "Uključi blok sponsora",
@@ -55,7 +59,8 @@
         "proxyLBRY": "Proxy LBRY videi",
         "showRelatedVideos": "Prikaži povezane videa",
         "showMarkers": "Prikaži oznake bloka sponzora",
-        "disableCommentsByDefault": "Komentare nemoj standardno prikazivati"
+        "disableCommentsByDefault": "Komentare nemoj standardno prikazivati",
+        "colorScheme": "Shema boja"
     },
     "titles": {
         "feed": "Novosti",
