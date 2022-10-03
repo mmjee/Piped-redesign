@@ -36,7 +36,11 @@
         "hideReplies": "Skjul svar",
         "skip_filler": "Fyllstoff",
         "skip_poi_highlights": "Høydepunkter",
-        "loadComments": "Last inn kommentarer"
+        "loadComments": "Last inn kommentarer",
+        "logOutFromAllDevices": "Logg ut fra alle enheter",
+        "accounts": "Min konto",
+        "delAccountMessage": "Slett kontoen?",
+        "confirmPWToDelAcc": "Bekreft sletting av kontoen din"
     },
     "titles": {
         "feed": "Strøm",
@@ -64,7 +68,8 @@
         "clickbaitThumbnailAvoidance": "Erstatt forvalgte miniatyrbilder med et som er autogenerert",
         "showMarkers": "Vis SponsorBlock-markører",
         "showRelatedVideos": "Vis relaterte videoer",
-        "disableCommentsByDefault": "Ikke vis kommentarer som forvalg"
+        "disableCommentsByDefault": "Ikke vis kommentarer som forvalg",
+        "colorScheme": "Fargepalett"
     },
     "counts": {
         "videos": "Ingen videoer | Én video | {n} videroer",
