@@ -110,5 +110,11 @@
             "channels": "Kanály",
             "playlists": "Playlisty"
         }
+    },
+    "channel_sharing_panel": {
+        "title": "Sdílet tento kanál",
+        "share": "Sdílet",
+        "via_pm": "Přes Piped Material",
+        "via_yt": "Přes YouTube"
     }
 }
