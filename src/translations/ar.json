@@ -110,5 +110,11 @@
             "music_videos": "مقاطع فيديو موسيقية (YouTube Music)",
             "music_playlists": "قوائم التشغيل (YouTube Music)"
         }
+    },
+    "channel_sharing_panel": {
+        "via_pm": "عبر Piped Material",
+        "via_yt": "عبر YouTube",
+        "title": "شارك هذه القناة",
+        "share": "مشاركة"
     }
 }
