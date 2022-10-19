@@ -110,5 +110,11 @@
             "playlists": "Daftar putar"
         },
         "filterLabel": "Saring hasil berdasarkan tipe"
+    },
+    "channel_sharing_panel": {
+        "title": "Bagikan saluran ini",
+        "share": "Bagikan",
+        "via_pm": "Melalui Piped Material",
+        "via_yt": "Melalui YouTube"
     }
 }
