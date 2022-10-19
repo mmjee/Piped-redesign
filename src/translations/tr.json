@@ -110,5 +110,11 @@
             "playlists": "Oynatma listeleri"
         },
         "filterLabel": "Sonuçları türe göre filtrele"
+    },
+    "channel_sharing_panel": {
+        "share": "Paylaş",
+        "title": "Bu kanalı paylaş",
+        "via_pm": "Piped Material ile",
+        "via_yt": "YouTube ile"
     }
 }
