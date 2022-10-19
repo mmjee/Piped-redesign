@@ -110,5 +110,11 @@
             "music_videos": "音乐短片 (YouTube Music)"
         },
         "filterLabel": "按类型筛选结果"
+    },
+    "channel_sharing_panel": {
+        "via_yt": "通过 YouTube",
+        "title": "分享该频道",
+        "share": "分享",
+        "via_pm": "通过 Piped Material"
     }
 }
