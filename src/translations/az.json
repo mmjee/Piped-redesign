@@ -71,7 +71,12 @@
         "minimize_description": "Açıqlamanı Defolt Olaraq Kiçildin",
         "language_selection": "Dil Seçimi",
         "skip_poi_highlights": "Anonslar",
-        "skip_filler": "Doldurucular"
+        "skip_filler": "Doldurucular",
+        "logOutFromAllDevices": "Bütün cihazlardan çıxın",
+        "accounts": "Hesabınız",
+        "delAccountMessage": "Hesabınızı silmək istəyirsiniz?",
+        "confirmPWToDelAcc": "Hesabınızı silmək üçün parolunuzu təsdiqləyin",
+        "loadComments": "Şərhləri Yükləyin"
     },
     "preferences": {
         "bufferGoal": "Buferləmə Hədəfi",
@@ -89,6 +94,25 @@
         "disableLBRY": "LBRY-ni Söndürün",
         "proxyLBRY": "Proksidən LBRY videoları",
         "showRelatedVideos": "Əlaqədar Videoları Göstər",
-        "showMarkers": "SponsorBlok İşarələrini Göstərin"
+        "showMarkers": "SponsorBlok İşarələrini Göstərin",
+        "disableCommentsByDefault": "Şərhləri standart olaraq göstərməyin",
+        "colorScheme": "Rəng Sxemi"
+    },
+    "search_results": {
+        "result_types": {
+            "music_albums": "Albomlar (YouTube Musiqi)",
+            "videos": "Adi videolar",
+            "channels": "Kanallar",
+            "playlists": "Pleylistlər",
+            "music_songs": "Mahnılar (YouTube Musiqi)",
+            "music_videos": "Musiqi Videoları (YouTube Musiqi)",
+            "all": "Bütün nəticələr",
+            "music_playlists": "Pleylistlər (YouTube Musiqi)"
+        },
+        "filterLabel": "Nəticələri növə görə filtrlə"
+    },
+    "channel_sharing_panel": {
+        "share": "Paylaşın",
+        "title": "Bu kanalı paylaşın"
     }
 }
