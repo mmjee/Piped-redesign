@@ -110,5 +110,11 @@
             "music_albums": "ئەلبوومەکان (YouTube Music)",
             "music_playlists": "لیستی پەخشکردن (YouTube Music)"
         }
+    },
+    "channel_sharing_panel": {
+        "via_pm": "بەهۆی Piped Material",
+        "via_yt": "بەهۆی YouTube",
+        "title": "هاوبەشکردنی ئەم کەناڵە",
+        "share": "هاوبەشکردن"
     }
 }
