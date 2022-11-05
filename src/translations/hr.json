@@ -83,7 +83,10 @@
         "add_to_playlist": "Dodaj u playlistu",
         "confirm_addition": "Potvrdi dodavanje",
         "create_playlist": "Stvori playlistu",
-        "playlist_field_name": "Ime playliste"
+        "playlist_field_name": "Ime playliste",
+        "remove_video": "Ukloni ovaj video iz playliste",
+        "delete_self": "Izbriši",
+        "rename_self": "Preimenuj"
     },
     "misc": {
         "searchBarLabel": "Što tražiš?",
