@@ -96,7 +96,11 @@
         "add_to_playlist": "Přidat do playlistu",
         "confirm_addition": "Potvrdit přidání",
         "create_playlist": "Vytvořit playlist",
-        "playlist_field_name": "Název playlistu"
+        "playlist_field_name": "Název playlistu",
+        "rename_self": "Přejmenovat",
+        "new_name_msg": "Jaký chcete mít nový název?",
+        "remove_video": "Odebrat toto video z playlistu",
+        "delete_self": "Odstranit"
     },
     "search_results": {
         "filterLabel": "Filtrovat výsledky dle typu",
