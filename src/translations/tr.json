@@ -96,7 +96,11 @@
         "add_to_playlist": "Oynatma listesine ekle",
         "confirm_addition": "Eklemeyi onayla",
         "playlist_field_name": "Oynatma Listesi Adı",
-        "create_playlist": "Oynatma Listesi Oluştur"
+        "create_playlist": "Oynatma Listesi Oluştur",
+        "delete_self": "Sil",
+        "rename_self": "Yeniden Adlandır",
+        "remove_video": "Bu videoyu oynatma listesinden kaldır",
+        "new_name_msg": "Yeni adının ne olmasını istiyorsunuz?"
     },
     "search_results": {
         "result_types": {
