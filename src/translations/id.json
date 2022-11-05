@@ -12,7 +12,11 @@
         "playlist_field_name": "Nama Daftar Putar",
         "add_to_playlist": "Tambahkan ke Daftar Putar",
         "confirm_addition": "Konfirmasi penambahan",
-        "create_playlist": "Buat Daftar Putar"
+        "create_playlist": "Buat Daftar Putar",
+        "remove_video": "Hapus video ini dari daftar putar",
+        "delete_self": "Hapus",
+        "rename_self": "Ubah nama",
+        "new_name_msg": "Nama apa yang Anda inginkan?"
     },
     "misc": {
         "searchBarLabel": "Apa yang sedang Anda cari?",
