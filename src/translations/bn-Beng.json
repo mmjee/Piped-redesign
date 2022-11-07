@@ -120,5 +120,12 @@
             "music_albums": "সুধু গানের পঞ্জি (album) (YouTube Music থেকে)",
             "music_playlists": "সুধু গানের তালিকা (YouTube Music থেকে)"
         }
+    },
+    "channel_tabs": {
+        "playlists": "videoএর তালিকা",
+        "shorts": "ছোট video",
+        "videos": "সাধারণ video",
+        "livestreams": "সরাসরি সম্প্রচারিত video",
+        "channels": "অন্যান্য channel"
     }
 }
