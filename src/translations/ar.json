@@ -96,7 +96,11 @@
         "add_to_playlist": "إضافة إلى قائمة التشغيل",
         "confirm_addition": "تأكيد الإضافة",
         "create_playlist": "إنشاء قائمة تشغيل",
-        "playlist_field_name": "اسم قائمة التشغيل"
+        "playlist_field_name": "اسم قائمة التشغيل",
+        "remove_video": "إزالة هذا الفيديو من قائمة التشغيل",
+        "delete_self": "حذف",
+        "rename_self": "إعادة تسمية",
+        "new_name_msg": "ماذا تريد أن يكون الاسم الجديد؟"
     },
     "search_results": {
         "filterLabel": "تصفية النتائج حسب النوع",
@@ -116,5 +120,12 @@
         "via_yt": "عبر YouTube",
         "title": "شارك هذه القناة",
         "share": "مشاركة"
+    },
+    "channel_tabs": {
+        "videos": "الفيديوهات",
+        "livestreams": "بث مباشر",
+        "playlists": "قوائم التشغيل",
+        "channels": "القنوات",
+        "shorts": "مقاطع فيديو قصيرة"
     }
 }
