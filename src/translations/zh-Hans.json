@@ -83,7 +83,11 @@
         "add_to_playlist": "添加到播放列表",
         "confirm_addition": "确认添加",
         "create_playlist": "创建播放列表",
-        "playlist_field_name": "播放列表名称"
+        "playlist_field_name": "播放列表名称",
+        "remove_video": "将此视频从播放列表中删除",
+        "delete_self": "删除",
+        "rename_self": "重命名",
+        "new_name_msg": "你希望新名称是什么？"
     },
     "misc": {
         "searchBarLabel": "您要查找什么？",
@@ -116,5 +120,12 @@
         "title": "分享该频道",
         "share": "分享",
         "via_pm": "通过 Piped Material"
+    },
+    "channel_tabs": {
+        "playlists": "播放列表",
+        "channels": "频道",
+        "videos": "视频",
+        "livestreams": "直播",
+        "shorts": "短视频"
     }
 }
