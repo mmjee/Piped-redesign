@@ -86,7 +86,8 @@
         "playlist_field_name": "Ime playliste",
         "remove_video": "Ukloni ovaj video iz playliste",
         "delete_self": "Izbriši",
-        "rename_self": "Preimenuj"
+        "rename_self": "Preimenuj",
+        "new_name_msg": "Kako želiš da bude novo ime?"
     },
     "misc": {
         "searchBarLabel": "Što tražiš?",
@@ -113,5 +114,11 @@
             "all": "Svi rezultati",
             "music_albums": "Albumi (YouTube glazba)"
         }
+    },
+    "channel_sharing_panel": {
+        "title": "Dijeli ovaj kanal",
+        "share": "Dijeli",
+        "via_pm": "Putem Piped Material",
+        "via_yt": "Putem YouTube"
     }
 }
