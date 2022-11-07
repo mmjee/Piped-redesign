@@ -120,5 +120,12 @@
         "title": "Bu kanalı paylaş",
         "via_pm": "Piped Material ile",
         "via_yt": "YouTube ile"
+    },
+    "channel_tabs": {
+        "videos": "Videolar",
+        "channels": "Kanallar",
+        "playlists": "Oynatma listeleri",
+        "livestreams": "Canlı yayınlar",
+        "shorts": "Kısa videolar"
     }
 }
