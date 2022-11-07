@@ -5,11 +5,13 @@
         "preferences": "Preferencias",
         "homepage": "Página principal",
         "register": "Registrarse",
-        "history": "Historial de reproducción"
+        "history": "Historial de reproducción",
+        "playlists": "Listas de reproducción"
     },
     "misc": {
         "searchBarLabel": "¿Qué es lo que estás buscando?",
-        "lastWatchedTill": "Última vez visto hasta {t}"
+        "lastWatchedTill": "Última vez visto hasta {t}",
+        "watchedAgo": "Visto {t} hasta {p}"
     },
     "video_sharing_panel": {
         "title": "Comparte este vídeo",
@@ -34,15 +36,15 @@
         "back": "Atrás",
         "uses_api_from": "Utiliza la API de ",
         "enable_sponsorblock": "Activar Sponsorblock",
-        "skip_sponsors": "Omitir sponsors",
-        "skip_intro": "Omitir interludio/Intro animada",
-        "skip_preview": "Omitir previsualización/Recapitulación",
-        "skip_interaction": "Omitir recordatorio de interacción (suscribirse)",
-        "skip_self_promo": "Omitir autopromoción",
-        "skip_non_music": "Omitir música: sección no musical",
+        "skip_sponsors": "Patrocinadores",
+        "skip_intro": "Intermedio/Animación de entrada",
+        "skip_preview": "Vista previa/Recapitulación",
+        "skip_interaction": "Recordatorio de interacción (Suscribirse)",
+        "skip_self_promo": "No remunerado/autopromoción",
+        "skip_non_music": "Música: Sección no musical",
         "theme": "Tema",
         "auto": "Automático",
-        "skip_outro": "Omitir créditos",
+        "skip_outro": "Tarjetas finales/créditos",
         "minimize_description": "Minimizar la descripción por defecto",
         "store_watch_history": "Registrar historial de visualización",
         "language_selection": "Selección de idiomas",
@@ -52,17 +54,26 @@
         "hideReplies": "Ocultar respuestas",
         "dark": "Oscuro",
         "light": "Claro",
-        "showReplies": "Mostrar respuestas"
+        "showReplies": "Mostrar respuestas",
+        "logOutFromAllDevices": "Cerrar la sesión de todos los dispositivos",
+        "confirmPWToDelAcc": "Confirma tu contraseña para eliminar tu cuenta",
+        "delAccountMessage": "¿Quieres eliminar tu cuenta?",
+        "buffering_goal": "Objetivo del almacenamiento en el búfer (en segundos)",
+        "accounts": "Tu cuenta",
+        "skip_poi_highlights": "Destacados",
+        "loadComments": "Cargar comentarios",
+        "skip_filler": "Rellenos"
     },
     "counts": {
-        "videos": "Sin vídeos | Un vídeo | {count} vídeos",
-        "views": "Sin visualizaciones | Una visualización | {n} visualizaciones"
+        "videos": "No hay videos | Un video | {n} Videos",
+        "views": "No views | One view | {n} views",
+        "subscribers": "Sin suscriptores | Un suscriptor | {n} suscriptores"
     },
     "errors": {
         "trendingFetchError": "No se pudieron recuperar los vídeos en tendencia. Comprueba si YouTube está disponible para tu país"
     },
     "preferences": {
-        "feedColumns": "",
+        "feedColumns": "Recuento de columnas en páginas de los Feed",
         "sponsorblock": "Habilitar SponsorBlock",
         "selectedSkip": "Segmentos a omitir",
         "skipToLastPoint": "Omitir hasta el último momento visto con un vídeo ya visto",
@@ -73,6 +84,48 @@
         "quality": "Calidad por defecto",
         "disableLBRY": "Deshabilitar LBRY",
         "proxyLBRY": "Vídeos de proxy LBRY",
-        "listen": "Solo audio"
+        "listen": "Solo audio",
+        "colorScheme": "Apariencia",
+        "bufferGoal": "Objetivo al almacenr en el búfer",
+        "showRelatedVideos": "Mostrar videos relacionados",
+        "showMarkers": "Mostrar los marcadores de SponsorBlock",
+        "clickbaitThumbnailAvoidance": "Reemplazar las miniaturas predeterminadas por otras generadas automáticamente",
+        "disableCommentsByDefault": "No mostrar los comentarios de forma predeterminada"
+    },
+    "channel_sharing_panel": {
+        "via_pm": "A través de Piped Material",
+        "via_yt": "A través de YouTube",
+        "title": "Compartir este canal",
+        "share": "Compartir"
+    },
+    "channel_tabs": {
+        "shorts": "Cortos",
+        "playlists": "Listas de reproducción",
+        "videos": "Vídeos",
+        "livestreams": "Retransmisiones en directo",
+        "channels": "Canales"
+    },
+    "search_results": {
+        "result_types": {
+            "all": "Todos los resultados",
+            "channels": "Canales",
+            "playlists": "Listas de reproducción",
+            "music_songs": "Canciones (YouTube Music)",
+            "music_videos": "Vídeos musicales (YouTube Music)",
+            "music_playlists": "Listas de reproducción (YouTube Music)",
+            "music_albums": "Álbumes (YouTube Music)",
+            "videos": "Vídeos normales"
+        },
+        "filterLabel": "Filtrar los resultados por tipo"
+    },
+    "playlists": {
+        "add_to_playlist": "Agregar a la lista de reproducción",
+        "confirm_addition": "Confirmar la incorporación",
+        "create_playlist": "Crear la lista de reproducción",
+        "playlist_field_name": "Nombre de la lista de reproducción",
+        "remove_video": "Eliminar este vídeo de la lista de reproducción",
+        "delete_self": "Borrar",
+        "new_name_msg": "¿Cuál quieres que sea el nuevo nombre?",
+        "rename_self": "Cambiar el nombre"
     }
 }
