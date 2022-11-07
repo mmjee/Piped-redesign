@@ -96,7 +96,11 @@
         "add_to_playlist": "زیادکردن بۆ لیستی ڤیدیۆکان",
         "confirm_addition": "دووپاتکردنەوەی زیادکردن",
         "create_playlist": "دروستکردنی لیستی ڤیدیۆکان",
-        "playlist_field_name": "ناوی لیستی ڤیدیۆکان"
+        "playlist_field_name": "ناوی لیستی ڤیدیۆکان",
+        "remove_video": "ئەم ڤیدیۆیە لە پلەی لیستەکە بسڕەوە",
+        "delete_self": "سڕینەوە",
+        "rename_self": "بگۆڕینی ناو",
+        "new_name_msg": "دەتەوێت ناوە نوێیەکە چی بێت؟"
     },
     "search_results": {
         "filterLabel": "ئەنجامەکان بەپێی جۆر پاڵێو بکە",
@@ -116,5 +120,12 @@
         "via_yt": "بەهۆی YouTube",
         "title": "هاوبەشکردنی ئەم کەناڵە",
         "share": "هاوبەشکردن"
+    },
+    "channel_tabs": {
+        "livestreams": "پەخشی ڕاستەوخۆ",
+        "shorts": "کورتە ڤیدیۆ",
+        "videos": "ڤیدیۆ",
+        "channels": "کەناڵەکان",
+        "playlists": "پلەی لیستەکان"
     }
 }
