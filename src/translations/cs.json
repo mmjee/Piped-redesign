@@ -120,5 +120,12 @@
         "share": "Sdílet",
         "via_pm": "Přes Piped Material",
         "via_yt": "Přes YouTube"
+    },
+    "channel_tabs": {
+        "shorts": "Shorts",
+        "videos": "Videa",
+        "channels": "Kanály",
+        "playlists": "Playlisty",
+        "livestreams": "Živé streamy"
     }
 }
