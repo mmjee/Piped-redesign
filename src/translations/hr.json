@@ -120,5 +120,12 @@
         "share": "Dijeli",
         "via_pm": "Putem Piped Material",
         "via_yt": "Putem YouTube"
+    },
+    "channel_tabs": {
+        "videos": "Videa",
+        "livestreams": "Prijenosi uživo",
+        "playlists": "Playliste",
+        "channels": "Kanali",
+        "shorts": "Kratka videa"
     }
 }
