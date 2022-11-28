@@ -52,7 +52,6 @@
         "auto": "Otomatis",
         "dark": "Gelap",
         "light": "Terang",
-        "buffering_goal": "Sasaran Buffering (dalam detik)",
         "minimize_description": "Kecilkan Deskripsi secara default",
         "enabled_codecs": "Kodek Aktif (Beberapa)",
         "unsubscribe": "Batalkan langganan",
@@ -81,7 +80,7 @@
         "disableLBRY": "Nonaktifkan LBRY",
         "proxyLBRY": "Proksi video LBRY",
         "playerAutoplay": "Mainkan Video Secara Otomatis",
-        "bufferGoal": "Sasaran Buffering",
+        "bufferGoal": "Jumlah detik data yang harus di-buffer",
         "listen": "Hanya Audio",
         "quality": "Kualitas Bawaan",
         "region": "Pemilihan Negara",
@@ -120,5 +119,12 @@
         "share": "Bagikan",
         "via_pm": "Melalui Piped Material",
         "via_yt": "Melalui YouTube"
+    },
+    "channel_tabs": {
+        "videos": "Video",
+        "livestreams": "Siaran Langsung",
+        "playlists": "Daftar Putar",
+        "channels": "Saluran",
+        "shorts": "Shorts"
     }
 }
