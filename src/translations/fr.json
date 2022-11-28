@@ -11,7 +11,6 @@
     "actions": {
         "subscribe": "S'abonner",
         "unsubscribe": "Se désabonner",
-        "buffering_goal": "Objectif de mise en mémoire tampon (en secondes)",
         "skip_non_music": "Musique : section non musicale",
         "skip_self_promo": "Promotion non rémunérée / autopromotion",
         "skip_interaction": "Rappels d'interaction (S'abonner)",
