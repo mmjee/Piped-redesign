@@ -31,7 +31,6 @@
         "auto": "Automatski",
         "dark": "Tamna",
         "light": "Svijetla",
-        "buffering_goal": "Cilj međuspremnika (u sekundama)",
         "minimize_description": "Standardno sakrij opis",
         "store_watch_history": "Spremi povijest gledanja",
         "instances_list": "Popis instanci",
