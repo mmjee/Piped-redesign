@@ -71,7 +71,7 @@
         "disableLBRY": "ناچالاککردنی LBRY",
         "proxyLBRY": "پەخشکردنی ڤیدیۆیەکانی LBRY",
         "playerAutoplay": "کارکردنی خۆکارانەی ڤیدیۆی",
-        "bufferGoal": "ئامانجی بەفەرکردن",
+        "bufferGoal": "بڕی چرکە کە دەبێت داتا بە بافەر بمێنێتەوە",
         "listen": "تەنها دەنگ",
         "quality": "کوالێتی بنەڕەت",
         "region": "هەڵبژاردەی وڵات",
@@ -81,7 +81,8 @@
         "showRelatedVideos": "نیشاندانی ڤیدیۆ پەیوەندیدارەکان",
         "showMarkers": "نیشانەکانی سپۆنسربلۆک پیشان بدە",
         "disableCommentsByDefault": "بە بنەڕەتی کۆمێنتەکان پیشان مەدە",
-        "colorScheme": "هێلکاری ڕەنگەکان"
+        "colorScheme": "هێلکاری ڕەنگەکان",
+        "homepageButton": "چالاککردنی دوگمەی سەرەتا"
     },
     "video_sharing_panel": {
         "share": "هاوبەشکردن",
