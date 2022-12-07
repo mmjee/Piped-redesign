@@ -91,7 +91,8 @@
         "showRelatedVideos": "Tampilkan Video Terkait",
         "showMarkers": "Tampilkan Penanda SponsorBlock",
         "disableCommentsByDefault": "Jangan tampilkan komentar secara bawaan",
-        "colorScheme": "Skema Warna"
+        "colorScheme": "Skema Warna",
+        "homepageButton": "Aktifkan Tombol Laman Beranda"
     },
     "counts": {
         "subscribers": "Tidak ada pelanggan | Satu pelanggan | {n} pelanggan",
