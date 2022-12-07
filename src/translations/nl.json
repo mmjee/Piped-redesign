@@ -1,0 +1,131 @@
+{
+    "preferences": {
+        "quality": "Standaard Kwaliteit",
+        "instance": "Instantie",
+        "homepageButton": "Knop Startpagina inschakelen",
+        "colorScheme": "Kleurenschema",
+        "feedColumns": "Aantal kolommen in feedpagina's",
+        "selectedSkip": "Segmenten om over te slaan",
+        "skipToLastPoint": "Ga naar het laatst bekeken punt wanneer u een reeds geziene video tegenkomt",
+        "playerAutoplay": "Video Automatisch Afspelen",
+        "bufferGoal": "Aantal seconden gegevens dat gebufferd moet worden gehouden",
+        "listen": "Alleen Audio",
+        "region": "Land Selectie",
+        "homepage": "Standaard Startpagina",
+        "clickbaitThumbnailAvoidance": "Standaard miniaturen vervangen door automatisch gegenereerde miniaturen",
+        "disableLBRY": "Schakel LBRY uit",
+        "proxyLBRY": "Proxy LBRY video's",
+        "disableCommentsByDefault": "Opmerkingen standaard niet weergeven",
+        "showRelatedVideos": "Toon gerelateerde video's",
+        "showMarkers": "Toon SponsorBlok-markeringen",
+        "sponsorblock": "Sponsorblok Inschakelen"
+    },
+    "titles": {
+        "trending": "Trending",
+        "register": "Registreren",
+        "history": "Kijk Geschiedenis",
+        "feed": "Feed",
+        "preferences": "Voorkeuren",
+        "homepage": "Startpagina",
+        "playlists": "Afspeellijsten"
+    },
+    "playlists": {
+        "add_to_playlist": "Toevoegen aan afspeellijst",
+        "confirm_addition": "Bevestig toevoeging",
+        "create_playlist": "Afspeellijst Maken",
+        "remove_video": "Verwijder deze video uit de afspeellijst",
+        "delete_self": "Verwijderen",
+        "rename_self": "Hernoemen",
+        "new_name_msg": "Wat wil je dat de nieuwe naam wordt?",
+        "playlist_field_name": "Naam Afspeellijst"
+    },
+    "misc": {
+        "watchedAgo": "Gekeken van {t} tot {p}",
+        "searchBarLabel": "Wat zoek je?",
+        "lastWatchedTill": "Laatst bekeken tot {t}"
+    },
+    "channel_tabs": {
+        "videos": "Video's",
+        "channels": "Kanalen",
+        "livestreams": "Livestreams",
+        "playlists": "Afspeellijsten",
+        "shorts": "Shorts"
+    },
+    "search_results": {
+        "filterLabel": "Filter de resultaten op type",
+        "result_types": {
+            "all": "Alle resultaten",
+            "music_songs": "Liedjes (YouTube Muziek)",
+            "music_videos": "Muziekvideo's (YouTube Muziek)",
+            "music_albums": "Albums (YouTube Muziek)",
+            "music_playlists": "Afspeellijsten (YouTube Muziek)",
+            "channels": "Kanalen",
+            "playlists": "Afspeellijsten",
+            "videos": "Gewone video's"
+        }
+    },
+    "channel_sharing_panel": {
+        "share": "Delen",
+        "via_yt": "Via YouTube",
+        "via_pm": "Via Piped Materiaal",
+        "title": "Deel dit kanaal"
+    },
+    "video_sharing_panel": {
+        "title": "Deel deze video",
+        "with_timestamps": "Met tijdstempels",
+        "via_pm": "Via Piped Materiaal",
+        "share": "Delen",
+        "without_timestamps": "Zonder tijdstempels",
+        "via_yt": "Via YouTube"
+    },
+    "actions": {
+        "loadComments": "Opmerkingen laden",
+        "logInSignUp": "Inloggen/Aanmelden",
+        "logOut": "Uitloggen",
+        "logOutFromAllDevices": "Uitloggen van alle apparaten",
+        "accounts": "Uw account",
+        "delAccountMessage": "Wilt u uw account verwijderen?",
+        "confirmPWToDelAcc": "Bevestig uw wachtwoord om uw account te verwijderen",
+        "loadReplies": "Laad antwoorden",
+        "hideReplies": "Verberg antwoorden",
+        "showReplies": "Toon antwoorden",
+        "subscribe": "Abonneren",
+        "unsubscribe": "Afmelden",
+        "view_subscriptions": "Abonnementen Bekijken",
+        "rss_of_subscriptions": "RSS van uw abonnementen",
+        "sort_by": "Sorteer op:",
+        "most_recent": "Meest Recente",
+        "least_recent": "Minst Recente",
+        "channel_name_asc": "Kanaalnaam (A-Z)",
+        "back": "Terug",
+        "uses_api_from": "Gebruikt de API van ",
+        "enable_sponsorblock": "Sponsorblok Inschakelen",
+        "skip_sponsors": "Sponsors",
+        "skip_intro": "Pauze/Intro-animatie",
+        "skip_outro": "Eindkaarten/Credits",
+        "skip_preview": "Voorbeschouwing/Samenvatting",
+        "skip_interaction": "Interactieherinnering (Abonneren)",
+        "skip_self_promo": "Onbetaalde/Zelfpromotie",
+        "skip_non_music": "Muziek: Niet-Muziek Sectie",
+        "skip_poi_highlights": "Hoogtepunten",
+        "skip_filler": "Vullers",
+        "theme": "Thema",
+        "auto": "Auto",
+        "light": "Licht",
+        "language_selection": "Taalkeuze",
+        "instances_list": "Instantieslijst",
+        "enabled_codecs": "Ingeschakelde Codecs (Meerdere)",
+        "minimize_description": "Beschrijving Standaard Minimaliseren",
+        "channel_name_desc": "Kanaalnaam (Z-A)",
+        "dark": "Donker",
+        "store_watch_history": "Kijkgeschiedenis Opslaan"
+    },
+    "errors": {
+        "trendingFetchError": "Kon geen trending video's ophalen. Controleer of uw land wordt ondersteund door YouTube"
+    },
+    "counts": {
+        "subscribers": "Geen abonnees | Eén abonnee | {n} abonnees",
+        "views": "Geen weergaven | Eén weergave | {n} weergaven",
+        "videos": "Geen video's | Eén video | {n} Video's"
+    }
+}
