@@ -89,7 +89,8 @@
         "showRelatedVideos": "Mostrar videos relacionados",
         "showMarkers": "Mostrar los marcadores de SponsorBlock",
         "clickbaitThumbnailAvoidance": "Reemplazar las miniaturas predeterminadas por otras generadas automáticamente",
-        "disableCommentsByDefault": "No mostrar los comentarios de forma predeterminada"
+        "disableCommentsByDefault": "No mostrar los comentarios de forma predeterminada",
+        "homepageButton": "Activar el botón de la página de inicio"
     },
     "channel_sharing_panel": {
         "via_pm": "A través de Piped Material",
