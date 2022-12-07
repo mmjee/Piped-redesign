@@ -17,7 +17,8 @@
         "proxyLBRY": "代理 LBRY 视频",
         "showRelatedVideos": "显示相关视频",
         "disableCommentsByDefault": "默认不显示评论",
-        "colorScheme": "配色方案"
+        "colorScheme": "配色方案",
+        "homepageButton": "开启主页按钮"
     },
     "titles": {
         "homepage": "主页",
