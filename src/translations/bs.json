@@ -1,0 +1,131 @@
+{
+    "errors": {
+        "trendingFetchError": "Nije moguće preuzeti videozapise u trendu. Provjerite podržava li YouTube vašu zemlju"
+    },
+    "playlists": {
+        "confirm_addition": "Potvrdite dodavanje",
+        "delete_self": "Izbriši",
+        "rename_self": "Preimenuj",
+        "add_to_playlist": "Dodajte u popis snimaka",
+        "create_playlist": "Stvorite popis snimaka",
+        "playlist_field_name": "Naziv popisa snimaka",
+        "remove_video": "Uklonite ovaj video iz popisa snimaka",
+        "new_name_msg": "Koje želite da bude novo ime?"
+    },
+    "actions": {
+        "rss_of_subscriptions": "RSS vaših pretplata",
+        "logInSignUp": "Prijavite se/Zapišite se",
+        "logOutFromAllDevices": "Odjavite se sa svih uređaja",
+        "accounts": "Vaš korisnički račun",
+        "delAccountMessage": "Želite li izbrisati svoj račun?",
+        "confirmPWToDelAcc": "Potvrdite svoju šifru da izbrišete svoj račun",
+        "loadReplies": "Učitajte odgovore",
+        "hideReplies": "Sakrijte odgovore",
+        "showReplies": "Prikažite odgovore",
+        "subscribe": "Pretplatite se",
+        "unsubscribe": "Otkažite pretplatu",
+        "view_subscriptions": "Prikažite Pretplate",
+        "most_recent": "Najnovije",
+        "least_recent": "Najstarije",
+        "channel_name_asc": "Naziv kanala (A-Ž)",
+        "channel_name_desc": "Naziv kanala (Ž-A)",
+        "back": "Nazad",
+        "enable_sponsorblock": "Omogućite Sponzorblok",
+        "skip_intro": "Prijelaz/Uvodna animacija",
+        "skip_outro": "Završne špice/Zasluge",
+        "skip_preview": "Pregled/Rekapitulacija",
+        "skip_interaction": "Podsjetnik za interakciju (zahtijeva pretplatu)",
+        "skip_self_promo": "Neplaćena/samopromocija",
+        "skip_non_music": "Muzika: Ne-muzička sekcija",
+        "skip_poi_highlights": "Sažeci",
+        "skip_filler": "Punila",
+        "theme": "Izgled",
+        "dark": "Mračno",
+        "store_watch_history": "Spremite historiju gledanja",
+        "instances_list": "Popis instancih",
+        "enabled_codecs": "Omogućeni kodeci (množina)",
+        "loadComments": "Učitaj komentare",
+        "sort_by": "Razvrstajte po:",
+        "logOut": "Odjavite se",
+        "uses_api_from": "Koristi API od ",
+        "auto": "Automatski",
+        "language_selection": "Izbor jezika",
+        "light": "Svjetlo",
+        "minimize_description": "Umanjite opis prema zadanim postavkama",
+        "skip_sponsors": "Sponzori"
+    },
+    "channel_tabs": {
+        "livestreams": "Prijenosi uživo",
+        "channels": "Kanali",
+        "videos": "Video zapisi",
+        "playlists": "Popisi Snimaka",
+        "shorts": "Kratki videozapisi"
+    },
+    "search_results": {
+        "result_types": {
+            "videos": "Obični video zapisi",
+            "music_songs": "Pjesme (YouTube Muzika)",
+            "all": "Svi rezultati",
+            "playlists": "Popisi Snimaka",
+            "music_videos": "Muzički spotovi (YouTube Muzika)",
+            "music_playlists": "Spisak pjesama (YouTube Muzika)",
+            "music_albums": "Albumi (YouTube Muzika)",
+            "channels": "Kanali"
+        },
+        "filterLabel": "Filtrirajte rezultate po vrsti"
+    },
+    "misc": {
+        "lastWatchedTill": "Posljednji put gledano do {t}",
+        "searchBarLabel": "Šta tražite?",
+        "watchedAgo": "Gledano od {t} do {p}"
+    },
+    "channel_sharing_panel": {
+        "title": "Podijelite ovaj kanal",
+        "via_yt": "Preko YouTube-a",
+        "share": "Podijelite",
+        "via_pm": "Preko Piped Materijala"
+    },
+    "titles": {
+        "register": "Registracija",
+        "feed": "Članak",
+        "preferences": "Podešavanja",
+        "playlists": "Popisi Snimaka",
+        "homepage": "Početna stranica",
+        "trending": "U trendu",
+        "history": "Historija pregleda"
+    },
+    "counts": {
+        "videos": "Bez videozapisa | Jedan video | {n} videozapisa",
+        "views": "Bez pregleda | Jedan pregled | {n} pregleda",
+        "subscribers": "Bez pretplatnika | Jedan pretplatnik | {n} pretplatnika"
+    },
+    "video_sharing_panel": {
+        "via_pm": "Preko Piped Materijala",
+        "via_yt": "Preko YouTube-a",
+        "title": "Podijelite ovaj video",
+        "share": "Podijelite",
+        "with_timestamps": "Sa vremenskim oznakama",
+        "without_timestamps": "Bez vremenskih oznaka"
+    },
+    "preferences": {
+        "colorScheme": "Šema Boja",
+        "feedColumns": "Broj kolona na stranicama članaka",
+        "sponsorblock": "Omogućite Sponzorblok",
+        "selectedSkip": "Segmenti za preskakanje",
+        "skipToLastPoint": "Preskočite na posljednju gledanu tačku kada naiđete na već viđeni video",
+        "playerAutoplay": "Automatski reproducirajte video",
+        "bufferGoal": "Količina podataka u sekundama koji se moraju čuvati u međuspremniku",
+        "listen": "Samo zvuk",
+        "quality": "Zadani kvalitet",
+        "region": "Izbor zemlje",
+        "homepageButton": "Omogući dugme za početnu stranicu",
+        "instance": "Instanca",
+        "disableCommentsByDefault": "Ne prikazuj komentare prema zadanim postavkama",
+        "showRelatedVideos": "Prikažite povezane videozapise",
+        "showMarkers": "Prikažite markere SponzorBloka",
+        "homepage": "Zadana početna stranica",
+        "clickbaitThumbnailAvoidance": "Zamijenite zadane sličice sa automatski generisanim",
+        "disableLBRY": "Onemogući LBRY",
+        "proxyLBRY": "Proksijski LBRY videozapisi"
+    }
+}
