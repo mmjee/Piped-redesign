@@ -1,10 +1,10 @@
 {
     "actions": {
-        "skip_outro": "Abspann überspringen",
-        "skip_non_music": "Musik überspringen: Nicht-Musik-Bereich",
-        "skip_self_promo": "Unbezahlte Werbung/Eigenwerbung überspringen",
-        "skip_interaction": "Interaktionserinnerung überspringen (Abonnieren)",
-        "skip_preview": "Vorschau/Recap überspringen",
+        "skip_outro": "Abspann",
+        "skip_non_music": "Musik: Nicht-Musik-Bereich",
+        "skip_self_promo": "Unbezahlte Werbung/Eigenwerbung",
+        "skip_interaction": "Interaktionserinnerung (Abonnieren)",
+        "skip_preview": "Vorschau/Recap",
         "instances_list": "Liste der Instanzen",
         "language_selection": "Sprachauswahl",
         "store_watch_history": "Wiedergabeverlauf speichern",
@@ -13,9 +13,9 @@
         "dark": "Dunkel",
         "auto": "Automatisch",
         "theme": "Design",
-        "skip_intro": "Pausen-/Einführungsanimation überspringen",
-        "skip_sponsors": "Sponsoren überspringen",
-        "enable_sponsorblock": "Sponsorblock einschalten",
+        "skip_intro": "Pausen-/Einführungsanimation",
+        "skip_sponsors": "Sponsoren",
+        "enable_sponsorblock": "SponsorBlok einschalten",
         "uses_api_from": "Verwendet die API von ",
         "back": "Zurück",
         "channel_name_desc": "Kanalname (Z-A)",
@@ -32,7 +32,14 @@
         "logOut": "Ausloggen",
         "hideReplies": "Antworten verstecken",
         "showReplies": "Antworten anzeigen",
-        "loadReplies": "Antworten laden"
+        "loadReplies": "Antworten laden",
+        "logOutFromAllDevices": "Melden Sie sich von allen Geräten ab",
+        "accounts": "Ihr Konto",
+        "delAccountMessage": "Möchten Sie Ihr Konto löschen?",
+        "skip_poi_highlights": "Höhepunkte",
+        "skip_filler": "Füllstoffe",
+        "loadComments": "Kommentare laden",
+        "confirmPWToDelAcc": "Bestätigen Sie Ihr Passwort, um Ihr Konto zu löschen"
     },
     "titles": {
         "history": "Verlauf",
@@ -51,15 +58,21 @@
         "playerAutoplay": "Video automatisch abspielen",
         "skipToLastPoint": "Bei der Wiedergabe eines bereits gesehenen Videos zum letzten angesehenen Punkt springen",
         "feedColumns": "Anzahl der Spalten auf Feed-Seiten",
-        "sponsorblock": "SponsorBlock aktivieren",
+        "sponsorblock": "SponsorBlok aktivieren",
         "disableLBRY": "LBRY deaktivieren",
         "instance": "Instanz",
         "proxyLBRY": "LBRY-Videos durch einen Proxy leiten",
-        "bufferGoal": "Pufferziel",
-        "selectedSkip": "Überspringe Segmente"
+        "bufferGoal": "Anzahl der Sekunden der Daten, die zwischengespeichert werden müssen",
+        "selectedSkip": "Überspringe Segmente",
+        "clickbaitThumbnailAvoidance": "Ersetzen Sie die Standard-Miniaturbilder durch automatisch generierte Bilder",
+        "colorScheme": "Farbschema",
+        "disableCommentsByDefault": "Kommentare standardmäßig nicht anzeigen",
+        "showRelatedVideos": "Verwandte Videos anzeigen",
+        "showMarkers": "SponsorBlok-Markierungen anzeigen",
+        "homepageButton": "Startseite-Button aktivieren"
     },
     "counts": {
-        "videos": "Keine Videos | Ein Video | {count} Videos",
+        "videos": "Keine Videos | Ein Video | {n} Videos",
         "views": "Keine Aufrufe | Ein Aufruf | {n} Aufrufe",
         "subscribers": "Keine Abonnent:innen | Ein:e Abonnent:in | {n} Abonnent:innen"
     },
@@ -83,6 +96,36 @@
         "add_to_playlist": "Zu einer Playlist hinzufügen",
         "confirm_addition": "Hinzufügen bestätigen",
         "create_playlist": "Playlist erstellen",
-        "playlist_field_name": "Playlist Name"
+        "playlist_field_name": "Playlist Name",
+        "remove_video": "Dieses Video aus der Wiedergabeliste entfernen",
+        "delete_self": "Löschen",
+        "new_name_msg": "Wie soll der neue Name lauten?",
+        "rename_self": "Umbenennen"
+    },
+    "channel_tabs": {
+        "livestreams": "Livestreams",
+        "playlists": "Wiedergabelisten",
+        "channels": "Kanäle",
+        "shorts": "Shorts",
+        "videos": "Videos"
+    },
+    "search_results": {
+        "filterLabel": "Ergebnisse nach Typ filtern",
+        "result_types": {
+            "all": "Alle Ergebnisse",
+            "videos": "Gewöhnliche Videos",
+            "channels": "Kanäle",
+            "playlists": "Wiedergabelisten",
+            "music_songs": "Lieder (YouTube Musik)",
+            "music_videos": "Musikvideos (YouTube Musik)",
+            "music_playlists": "Wiedergabelisten (YouTube Musik)",
+            "music_albums": "Alben (YouTube Musik)"
+        }
+    },
+    "channel_sharing_panel": {
+        "via_pm": "Über Piped Material",
+        "via_yt": "Über YouTube",
+        "title": "Diesen Kanal teilen",
+        "share": "Teilen"
     }
 }
