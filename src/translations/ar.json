@@ -71,7 +71,7 @@
         "disableLBRY": "تعطيل LBRY",
         "proxyLBRY": "توكيل فيديوات LBRY",
         "playerAutoplay": "التشغيل التلقائي للفيديو",
-        "bufferGoal": "هدف التخزين المؤقت",
+        "bufferGoal": "مقدار الثواني التي يجب فيها حفظ البيانات مؤقتًا",
         "listen": "الصوت فقط",
         "quality": "الجودة الافتراضية",
         "region": "اختيار البلد",
@@ -81,7 +81,8 @@
         "showRelatedVideos": "عرض مقاطع الفيديو ذات الصلة",
         "showMarkers": "إظهار علامات Sponsorblock",
         "disableCommentsByDefault": "عدم عرض التعليقات بشكل افتراضي",
-        "colorScheme": "نظام الألوان"
+        "colorScheme": "نظام الألوان",
+        "homepageButton": "تمكين زر الصفحة الرئيسية"
     },
     "video_sharing_panel": {
         "share": "مشاركة",
