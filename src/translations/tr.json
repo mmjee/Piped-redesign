@@ -68,7 +68,8 @@
         "showRelatedVideos": "İlgili Videoları Göster",
         "showMarkers": "SponsorBlock İşaretlerini Göster",
         "disableCommentsByDefault": "Yorumları öntanımlı olarak gösterme",
-        "colorScheme": "Renk Düzeni"
+        "colorScheme": "Renk Düzeni",
+        "homepageButton": "Ana Sayfa Düğmesini Etkinleştir"
     },
     "counts": {
         "videos": "Video yok | Bir Video | {n} Video",
