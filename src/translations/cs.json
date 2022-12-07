@@ -89,7 +89,8 @@
         "showRelatedVideos": "Zobrazit podobná videa",
         "showMarkers": "Zobrazit značky SponsorBlock",
         "disableCommentsByDefault": "Ve výchozím nastavení nezobrazovat komentáře",
-        "colorScheme": "Barevné schéma"
+        "colorScheme": "Barevné schéma",
+        "homepageButton": "Povolit tlačítko domovské stránky"
     },
     "playlists": {
         "add_to_playlist": "Přidat do playlistu",
