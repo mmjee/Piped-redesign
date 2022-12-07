@@ -1,131 +1,131 @@
 {
-  "titles": {
-    "homepage": "Homepage",
-    "trending": "জনপ্রিয় video",
-    "register": "একাউন্ট বানাবেন?",
-    "feed": "আপনার feed",
-    "preferences": "পছন্দ অনুযায়ী মানিয়ে নিন",
-    "history": "দেখার ইতিহাস",
-    "playlists": "videoএর তালিকা"
-  },
-  "counts": {
-    "subscribers": "কেউ এই channel এর সদস্যতা নায়নি | একজন মাত্র এই channel এর সদস্যতা নিয়েছেন | {n} জন সদস্যতা নিয়েছেন",
-    "videos": "কোনো video নেই | একটা video | {n}টি video প্রকাশন করেছেন ইনি",
-    "views": "কেউ দেখে নি এখন পর্যন্ত | একবার মাত্র দেখা হয়েছে এই videoটি কে | {n} বার দেখা হয়েছে এই videoটি কে"
-  },
-  "errors": {
-    "trendingFetchError": "জনপ্রিয় video খুঁজে পাওয়া যায়নি। দেখুন আপনার নির্বাচিত দেশ কে ইউটুবে সাপোর্ট করে কি না।"
-  },
-  "playlists": {
-    "add_to_playlist": "video টি কি তালিকা তে যোগ করবেন?",
-    "confirm_addition": "ঠিক তো?",
-    "create_playlist": "নতুন তালিকা বানাবেন?",
-    "playlist_field_name": "তালিকার নাম",
-    "remove_video": "আপনি কি এই videoটি এই তালিকা থেকে বাদ দিতে চান?",
-    "delete_self": "আপনি কি এই তালিকা কে মুছে দিতে চান?",
-    "rename_self": "আপনি কি এই তালিকা কে নতুন নাম দিতে চান?",
-    "new_name_msg": "তালিকার নতুন নাম কি হবে?"
-  },
-  "misc": {
-    "searchBarLabel": "কি সন্ধান করছেন বলুন?",
-    "lastWatchedTill": "আপনি {t} পর্যন্ত দেখেছিলেন",
-    "watchedAgo": "{t} দেখেছিলেন এই videoটি {p} অব্দি"
-  },
-  "channel_sharing_panel": {
-    "title": "এই channelটি অন্নদের দেখানোর জন্যে এই URL গুলি ব্যবহার করতে পারেন আপনি।",
-    "share": "অন্নদের এই channelটি দেখাতে চান?",
-    "via_pm": "Piped Materialএর দ্বারা –",
-    "via_yt": "YouTubeএর দ্বারা –"
-  },
-  "video_sharing_panel": {
-    "title": "এই videoটি অন্নদের দেখানর জন্যে এই URL গুলি ব্যবহার করতে পারেন আপনি।",
-    "share": "অন্নদের এটা দেখাতে ছান?",
-    "with_timestamps": "বর্তমান সমাই সমেত।",
-    "without_timestamps": "বর্তমান সমাই ছারা।",
-    "via_pm": "Piped Materialএর দ্বারা –",
-    "via_yt": "YouTubeএর দ্বারা –"
-  },
-  "actions": {
-    "loadComments": "মন্তব্য খুঁজে আনব?",
-    "logInSignUp": "বর্তমান account (নথি) এর ব্যবহার বা নতুন একাউন্ট খোলা",
-    "logOut": "একাউন্টএর থেকে প্রস্থান",
-    "loadReplies": "মন্তব্য - খুঁজে আনবো?",
-    "hideReplies": "মন্তব্য - লোকাবো?",
-    "showReplies": "মন্তব্য - দেখাবো?",
-    "subscribe": "সদস্যতা নেবেন?",
-    "unsubscribe": "সদস্যতা পরিত্যাগ করবেন?",
-    "view_subscriptions": "channel এ সদস্যতার তালিকা",
-    "rss_of_subscriptions": "আপনি যে যে channel এ সদস্যতা নিয়েছেন তাদের RSS ফিড",
-    "sort_by": "কোন ক্রমানুযায়ী video গুলো আসবে ",
-    "most_recent": "সবচেয়ে নতুন আগে",
-    "least_recent": "সবচেয়ে পুরোনো আগে",
-    "channel_name_asc": "চ্যানেলের নাম অনুসারে (A-Z)",
-    "channel_name_desc": "চ্যানেলের নাম অনুসারে (Z-A)",
-    "back": "ফেরত যাবেন?",
-    "uses_api_from": "এই পরিষেবাটি ব্যবহার করে : ",
-    "enable_sponsorblock": "আপনি কি SponsorBlock সক্রিয় করতে চান ?",
-    "skip_sponsors": "Sponsor করা অংশ",
-    "skip_intro": "সূচনা এবং সাময়িক বিরতি",
-    "skip_outro": "কৃতিত্ব তালিকা (Credits)",
-    "skip_preview": "পূর্বদৃশ্য/আগের পর্বের সংক্ষিপ্তসার",
-    "skip_interaction": "Interaction Reminder (Subscribe)",
-    "skip_self_promo": "আত্মসম্প্রচার",
-    "skip_non_music": "গানের মধ্যে গানহীন অংশ",
-    "skip_poi_highlights": "উজ্জ্বলতম অংশসমুহ (Highlights)",
-    "skip_filler": "Filler অংশগুলি",
-    "theme": "থিম",
-    "auto": "আপনার কম্পিউটার অনুযায়ী ।",
-    "dark": "কৃষ্ণাভ ।",
-    "light": "উজ্জ্বল ।",
-    "minimize_description": "আপনি কি স্বাভাবিক ভাবে বিবরণটিকে সংক্ষিপ্ত রাখতে চান ?",
-    "store_watch_history": "আপনি কি দেখার ইতিহাস মজুত রাখতে চান?",
-    "language_selection": "আপনি কোন ভাষায় দেখতে চান ?",
-    "instances_list": "এই প্রতিনিধির তালিকা",
-    "enabled_codecs": "Enabled Codecs (Multiple)",
-    "accounts": "আপনার account (নথি)",
-    "delAccountMessage": "আপনি কি আপনার account (নথি) কে মুছে ফেলতে চান?",
-    "logOutFromAllDevices": "সব যন্ত্র থেকে কি আপনি প্রস্থান করতে চান?",
-    "confirmPWToDelAcc": "আপনার account মোছার জন্যে আপনার password টা আরেকবার দিন"
-  },
-  "preferences": {
-    "colorScheme": "কি রঙে আপনি দেখতে চান",
-    "feedColumns": "কোনো পেজ এ কটা করে স্তম্ভ থাকবে?",
-    "sponsorblock": "আপনি কি SponsorBlock সক্রিয় করতে চান ?",
-    "selectedSkip": "কি কি ধরনের videoর অংশ এড়িয়ে যেতে চান আপনি ?",
-    "skipToLastPoint": "পুরোনো video দেখার সময় আগে যতটা অব্দি দেখেছিলেন সেখানে চলে যাওয়া উচিত?",
-    "disableLBRY": "যে video গুলি LBRY তে আছে সেগুলো কি সেখান থেকেই সরাসরি চালানো উচিত নয় ?",
-    "proxyLBRY": "LBRY থেকে যে video গুলি কে চালানো হচ্ছে সেগুলো কি আমাদের প্রতিনিধি দ্বারা চালানো হবে ?",
-    "playerAutoplay": "video নিজে থেকে চলবে কি না",
-    "listen": "শুধু আওয়াজ শুনবেন কি না",
-    "quality": "এই উৎকর্ষের videoটি লোড করা হবে যদি না আপনি অন্য কোনো পছন্দ করেন । ",
-    "region": "ইউটিউব ভাববে যে আপনি এই জায়গা তে আছেন",
-    "homepage": "website খোলার পর গতানুগতিক কি দেখবেন",
-    "homepageButton": "আপনি কি গোড়া তে ফিরে জাওয়ার জন্য আরেকটা বোতাম চান?",
-    "instance": "আমাদের প্রতিনিধি যে ইউটিউব এর সঙ্গে সব যোগাযোগ এর নিয়ন্ত্রণ আর দেখাশোনা করবে",
-    "clickbaitThumbnailAvoidance": "videoএর যে thumbnail আছে সেটা কি একতা স্বয়ংক্রিয়ভাবে বানানো thumbnail দিয়ে প্রতিস্থাপন করে দেব?",
-    "showRelatedVideos": "আপনি কি videoর সঙ্গে অন্ন সম্পর্কিত বা প্রস্তাবিত video দেখতে চান?",
-    "showMarkers": "আপনি কি বিজ্ঞাপনের (ও অন্য বিভ্রান্তিকর জিনিসের) চিহ্নিতকারী দেখতে চান?",
-    "bufferGoal": "Buffering Goal",
-    "disableCommentsByDefault": "মন্তব্য দেখানোর জন্য আপনার অনুমতি কি চাওয়া উচিত?"
-  },
-  "search_results": {
-    "filterLabel": "ফলাফলগুলিকে পরিস্রুত করার জন্য উপলব্ধ বিকল্প",
-    "result_types": {
-      "all": "সব ধরনের ফলাফল",
-      "videos": "সাধারণ video",
-      "channels": "সুধু channel",
-      "playlists": "সুধু videoএর তালিকা",
-      "music_songs": "সুধু গান (YouTube Music থেকে)",
-      "music_videos": "সুধু গানের video (YouTube Music)",
-      "music_albums": "সুধু গানের পঞ্জি (album) (YouTube Music থেকে)",
-      "music_playlists": "সুধু গানের তালিকা (YouTube Music থেকে)"
+    "titles": {
+        "homepage": "Homepage",
+        "trending": "জনপ্রিয় video",
+        "register": "একাউন্ট বানাবেন?",
+        "feed": "আপনার feed",
+        "preferences": "পছন্দ অনুযায়ী মানিয়ে নিন",
+        "history": "দেখার ইতিহাস",
+        "playlists": "videoএর তালিকা"
+    },
+    "counts": {
+        "subscribers": "কেউ এই channel এর সদস্যতা নায়নি | একজন মাত্র এই channel এর সদস্যতা নিয়েছেন | {n} জন সদস্যতা নিয়েছেন",
+        "videos": "কোনো video নেই | একটা video | {n}টি video প্রকাশন করেছেন ইনি",
+        "views": "কেউ দেখে নি এখন পর্যন্ত | একবার মাত্র দেখা হয়েছে এই videoটি কে | {n} বার দেখা হয়েছে এই videoটি কে"
+    },
+    "errors": {
+        "trendingFetchError": "জনপ্রিয় video খুঁজে পাওয়া যায়নি। দেখুন আপনার নির্বাচিত দেশ কে ইউটুবে সাপোর্ট করে কি না।"
+    },
+    "playlists": {
+        "add_to_playlist": "video টি কি তালিকা তে যোগ করবেন?",
+        "confirm_addition": "ঠিক তো?",
+        "create_playlist": "নতুন তালিকা বানাবেন?",
+        "playlist_field_name": "তালিকার নাম",
+        "remove_video": "আপনি কি এই videoটি এই তালিকা থেকে বাদ দিতে চান?",
+        "delete_self": "আপনি কি এই তালিকা কে মুছে দিতে চান?",
+        "rename_self": "আপনি কি এই তালিকা কে নতুন নাম দিতে চান?",
+        "new_name_msg": "তালিকার নতুন নাম কি হবে?"
+    },
+    "misc": {
+        "searchBarLabel": "কি সন্ধান করছেন বলুন?",
+        "lastWatchedTill": "আপনি {t} পর্যন্ত দেখেছিলেন",
+        "watchedAgo": "{t} দেখেছিলেন এই videoটি {p} অব্দি"
+    },
+    "channel_sharing_panel": {
+        "title": "এই channelটি অন্নদের দেখানোর জন্যে এই URL গুলি ব্যবহার করতে পারেন আপনি।",
+        "share": "অন্নদের এই channelটি দেখাতে চান?",
+        "via_pm": "Piped Materialএর দ্বারা –",
+        "via_yt": "YouTubeএর দ্বারা –"
+    },
+    "video_sharing_panel": {
+        "title": "এই videoটি অন্নদের দেখানর জন্যে এই URL গুলি ব্যবহার করতে পারেন আপনি।",
+        "share": "অন্নদের এটা দেখাতে ছান?",
+        "with_timestamps": "বর্তমান সমাই সমেত।",
+        "without_timestamps": "বর্তমান সমাই ছারা।",
+        "via_pm": "Piped Materialএর দ্বারা –",
+        "via_yt": "YouTubeএর দ্বারা –"
+    },
+    "actions": {
+        "loadComments": "মন্তব্য খুঁজে আনব?",
+        "logInSignUp": "বর্তমান account (নথি) এর ব্যবহার বা নতুন একাউন্ট খোলা",
+        "logOut": "একাউন্টএর থেকে প্রস্থান",
+        "loadReplies": "মন্তব্য - খুঁজে আনবো?",
+        "hideReplies": "মন্তব্য - লোকাবো?",
+        "showReplies": "মন্তব্য - দেখাবো?",
+        "subscribe": "সদস্যতা নেবেন?",
+        "unsubscribe": "সদস্যতা পরিত্যাগ করবেন?",
+        "view_subscriptions": "channel এ সদস্যতার তালিকা",
+        "rss_of_subscriptions": "আপনি যে যে channel এ সদস্যতা নিয়েছেন তাদের RSS ফিড",
+        "sort_by": "কোন ক্রমানুযায়ী video গুলো আসবে ",
+        "most_recent": "সবচেয়ে নতুন আগে",
+        "least_recent": "সবচেয়ে পুরোনো আগে",
+        "channel_name_asc": "চ্যানেলের নাম অনুসারে (A-Z)",
+        "channel_name_desc": "চ্যানেলের নাম অনুসারে (Z-A)",
+        "back": "ফেরত যাবেন?",
+        "uses_api_from": "এই পরিষেবাটি ব্যবহার করে : ",
+        "enable_sponsorblock": "আপনি কি SponsorBlock সক্রিয় করতে চান ?",
+        "skip_sponsors": "Sponsor করা অংশ",
+        "skip_intro": "সূচনা এবং সাময়িক বিরতি",
+        "skip_outro": "কৃতিত্ব তালিকা (Credits)",
+        "skip_preview": "পূর্বদৃশ্য/আগের পর্বের সংক্ষিপ্তসার",
+        "skip_interaction": "Interaction Reminder (Subscribe)",
+        "skip_self_promo": "আত্মসম্প্রচার",
+        "skip_non_music": "গানের মধ্যে গানহীন অংশ",
+        "skip_poi_highlights": "উজ্জ্বলতম অংশসমুহ (Highlights)",
+        "skip_filler": "Filler অংশগুলি",
+        "theme": "থিম",
+        "auto": "আপনার কম্পিউটার অনুযায়ী ।",
+        "dark": "কৃষ্ণাভ ।",
+        "light": "উজ্জ্বল ।",
+        "minimize_description": "আপনি কি স্বাভাবিক ভাবে বিবরণটিকে সংক্ষিপ্ত রাখতে চান ?",
+        "store_watch_history": "আপনি কি দেখার ইতিহাস মজুত রাখতে চান?",
+        "language_selection": "আপনি কোন ভাষায় দেখতে চান ?",
+        "instances_list": "এই প্রতিনিধির তালিকা",
+        "enabled_codecs": "Enabled Codecs (Multiple)",
+        "accounts": "আপনার account (নথি)",
+        "delAccountMessage": "আপনি কি আপনার account (নথি) কে মুছে ফেলতে চান?",
+        "logOutFromAllDevices": "সব যন্ত্র থেকে কি আপনি প্রস্থান করতে চান?",
+        "confirmPWToDelAcc": "আপনার account মোছার জন্যে আপনার password টা আরেকবার দিন"
+    },
+    "preferences": {
+        "colorScheme": "কি রঙে আপনি দেখতে চান",
+        "feedColumns": "কোনো পেজ এ কটা করে স্তম্ভ থাকবে?",
+        "sponsorblock": "আপনি কি SponsorBlock সক্রিয় করতে চান ?",
+        "selectedSkip": "কি কি ধরনের videoর অংশ এড়িয়ে যেতে চান আপনি ?",
+        "skipToLastPoint": "পুরোনো video দেখার সময় আগে যতটা অব্দি দেখেছিলেন সেখানে চলে যাওয়া উচিত?",
+        "disableLBRY": "যে video গুলি LBRY তে আছে সেগুলো কি সেখান থেকেই সরাসরি চালানো উচিত নয় ?",
+        "proxyLBRY": "LBRY থেকে যে video গুলি কে চালানো হচ্ছে সেগুলো কি আমাদের প্রতিনিধি দ্বারা চালানো হবে ?",
+        "playerAutoplay": "video নিজে থেকে চলবে কি না",
+        "listen": "শুধু আওয়াজ শুনবেন কি না",
+        "quality": "এই উৎকর্ষের videoটি লোড করা হবে যদি না আপনি অন্য কোনো পছন্দ করেন । ",
+        "region": "ইউটিউব ভাববে যে আপনি এই জায়গা তে আছেন",
+        "homepage": "website খোলার পর গতানুগতিক কি দেখবেন",
+        "homepageButton": "আপনি কি গোড়া তে ফিরে জাওয়ার জন্য আরেকটা বোতাম চান?",
+        "instance": "আমাদের প্রতিনিধি যে ইউটিউব এর সঙ্গে সব যোগাযোগ এর নিয়ন্ত্রণ আর দেখাশোনা করবে",
+        "clickbaitThumbnailAvoidance": "videoএর যে thumbnail আছে সেটা কি একতা স্বয়ংক্রিয়ভাবে বানানো thumbnail দিয়ে প্রতিস্থাপন করে দেব?",
+        "showRelatedVideos": "আপনি কি videoর সঙ্গে অন্ন সম্পর্কিত বা প্রস্তাবিত video দেখতে চান?",
+        "showMarkers": "আপনি কি বিজ্ঞাপনের (ও অন্য বিভ্রান্তিকর জিনিসের) চিহ্নিতকারী দেখতে চান?",
+        "bufferGoal": "কত সেকেন্ড এর data এনে রাখব যাতে আপানাকে অপেক্ষা না করতে হয়?",
+        "disableCommentsByDefault": "মন্তব্য দেখানোর জন্য আপনার অনুমতি কি চাওয়া উচিত?"
+    },
+    "search_results": {
+        "filterLabel": "ফলাফলগুলিকে পরিস্রুত করার জন্য উপলব্ধ বিকল্প",
+        "result_types": {
+            "all": "সব ধরনের ফলাফল",
+            "videos": "সাধারণ video",
+            "channels": "সুধু channel",
+            "playlists": "সুধু videoএর তালিকা",
+            "music_songs": "সুধু গান (YouTube Music থেকে)",
+            "music_videos": "সুধু গানের video (YouTube Music)",
+            "music_albums": "সুধু গানের পঞ্জি (album) (YouTube Music থেকে)",
+            "music_playlists": "সুধু গানের তালিকা (YouTube Music থেকে)"
+        }
+    },
+    "channel_tabs": {
+        "playlists": "videoএর তালিকা",
+        "shorts": "ছোট video",
+        "videos": "সাধারণ video",
+        "livestreams": "সরাসরি সম্প্রচারিত video",
+        "channels": "অন্যান্য channel"
     }
-  },
-  "channel_tabs": {
-    "playlists": "videoএর তালিকা",
-    "shorts": "ছোট video",
-    "videos": "সাধারণ video",
-    "livestreams": "সরাসরি সম্প্রচারিত video",
-    "channels": "অন্যান্য channel"
-  }
 }
