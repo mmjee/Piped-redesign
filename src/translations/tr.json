@@ -39,7 +39,8 @@
         "accounts": "Hesabınız",
         "confirmPWToDelAcc": "Hesabınızı silmek için parolanızı doğrulayın",
         "logOutFromAllDevices": "Tüm aygıtlarda oturumu kapat",
-        "delAccountMessage": "Hesabınızı silmek istiyor musunuz?"
+        "delAccountMessage": "Hesabınızı silmek istiyor musunuz?",
+        "enable_dark_mode": "Koyu Modu Etkinleştir"
     },
     "titles": {
         "history": "Geçmiş",
@@ -127,5 +128,12 @@
         "playlists": "Oynatma listeleri",
         "livestreams": "Canlı yayınlar",
         "shorts": "Kısa videolar"
+    },
+    "auth_dialog": {
+        "title": "Kimlik Doğrulama",
+        "username": "Kullanıcı Adı",
+        "log_in": "Oturum Aç",
+        "sign_up": "Kaydol",
+        "password": "Parola"
     }
 }
