@@ -69,7 +69,8 @@
         "logOutFromAllDevices": "Odhlásit se ze všech zařízení",
         "delAccountMessage": "Chcete odstranit svůj účet?",
         "confirmPWToDelAcc": "Potvrďte své heslo pro odstranění účtu",
-        "accounts": "Váš účet"
+        "accounts": "Váš účet",
+        "enable_dark_mode": "Povolit tmavý režim"
     },
     "preferences": {
         "feedColumns": "Počet sloupců ve stránce kanálu",
@@ -127,5 +128,12 @@
         "channels": "Kanály",
         "playlists": "Playlisty",
         "livestreams": "Živé streamy"
+    },
+    "auth_dialog": {
+        "title": "Ověřování",
+        "password": "Heslo",
+        "sign_up": "Registrace",
+        "username": "Uživatelské jméno",
+        "log_in": "Přihlásit se"
     }
 }
