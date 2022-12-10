@@ -74,7 +74,8 @@
         "logOutFromAllDevices": "从所有设备退出登录",
         "accounts": "你的账户",
         "delAccountMessage": "你想删除账户吗？",
-        "confirmPWToDelAcc": "确认密码删除账户"
+        "confirmPWToDelAcc": "确认密码删除账户",
+        "enable_dark_mode": "启用深色模式"
     },
     "errors": {
         "trendingFetchError": "无法获取热门视频。请检查您所在的国家/地区是否受 YouTube 支持"
@@ -127,5 +128,12 @@
         "videos": "视频",
         "livestreams": "直播",
         "shorts": "短视频"
+    },
+    "auth_dialog": {
+        "title": "身份验证",
+        "username": "用户名",
+        "password": "密码",
+        "log_in": "登录",
+        "sign_up": "注册"
     }
 }
