@@ -39,7 +39,8 @@
         "skip_poi_highlights": "Höhepunkte",
         "skip_filler": "Füllstoffe",
         "loadComments": "Kommentare laden",
-        "confirmPWToDelAcc": "Bestätigen Sie Ihr Passwort, um Ihr Konto zu löschen"
+        "confirmPWToDelAcc": "Bestätigen Sie Ihr Passwort, um Ihr Konto zu löschen",
+        "enable_dark_mode": "Dunkelmodus aktivieren"
     },
     "titles": {
         "history": "Verlauf",
@@ -127,5 +128,12 @@
         "via_yt": "Über YouTube",
         "title": "Diesen Kanal teilen",
         "share": "Teilen"
+    },
+    "auth_dialog": {
+        "log_in": "Einloggen",
+        "title": "Authentifizierung",
+        "username": "Nutzername",
+        "password": "Passwort",
+        "sign_up": "Anmelden"
     }
 }
