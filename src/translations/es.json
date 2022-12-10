@@ -61,7 +61,8 @@
         "accounts": "Tu cuenta",
         "skip_poi_highlights": "Destacados",
         "loadComments": "Cargar comentarios",
-        "skip_filler": "Rellenos"
+        "skip_filler": "Rellenos",
+        "enable_dark_mode": "Habilitar el Modo Oscuro"
     },
     "counts": {
         "videos": "No hay videos | Un video | {n} Videos",
@@ -127,5 +128,12 @@
         "delete_self": "Borrar",
         "new_name_msg": "¿Cuál quieres que sea el nuevo nombre?",
         "rename_self": "Cambiar el nombre"
+    },
+    "auth_dialog": {
+        "title": "Autentificación",
+        "username": "Nombre de usuario",
+        "password": "Contraseña",
+        "log_in": "Iniciar sesión",
+        "sign_up": "Regístrate"
     }
 }
