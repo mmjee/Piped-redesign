@@ -39,7 +39,8 @@
         "logOutFromAllDevices": "Odjavite se sa svih uređaja",
         "confirmPWToDelAcc": "Potvrdite lozinku da biste izbrisali račun",
         "delAccountMessage": "Želite li izbrisati svoj račun?",
-        "accounts": "Vaš korisnički račun"
+        "accounts": "Vaš korisnički račun",
+        "enable_dark_mode": "Omogućite Mračni Saštimak"
     },
     "preferences": {
         "sponsorblock": "Omogućite Sponzorblok",
@@ -127,5 +128,12 @@
         "playlists": "Popisi za reproduciranje",
         "channels": "Kanali",
         "shorts": "Kratki videozapisi"
+    },
+    "auth_dialog": {
+        "password": "Zaporka",
+        "log_in": "Prijaviti se",
+        "username": "Korisničko ime",
+        "title": "Autentifikacija",
+        "sign_up": "Upišite se"
     }
 }
