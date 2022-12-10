@@ -71,7 +71,8 @@
         "logOutFromAllDevices": "Keluarkan dari semua perangkat",
         "accounts": "Akun Anda",
         "delAccountMessage": "Apakah Anda ingin menghapus akun Anda?",
-        "confirmPWToDelAcc": "Konfirmasi kata sandi Anda untuk menghapus akun Anda"
+        "confirmPWToDelAcc": "Konfirmasi kata sandi Anda untuk menghapus akun Anda",
+        "enable_dark_mode": "Aktifkan Mode Gelap"
     },
     "preferences": {
         "feedColumns": "Jumlah Kolom di Laman Umpan",
@@ -127,5 +128,12 @@
         "playlists": "Daftar Putar",
         "channels": "Saluran",
         "shorts": "Shorts"
+    },
+    "auth_dialog": {
+        "password": "Kata Sandi",
+        "log_in": "Masuk",
+        "sign_up": "Daftar",
+        "username": "Nama Pengguna",
+        "title": "Otentikasi"
     }
 }
