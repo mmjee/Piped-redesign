@@ -52,7 +52,8 @@
         "language_selection": "Izbor jezika",
         "light": "Svjetlo",
         "minimize_description": "Umanjite opis prema zadanim postavkama",
-        "skip_sponsors": "Sponzori"
+        "skip_sponsors": "Sponzori",
+        "enable_dark_mode": "Omogućite Mračni Saštimak"
     },
     "channel_tabs": {
         "livestreams": "Prijenosi uživo",
@@ -127,5 +128,12 @@
         "clickbaitThumbnailAvoidance": "Zamijenite zadane sličice sa automatski generisanim",
         "disableLBRY": "Onemogući LBRY",
         "proxyLBRY": "Proksijski LBRY videozapisi"
+    },
+    "auth_dialog": {
+        "username": "Korisničko ime",
+        "password": "Šifra",
+        "title": "Autentifikacija",
+        "log_in": "Prijavite se",
+        "sign_up": "Upišite se"
     }
 }
