@@ -118,7 +118,8 @@
         "minimize_description": "Beschrijving Standaard Minimaliseren",
         "channel_name_desc": "Kanaalnaam (Z-A)",
         "dark": "Donker",
-        "store_watch_history": "Kijkgeschiedenis Opslaan"
+        "store_watch_history": "Kijkgeschiedenis Opslaan",
+        "enable_dark_mode": "Donkere modus inschakelen"
     },
     "errors": {
         "trendingFetchError": "Kon geen trending video's ophalen. Controleer of uw land wordt ondersteund door YouTube"
@@ -127,5 +128,12 @@
         "subscribers": "Geen abonnees | Eén abonnee | {n} abonnees",
         "views": "Geen weergaven | Eén weergave | {n} weergaven",
         "videos": "Geen video's | Eén video | {n} Video's"
+    },
+    "auth_dialog": {
+        "title": "Authenticatie",
+        "username": "Gebruikersnaam",
+        "password": "Wachtwoord",
+        "sign_up": "Aanmelden",
+        "log_in": "Inloggen"
     }
 }
