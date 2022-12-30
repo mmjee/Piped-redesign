@@ -2,7 +2,7 @@
     "titles": {
         "preferences": "Preferências",
         "history": "Histórico",
-        "trending": "Tendência",
+        "trending": "Em Alta",
         "register": "Registrar",
         "homepage": "Pagina inicial",
         "playlists": "Playlists",
@@ -17,7 +17,10 @@
         "playlist_field_name": "Nome da playlist",
         "add_to_playlist": "Adicionar à Playlist",
         "confirm_addition": "Confirmar adição",
-        "create_playlist": "Criar playlist"
+        "create_playlist": "Criar playlist",
+        "rename_self": "Renomear",
+        "new_name_msg": "Que nome novo você deseja?",
+        "remove_video": "Remover este vídeo da playlist"
     },
     "misc": {
         "searchBarLabel": "O que você está procurando?",
@@ -30,19 +33,58 @@
         "via_pm": "Via Piped Material",
         "via_yt": "Via YouTube",
         "share": "Compartilhar",
-        "title": "Compartilhe este vídeo"
+        "title": "Compartilhar este vídeo"
     },
     "actions": {
         "logInSignUp": "Entrar/Registrar",
         "logOut": "Sair",
         "loadReplies": "Carregar comentários",
         "hideReplies": "Ocultar comentários",
-        "subscribe": "Inscreva-se",
+        "subscribe": "Inscrever-se",
         "unsubscribe": "Cancelar inscrição",
-        "showReplies": "Mostrar comentários",
-        "view_subscriptions": "Ver inscrições"
+        "showReplies": "Mostrar respostas",
+        "view_subscriptions": "Ver inscrições",
+        "logOutFromAllDevices": "Sair de todos os dispositivos",
+        "channel_name_desc": "Nome do canal (Z-A)",
+        "skip_sponsors": "Propagandas",
+        "uses_api_from": "Usa o API de ",
+        "enable_sponsorblock": "Ativar Sponsorblock",
+        "light": "Claro",
+        "theme": "Tema",
+        "most_recent": "Mais recentes",
+        "back": "Atras",
+        "loadComments": "Mostrar comentários",
+        "rss_of_subscriptions": "RSS de suas inscriçoes",
+        "least_recent": "Menos recentes",
+        "channel_name_asc": "Nome do canal (A-Z)",
+        "accounts": "Sua Conta",
+        "enable_dark_mode": "Ativar o Modo Escuro",
+        "skip_interaction": "Lembrete de interação (Inscreva-se)",
+        "confirmPWToDelAcc": "Confirme sua senha para eliminar a conta",
+        "dark": "Escuro",
+        "sort_by": "Filtrar por:",
+        "delAccountMessage": "Você deseja eliminar sua conta?"
     },
     "errors": {
         "trendingFetchError": "Não foi possível buscar os vídeos em alta. Verifique se seu país é compatível com o YouTube"
+    },
+    "search_results": {
+        "result_types": {
+            "all": "Todos os resultados",
+            "channels": "Canais",
+            "music_videos": "Vídeos Musicais (YouTube Music)",
+            "music_albums": "Álbuns (YouTube Music)",
+            "music_songs": "Músicas (YouTube Music)"
+        },
+        "filterLabel": "Filtrar por tipo"
+    },
+    "channel_sharing_panel": {
+        "share": "Compartilhar",
+        "title": "Compartilhar este canal"
+    },
+    "auth_dialog": {
+        "password": "Senha",
+        "log_in": "Entrar",
+        "sign_up": "Cadastrar-se"
     }
 }
