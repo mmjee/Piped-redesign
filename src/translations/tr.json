@@ -40,7 +40,11 @@
         "confirmPWToDelAcc": "Hesabınızı silmek için parolanızı doğrulayın",
         "logOutFromAllDevices": "Tüm aygıtlarda oturumu kapat",
         "delAccountMessage": "Hesabınızı silmek istiyor musunuz?",
-        "enable_dark_mode": "Koyu Modu Etkinleştir"
+        "enable_dark_mode": "Koyu Modu Etkinleştir",
+        "related_videos": "İlgili Videolar",
+        "related_comments": "Yorumlar",
+        "loop_this_video": "Bu videoyu döngüye al",
+        "autoplay_next_video": "Bu video bittiğinde ilgili ilk videoya geç"
     },
     "titles": {
         "history": "Geçmiş",
