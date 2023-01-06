@@ -62,7 +62,11 @@
         "skip_poi_highlights": "Destacados",
         "loadComments": "Cargar comentarios",
         "skip_filler": "Rellenos",
-        "enable_dark_mode": "Habilitar el Modo Oscuro"
+        "enable_dark_mode": "Habilitar el Modo Oscuro",
+        "autoplay_next_video": "Continúe con el primer video relacionado una vez que finalice este video",
+        "loop_this_video": "Reproduce este video una y otra vez",
+        "related_videos": "Vídeos relacionados",
+        "related_comments": "Comentarios"
     },
     "counts": {
         "videos": "No hay videos | Un video | {n} Videos",
