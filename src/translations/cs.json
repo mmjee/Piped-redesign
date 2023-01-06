@@ -70,7 +70,11 @@
         "delAccountMessage": "Chcete odstranit svůj účet?",
         "confirmPWToDelAcc": "Potvrďte své heslo pro odstranění účtu",
         "accounts": "Váš účet",
-        "enable_dark_mode": "Povolit tmavý režim"
+        "enable_dark_mode": "Povolit tmavý režim",
+        "related_comments": "Komentáře",
+        "autoplay_next_video": "Po skončení tohoto videa přejít na první související video",
+        "loop_this_video": "Opakovat toto video",
+        "related_videos": "Související videa"
     },
     "preferences": {
         "feedColumns": "Počet sloupců ve stránce kanálu",
