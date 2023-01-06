@@ -72,7 +72,11 @@
         "accounts": "Akun Anda",
         "delAccountMessage": "Apakah Anda ingin menghapus akun Anda?",
         "confirmPWToDelAcc": "Konfirmasi kata sandi Anda untuk menghapus akun Anda",
-        "enable_dark_mode": "Aktifkan Mode Gelap"
+        "enable_dark_mode": "Aktifkan Mode Gelap",
+        "related_comments": "Komentar",
+        "autoplay_next_video": "Lanjutkan ke video terkait pertama setelah video ini berakhir",
+        "loop_this_video": "Ulangi video ini",
+        "related_videos": "Video Terkait"
     },
     "preferences": {
         "feedColumns": "Jumlah Kolom di Laman Umpan",
