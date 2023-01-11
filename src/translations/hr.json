@@ -40,7 +40,11 @@
         "confirmPWToDelAcc": "Potvrdite lozinku da biste izbrisali račun",
         "delAccountMessage": "Želite li izbrisati svoj račun?",
         "accounts": "Vaš korisnički račun",
-        "enable_dark_mode": "Omogućite Mračni Saštimak"
+        "enable_dark_mode": "Omogućite Mračni Saštimak",
+        "related_videos": "Povezana videa",
+        "related_comments": "Komentari",
+        "autoplay_next_video": "Prijeđi na prvi povezani videozapis kad ovaj videozapis završi",
+        "loop_this_video": "Ponavljaj ovaj video"
     },
     "preferences": {
         "sponsorblock": "Omogućite Sponzorblok",
