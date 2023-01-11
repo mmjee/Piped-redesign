@@ -61,7 +61,12 @@
         "logOutFromAllDevices": "تسجيل الخروج من جميع الأجهزة",
         "accounts": "الحساب الخاص بك",
         "confirmPWToDelAcc": "قم بتأكيد كلمة المرور لحذف حسابك",
-        "delAccountMessage": "هل تريد حذف حسابك؟"
+        "delAccountMessage": "هل تريد حذف حسابك؟",
+        "related_comments": "التعليقات",
+        "autoplay_next_video": "تابع إلى أول فيديو ذي صلة بمجرد انتهاء هذا الفيديو",
+        "loop_this_video": "أعادة هذا الفيديو",
+        "related_videos": "فيديوهات ذات صلة",
+        "enable_dark_mode": "تفعيل الوضع الداكن"
     },
     "preferences": {
         "feedColumns": "عدد الأعمدة في صفحة الخلاصة",
@@ -127,5 +132,12 @@
         "playlists": "قوائم التشغيل",
         "channels": "القنوات",
         "shorts": "مقاطع فيديو قصيرة"
+    },
+    "auth_dialog": {
+        "title": "المصادقة",
+        "username": "اسم المستخدم",
+        "password": "كلمة المرور",
+        "log_in": "تسجيل الدخول",
+        "sign_up": "تسجيل حساب جديد"
     }
 }
