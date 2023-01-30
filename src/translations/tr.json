@@ -44,7 +44,8 @@
         "related_videos": "İlgili Videolar",
         "related_comments": "Yorumlar",
         "loop_this_video": "Bu videoyu döngüye al",
-        "autoplay_next_video": "Bu video bittiğinde ilgili ilk videoya geç"
+        "autoplay_next_video": "Bu video bittiğinde ilgili ilk videoya geç",
+        "unauthenticated_rss": "RSS (kimlik doğrulanmadı)"
     },
     "titles": {
         "history": "Geçmiş",
