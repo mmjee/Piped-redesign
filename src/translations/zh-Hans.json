@@ -75,7 +75,12 @@
         "accounts": "你的账户",
         "delAccountMessage": "你想删除账户吗？",
         "confirmPWToDelAcc": "确认密码删除账户",
-        "enable_dark_mode": "启用深色模式"
+        "enable_dark_mode": "启用深色模式",
+        "related_videos": "相关视频",
+        "related_comments": "评论",
+        "loop_this_video": "循环播放此视频",
+        "unauthenticated_rss": "RSS（未经身份验证）",
+        "autoplay_next_video": "视频结束后，继续观看第一个相关视频"
     },
     "errors": {
         "trendingFetchError": "无法获取热门视频。请检查您所在的国家/地区是否受 YouTube 支持"
