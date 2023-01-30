@@ -66,7 +66,8 @@
         "autoplay_next_video": "Continúe con el primer video relacionado una vez que finalice este video",
         "loop_this_video": "Reproduce este video una y otra vez",
         "related_videos": "Vídeos relacionados",
-        "related_comments": "Comentarios"
+        "related_comments": "Comentarios",
+        "unauthenticated_rss": "RSS (sin autenticar)"
     },
     "counts": {
         "videos": "No hay videos | Un video | {n} Videos",
