@@ -76,7 +76,8 @@
         "related_comments": "Komentar",
         "autoplay_next_video": "Lanjutkan ke video terkait pertama setelah video ini berakhir",
         "loop_this_video": "Ulangi video ini",
-        "related_videos": "Video Terkait"
+        "related_videos": "Video Terkait",
+        "unauthenticated_rss": "RSS (tidak terautentikasi)"
     },
     "preferences": {
         "feedColumns": "Jumlah Kolom di Laman Umpan",
