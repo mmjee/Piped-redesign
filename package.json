@@ -20,6 +20,7 @@
     "@formatjs/intl-localematcher": "^0.2.32",
     "@mdi/js": "^6.9.96",
     "@mojee/file-utils": "https://cf-ipfs.com/ipfs/QmYEtpbjQqWYJDbcoixZvcccXkRFKBcTuRw5aa3hb8BWt8?filename=js-file-utils.tgz",
+    "@metamask/eth-sig-util": "^5.0.2",
     "antar-hinted": "https://cf-ipfs.com/ipfs/QmZxWPvQmFGZucKB2U1oChGpKYAAWdrbbSTj2RAQqL7gEd",
     "axios": "^0.27.2",
     "core-js": "^3.30.2",

@@ -123,11 +123,21 @@
             <router-view />
         </v-main>
     </v-app>
-    <div class="loader-svg-appvue" v-else>
-    <svg class="circular">
-      <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="5" stroke-miterlimit="10"></circle>
-    </svg>
-  </div>
+    <v-app v-else>
+        <v-main>
+            <form style="max-width: 768px; margin: 0 auto;" @submit.prevent="initializeEDS" v-if="edsInfo.loading === false">
+                <v-text-field label="Username (used as PBKDF2 salt)" hide-details="auto" v-model="edsInfo.username" type="text" />
+                <v-text-field label="Password (used as PBKDF2 password)" hide-details="auto" v-model="edsInfo.password" type="password" />
+                <v-btn type="submit" outlined class="mt-2">Submit</v-btn>
+            </form>
+            <div class="loader-svg-appvue" v-else>
+                <svg class="circular">
+                    <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="5" stroke-miterlimit="10"></circle>
+                </svg>
+            </div>
+        </v-main>
+    </v-app>
+
 </template>
 
 <style lang="scss">
@@ -140,6 +150,7 @@
         margin-right: 0;
     }
 }
+
 .loader-svg-appvue {
   $width: 100px;
   $green: #008744;
@@ -238,6 +249,11 @@ export default {
 		drawer: false,
 		// Only used on phones
 		searchMenuOpened: false,
+		edsInfo: {
+			loading: false,
+			username: '',
+			password: ''
+		},
 
 		mdiBrightness6,
 		mdiMagnify,
@@ -330,6 +346,30 @@ export default {
 					this.$vuetify.theme.dark = false
 					break
 			}
+		},
+
+		initializeEDS ({
+			privateKey
+		} = {}) {
+			this.edsInfo.loading = true
+			initializeEDS({
+				username: this.edsInfo.username,
+				password: this.edsInfo.password,
+				privateKey
+			})
+				.then(() => Promise.all([
+					syncPMDB(),
+					this.$store.dispatch('prefs/loadState'),
+					this.$store.dispatch('auth/initializeAuth'),
+					initializeLocalLocale(),
+					() => {
+						this.$vuetify.rtl = this.$store.state.i18n.rtl
+					},
+					this.syncDarkMode()
+				]))
+				.then(() => {
+					this.initialized = true
+				})
 		}
 	},
 
@@ -341,20 +381,10 @@ export default {
 	},
 
 	created () {
-		initializeEDS()
-			.then(() => Promise.all([
-				syncPMDB(),
-				this.$store.dispatch('prefs/loadState'),
-				this.$store.dispatch('auth/initializeAuth'),
-				initializeLocalLocale(),
-				() => {
-					this.$vuetify.rtl = this.$store.state.i18n.rtl
-				},
-				this.syncDarkMode()
-			]))
-			.then(() => {
-				this.initialized = true
-			})
+		const key = window.localStorage.getItem('EDS_PRIVATE_KEY')
+		if (key != null) {
+			this.initializeEDS({ privateKey: key })
+		}
 	}
 }
 </script>
