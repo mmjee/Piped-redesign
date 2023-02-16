@@ -1,0 +1,144 @@
+{
+    "titles": {
+        "homepage": "Головна",
+        "trending": "Тренди",
+        "register": "Реєстрація",
+        "preferences": "Налаштування",
+        "history": "Історія перегляду",
+        "feed": "Підписки",
+        "playlists": "Списки відтворення"
+    },
+    "counts": {
+        "subscribers": "Немає підписників | Один підписник | {n} підписників",
+        "videos": "Немає відео | Одне відео | {n} відео",
+        "views": "Немає переглядів | Один перегляд | {n} переглядів"
+    },
+    "playlists": {
+        "rename_self": "Перейменувати",
+        "new_name_msg": "Якою ви хочете бачити нову назву?",
+        "add_to_playlist": "Додати до списку відтворення",
+        "remove_video": "Видалити це відео зі списку відтворення",
+        "confirm_addition": "Підтвердити додавання",
+        "create_playlist": "Створити список відтворення",
+        "playlist_field_name": "Назва списку відтворення",
+        "delete_self": "Видалити"
+    },
+    "misc": {
+        "searchBarLabel": "Що ви шукаєте?",
+        "lastWatchedTill": "Останній перегляд до {t}",
+        "watchedAgo": "Переглянуто {t} до {p}"
+    },
+    "errors": {
+        "trendingFetchError": "Не вдалося отримати популярні відео. Перевірте, чи ваша країна підтримується YouTube"
+    },
+    "channel_tabs": {
+        "videos": "Відео",
+        "livestreams": "Наживо",
+        "playlists": "Списки відтворення",
+        "channels": "Канали",
+        "shorts": "Shorts"
+    },
+    "search_results": {
+        "filterLabel": "Фільтрувати результати за типом",
+        "result_types": {
+            "all": "Всі результати",
+            "videos": "Звичайні відео",
+            "channels": "Канали",
+            "playlists": "Списки відтворення",
+            "music_songs": "Пісні (YouTube Music)",
+            "music_videos": "Музичні відео (YouTube Music)",
+            "music_albums": "Альбоми (YouTube Music)",
+            "music_playlists": "Списки відтворення (YouTube Music)"
+        }
+    },
+    "channel_sharing_panel": {
+        "title": "Поділитися цим каналом",
+        "via_yt": "Через YouTube",
+        "share": "Поділитися",
+        "via_pm": "Через Piped Material"
+    },
+    "video_sharing_panel": {
+        "title": "Поділитися цим відео",
+        "share": "Поділитися",
+        "with_timestamps": "З мітками часу",
+        "without_timestamps": "Без міток часу",
+        "via_pm": "Через Piped Material",
+        "via_yt": "Через YouTube"
+    },
+    "auth_dialog": {
+        "title": "Аутентифікація",
+        "password": "Пароль",
+        "sign_up": "Зареєструватися",
+        "username": "Ім'я користувача",
+        "log_in": "Увійти"
+    },
+    "actions": {
+        "enable_dark_mode": "Увімкніть темний режим",
+        "logInSignUp": "Увійти/Зареєструватися",
+        "logOut": "Вийти",
+        "accounts": "Ваш обліковий запис",
+        "delAccountMessage": "Ви хочете видалити свій обліковий запис?",
+        "loadReplies": "Завантажити відповіді",
+        "hideReplies": "Приховати відповіді",
+        "showReplies": "Показати відповіді",
+        "unsubscribe": "Відписатися",
+        "view_subscriptions": "Переглянути підписки",
+        "most_recent": "Найновішими",
+        "least_recent": "Найстарішими",
+        "channel_name_desc": "Назвою канала (Я-А)",
+        "back": "Назад",
+        "uses_api_from": "Використовує API від ",
+        "enable_sponsorblock": "Увімкнути Sponsorblock",
+        "skip_sponsors": "Спонсори",
+        "skip_outro": "Кінцева заставка/титри",
+        "skip_preview": "Попередній перегляд/короткий зміст",
+        "skip_self_promo": "Самореклама/рекомендація",
+        "skip_poi_highlights": "Основне",
+        "auto": "Авто",
+        "dark": "Темна",
+        "light": "Світла",
+        "minimize_description": "Розгортати опис за замовчуванням",
+        "store_watch_history": "Зберігати історію перегляду",
+        "language_selection": "Вибір мови",
+        "instances_list": "Список екземплярів",
+        "enabled_codecs": "Увімкнені кодеки (можна вибрати декілька)",
+        "related_videos": "Пов'язані відео",
+        "related_comments": "Коментарі",
+        "autoplay_next_video": "Перейдіть до першого пов'язаного відео, коли це відео закінчиться",
+        "loop_this_video": "Зациклити це відео",
+        "unauthenticated_rss": "RSS (неавтентифікований)",
+        "loadComments": "Завантажити коментарі",
+        "skip_intro": "Пауза/заставка",
+        "confirmPWToDelAcc": "Підтвердіть пароль, щоб видалити обліковий запис",
+        "rss_of_subscriptions": "RSS ваших підписок",
+        "logOutFromAllDevices": "Вийти з усіх пристроїв",
+        "subscribe": "Підписатися",
+        "sort_by": "Сортувати за:",
+        "channel_name_asc": "Назвою канала (А-Я)",
+        "skip_filler": "Дотичне наповнення/жарти",
+        "skip_non_music": "Музика: сегменти без музики",
+        "skip_interaction": "Нагадування про взаємодію (підписка)",
+        "theme": "Тема"
+    },
+    "preferences": {
+        "colorScheme": "Кольорова схема",
+        "selectedSkip": "Сегменти для пропуску",
+        "playerAutoplay": "Автоматичне відтворення відео",
+        "bufferGoal": "Кількість секунд даних, які повинні зберігатися в буфері",
+        "quality": "Якість за замовчуванням",
+        "region": "Вибір країни",
+        "instance": "Екземпляр",
+        "disableLBRY": "Вимкнути LBRY",
+        "proxyLBRY": "Проксі відео LBRY",
+        "disableCommentsByDefault": "Не показувати коментарі за замовчуванням",
+        "showRelatedVideos": "Показати пов'язані відео",
+        "showMarkers": "Показати маркери SponsorBlock",
+        "listen": "Лише аудіо",
+        "sponsorblock": "Увімкнути SponsorBlock",
+        "homepageButton": "Увімкнути кнопку домашньої сторінки",
+        "feedColumns": "Кількість стовпців на сторінках каналу",
+        "homepage": "Домашня сторінка за замовчуванням",
+        "skipToLastPoint": "Перейдіть до останнього переглянутого моменту, коли натрапите на вже переглянуте відео",
+        "clickbaitThumbnailAvoidance": "Заміняти мініатюри за замовчуванням на автоматично згенеровані"
+    }
+}
