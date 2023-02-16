@@ -44,7 +44,8 @@
         "related_videos": "Povezana videa",
         "related_comments": "Komentari",
         "autoplay_next_video": "Prijeđi na prvi povezani videozapis kad ovaj videozapis završi",
-        "loop_this_video": "Ponavljaj ovaj video"
+        "loop_this_video": "Ponavljaj ovaj video",
+        "unauthenticated_rss": "RSS (neautentificirano)"
     },
     "preferences": {
         "sponsorblock": "Omogućite Sponzorblok",
