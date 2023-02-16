@@ -36,10 +36,10 @@
         "title": "Compartilhar este vídeo"
     },
     "actions": {
-        "logInSignUp": "Entrar/Registrar",
+        "logInSignUp": "Entrar/Cadastrar-se",
         "logOut": "Sair",
-        "loadReplies": "Carregar comentários",
-        "hideReplies": "Ocultar comentários",
+        "loadReplies": "Mostrar Respostas",
+        "hideReplies": "Ocultar respostas",
         "subscribe": "Inscrever-se",
         "unsubscribe": "Cancelar inscrição",
         "showReplies": "Mostrar respostas",
