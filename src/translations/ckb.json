@@ -66,7 +66,8 @@
         "related_videos": "ڤیدیۆ پەیوەندیدارەکان",
         "related_comments": "کۆمێنتەکان",
         "autoplay_next_video": "بەردەوامبە بۆ یەکەم ڤیدیۆی پەیوەندیدار کاتێک ئەم ڤیدیۆیە کۆتایی دێت",
-        "loop_this_video": "ئەم ڤیدیۆیە دووبارە بکەوە"
+        "loop_this_video": "ئەم ڤیدیۆیە دووبارە بکەوە",
+        "unauthenticated_rss": "پوختە (بێ چوونەژوورەوە)"
     },
     "preferences": {
         "feedColumns": "ژمارەی ئەستوونەکان لە پەڕەی پوختەکان",
