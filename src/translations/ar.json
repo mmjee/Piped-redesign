@@ -66,7 +66,8 @@
         "autoplay_next_video": "تابع إلى أول فيديو ذي صلة بمجرد انتهاء هذا الفيديو",
         "loop_this_video": "أعادة هذا الفيديو",
         "related_videos": "فيديوهات ذات صلة",
-        "enable_dark_mode": "تفعيل الوضع الداكن"
+        "enable_dark_mode": "تفعيل الوضع الداكن",
+        "unauthenticated_rss": "الخلاصة (غير مصدق)"
     },
     "preferences": {
         "feedColumns": "عدد الأعمدة في صفحة الخلاصة",
