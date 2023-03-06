@@ -1,0 +1,144 @@
+{
+    "titles": {
+        "homepage": "Pagina principala",
+        "trending": "Tendințe",
+        "register": "Înregistrează-te",
+        "preferences": "Preferințe",
+        "playlists": "Liste de redare",
+        "feed": "Abonări",
+        "history": "Vizionați Istoria"
+    },
+    "counts": {
+        "videos": "Fără videoclipuri | Un videoclip | {n} videoclipuri",
+        "subscribers": "Fără abonați | Un abonat | {n} abonați",
+        "views": "Fără vizualizări | O singură vizualizare | {n} vizualizări"
+    },
+    "playlists": {
+        "add_to_playlist": "Adăugați la lista de redare",
+        "confirm_addition": "Confirmați adăugarea",
+        "create_playlist": "Creați o listă de redare",
+        "playlist_field_name": "Nume listă de redare",
+        "remove_video": "Eliminați acest videoclip din lista de redare",
+        "rename_self": "Redenumire",
+        "new_name_msg": "Cum vrei să fie noul nume?",
+        "delete_self": "Șterge"
+    },
+    "misc": {
+        "lastWatchedTill": "Ultima vizionată până la {t}",
+        "watchedAgo": "Am urmărit {t} până la {p}",
+        "searchBarLabel": "Caută"
+    },
+    "channel_tabs": {
+        "videos": "Videoclipuri",
+        "livestreams": "Fluxuri live",
+        "channels": "Canale",
+        "shorts": "Shorts",
+        "playlists": "Liste de redare"
+    },
+    "search_results": {
+        "filterLabel": "Filtrați rezultatele după tip",
+        "result_types": {
+            "all": "Toate rezultatele",
+            "channels": "Canale",
+            "playlists": "Liste de redare",
+            "music_songs": "Melodii (YouTube Music)",
+            "music_videos": "Videoclipuri muzicale (YouTube Music)",
+            "music_albums": "Albume (YouTube Music)",
+            "music_playlists": "Liste de redare (YouTube Music)",
+            "videos": "Videoclipuri obișnuite"
+        }
+    },
+    "channel_sharing_panel": {
+        "share": "Trimite",
+        "via_pm": "Prin Piped Material",
+        "via_yt": "Prin YouTube",
+        "title": "Distribuie acest canal"
+    },
+    "video_sharing_panel": {
+        "share": "Trimite",
+        "via_pm": "Prin Piped Material",
+        "title": "Distribuie acest videoclip",
+        "via_yt": "Prin YouTube",
+        "with_timestamps": "Cu marcaje de timp",
+        "without_timestamps": "Fără marcaje de timp"
+    },
+    "auth_dialog": {
+        "username": "Nume de utilizator",
+        "log_in": "Conectează-te",
+        "sign_up": "Înscrie-te",
+        "title": "Autentificare",
+        "password": "Parolă"
+    },
+    "actions": {
+        "enable_dark_mode": "Activați modul întunecat",
+        "loadComments": "Încărcați Comentarii",
+        "logOut": "Deconectează-te",
+        "logOutFromAllDevices": "Deconectează-te de pe toate dispozitivele",
+        "accounts": "Contul tău",
+        "confirmPWToDelAcc": "Confirmați parola pentru a vă șterge contul",
+        "loadReplies": "Încărcaț răspunsuri",
+        "hideReplies": "Ascundeți răspunsurile",
+        "showReplies": "Afișați răspunsurile",
+        "subscribe": "Abonează-te",
+        "unsubscribe": "Dezabonează-te",
+        "rss_of_subscriptions": "RSS-ul abonamentelor dvs",
+        "sort_by": "Sortează după:",
+        "most_recent": "Cel mai recent",
+        "least_recent": "Cel mai puțin recent",
+        "channel_name_asc": "Numele canalului (A-Z)",
+        "channel_name_desc": "Numele canalului (Z-A)",
+        "back": "Înainte",
+        "uses_api_from": "Utilizează API-ul de la ",
+        "skip_sponsors": "Sponsori",
+        "enable_sponsorblock": "Activează Sponsorblock",
+        "delAccountMessage": "Doriți să vă ștergeți contul?",
+        "view_subscriptions": "Vezi abonamente",
+        "store_watch_history": "Stocați istoricul vizionărilor",
+        "language_selection": "Alegerea limbii",
+        "instances_list": "Lista de instanțe",
+        "enabled_codecs": "Codecuri activate (multiple)",
+        "related_videos": "Videoclipuri asemănătoare",
+        "related_comments": "Comentarii",
+        "autoplay_next_video": "Treceți la primul videoclip similar odată ce acest videoclip se încheie",
+        "loop_this_video": "Buclă acest videoclip",
+        "unauthenticated_rss": "RSS (neautentificat)",
+        "skip_preview": "Previzualizare/Recapitulare",
+        "skip_interaction": "Memento de interacțiune (abonare)",
+        "skip_self_promo": "Neplătită/Autopromovare",
+        "skip_non_music": "Muzică: Secțiunea non-muzică",
+        "skip_poi_highlights": "Evidențiază",
+        "skip_filler": "Umpluturi",
+        "theme": "Temă",
+        "auto": "Automat",
+        "dark": "Întunecat",
+        "light": "Luminat",
+        "minimize_description": "Minimizați descrierea în mod implicit",
+        "logInSignUp": "Autentificare/Înregistrare",
+        "skip_intro": "Animație de pauză/Intro",
+        "skip_outro": "Carduri finale/Credite"
+    },
+    "preferences": {
+        "skipToLastPoint": "Treceți la ultimul punct vizionat când întâlniți un videoclip deja văzut",
+        "showMarkers": "Afișați marcatori SponsorBlock",
+        "disableLBRY": "Dezactivează LBRY",
+        "homepage": "Pagina de pornire implicită",
+        "clickbaitThumbnailAvoidance": "Înlocuiți miniaturile implicite cu cele generate automat",
+        "colorScheme": "Schema de culori",
+        "feedColumns": "Numărul de coloane din paginile de feed",
+        "sponsorblock": "Activează Sponsorblock",
+        "playerAutoplay": "Redare automată a videoclipului",
+        "bufferGoal": "Cantitatea de secunde de date care trebuie păstrate în tampon",
+        "listen": "Doar audio",
+        "quality": "Calitatea implicită",
+        "region": "Selecția țării",
+        "homepageButton": "Activează butonul pentru pagina de pornire",
+        "instance": "Instanță",
+        "proxyLBRY": "Proxy LBRY videoclipuri",
+        "disableCommentsByDefault": "Nu afișați comentariile în mod implicit",
+        "showRelatedVideos": "Afișați videoclipuri similare",
+        "selectedSkip": "Segmente de sărit peste"
+    },
+    "errors": {
+        "trendingFetchError": "Nu s-au putut prelua videoclipurile populare. Verificați dacă țara dvs. este acceptată de YouTube"
+    }
+}
