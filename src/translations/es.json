@@ -96,7 +96,24 @@
         "showMarkers": "Mostrar los marcadores de SponsorBlock",
         "clickbaitThumbnailAvoidance": "Reemplazar las miniaturas predeterminadas por otras generadas automáticamente",
         "disableCommentsByDefault": "No mostrar los comentarios de forma predeterminada",
-        "homepageButton": "Activar el botón de la página de inicio"
+        "homepageButton": "Activar el botón de la página de inicio",
+        "quality_opts": {
+            "1440p": "1440p",
+            "4320p": "4320p (Suele denominarse 8K, 7680x4320)",
+            "auto": "Determinado automáticamente",
+            "144p": "144p",
+            "240p": "240p",
+            "360p": "360p",
+            "480p": "480p",
+            "720p": "720p",
+            "1080p": "1080p",
+            "2160p": "2160p (Suele denominarse 4K, 3840x2160)"
+        },
+        "column_opts": {
+            "4": "4 columnas",
+            "5": "5 columnas",
+            "6": "6 columnas"
+        }
     },
     "channel_sharing_panel": {
         "via_pm": "A través de Piped Material",
