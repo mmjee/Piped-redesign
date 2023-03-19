@@ -157,5 +157,11 @@
         "sign_up": "Daftar",
         "username": "Nama Pengguna",
         "title": "Otentikasi"
+    },
+    "footer": {
+        "commit_message_1": "komit {hash}",
+        "text": "Berjalan pada Piped-Material {1}, silakan bantu dengan menerjemahkan Piped-Material ke lebih banyak bahasa {2}!{0} Untuk bantuan, saran, dan/atau masukan, silakan {3}.",
+        "translations_msg_2": "melalui Weblate",
+        "help_message_3": "bergabung dengan ruangan Matrix atau saluran IRC"
     }
 }
