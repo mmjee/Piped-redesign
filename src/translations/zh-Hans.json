@@ -157,5 +157,11 @@
         "password": "密码",
         "log_in": "登录",
         "sign_up": "注册"
+    },
+    "footer": {
+        "commit_message_1": "提交 {hash}",
+        "translations_msg_2": "通过 Weblate",
+        "help_message_3": "加入 Matrix 聊天室或 IRC 频道",
+        "text": "正在运行 Piped-Material {1}，请帮助将 Piped-Material 翻译为更多语言 {2}！{0} 对于帮助、建议和/或反馈，请 {3}。"
     }
 }
