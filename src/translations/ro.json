@@ -136,7 +136,24 @@
         "proxyLBRY": "Proxy LBRY videoclipuri",
         "disableCommentsByDefault": "Nu afișați comentariile în mod implicit",
         "showRelatedVideos": "Afișați videoclipuri similare",
-        "selectedSkip": "Segmente de sărit peste"
+        "selectedSkip": "Segmente de sărit peste",
+        "quality_opts": {
+            "240p": "240p",
+            "144p": "144p",
+            "360p": "360p",
+            "auto": "Determinată automat",
+            "480p": "480p",
+            "720p": "720p",
+            "1080p": "1080p",
+            "1440p": "1440p",
+            "2160p": "2160p (Acest lucru este de obicei numit 4K, 3840x2160)",
+            "4320p": "4320p (Acest lucru este de obicei numit 8K, 7680x4320)"
+        },
+        "column_opts": {
+            "5": "5 coloane",
+            "6": "6 coloane",
+            "4": "4 coloane"
+        }
     },
     "errors": {
         "trendingFetchError": "Nu s-au putut prelua videoclipurile populare. Verificați dacă țara dvs. este acceptată de YouTube"
