@@ -98,7 +98,24 @@
         "showMarkers": "Tampilkan Penanda SponsorBlock",
         "disableCommentsByDefault": "Jangan tampilkan komentar secara bawaan",
         "colorScheme": "Skema Warna",
-        "homepageButton": "Aktifkan Tombol Laman Beranda"
+        "homepageButton": "Aktifkan Tombol Laman Beranda",
+        "quality_opts": {
+            "144p": "144p",
+            "1080p": "1080p",
+            "1440p": "1440p",
+            "240p": "240p",
+            "2160p": "2160p (ini biasanya disebut 4K, 3840x2160)",
+            "auto": "Secara otomatis ditentukan",
+            "360p": "360p",
+            "480p": "480p",
+            "720p": "720p",
+            "4320p": "4320p (ini biasanya disebut 8K, 7680x4320)"
+        },
+        "column_opts": {
+            "4": "4 kolom",
+            "5": "5 kolom",
+            "6": "6 kolom"
+        }
     },
     "counts": {
         "subscribers": "Tidak ada pelanggan | Satu pelanggan | {n} pelanggan",
