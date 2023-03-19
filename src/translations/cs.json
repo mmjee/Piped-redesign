@@ -96,7 +96,24 @@
         "showMarkers": "Zobrazit značky SponsorBlock",
         "disableCommentsByDefault": "Ve výchozím nastavení nezobrazovat komentáře",
         "colorScheme": "Barevné schéma",
-        "homepageButton": "Povolit tlačítko domovské stránky"
+        "homepageButton": "Povolit tlačítko domovské stránky",
+        "quality_opts": {
+            "1080p": "1080p",
+            "2160p": "2160p (obvykle označováno jako 4K, 3840x2160)",
+            "4320p": "4320p (obvykle označováno jako 8K, 7680x4320)",
+            "1440p": "1440p",
+            "360p": "360p",
+            "auto": "Automaticky",
+            "240p": "240p",
+            "480p": "480p",
+            "144p": "144p",
+            "720p": "720p"
+        },
+        "column_opts": {
+            "4": "4 sloupce",
+            "5": "5 sloupců",
+            "6": "6 sloupců"
+        }
     },
     "playlists": {
         "add_to_playlist": "Přidat do playlistu",
