@@ -157,5 +157,11 @@
         "sign_up": "Registrace",
         "username": "Uživatelské jméno",
         "log_in": "Přihlásit se"
+    },
+    "footer": {
+        "commit_message_1": "commit {hash}",
+        "translations_msg_2": "prostřednictvím Weblate",
+        "help_message_3": "připojte se do místnosti Matrix nebo kanálu IRC",
+        "text": "Běží na Piped-Material {1}, pomozte nám prosím s lokalizací Piped-Material do více jazyků {2}!{0} Pro pomoc, návrhy a/nebo zpětnou vazbu, prosím {3}."
     }
 }
