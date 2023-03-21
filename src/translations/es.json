@@ -157,5 +157,11 @@
         "password": "Contraseña",
         "log_in": "Iniciar sesión",
         "sign_up": "Regístrate"
+    },
+    "footer": {
+        "commit_message_1": "confirmar {hash}",
+        "text": "Ejecutando Piped-Material {1}, ¡ayuda a localizar Piped-Material a más idiomas {2}!{0} Para obtener ayuda, sugerencias y/o comentarios, por favor {3}.",
+        "translations_msg_2": "mediante Weblate",
+        "help_message_3": "únete a la sala de Matrix o al canal IRC"
     }
 }
