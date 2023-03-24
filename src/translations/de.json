@@ -40,7 +40,12 @@
         "skip_filler": "Füllstoffe",
         "loadComments": "Kommentare laden",
         "confirmPWToDelAcc": "Bestätigen Sie Ihr Passwort, um Ihr Konto zu löschen",
-        "enable_dark_mode": "Dunkelmodus aktivieren"
+        "enable_dark_mode": "Dunkelmodus aktivieren",
+        "unauthenticated_rss": "RSS (ohne Authentifizierung)",
+        "related_videos": "Ähnliche Videos",
+        "related_comments": "Kommentare",
+        "autoplay_next_video": "Zum nächsten ähnlichen Video springen, wenn dieses Video zuende ist",
+        "loop_this_video": "Video wiederholen"
     },
     "titles": {
         "history": "Verlauf",
@@ -70,7 +75,24 @@
         "disableCommentsByDefault": "Kommentare standardmäßig nicht anzeigen",
         "showRelatedVideos": "Verwandte Videos anzeigen",
         "showMarkers": "SponsorBlok-Markierungen anzeigen",
-        "homepageButton": "Startseite-Button aktivieren"
+        "homepageButton": "Startseite-Button aktivieren",
+        "quality_opts": {
+            "auto": "Automatisch festlegen",
+            "144p": "144p",
+            "240p": "240p",
+            "360p": "360p",
+            "480p": "480p",
+            "720p": "720p",
+            "1080p": "1080p",
+            "1440p": "1440p",
+            "2160p": "2160p",
+            "4320p": "4320p"
+        },
+        "column_opts": {
+            "4": "4 Spalten",
+            "5": "5 Spalten",
+            "6": "6 Spalten"
+        }
     },
     "counts": {
         "videos": "Keine Videos | Ein Video | {n} Videos",
@@ -135,5 +157,11 @@
         "username": "Nutzername",
         "password": "Passwort",
         "sign_up": "Anmelden"
+    },
+    "footer": {
+        "commit_message_1": "Commit {hash}",
+        "translations_msg_2": "über Weblate",
+        "help_message_3": "tritt dem Matrix-Raum oder dem IRC-Kanal bei",
+        "text": "Piped-Material {1}, bitte hilf mit, Piped-Material {2} in mehr Sprachen verfügbar zu machen!{0} Für Hilfe, Vorschläge und/oder Feedback, bitte {3}."
     }
 }
