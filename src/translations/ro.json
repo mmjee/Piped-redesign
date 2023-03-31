@@ -157,5 +157,10 @@
     },
     "errors": {
         "trendingFetchError": "Nu s-au putut prelua videoclipurile populare. Verificați dacă țara dvs. este acceptată de YouTube"
+    },
+    "footer": {
+        "help_message_3": "alătură-te camerei Matrix sau canalului IRC",
+        "commit_message_1": "commit {hash}",
+        "translations_msg_2": "prin Weblate"
     }
 }
