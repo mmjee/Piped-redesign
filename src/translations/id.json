@@ -29,7 +29,8 @@
         "with_timestamps": "Dengan Stempel Waktu",
         "without_timestamps": "Tanpa Stempel Waktu",
         "via_pm": "Melalui Piped Material",
-        "via_yt": "Melalui YouTube"
+        "via_yt": "Melalui YouTube",
+        "share_system": "Bagikan melalui dialog sistem"
     },
     "actions": {
         "logInSignUp": "Masuk/Daftar",
