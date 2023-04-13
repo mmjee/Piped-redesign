@@ -66,7 +66,24 @@
         "showMarkers": "Prikažite oznake SponzorBloka",
         "disableCommentsByDefault": "Ne prikazuj komentare prema zadanim postavkama",
         "colorScheme": "Šema Boja",
-        "homepageButton": "Omogući gumb početne stranice"
+        "homepageButton": "Omogući gumb početne stranice",
+        "quality_opts": {
+            "auto": "Automatski određeno",
+            "144p": "144 p",
+            "240p": "240 p",
+            "360p": "360 p",
+            "480p": "480 p",
+            "720p": "720 p",
+            "1080p": "1080 p",
+            "1440p": "1440 p",
+            "2160p": "2160 p (obično se zove 4K, 3840 × 2160)",
+            "4320p": "4320 p (obično se zove 4K, 7680 × 4320)"
+        },
+        "column_opts": {
+            "4": "4 stupca",
+            "5": "5 stupaca",
+            "6": "6 stupaca"
+        }
     },
     "titles": {
         "feed": "Članak",
@@ -140,5 +157,11 @@
         "username": "Korisničko ime",
         "title": "Autentifikacija",
         "sign_up": "Upišite se"
+    },
+    "footer": {
+        "translations_msg_2": "putem Weblatea",
+        "commit_message_1": "commit {hash}",
+        "text": "Pokrećući Piped-Material {1}, pomogni prevoditi Piped-Material na više jezika {2}!{0} Za pomoć, prijedloge i/ili povratne informacije, molimo {3}.",
+        "help_message_3": "pridruži se Matrix sobi ili IRC kanalu"
     }
 }
