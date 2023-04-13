@@ -123,7 +123,8 @@
         "with_timestamps": "带时间戳",
         "without_timestamps": "不带时间戳",
         "via_pm": "通过 Piped Material",
-        "via_yt": "通过 YouTube"
+        "via_yt": "通过 YouTube",
+        "share_system": "通过系统对话框分享"
     },
     "search_results": {
         "result_types": {
