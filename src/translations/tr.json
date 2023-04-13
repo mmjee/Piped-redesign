@@ -113,7 +113,8 @@
         "with_timestamps": "Zaman Damgalarıyla",
         "without_timestamps": "Zaman Damgaları Olmadan",
         "via_yt": "YouTube ile",
-        "via_pm": "Piped Material ile"
+        "via_pm": "Piped Material ile",
+        "share_system": "Sistem iletişim kutusu ile paylaş"
     },
     "playlists": {
         "add_to_playlist": "Oynatma listesine ekle",
