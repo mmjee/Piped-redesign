@@ -10,7 +10,7 @@
     },
     "misc": {
         "searchBarLabel": "¿Qué es lo que estás buscando?",
-        "lastWatchedTill": "Última vez visto hasta {t}",
+        "lastWatchedTill": "Última vez visto {t}",
         "watchedAgo": "Visto {t} hasta {p}"
     },
     "video_sharing_panel": {
@@ -18,8 +18,9 @@
         "share": "Compartir",
         "with_timestamps": "Con marcas de tiempo",
         "without_timestamps": "Sin marcas de tiempo",
-        "via_yt": "Vía YouTube",
-        "via_pm": "Vía Piped Material"
+        "via_yt": "Reproducir mediante YouTube",
+        "via_pm": "Reproducir mediante Piped Material",
+        "share_system": "Compartir a través del diálogo del sistema"
     },
     "actions": {
         "logInSignUp": "Iniciar sesión/Registrarse",
@@ -71,7 +72,7 @@
     },
     "counts": {
         "videos": "No hay videos | Un video | {n} Videos",
-        "views": "No views | One view | {n} views",
+        "views": "Sin vistas| Una Visualización | {n} vistas",
         "subscribers": "Sin suscriptores | Un suscriptor | {n} suscriptores"
     },
     "errors": {
@@ -116,8 +117,8 @@
         }
     },
     "channel_sharing_panel": {
-        "via_pm": "A través de Piped Material",
-        "via_yt": "A través de YouTube",
+        "via_pm": "Reproducir mediante Piped Material",
+        "via_yt": "Reproducir mediante YouTube",
         "title": "Compartir este canal",
         "share": "Compartir"
     },
@@ -125,7 +126,7 @@
         "shorts": "Cortos",
         "playlists": "Listas de reproducción",
         "videos": "Vídeos",
-        "livestreams": "Retransmisiones en directo",
+        "livestreams": "Transmisión en vivo",
         "channels": "Canales"
     },
     "search_results": {
@@ -137,13 +138,13 @@
             "music_videos": "Vídeos musicales (YouTube Music)",
             "music_playlists": "Listas de reproducción (YouTube Music)",
             "music_albums": "Álbumes (YouTube Music)",
-            "videos": "Vídeos normales"
+            "videos": "Vídeos"
         },
         "filterLabel": "Filtrar los resultados por tipo"
     },
     "playlists": {
         "add_to_playlist": "Agregar a la lista de reproducción",
-        "confirm_addition": "Confirmar la incorporación",
+        "confirm_addition": "Confirmar la adición",
         "create_playlist": "Crear la lista de reproducción",
         "playlist_field_name": "Nombre de la lista de reproducción",
         "remove_video": "Eliminar este vídeo de la lista de reproducción",
