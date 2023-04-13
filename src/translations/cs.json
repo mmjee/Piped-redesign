@@ -5,7 +5,8 @@
         "share": "Sdílet",
         "with_timestamps": "S časem",
         "via_pm": "Přes Piped Material",
-        "via_yt": "Přes YouTube"
+        "via_yt": "Přes YouTube",
+        "share_system": "Sdílení přes systémový dialog"
     },
     "titles": {
         "register": "Zaregistrovat se",
