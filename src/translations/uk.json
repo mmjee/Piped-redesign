@@ -63,7 +63,8 @@
         "with_timestamps": "З мітками часу",
         "without_timestamps": "Без міток часу",
         "via_pm": "Через Piped Material",
-        "via_yt": "Через YouTube"
+        "via_yt": "Через YouTube",
+        "share_system": "Поділитися через системне вікно"
     },
     "auth_dialog": {
         "title": "Аутентифікація",
