@@ -60,7 +60,8 @@
         "title": "Distribuie acest videoclip",
         "via_yt": "Prin YouTube",
         "with_timestamps": "Cu marcaje de timp",
-        "without_timestamps": "Fără marcaje de timp"
+        "without_timestamps": "Fără marcaje de timp",
+        "share_system": "Partajează prin dialogul de sistem"
     },
     "auth_dialog": {
         "username": "Nume de utilizator",
