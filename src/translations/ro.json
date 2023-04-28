@@ -162,6 +162,7 @@
     "footer": {
         "help_message_3": "alătură-te camerei Matrix sau canalului IRC",
         "commit_message_1": "commit {hash}",
-        "translations_msg_2": "prin Weblate"
+        "translations_msg_2": "prin Weblate",
+        "text": "Rularea Piped-Material {1}, vă rugăm să ajute în localizarea Piped-Material la mai multe limbi {2}! {0} Pentru ajutor, sugestii și/sau feedback, vă rugăm să {3}."
     }
 }
