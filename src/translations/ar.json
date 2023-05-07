@@ -113,7 +113,8 @@
         "with_timestamps": "مع التوقيت الحالي",
         "without_timestamps": "بدون التوقيت الحالي",
         "title": "شارك هذا الفيديو",
-        "via_pm": "بواسطة Piped Material"
+        "via_pm": "بواسطة Piped Material",
+        "share_system": "شارك عبر مربع حوار النظام"
     },
     "playlists": {
         "add_to_playlist": "إضافة إلى قائمة التشغيل",
