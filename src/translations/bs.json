@@ -53,7 +53,12 @@
         "light": "Svjetlo",
         "minimize_description": "Umanjite opis prema zadanim postavkama",
         "skip_sponsors": "Sponzori",
-        "enable_dark_mode": "Omogućite Mračni Saštimak"
+        "enable_dark_mode": "Omogućite Mračni Saštimak",
+        "related_videos": "Povezani video zapisi",
+        "autoplay_next_video": "Nastavite na prvi povezani video kada se ovaj video završi",
+        "loop_this_video": "Stavite ovaj video na ponavljanje",
+        "unauthenticated_rss": "RSS (neautorizirano)",
+        "related_comments": "Komentari"
     },
     "channel_tabs": {
         "livestreams": "Prijenosi uživo",
@@ -106,7 +111,8 @@
         "title": "Podijelite ovaj video",
         "share": "Podijelite",
         "with_timestamps": "Sa vremenskim oznakama",
-        "without_timestamps": "Bez vremenskih oznaka"
+        "without_timestamps": "Bez vremenskih oznaka",
+        "share_system": "Dijelite putem sistemskog dijaloga"
     },
     "preferences": {
         "colorScheme": "Šema Boja",
@@ -127,7 +133,24 @@
         "homepage": "Zadana početna stranica",
         "clickbaitThumbnailAvoidance": "Zamijenite zadane sličice sa automatski generisanim",
         "disableLBRY": "Onemogući LBRY",
-        "proxyLBRY": "Proksijski LBRY videozapisi"
+        "proxyLBRY": "Proksijski LBRY videozapisi",
+        "quality_opts": {
+            "360p": "360p",
+            "2160p": "2160p (ovo se obično naziva 4K, 3840x2160)",
+            "4320p": "4320p (ovo se obično naziva 8K, 7680x4320)",
+            "auto": "Automatski određeno",
+            "1080p": "1080p",
+            "144p": "144p",
+            "240p": "240p",
+            "1440p": "1440p",
+            "480p": "480p",
+            "720p": "720p"
+        },
+        "column_opts": {
+            "5": "5 stubova",
+            "4": "4 stuba",
+            "6": "6 stubova"
+        }
     },
     "auth_dialog": {
         "username": "Korisničko ime",
@@ -135,5 +158,11 @@
         "title": "Autentifikacija",
         "log_in": "Prijavite se",
         "sign_up": "Upišite se"
+    },
+    "footer": {
+        "text": "Pokretanjem Piped-Material {1}, molimo vas da pomognete u prevođenju Piped-Material-a na više jezika {2}!{0} Za pomoć, prijedloge i/ili povratne informacije, molimo vas {3}.",
+        "commit_message_1": "commit {hash}",
+        "translations_msg_2": "preko Weblate-a",
+        "help_message_3": "pridružite se Matrix sobi ili IRC kanalu"
     }
 }
