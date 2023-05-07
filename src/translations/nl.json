@@ -18,7 +18,24 @@
         "disableCommentsByDefault": "Opmerkingen standaard niet weergeven",
         "showRelatedVideos": "Toon gerelateerde video's",
         "showMarkers": "Toon SponsorBlok-markeringen",
-        "sponsorblock": "Sponsorblok Inschakelen"
+        "sponsorblock": "Sponsorblok Inschakelen",
+        "quality_opts": {
+            "auto": "Automatisch bepaald",
+            "4320p": "4320p (dit wordt gewoonlijk 8K, 7680x4320 genoemd)",
+            "144p": "144p",
+            "240p": "240p",
+            "360p": "360p",
+            "480p": "480p",
+            "1080p": "1080p",
+            "2160p": "2160p (dit wordt gewoonlijk 4K, 3840x2160 genoemd)",
+            "720p": "720p",
+            "1440p": "1440p"
+        },
+        "column_opts": {
+            "4": "4 kolommen",
+            "5": "5 kolommen",
+            "6": "6 kolommen"
+        }
     },
     "titles": {
         "trending": "Trending",
@@ -76,7 +93,8 @@
         "via_pm": "Via Piped Materiaal",
         "share": "Delen",
         "without_timestamps": "Zonder tijdstempels",
-        "via_yt": "Via YouTube"
+        "via_yt": "Via YouTube",
+        "share_system": "Delen via systeemdiavenster"
     },
     "actions": {
         "loadComments": "Opmerkingen laden",
@@ -119,7 +137,12 @@
         "channel_name_desc": "Kanaalnaam (Z-A)",
         "dark": "Donker",
         "store_watch_history": "Kijkgeschiedenis Opslaan",
-        "enable_dark_mode": "Donkere modus inschakelen"
+        "enable_dark_mode": "Donkere modus inschakelen",
+        "related_videos": "Gerelateerde video's",
+        "related_comments": "Opmerkingen",
+        "autoplay_next_video": "Ga door naar de eerste gerelateerde video zodra deze video is afgelopen",
+        "unauthenticated_rss": "RSS (niet-geauthenticeerd)",
+        "loop_this_video": "Lus deze video"
     },
     "errors": {
         "trendingFetchError": "Kon geen trending video's ophalen. Controleer of uw land wordt ondersteund door YouTube"
@@ -135,5 +158,11 @@
         "password": "Wachtwoord",
         "sign_up": "Aanmelden",
         "log_in": "Inloggen"
+    },
+    "footer": {
+        "text": "Als u Piped-Material {1} uitvoert, helpt u alstublieft bij het lokaliseren van Piped-Material naar meer talen {2}!{0} Voor hulp, suggesties en/of feedback kunt u terecht {3}.",
+        "commit_message_1": "begaan {hash}",
+        "translations_msg_2": "via Weblate",
+        "help_message_3": "word lid van de Matrix-kamer of het IRC-kanaal"
     }
 }
