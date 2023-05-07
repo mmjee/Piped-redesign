@@ -108,7 +108,8 @@
         "title": "Dieses Video teilen",
         "share": "Teilen",
         "without_timestamps": "Ohne Zeitstempel",
-        "via_yt": "Über YouTube"
+        "via_yt": "Über YouTube",
+        "share_system": "Teilen über Systemdialog"
     },
     "misc": {
         "watchedAgo": "{t} angeschaut bis {p}",
