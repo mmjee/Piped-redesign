@@ -113,7 +113,8 @@
         "without_timestamps": "بەبێ کاتی ئێستا",
         "via_pm": "بە ڕێگای Piped Material",
         "title": "هاوبەشکردنی ڤیدیۆ",
-        "via_yt": "بە ڕێگای YouTube"
+        "via_yt": "بە ڕێگای YouTube",
+        "share_system": "هاوبەشکردن لە ڕێگەی دیالۆگی سیستەمەوە"
     },
     "playlists": {
         "add_to_playlist": "زیادکردن بۆ لیستی ڤیدیۆکان",
