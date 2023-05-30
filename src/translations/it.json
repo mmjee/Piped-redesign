@@ -1,0 +1,169 @@
+{
+    "counts": {
+        "views": "Nessuna visualizzazione | Una visualizzazione | {n} visualizzazioni",
+        "videos": "Nessun video | Un Video | {n} Video",
+        "subscribers": "Nessun iscritto | Un iscritto | {n} iscritti"
+    },
+    "channel_sharing_panel": {
+        "title": "Condividi questo canale",
+        "share": "Condividi",
+        "via_pm": "Attraverso Piped Material",
+        "via_yt": "Attraverso YouTube"
+    },
+    "misc": {
+        "searchBarLabel": "Cosa stai cercando?",
+        "lastWatchedTill": "Ultimo visto fino a {t}",
+        "watchedAgo": "Visto {t} e {p}"
+    },
+    "titles": {
+        "homepage": "Home",
+        "register": "Registrati",
+        "feed": "Iscrizioni",
+        "playlists": "Playlist",
+        "history": "Cronologia",
+        "trending": "Tendenze",
+        "preferences": "Preferenze"
+    },
+    "errors": {
+        "trendingFetchError": "Non è possibile recuperare i video di tendenza. Verifica se il tuo Paese è supportato da YouTube"
+    },
+    "playlists": {
+        "playlist_field_name": "Nome Playlist",
+        "rename_self": "Rinomina",
+        "new_name_msg": "Qual è il nuovo nome?",
+        "remove_video": "Rimuovi il video dalla Playlist",
+        "confirm_addition": "Conferma aggiunta",
+        "add_to_playlist": "Aggiungi a Playlist",
+        "create_playlist": "Crea Playlist",
+        "delete_self": "Elimina"
+    },
+    "channel_tabs": {
+        "livestreams": "Live",
+        "playlists": "Playlist",
+        "channels": "Canali",
+        "videos": "Video",
+        "shorts": "Short"
+    },
+    "search_results": {
+        "filterLabel": "Filtra risultati per",
+        "result_types": {
+            "all": "Tutti i risultati",
+            "videos": "Video",
+            "playlists": "Playlist",
+            "channels": "Canali",
+            "music_songs": "Canzoni (YouTube Music)",
+            "music_videos": "Video Musicali (YouTube Music)",
+            "music_albums": "Album (YouTube Music)",
+            "music_playlists": "Playlist (YouTube Music)"
+        }
+    },
+    "auth_dialog": {
+        "password": "Password",
+        "title": "Autenticazione",
+        "username": "Nome utente",
+        "log_in": "Accedi",
+        "sign_up": "Registrati"
+    },
+    "actions": {
+        "enable_dark_mode": "Attiva Modalità Scura",
+        "accounts": "Account",
+        "unsubscribe": "Disiscriviti",
+        "most_recent": "Più Recente",
+        "skip_outro": "Endcards/Crediti",
+        "skip_interaction": "Promemoria di interazione (iscriviti)",
+        "skip_poi_highlights": "Punti salienti",
+        "theme": "Tema",
+        "related_comments": "Commenti",
+        "loadComments": "Carica Commenti",
+        "logInSignUp": "Accedi/Registrati",
+        "logOut": "Disconnettiti",
+        "delAccountMessage": "Vuoi eliminare il tuo account?",
+        "confirmPWToDelAcc": "Conferma la tua password per eliminare l'account",
+        "loadReplies": "Carica Risposte",
+        "rss_of_subscriptions": "RSS delle tue iscrizioni",
+        "view_subscriptions": "Visualizza Iscrizioni",
+        "hideReplies": "Nascondi Risposte",
+        "loop_this_video": "Ripeti questo video",
+        "logOutFromAllDevices": "Disconnettiti da tutti i dispositivi",
+        "dark": "Scuro",
+        "showReplies": "Mostra Risposte",
+        "subscribe": "Iscriviti",
+        "instances_list": "Elenco istanze",
+        "enabled_codecs": "Codec abilitati (multipli)",
+        "sort_by": "Ordina per:",
+        "channel_name_desc": "Nome Canale (Z-A)",
+        "least_recent": "Meno Recente",
+        "channel_name_asc": "Nome Canale (A-Z)",
+        "back": "Indietro",
+        "uses_api_from": "Utilizza l'API da ",
+        "enable_sponsorblock": "Attiva Sponsorblock",
+        "skip_sponsors": "Sponsors",
+        "skip_intro": "Animazione di intervallo/introduzione",
+        "skip_preview": "Anteprima/Riepilogo",
+        "skip_self_promo": "Non pagata/ Autopromozione",
+        "skip_non_music": "Musica: Sezione di Non-Musica",
+        "auto": "Auto",
+        "light": "Chiaro",
+        "skip_filler": "Riempitivi",
+        "minimize_description": "Minimizza Descrizione in modo predefinito",
+        "language_selection": "Seleziona lingua",
+        "autoplay_next_video": "Al termine di questo video, passate al primo video correlato",
+        "related_videos": "Video correlati",
+        "unauthenticated_rss": "RSS (non autenticato)",
+        "store_watch_history": "Memorizza Cronologia Visualizzazioni"
+    },
+    "preferences": {
+        "feedColumns": "Numero di colonne nelle pagine delle iscrizioni",
+        "sponsorblock": "Abilita SponsorBlock",
+        "selectedSkip": "Segmenti da saltare",
+        "bufferGoal": "Quantità di secondi di dati che devono essere mantenuti in buffering",
+        "disableDuplicateHistoryEntries": "Disabilitare la creazione di voci duplicate della cronologia di visualizzazione",
+        "quality_opts": {
+            "360p": "360p",
+            "1440p": "1440p",
+            "1080p": "1080p",
+            "480p": "480p",
+            "2160p": "2160p (di solito viene definito 4K, 3840x2160)",
+            "auto": "Determinato automaticamente",
+            "720p": "720p",
+            "4320p": "4320p (di solito viene definito 8K, 7680x4320)",
+            "144p": "144p",
+            "240p": "240p"
+        },
+        "playerAutoplay": "Riproduzione automatica",
+        "colorScheme": "Schema colori",
+        "skipToLastPoint": "Vai all'ultimo punto guardato quando incontri un video già visto",
+        "showMarkers": "Mostra marcatori SponsorBlock",
+        "listen": "Solo audio",
+        "region": "Selezione paese",
+        "disableLBRY": "Disabilita LBRY",
+        "quality": "Qualità predefinita",
+        "homepage": "Homepage predefinita",
+        "homepageButton": "Abilita il pulsante della homepage",
+        "instance": "Istanza",
+        "clickbaitThumbnailAvoidance": "Sostituire le miniature predefinite con quelle generate automaticamente",
+        "proxyLBRY": "Video Proxy LBRY",
+        "disableCommentsByDefault": "Non mostrare commenti per impostazione predefinita",
+        "showRelatedVideos": "Mostra video correlati",
+        "column_opts": {
+            "4": "4 colonne",
+            "5": "5 colonne",
+            "6": "6 colonne"
+        }
+    },
+    "footer": {
+        "commit_message_1": "commit {hash}",
+        "translations_msg_2": "attraverso Weblate",
+        "help_message_3": "unisciti alla stanza Matrix o al canale IRC",
+        "text": "Esecuzione del Piped-Material {1}, si prega di aiutare a localizzare Piped-Material in più lingue {2}!{0} Per aiuto, suggerimenti e/o feedback, si prega di {3}."
+    },
+    "video_sharing_panel": {
+        "title": "Condividi questo video",
+        "share": "Condividi",
+        "with_timestamps": "Con Timestamps",
+        "without_timestamps": "Senza Timestamps",
+        "via_pm": "Attraverso Piped Material",
+        "via_yt": "Attraverso YouTube",
+        "share_system": "Condividi con dialogo di sistema"
+    }
+}
