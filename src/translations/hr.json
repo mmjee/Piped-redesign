@@ -83,7 +83,8 @@
             "4": "4 stupca",
             "5": "5 stupaca",
             "6": "6 stupaca"
-        }
+        },
+        "disableDuplicateHistoryEntries": "Aktiviraj stvaranje duplih unosa povijesti gledanja"
     },
     "titles": {
         "feed": "Članak",
