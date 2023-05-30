@@ -92,7 +92,8 @@
             "4": "4 sütun",
             "5": "5 sütun",
             "6": "6 sütun"
-        }
+        },
+        "disableDuplicateHistoryEntries": "Yinelenen izleme geçmişi kayıtlarının oluşturulmasını devre dışı bırak"
     },
     "counts": {
         "videos": "Video yok | Bir Video | {n} Video",
