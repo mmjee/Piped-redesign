@@ -114,7 +114,8 @@
             "4": "4 columnas",
             "5": "5 columnas",
             "6": "6 columnas"
-        }
+        },
+        "disableDuplicateHistoryEntries": "Inhabilitar la creación de entradas duplicadas en el historial de reproducciones"
     },
     "channel_sharing_panel": {
         "via_pm": "Reproducir mediante Piped Material",
