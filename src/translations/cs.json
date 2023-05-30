@@ -64,7 +64,7 @@
         "dark": "Tmavý",
         "store_watch_history": "Ukládat historii sledování",
         "enabled_codecs": "Povolené kodeky (několik)",
-        "skip_filler": "Filtry",
+        "skip_filler": "Výplně",
         "skip_poi_highlights": "Zvýraznění",
         "loadComments": "Načíst komentáře",
         "logOutFromAllDevices": "Odhlásit se ze všech zařízení",
@@ -114,7 +114,8 @@
             "4": "4 sloupce",
             "5": "5 sloupců",
             "6": "6 sloupců"
-        }
+        },
+        "disableDuplicateHistoryEntries": "Zakázat tvorbu duplicitních záznamů v historii sledování"
     },
     "playlists": {
         "add_to_playlist": "Přidat do playlistu",
@@ -162,7 +163,7 @@
     "footer": {
         "commit_message_1": "commit {hash}",
         "translations_msg_2": "prostřednictvím Weblate",
-        "help_message_3": "připojte se do místnosti Matrix nebo kanálu IRC",
-        "text": "Běží na Piped-Material {1}, pomozte nám prosím s lokalizací Piped-Material do více jazyků {2}!{0} Pro pomoc, návrhy a/nebo zpětnou vazbu, prosím {3}."
+        "help_message_3": "připojte do místnosti Matrix nebo kanálu IRC",
+        "text": "Běží na Piped-Material {1}, pomozte nám prosím s překladem Piped-Material do více jazyků {2}!{0} Pro pomoc, návrhy a/nebo zpětnou vazbu, se prosím {3}."
     }
 }
