@@ -116,7 +116,8 @@
             "4": "4 kolom",
             "5": "5 kolom",
             "6": "6 kolom"
-        }
+        },
+        "disableDuplicateHistoryEntries": "Nonaktifkan pembuatan entri riwayat tontonan duplikat"
     },
     "counts": {
         "subscribers": "Tidak ada pelanggan | Satu pelanggan | {n} pelanggan",
