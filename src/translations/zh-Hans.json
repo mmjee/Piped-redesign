@@ -35,7 +35,8 @@
             "4": "4 列",
             "5": "5 列",
             "6": "6 列"
-        }
+        },
+        "disableDuplicateHistoryEntries": "禁止创建重复的观看记录条目"
     },
     "titles": {
         "homepage": "主页",
