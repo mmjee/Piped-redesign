@@ -68,7 +68,10 @@
         "loop_this_video": "Reproducción en bucle",
         "related_videos": "Vídeos relacionados",
         "related_comments": "Comentarios",
-        "unauthenticated_rss": "RSS (sin autenticar)"
+        "unauthenticated_rss": "RSS (sin autenticar)",
+        "import_subscriptions": "Importar las suscripciones",
+        "export_subscriptions": "Exportar las suscripciones",
+        "subscriptions_filename": "subs.pipedsubs.json"
     },
     "counts": {
         "videos": "No hay videos | Un video | {n} Videos",
