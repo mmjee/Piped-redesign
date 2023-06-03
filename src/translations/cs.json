@@ -76,7 +76,10 @@
         "autoplay_next_video": "Po skončení tohoto videa přejít na první související video",
         "loop_this_video": "Opakovat toto video",
         "related_videos": "Související videa",
-        "unauthenticated_rss": "RSS (neautentizované)"
+        "unauthenticated_rss": "RSS (neautentizované)",
+        "import_subscriptions": "Importovat odběry",
+        "export_subscriptions": "Exportovat odběry",
+        "subscriptions_filename": "subs.pipedsubs.json"
     },
     "preferences": {
         "feedColumns": "Počet sloupců ve stránce kanálu",
