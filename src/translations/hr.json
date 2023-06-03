@@ -45,7 +45,10 @@
         "related_comments": "Komentari",
         "autoplay_next_video": "Prijeđi na prvi povezani videozapis kad ovaj videozapis završi",
         "loop_this_video": "Ponavljaj ovaj video",
-        "unauthenticated_rss": "RSS (neautentificirano)"
+        "unauthenticated_rss": "RSS (neautentificirano)",
+        "export_subscriptions": "Izvoz pretplata",
+        "subscriptions_filename": "subs.pipedsubs.json",
+        "import_subscriptions": "Uvoz pretplata"
     },
     "preferences": {
         "sponsorblock": "Omogućite Sponzorblok",
