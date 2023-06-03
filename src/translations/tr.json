@@ -45,7 +45,10 @@
         "related_comments": "Yorumlar",
         "loop_this_video": "Bu videoyu döngüye al",
         "autoplay_next_video": "Bu video bittiğinde ilgili ilk videoya geç",
-        "unauthenticated_rss": "RSS (kimlik doğrulanmadı)"
+        "unauthenticated_rss": "RSS (kimlik doğrulanmadı)",
+        "import_subscriptions": "Abonelikleri İçe Aktar",
+        "export_subscriptions": "Abonelikleri Dışa Aktar",
+        "subscriptions_filename": "subs.pipedsubs.json"
     },
     "titles": {
         "history": "Geçmiş",
