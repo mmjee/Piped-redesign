@@ -154,7 +154,8 @@
             "5": "5 coloane",
             "6": "6 coloane",
             "4": "4 coloane"
-        }
+        },
+        "disableDuplicateHistoryEntries": "Dezactivarea creării intrărilor dublate din istoricul vizionărilor"
     },
     "errors": {
         "trendingFetchError": "Nu s-au putut prelua videoclipurile populare. Verificați dacă țara dvs. este acceptată de YouTube"
