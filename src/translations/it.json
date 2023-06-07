@@ -110,7 +110,10 @@
         "autoplay_next_video": "Al termine di questo video, passate al primo video correlato",
         "related_videos": "Video correlati",
         "unauthenticated_rss": "RSS (non autenticato)",
-        "store_watch_history": "Memorizza Cronologia Visualizzazioni"
+        "store_watch_history": "Memorizza Cronologia Visualizzazioni",
+        "import_subscriptions": "Importa Iscrizioni",
+        "export_subscriptions": "Esporta Iscrizioni",
+        "subscriptions_filename": "iscriz.pipedsubs.json"
     },
     "preferences": {
         "feedColumns": "Numero di colonne nelle pagine delle iscrizioni",
