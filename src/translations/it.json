@@ -100,7 +100,7 @@
         "skip_sponsors": "Sponsors",
         "skip_intro": "Animazione di intervallo/introduzione",
         "skip_preview": "Anteprima/Riepilogo",
-        "skip_self_promo": "Non pagata/ Autopromozione",
+        "skip_self_promo": "Non pagata/Autopromozione",
         "skip_non_music": "Musica: Sezione di Non-Musica",
         "auto": "Auto",
         "light": "Chiaro",
@@ -157,7 +157,7 @@
     "footer": {
         "commit_message_1": "commit {hash}",
         "translations_msg_2": "attraverso Weblate",
-        "help_message_3": "unisciti alla stanza Matrix o al canale IRC",
+        "help_message_3": "unirsi alla stanza Matrix o al canale IRC",
         "text": "Esecuzione del Piped-Material {1}, si prega di aiutare a localizzare Piped-Material in più lingue {2}!{0} Per aiuto, suggerimenti e/o feedback, si prega di {3}."
     },
     "video_sharing_panel": {
