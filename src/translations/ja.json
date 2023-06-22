@@ -1,1 +1,172 @@
-{}
+{
+    "footer": {
+        "commit_message_1": "commit {hash}",
+        "translations_msg_2": "Weblate",
+        "help_message_3": "Matrix のルームや IRC のチャンネル",
+        "text": "稼働中 Piped-Material {1} : Piped-Material の多言語化は {2} からご協力ください！{0}ヘルプ、また提案やご意見は {3}にご参加ください。"
+    },
+    "misc": {
+        "lastWatchedTill": "{t} まで前回視聴",
+        "watchedAgo": "{t}に視聴 再生位置:{p}",
+        "searchBarLabel": "何を探す？"
+    },
+    "actions": {
+        "logOut": "ログアウト",
+        "logOutFromAllDevices": "すべての端末からログアウト",
+        "minimize_description": "最初から説明を最小化",
+        "store_watch_history": "再生履歴を保存",
+        "autoplay_next_video": "この動画が終了したら関連動画の1番目を再生",
+        "skip_self_promo": "無報酬/自己宣伝",
+        "skip_non_music": "音楽: 非音楽シーン",
+        "language_selection": "言語の選択",
+        "channel_name_asc": "チャンネル名 (A-Z)",
+        "channel_name_desc": "チャンネル名 (Z-A)",
+        "unauthenticated_rss": "RSS (認証不要)",
+        "uses_api_from": "API 提供元 ",
+        "light": "ライト",
+        "delAccountMessage": "このアカウントを削除しますか？",
+        "subscribe": "チャンネル登録",
+        "unsubscribe": "登録解除",
+        "enable_sponsorblock": "Sponsorblock を使用",
+        "skip_interaction": "操作のお願い (登録など)",
+        "related_comments": "コメント",
+        "hideReplies": "返信を閉じる",
+        "skip_intro": "合間/導入アニメ",
+        "skip_outro": "終了画面/クレジット",
+        "skip_preview": "予告/あらすじ",
+        "theme": "テーマ",
+        "most_recent": "新しい順",
+        "showReplies": "返信を表示",
+        "view_subscriptions": "登録チャンネルを表示",
+        "sort_by": "並び替え:",
+        "loadComments": "コメントを読み込む",
+        "back": "戻る",
+        "least_recent": "古い順",
+        "logInSignUp": "ログイン/登録",
+        "rss_of_subscriptions": "登録チャンネルのRSS",
+        "auto": "自動",
+        "dark": "ダーク",
+        "confirmPWToDelAcc": "パスワードを確認しこのアカウントを削除",
+        "related_videos": "関連動画",
+        "loadReplies": "返信を読み込む",
+        "skip_sponsors": "協賛",
+        "skip_poi_highlights": "ハイライト",
+        "skip_filler": "無関係な談話",
+        "enable_dark_mode": "ダークモード",
+        "accounts": "アカウント",
+        "instances_list": "インスタンスの一覧",
+        "loop_this_video": "動画をループ",
+        "import_subscriptions": "登録をインポート",
+        "export_subscriptions": "登録をエクスポート",
+        "subscriptions_filename": "subs.pipedsubs.json",
+        "enabled_codecs": "使用コーデック (複数選択)"
+    },
+    "preferences": {
+        "feedColumns": "フィードのページの列数",
+        "column_opts": {
+            "4": "4列",
+            "6": "6列",
+            "5": "5列"
+        },
+        "quality_opts": {
+            "480p": "480p",
+            "1440p": "1440p",
+            "1080p": "1080p",
+            "360p": "360p",
+            "720p": "720p",
+            "auto": "自動で判断",
+            "144p": "144p",
+            "240p": "240p",
+            "2160p": "2160p (通称 4K, 3840x2160)",
+            "4320p": "4320p (通称 8K, 7680x4320)"
+        },
+        "bufferGoal": "データをバッファリングしたい秒数",
+        "sponsorblock": "SponsorBlock を使用",
+        "quality": "標準の画質",
+        "instance": "インスタンスの選択",
+        "proxyLBRY": "LBRY 動画にプロキシを使用",
+        "disableCommentsByDefault": "最初はコメントをしない",
+        "playerAutoplay": "動画の自動再生",
+        "clickbaitThumbnailAvoidance": "標準のサムネイルを自動生成したもので置換",
+        "region": "国の選択",
+        "colorScheme": "カラーテーマ",
+        "skipToLastPoint": "見たことがある動画では最後に見ていた再生位置まで飛ばす",
+        "listen": "音声のみ",
+        "disableLBRY": "LBRY を無効化",
+        "showRelatedVideos": "関連動画を表示",
+        "homepageButton": "ホームのボタンを表示",
+        "selectedSkip": "スキップしたいシーン",
+        "showMarkers": "SponsorBlock のシーンを示す区切りを表示",
+        "disableDuplicateHistoryEntries": "同じ動画の再生履歴を残さない",
+        "homepage": "ホームに表示するページ"
+    },
+    "titles": {
+        "history": "再生履歴",
+        "register": "登録",
+        "preferences": "設定",
+        "trending": "急上昇",
+        "homepage": "ホーム",
+        "feed": "フィード",
+        "playlists": "再生リスト"
+    },
+    "counts": {
+        "videos": "動画なし | 1本の動画 | {n}本の動画",
+        "views": "視聴なし | 1回視聴 | {n}回視聴",
+        "subscribers": "登録者なし | 登録者 1人 | 登録者数 {n}人"
+    },
+    "playlists": {
+        "remove_video": "この動画をリストから除去",
+        "add_to_playlist": "再生リストに追加",
+        "confirm_addition": "追加",
+        "delete_self": "削除",
+        "rename_self": "名前の変更",
+        "new_name_msg": "新しい名前は何にしますか？",
+        "create_playlist": "再生リスト作成",
+        "playlist_field_name": "再生リストの名前"
+    },
+    "errors": {
+        "trendingFetchError": "急上昇の動画情報を取得できません。設定した国が YouTube に対応するかご確認ください"
+    },
+    "channel_sharing_panel": {
+        "share": "共有",
+        "via_pm": "Piped Material で共有",
+        "via_yt": "YouTube で共有",
+        "title": "チャンネルを共有"
+    },
+    "video_sharing_panel": {
+        "title": "動画を共有",
+        "share": "共有",
+        "via_pm": "Piped Material で共有",
+        "via_yt": "YouTube で共有",
+        "share_system": "システムのアプリ選択から共有",
+        "with_timestamps": "時間指定",
+        "without_timestamps": "時間指定なし"
+    },
+    "search_results": {
+        "result_types": {
+            "music_songs": "曲 (YouTube Music)",
+            "channels": "チャンネル",
+            "playlists": "再生リスト",
+            "music_videos": "ミュージックビデオ (YouTube Music)",
+            "music_albums": "アルバム (YouTube Music)",
+            "all": "すべて",
+            "music_playlists": "再生リスト (YouTube Music)",
+            "videos": "通常の動画"
+        },
+        "filterLabel": "この種類に絞る"
+    },
+    "channel_tabs": {
+        "videos": "動画",
+        "livestreams": "ライブ",
+        "playlists": "再生リスト",
+        "channels": "チャンネル",
+        "shorts": "ショート"
+    },
+    "auth_dialog": {
+        "username": "ユーザー名",
+        "password": "パスワード",
+        "title": "ログイン情報",
+        "log_in": "ログイン",
+        "sign_up": "登録"
+    }
+}
