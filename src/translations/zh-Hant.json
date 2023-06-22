@@ -1,10 +1,10 @@
 {
     "actions": {
         "skip_intro": "跳過中場休息/介紹動畫",
-        "skip_sponsors": "跳過贊助商",
-        "enable_sponsorblock": "啟用 SponsorBlock",
-        "channel_name_desc": "通道名稱 (Z-A)",
-        "channel_name_asc": "通道名稱 (A-Z)",
+        "skip_sponsors": "贊助商",
+        "enable_sponsorblock": "啟用 業配封鎖",
+        "channel_name_desc": "頻道名稱 (Z-A)",
+        "channel_name_asc": "頻道名稱 (A-Z)",
         "unsubscribe": "取消訂閱",
         "subscribe": "訂閱",
         "sort_by": "排序方式:",
@@ -20,7 +20,31 @@
         "auto": "自動",
         "dark": "深色",
         "light": "明亮",
-        "theme": "主題"
+        "theme": "主題",
+        "loop_this_video": "循環播放影片",
+        "accounts": "您的帳戶",
+        "related_comments": "留言",
+        "autoplay_next_video": "影片結束後繼續觀看相關影片",
+        "skip_non_music": "音樂：非音樂部分",
+        "rss_of_subscriptions": "您的 RSS 訂閱",
+        "skip_outro": "片尾/信用",
+        "skip_filler": "篩選器",
+        "confirmPWToDelAcc": "確認您的密碼以刪除您的帳戶",
+        "instances_list": "實例列表",
+        "loadComments": "載入回覆",
+        "minimize_description": "預設最小化描述",
+        "logOutFromAllDevices": "登出所有裝置",
+        "uses_api_from": "使用來自  的API ",
+        "skip_preview": "預覽/概括",
+        "enabled_codecs": "啟用編碼器（多個）",
+        "related_videos": "相關影片",
+        "enable_dark_mode": "啟用深色模式",
+        "delAccountMessage": "您想刪除您的帳戶嗎？",
+        "export_subscriptions": "導出訂閱",
+        "import_subscriptions": "導入訂閱",
+        "skip_interaction": "互動提醒 (訂閱)",
+        "store_watch_history": "儲存觀看歷史",
+        "unauthenticated_rss": "RSS (未經審閱)"
     },
     "titles": {
         "history": "歷史記錄",
@@ -37,7 +61,12 @@
     },
     "video_sharing_panel": {
         "share": "分享",
-        "title": "分享這個影片"
+        "title": "分享這個影片",
+        "share_system": "透過系統對話框分享",
+        "with_timestamps": "有時間戳記",
+        "without_timestamps": "沒有時間戳記",
+        "via_yt": "透過 YouTube",
+        "via_pm": "透過 Piped Material"
     },
     "counts": {
         "videos": "無影片| 一個影片 | {n} 影片",
@@ -48,6 +77,50 @@
         "confirm_addition": "確定加入",
         "add_to_playlist": "加入到播放清單",
         "create_playlist": "建立播放清單",
-        "playlist_field_name": "播放清單名稱"
+        "playlist_field_name": "播放清單名稱",
+        "delete_self": "刪除",
+        "remove_video": "從播放清單中移除此影片",
+        "rename_self": "重命名",
+        "new_name_msg": "您希望新名稱是什麼？"
+    },
+    "channel_sharing_panel": {
+        "via_pm": "透過 Piped Material",
+        "via_yt": "透過 YouTube",
+        "title": "分享這個頻道",
+        "share": "分享"
+    },
+    "auth_dialog": {
+        "username": "用戶名",
+        "password": "密碼",
+        "title": "驗證",
+        "log_in": "登入",
+        "sign_up": "註冊"
+    },
+    "search_results": {
+        "result_types": {
+            "music_videos": "單曲 (YouTube 音樂)",
+            "channels": "頻道",
+            "all": "所有結果",
+            "playlists": "播放清單",
+            "music_songs": "歌曲 (YouTube 音樂)",
+            "music_albums": "專輯 (YouTube音樂)",
+            "music_playlists": "播放清單 (YouTube 音樂)"
+        },
+        "filterLabel": "依類型篩選結果"
+    },
+    "errors": {
+        "trendingFetchError": "無法取得發燒影片。檢查您的國家/地區是否受YouTube支援"
+    },
+    "channel_tabs": {
+        "channels": "頻道",
+        "shorts": "短影片",
+        "videos": "影片",
+        "livestreams": "實況",
+        "playlists": "播放清單"
+    },
+    "misc": {
+        "searchBarLabel": "您要搜尋什麼?",
+        "lastWatchedTill": "上次觀看到 {t}",
+        "watchedAgo": "已觀看 {t} 到 {p}"
     }
 }
