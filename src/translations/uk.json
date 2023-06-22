@@ -67,15 +67,15 @@
         "share_system": "Поділитися через системне вікно"
     },
     "auth_dialog": {
-        "title": "Аутентифікація",
+        "title": "Автентифікація",
         "password": "Пароль",
         "sign_up": "Зареєструватися",
         "username": "Ім'я користувача",
-        "log_in": "Увійти"
+        "log_in": "Ввійти"
     },
     "actions": {
-        "enable_dark_mode": "Увімкніть темний режим",
-        "logInSignUp": "Увійти/Зареєструватися",
+        "enable_dark_mode": "Ввімкнути темний режим",
+        "logInSignUp": "Ввійти/Зареєструватися",
         "logOut": "Вийти",
         "accounts": "Ваш обліковий запис",
         "delAccountMessage": "Ви хочете видалити свій обліковий запис?",
@@ -89,7 +89,7 @@
         "channel_name_desc": "Назвою канала (Я-А)",
         "back": "Назад",
         "uses_api_from": "Використовує API від ",
-        "enable_sponsorblock": "Увімкнути Sponsorblock",
+        "enable_sponsorblock": "Ввімкнути Sponsorblock",
         "skip_sponsors": "Спонсори",
         "skip_outro": "Кінцева заставка/титри",
         "skip_preview": "Попередній перегляд/короткий зміст",
@@ -102,7 +102,7 @@
         "store_watch_history": "Зберігати історію перегляду",
         "language_selection": "Вибір мови",
         "instances_list": "Список екземплярів",
-        "enabled_codecs": "Увімкнені кодеки (можна вибрати декілька)",
+        "enabled_codecs": "Ввімкнені кодеки (можна вибрати декілька)",
         "related_videos": "Пов'язані відео",
         "related_comments": "Коментарі",
         "autoplay_next_video": "Перейдіть до першого пов'язаного відео, коли це відео закінчиться",
@@ -119,7 +119,10 @@
         "skip_filler": "Дотичне наповнення/жарти",
         "skip_non_music": "Музика: сегменти без музики",
         "skip_interaction": "Нагадування про взаємодію (підписка)",
-        "theme": "Тема"
+        "theme": "Тема",
+        "import_subscriptions": "Імпорт підписок",
+        "export_subscriptions": "Експорт підписок",
+        "subscriptions_filename": "subs.pipedsubs.json"
     },
     "preferences": {
         "colorScheme": "Кольорова схема",
@@ -135,8 +138,8 @@
         "showRelatedVideos": "Показати пов'язані відео",
         "showMarkers": "Показати маркери SponsorBlock",
         "listen": "Лише аудіо",
-        "sponsorblock": "Увімкнути SponsorBlock",
-        "homepageButton": "Увімкнути кнопку домашньої сторінки",
+        "sponsorblock": "Ввімкнути SponsorBlock",
+        "homepageButton": "Ввімкнути кнопку Головної сторінки",
         "feedColumns": "Кількість стовпців на сторінках каналу",
         "homepage": "Домашня сторінка за замовчуванням",
         "skipToLastPoint": "Перейдіть до останнього переглянутого моменту, коли натрапите на вже переглянуте відео",
@@ -157,12 +160,13 @@
             "4": "4 стовпці",
             "5": "5 стовпців",
             "6": "6 стовпців"
-        }
+        },
+        "disableDuplicateHistoryEntries": "Вимкнути створення дублікатів записів історії переглядів"
     },
     "footer": {
         "commit_message_1": "коміт {hash}",
         "translations_msg_2": "через Weblate",
         "help_message_3": "приєднайтеся до кімнати Matrix або IRC каналу",
-        "text": "Запустивши Piped-Material {1}, будь ласка, допоможіть локалізувати Piped-Material іншими мовами {2}!{0} Для отримання допомоги, пропозицій та/або зворотного зв'язку, будь ласка, {3}."
+        "text": "Запустивши Piped-Material {1}, будь ласка, допоможіть перекласти Piped-Material іншими мовами {2}!{0} Для отримання допомоги, пропозицій та/або зворотного зв'язку, будь ласка, {3}."
     }
 }
