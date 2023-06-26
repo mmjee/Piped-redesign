@@ -6,8 +6,8 @@
         "text": "稼働中 Piped-Material {1} : Piped-Material の多言語化は {2} からご協力ください！{0}ヘルプ、また提案やご意見は {3}にご参加ください。"
     },
     "misc": {
-        "lastWatchedTill": "{t} まで前回視聴",
-        "watchedAgo": "{t}に視聴 再生位置:{p}",
+        "lastWatchedTill": "{t} まで 前回視聴",
+        "watchedAgo": "前回視聴:{t} 最後の位置:{p}",
         "searchBarLabel": "何を探す？"
     },
     "actions": {
@@ -80,17 +80,17 @@
             "2160p": "2160p (通称 4K, 3840x2160)",
             "4320p": "4320p (通称 8K, 7680x4320)"
         },
-        "bufferGoal": "データをバッファリングしたい秒数",
+        "bufferGoal": "データをバッファリングする秒数",
         "sponsorblock": "SponsorBlock を使用",
         "quality": "標準の画質",
         "instance": "インスタンスの選択",
         "proxyLBRY": "LBRY 動画にプロキシを使用",
-        "disableCommentsByDefault": "最初はコメントをしない",
+        "disableCommentsByDefault": "最初はコメントを読み込まない",
         "playerAutoplay": "動画の自動再生",
         "clickbaitThumbnailAvoidance": "標準のサムネイルを自動生成したもので置換",
         "region": "国の選択",
         "colorScheme": "カラーテーマ",
-        "skipToLastPoint": "見たことがある動画では最後に見ていた再生位置まで飛ばす",
+        "skipToLastPoint": "視聴済みの動画では最後に見ていた再生位置まで飛ばす",
         "listen": "音声のみ",
         "disableLBRY": "LBRY を無効化",
         "showRelatedVideos": "関連動画を表示",
