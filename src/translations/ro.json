@@ -116,7 +116,10 @@
         "minimize_description": "Minimizați descrierea în mod implicit",
         "logInSignUp": "Autentificare/Înregistrare",
         "skip_intro": "Animație de pauză/Intro",
-        "skip_outro": "Carduri finale/Credite"
+        "skip_outro": "Carduri finale/Credite",
+        "import_subscriptions": "Importați abonamente",
+        "export_subscriptions": "Exportați abonamente",
+        "subscriptions_filename": "subs.pipedsubs.json"
     },
     "preferences": {
         "skipToLastPoint": "Treceți la ultimul punct vizionat când întâlniți un videoclip deja văzut",
