@@ -6,7 +6,7 @@
         "sort_by": "Poredajte po:",
         "most_recent": "Najnovije",
         "uses_api_from": "Koristite API od ",
-        "enable_sponsorblock": "Omogućite Sponzorblok",
+        "enable_sponsorblock": "Aktiviraj blok sponzora",
         "skip_sponsors": "Sponzori",
         "skip_intro": "Prijelaz/Uvodna animacija",
         "skip_outro": "Odjavna špica/Zasluge",
@@ -51,7 +51,7 @@
         "import_subscriptions": "Uvoz pretplata"
     },
     "preferences": {
-        "sponsorblock": "Omogućite Sponzorblok",
+        "sponsorblock": "Aktiviraj SponsorBlock",
         "selectedSkip": "Segmenti za preskakanje",
         "skipToLastPoint": "Prijeđite na posljednju gledanu točku kada naiđete na već pogledani videozapis",
         "playerAutoplay": "Automatski reproducirajte video",
