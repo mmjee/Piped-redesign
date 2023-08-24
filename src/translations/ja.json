@@ -168,5 +168,8 @@
         "title": "ログイン情報",
         "log_in": "ログイン",
         "sign_up": "登録"
+    },
+    "visibilities": {
+        "unlisted": "非公開"
     }
 }
