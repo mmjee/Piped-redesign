@@ -93,7 +93,7 @@
         "feed": "Članak",
         "preferences": "Postavke",
         "homepage": "Početna stranica",
-        "history": "Pregledna Povijest",
+        "history": "Povijest gledanja",
         "trending": "U trendu",
         "register": "Registracija",
         "playlists": "Popisi za reproduciranje"
@@ -168,5 +168,8 @@
         "commit_message_1": "commit {hash}",
         "text": "Pokrećući Piped-Material {1}, pomogni prevoditi Piped-Material na više jezika {2}!{0} Za pomoć, prijedloge i/ili povratne informacije, molimo {3}.",
         "help_message_3": "pridruži se Matrix sobi ili IRC kanalu"
+    },
+    "visibilities": {
+        "unlisted": "Nepopisano"
     }
 }
