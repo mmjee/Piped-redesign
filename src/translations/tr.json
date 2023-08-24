@@ -168,5 +168,8 @@
         "help_message_3": "Matrix odasına veya IRC kanalına katılın",
         "commit_message_1": "git kayıt {hash}",
         "text": "Piped-Material {1} çalışıyor, lütfen Piped-Material'ı daha fazla dil için yerelleştirmeye yardımcı olun {2}!{0} Yardım, öneri ve/veya geri bildirim için lütfen {3}."
+    },
+    "visibilities": {
+        "unlisted": "Liste dışı"
     }
 }
