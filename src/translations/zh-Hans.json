@@ -168,5 +168,8 @@
         "translations_msg_2": "通过 Weblate",
         "help_message_3": "加入 Matrix 聊天室或 IRC 频道",
         "text": "正在运行 Piped-Material {1}，请帮助将 Piped-Material 翻译为更多语言 {2}！{0} 对于帮助、建议和/或反馈，请 {3}。"
+    },
+    "visibilities": {
+        "unlisted": "不列入清单"
     }
 }
