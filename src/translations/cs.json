@@ -168,5 +168,8 @@
         "translations_msg_2": "prostřednictvím Weblate",
         "help_message_3": "připojte do místnosti Matrix nebo kanálu IRC",
         "text": "Běží na Piped-Material {1}, pomozte nám prosím s překladem Piped-Material do více jazyků {2}!{0} Pro pomoc, návrhy a/nebo zpětnou vazbu, se prosím {3}."
+    },
+    "visibilities": {
+        "unlisted": "Neveřejné"
     }
 }
