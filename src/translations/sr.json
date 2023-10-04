@@ -1,24 +1,24 @@
 {
     "preferences": {
-        "showRelatedVideos": "Прикажите повезане видеозаписе",
-        "bufferGoal": "Количина података у секундама који се морају чувати у међуспремнику",
-        "proxyLBRY": "Проксијски LBRY видеозаписи",
+        "showRelatedVideos": "Прикажи повезане видео снимке",
+        "bufferGoal": "Количина података у секундама који се морају чувати баферовани",
+        "proxyLBRY": "Прокси LBRY видео снимци",
         "homepageButton": "Омогући дугме за почетну страницу",
         "instance": "Инстанца",
-        "clickbaitThumbnailAvoidance": "Замените подразумеване сличице аутоматски генерисаним",
-        "disableLBRY": "Онемогућите LBRY",
-        "disableCommentsByDefault": "Не приказуј коментаре подразумевано",
-        "colorScheme": "Шема Боја",
-        "feedColumns": "Број колона на страницама чланака",
-        "sponsorblock": "Омогућите Спонзорблок",
+        "clickbaitThumbnailAvoidance": "Замени подразумеване сличице аутоматски генерисаним",
+        "disableLBRY": "Онемогући LBRY",
+        "disableCommentsByDefault": "Подразумевано не приказуј коментаре",
+        "colorScheme": "Шема боја",
+        "feedColumns": "Број колона на страницама фида",
+        "sponsorblock": "Омогући SponsorBlock",
         "selectedSkip": "Сегменти за прескакање",
-        "skipToLastPoint": "Прескочите на последњу тачку гледања када наиђете на већ виђен видео",
-        "playerAutoplay": "Аутоматски репродуцирајте видео",
-        "listen": "Само Звук",
-        "quality": "Задани Квалитет",
-        "showMarkers": "Прикажите СпонзорБлок маркере",
-        "region": "Избор Земље",
-        "homepage": "Задана почетна страница",
+        "skipToLastPoint": "Прескочи на последњи одгледани тренутак, када наиђеш на већ виђен видео снимак",
+        "playerAutoplay": "Аутоматски пусти видео снимак",
+        "listen": "Само звук",
+        "quality": "Подразумевани квалитет",
+        "showMarkers": "Прикажи SponsorBlock маркере",
+        "region": "Избор државе",
+        "homepage": "Подразумевана почетна страница",
         "quality_opts": {
             "720p": "720p",
             "auto": "Аутоматски одређено",
@@ -32,137 +32,144 @@
             "4320p": "4320p (ово се обично назива 8K, 7680x4320)"
         },
         "column_opts": {
-            "4": "4 стуба",
-            "5": "5 стубова",
-            "6": "6 стубова"
-        }
+            "4": "4 колоне",
+            "5": "5 колона",
+            "6": "6 колона"
+        },
+        "disableDuplicateHistoryEntries": "Онемогући прављење дуплих уноса историје гледања"
     },
     "channel_tabs": {
         "channels": "Канали",
-        "videos": "Видеоснимци",
-        "livestreams": "Преноси уживо",
-        "playlists": "Пописи Снимака",
-        "shorts": "Кратки видеозаписи"
+        "videos": "Видео снимци",
+        "livestreams": "Стримови уживо",
+        "playlists": "Плејлисте",
+        "shorts": "Shorts"
     },
     "search_results": {
         "result_types": {
-            "playlists": "Пописи Снимака",
+            "playlists": "Плејлисте",
             "all": "Сви резултати",
             "videos": "Обични видео снимци",
             "music_songs": "Песме (YouTube Music)",
-            "music_videos": "Музички видео снимци (YouTube Music)",
+            "music_videos": "Музички спотови (YouTube Music)",
             "music_albums": "Албуми (YouTube Music)",
-            "music_playlists": "Пописи Снимака (YouTube Music)",
+            "music_playlists": "Плејлисте (YouTube Music)",
             "channels": "Канали"
         },
-        "filterLabel": "Филтрирајте резултате по типу"
+        "filterLabel": "Филтрирање резултата по врсти"
     },
     "channel_sharing_panel": {
         "via_yt": "Преко YouTube-а",
-        "title": "Поделите овај канал",
-        "share": "Поделите",
-        "via_pm": "Преко Piped Материјала"
+        "title": "Дели овај канал",
+        "share": "Дели",
+        "via_pm": "Преко Piped материјала"
     },
     "actions": {
-        "delAccountMessage": "Да ли желите да избришете свој налог?",
+        "delAccountMessage": "Желите ли да избришете свој налог?",
         "least_recent": "Најстарије",
-        "uses_api_from": "Користи АПИ од ",
-        "skip_outro": "Завршне картице/Заслуге",
-        "skip_interaction": "Подсетник за интеракцију (захтева претплату)",
+        "uses_api_from": "Користи API од ",
+        "skip_outro": "Завршне картице/Кредити",
+        "skip_interaction": "Подсетник за интеракцију (праћење)",
         "auto": "Аутоматски",
-        "skip_non_music": "Музика: делови без музике",
+        "skip_non_music": "Музика: Сегмент без музике",
         "language_selection": "Избор језика",
         "loadComments": "Учитај коментаре",
-        "logOutFromAllDevices": "Одјавите се са свих уређаја",
-        "accounts": "Ваш кориснички налог",
-        "confirmPWToDelAcc": "Потврдите лозинку да бисте избрисали налог",
-        "loadReplies": "Учитајте одговоре",
-        "hideReplies": "Сакријте одговоре",
-        "showReplies": "Прикажите одговоре",
-        "subscribe": "Претплатите се",
-        "unsubscribe": "Откажите претплату",
-        "view_subscriptions": "Прикажите претплате",
-        "rss_of_subscriptions": "РСС ваших претплата",
-        "sort_by": "Сортирајте по:",
+        "logOutFromAllDevices": "Одјава са свих уређаја",
+        "accounts": "Ваш налог",
+        "confirmPWToDelAcc": "Потврдите лозинку да бисте избрисали свој налог",
+        "loadReplies": "Учитај одговоре",
+        "hideReplies": "Сакриј одговоре",
+        "showReplies": "Прикажи одговоре",
+        "subscribe": "Запрати",
+        "unsubscribe": "Прекини праћење",
+        "view_subscriptions": "Погледај праћења",
+        "rss_of_subscriptions": "RSS ваших праћења",
+        "sort_by": "Сортирање по:",
         "most_recent": "Најновије",
-        "channel_name_asc": "Назив канала (А-Ж)",
-        "channel_name_desc": "Назив канала (Ж-А)",
+        "channel_name_asc": "Име канала (А-Ш)",
+        "channel_name_desc": "Име канала (Ш-А)",
         "back": "Назад",
-        "enable_sponsorblock": "Омогућите Спонзорблок",
+        "enable_sponsorblock": "Омогући SponsorBlock",
         "skip_sponsors": "Спонзори",
-        "skip_intro": "Прелаз/Уводна Анимација",
+        "skip_intro": "Пауза/Уводна анимација",
         "skip_preview": "Преглед/Рекапитулација",
-        "skip_self_promo": "Неплаћена/само-промоција",
-        "skip_poi_highlights": "Сажеци",
-        "skip_filler": "Пунила",
-        "dark": "Мрачно",
-        "light": "Светло",
-        "minimize_description": "Сакријте опис према заданим поставкама",
-        "store_watch_history": "Чувајте историју гледања",
+        "skip_self_promo": "Неплаћена промоција/самопромоција",
+        "skip_poi_highlights": "Истакнуто",
+        "skip_filler": "Попуњавања",
+        "dark": "Тамна",
+        "light": "Светла",
+        "minimize_description": "Подразумевано минимизирај опис",
+        "store_watch_history": "Чувај историју гледања",
         "instances_list": "Листа инстанци",
-        "enabled_codecs": "Омогућени кодеци (вишеструки)",
-        "theme": "Изглед",
-        "logOut": "Одјавите се",
-        "logInSignUp": "Пријавите се/региструјте се",
-        "enable_dark_mode": "Омогућите Мрачни Саштимак",
-        "autoplay_next_video": "Наставите на први повезани видео када се овај видео заврши",
-        "loop_this_video": "Ставите овај видео на понављање",
+        "enabled_codecs": "Омогућени кодеци (више)",
+        "theme": "Тема",
+        "logOut": "Одјава",
+        "logInSignUp": "Пријава/регистрација",
+        "enable_dark_mode": "Омогући тамни режим",
+        "autoplay_next_video": "Настави на први повезани видео снимак, када се овај видео снимак заврши",
+        "loop_this_video": "Понављај овај видео снимак",
         "related_comments": "Коментари",
         "related_videos": "Повезани видео снимци",
-        "unauthenticated_rss": "РСС (неауторизовано)"
+        "unauthenticated_rss": "RSS (неаутентификовано)",
+        "export_subscriptions": "Извези праћења",
+        "subscriptions_filename": "subs.pipedsubs.json",
+        "import_subscriptions": "Увези праћења"
     },
     "titles": {
         "trending": "У тренду",
         "register": "Регистрација",
-        "feed": "Чланак",
-        "history": "Прегледна Историја",
-        "playlists": "Пописи Снимака",
+        "feed": "Фид",
+        "history": "Историја гледања",
+        "playlists": "Плејлисте",
         "preferences": "Подешавања",
         "homepage": "Почетна страница"
     },
     "counts": {
-        "subscribers": "Без претплатника | Један претплатник | {n} претплатника",
-        "views": "Без прегледа | Један преглед| {n} прегледа",
-        "videos": "Без видеозаписа | Један видео | {n} видеозаписа"
+        "subscribers": "Нема пратилаца | Један пратилац | {n} пратилаца",
+        "views": "Нема прегледа | Један преглед | {n} прегледа",
+        "videos": "Нема видео снимака | Један видео снимак | {n} видео снимака"
     },
     "playlists": {
-        "add_to_playlist": "Додај у попис снимака",
-        "create_playlist": "Направите попис снимака",
-        "playlist_field_name": "Име пописа снимака",
-        "remove_video": "Уклоните овај видео из пописа снимака",
+        "add_to_playlist": "Додај на плејлисту",
+        "create_playlist": "Направи плејлисту",
+        "playlist_field_name": "Назив плејлисте",
+        "remove_video": "Уклонити овај видео снимак са плејлисте",
         "delete_self": "Избриши",
         "rename_self": "Преименуј",
-        "new_name_msg": "Шта желите да буде ново име?",
-        "confirm_addition": "Потврдите додавање"
+        "new_name_msg": "Шта желите да буде нови назив?",
+        "confirm_addition": "Потврда додавања"
     },
     "misc": {
         "searchBarLabel": "Шта тражите?",
-        "lastWatchedTill": "Последњи пут гледано до {t}",
-        "watchedAgo": "Гледано од {t} до {p}"
+        "lastWatchedTill": "Последњи пут одгледано до {t}",
+        "watchedAgo": "Одледано од {t} до {p}"
     },
     "video_sharing_panel": {
-        "title": "Поделите овај видео",
-        "share": "Поделите",
+        "title": "Дели овај видео снимак",
+        "share": "Дели",
         "with_timestamps": "Са временским ознакама",
         "without_timestamps": "Без временских ознака",
-        "via_pm": "Преко Piped Материјала",
+        "via_pm": "Преко Piped материјала",
         "via_yt": "Преко YouTube-а",
-        "share_system": "Делите преко системског дијалога"
+        "share_system": "Дели преко системског дијалога"
     },
     "errors": {
-        "trendingFetchError": "Није могуће преузети видео снимке у тренду. Проверите да ли YouTube подржава вашу земљу"
+        "trendingFetchError": "Није могуће прикупити видео снимке у тренду. Проверите да ли YouTube подржава вашу државу"
     },
     "auth_dialog": {
-        "title": "Аутентикација",
+        "title": "Аутентификација",
         "username": "Корисничко име",
         "password": "Лозинка",
-        "log_in": "Пријавите се",
-        "sign_up": "Упишите се"
+        "log_in": "Пријава",
+        "sign_up": "Регистрација"
     },
     "footer": {
-        "commit_message_1": "commit {hash}",
-        "translations_msg_2": "преко Веблате-а",
-        "text": "Покречете Пипед-Материал {1}, помозите у преводу Пипед-Материал-а на више језика {2}!{0} За помоћ, предлоге и/или повратне информације, молимо вас {3}.",
-        "help_message_3": "придружите се Матрик соби или ИРЦ каналу"
+        "commit_message_1": "извршење {hash}",
+        "translations_msg_2": "преко Weblate-а",
+        "text": "Покрећете Piped-Material {1}, помозите у локализацији Piped-Material-а на више језика {2}!{0} За помоћ, предлоге и/или повратне информације, молимо {3}.",
+        "help_message_3": "придружите се Matrix соби или IRC каналу"
+    },
+    "visibilities": {
+        "unlisted": "По позиву"
     }
 }
