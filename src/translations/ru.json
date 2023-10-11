@@ -1,37 +1,60 @@
 {
     "preferences": {
-        "proxyLBRY": "Прокси LBRY видео",
-        "instance": "Пример",
+        "colorScheme": "Цветовая схема",
+        "showMarkers": "Показывать маркеры SponsorBlock",
+        "disableCommentsByDefault": "Не показывать по умолчанию комментарии",
+        "proxyLBRY": "Проксировать LBRY-видео",
+        "instance": "Инстанс",
         "feedColumns": "Количество столбцов на страницах новостей",
         "sponsorblock": "Включить SponsorBlock",
         "selectedSkip": "Сегменты для пропуска",
         "skipToLastPoint": "Перейти к последней просмотренной точке при обнаружении уже просмотренного видео",
-        "listen": "Только звук",
+        "listen": "Слушать",
         "bufferGoal": "Размер буфера видео",
-        "homepage": "По умолчанию открывать",
-        "region": "Выбор Cтраны",
-        "disableLBRY": "Отключить LBRY",
-        "playerAutoplay": "Автовоспроизведение Видео",
-        "quality": "Качество По Yмолчанию",
-        "showRelatedVideos": "Показать Похожие Bидео",
-        "clickbaitThumbnailAvoidance": "Замените миниатюры по умолчанию на автоматически сгенерированные"
+        "homepage": "Главная",
+        "region": "Выбор страны",
+        "disableLBRY": "Отключить LBRY-видео",
+        "playerAutoplay": "Автовоспроизведение видео",
+        "quality": "Качество по умолчанию",
+        "showRelatedVideos": "Показать похожие пидео",
+        "clickbaitThumbnailAvoidance": "Заменить миниатюры по умолчанию на автоматически сгенерированные",
+        "homepageButton": "Включить кнопку домашней страницы",
+        "disableDuplicateHistoryEntries": "Выключить создание дубликатов истории просмотров",
+        "quality_opts": {
+            "144p": "144p",
+            "240p": "240p",
+            "360p": "360p",
+            "480p": "480p",
+            "720p": "720p",
+            "auto": "Авто",
+            "1080p": "1080p",
+            "1440p": "1440p",
+            "2160p": "2160p (Оно также называется 4К, 3840x2160)",
+            "4320p": "4320p (Оно также называется 8К, 7680x4320)"
+        },
+        "column_opts": {
+            "4": "4 столбца",
+            "5": "5 столбцов",
+            "6": "6 столбцов"
+        },
+        "disableDuplicateHistoryEntries": "Вимкнути створення дублікатів записів історії переглядів"
     },
     "actions": {
         "logOut": "Выйти",
-        "least_recent": "Самые Cтарые",
-        "view_subscriptions": "Просмотреть Подписки",
+        "least_recent": "Самые старые",
+        "view_subscriptions": "Просмотреть подписки",
         "unsubscribe": "Отписаться",
         "back": "Назад",
         "sort_by": "Сортировать по:",
-        "subscribe": "Подписывайся",
+        "subscribe": "Подписаться",
         "rss_of_subscriptions": "RSS ваших подписок",
         "skip_intro": "Пропускать заставку/интро",
         "theme": "Тема",
-        "loadReplies": "Загрузить Oтветы",
-        "logInSignUp": "Вход/Pегистр",
-        "hideReplies": "Скрыть Oтветы",
-        "showReplies": "Показать Oтветы",
-        "most_recent": "Самые Hовые",
+        "loadReplies": "Загрузить ответы",
+        "logInSignUp": "Вход/Pегистрация",
+        "hideReplies": "Скрыть ответы",
+        "showReplies": "Показать ответы",
+        "most_recent": "Самые новые",
         "enable_sponsorblock": "Включить SponsorBlock",
         "channel_name_asc": "Имя канала (А-Я)",
         "channel_name_desc": "Имя канала (Я-А)",
@@ -46,10 +69,10 @@
         "auto": "Авто",
         "store_watch_history": "Хранить историю просмотренных видео",
         "language_selection": "Язык интерфейса",
-        "instances_list": "Список Экземпляров",
+        "instances_list": "Список инстансов",
         "minimize_description": "Свернуть описание по умолчанию",
         "skip_non_music": "Пропускать тишину в музыкальных роликах",
-        "enabled_codecs": "Включённые кодеки (Можно выбрать несколько)"
+        "enabled_codecs": "Включеные медиа-кодеки (их можно выбрать несколько)"
     },
     "titles": {
         "trending": "Тренды",
@@ -61,30 +84,39 @@
         "playlists": "Плейлисты"
     },
     "counts": {
-        "videos": "Нет видео | Oдно Видео | {соunt} Видео",
+        "videos": "Нет видео | Oдно видео | {соunt} видео",
         "views": "Нет просмотров | Один просмотров | {n} просмотров",
         "subscribers": "Нет подписчиков | Один подписчик | {n} подписчиков"
     },
     "errors": {
-        "trendingFetchError": "Не удалось получить популярные видео. Проверьте, поддерживается ли ваша страна YouTube"
+        "trendingFetchError": "Не удалось получить список популярных видео. Проверьте, доступен ли Youtube в вашей стране."
     },
     "playlists": {
-        "add_to_playlist": "Добавить Влейлист",
+        "add_to_playlist": "Добавить в плейлист",
         "confirm_addition": "Подтвердить добавление",
-        "create_playlist": "Создать Плейлист",
-        "playlist_field_name": "Название Плейлиста"
+        "create_playlist": "Создать плейлист",
+        "playlist_field_name": "Название плейлиста"
     },
     "misc": {
-        "searchBarLabel": "Что Вы ищете?",
+        "searchBarLabel": "Что ищете?",
         "lastWatchedTill": "",
         "watchedAgo": ""
     },
     "video_sharing_panel": {
         "title": "Поделиться этим видео",
-        "share": "Делиться",
+        "share": "Поделиться",
         "with_timestamps": "С отметками времени",
         "without_timestamps": "Без временных меток",
-        "via_pm": "Через Mатериалы Piped",
+        "via_pm": "Через Piped-Material",
         "via_yt": "Через YouTube"
+    },
+    "footer": {
+        "commit_message_1": "комит {hash}",
+        "translations_msg_2": "через Weblate",
+        "help_message_3": "присоединитесь к комнате в Matrix или IRC-каналу",
+        "text": "Запущен Piped-Material {1}, пожалуйста, помогите перевести Piped-Material на другие языки через {2}!{0} Для получения помощи, обратного ответа или для того, чтобы что-то предложить нам, пожалуйста, {3}."
+    },
+    "visibilities": {
+        "unlisted": "Не опубликованно"
     }
 }
