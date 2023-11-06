@@ -158,7 +158,13 @@
             "6": "6 coloane",
             "4": "4 coloane"
         },
-        "disableDuplicateHistoryEntries": "Dezactivarea creării intrărilor dublate din istoricul vizionărilor"
+        "disableDuplicateHistoryEntries": "Dezactivarea creării intrărilor dublate din istoricul vizionărilor",
+        "codec_options": {
+            "vp9": "VP9",
+            "av01": "AV1 (AOMedia Video 1)",
+            "avc1": "AVC (H.264/Codare video avansată)"
+        },
+        "codecs": "Codec-uri"
     },
     "errors": {
         "trendingFetchError": "Nu s-au putut prelua videoclipurile populare. Verificați dacă țara dvs. este acceptată de YouTube"
