@@ -96,7 +96,13 @@
             "5": "5 sütun",
             "6": "6 sütun"
         },
-        "disableDuplicateHistoryEntries": "Yinelenen izleme geçmişi kayıtlarının oluşturulmasını devre dışı bırak"
+        "disableDuplicateHistoryEntries": "Yinelenen izleme geçmişi kayıtlarının oluşturulmasını devre dışı bırak",
+        "codec_options": {
+            "vp9": "VP9",
+            "av01": "AV1 (AOMedia Video 1)",
+            "avc1": "AVC (H.264/Advanced Video Coding)"
+        },
+        "codecs": "Kod Çözücüler"
     },
     "counts": {
         "videos": "Video yok | Bir Video | {n} Video",
