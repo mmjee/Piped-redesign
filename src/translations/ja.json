@@ -98,7 +98,13 @@
         "selectedSkip": "スキップしたいシーン",
         "showMarkers": "SponsorBlock のシーンを示す区切りを表示",
         "disableDuplicateHistoryEntries": "同じ動画の再生履歴を残さない",
-        "homepage": "ホームに表示するページ"
+        "homepage": "ホームに表示するページ",
+        "codec_options": {
+            "vp9": "VP9",
+            "av01": "AV1 (AOMedia Video 1)",
+            "avc1": "AVC (H.264/Advanced Video Coding)"
+        },
+        "codecs": "コーデック"
     },
     "titles": {
         "history": "再生履歴",
