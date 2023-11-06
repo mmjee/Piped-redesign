@@ -36,7 +36,13 @@
             "5": "5 列",
             "6": "6 列"
         },
-        "disableDuplicateHistoryEntries": "禁止创建重复的观看记录条目"
+        "disableDuplicateHistoryEntries": "禁止创建重复的观看记录条目",
+        "codec_options": {
+            "vp9": "VP9",
+            "av01": "AV1 (AOMedia Video 1)",
+            "avc1": "AVC (H.264/高级视频编码)"
+        },
+        "codecs": "编解码器"
     },
     "titles": {
         "homepage": "主页",
