@@ -118,7 +118,13 @@
             "5": "5 columnas",
             "6": "6 columnas"
         },
-        "disableDuplicateHistoryEntries": "Inhabilitar la creación de entradas duplicadas en el historial de reproducciones"
+        "disableDuplicateHistoryEntries": "Inhabilitar la creación de entradas duplicadas en el historial de reproducciones",
+        "codec_options": {
+            "vp9": "VP9",
+            "av01": "AV1 (AOMedia Video 1)",
+            "avc1": "AVC (H.264/Advanced Video Coding)"
+        },
+        "codecs": "Codecs"
     },
     "channel_sharing_panel": {
         "via_pm": "Reproducir mediante Piped Material",
