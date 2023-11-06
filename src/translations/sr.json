@@ -36,7 +36,13 @@
             "5": "5 колона",
             "6": "6 колона"
         },
-        "disableDuplicateHistoryEntries": "Онемогући прављење дуплих уноса историје гледања"
+        "disableDuplicateHistoryEntries": "Онемогући прављење дуплих уноса историје гледања",
+        "codec_options": {
+            "vp9": "VP9",
+            "av01": "AV1 (AOMedia Video 1)",
+            "avc1": "AVC (H.264/Advanced Video Coding)"
+        },
+        "codecs": "Кодеци"
     },
     "channel_tabs": {
         "channels": "Канали",
