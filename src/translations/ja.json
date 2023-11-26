@@ -3,7 +3,7 @@
         "commit_message_1": "commit {hash}",
         "translations_msg_2": "Weblate",
         "help_message_3": "Matrix のルームや IRC のチャンネル",
-        "text": "稼働中 Piped-Material {1} : Piped-Material の多言語化は {2} からご協力ください！{0}ヘルプ、また提案やご意見は {3}にご参加ください。"
+        "text": "稼働中 Piped-Material {1} : Piped-Material の翻訳は {2} からご協力ください！{0}ヘルプ、また提案やご意見は {3}にご参加ください。"
     },
     "misc": {
         "lastWatchedTill": "{t} まで 前回視聴",
@@ -15,7 +15,7 @@
         "logOutFromAllDevices": "すべての端末からログアウト",
         "minimize_description": "最初から説明を最小化",
         "store_watch_history": "再生履歴を保存",
-        "autoplay_next_video": "この動画が終了したら関連動画の1番目を再生",
+        "autoplay_next_video": "この動画終了後に関連動画の1番目を再生",
         "skip_self_promo": "無報酬/自己宣伝",
         "skip_non_music": "音楽: 非音楽シーン",
         "language_selection": "言語の選択",
