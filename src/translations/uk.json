@@ -161,7 +161,13 @@
             "5": "5 стовпців",
             "6": "6 стовпців"
         },
-        "disableDuplicateHistoryEntries": "Вимкнути створення дублікатів записів історії переглядів"
+        "disableDuplicateHistoryEntries": "Вимкнути створення дублікатів записів історії переглядів",
+        "codec_options": {
+            "vp9": "VP9",
+            "av01": "AV1 (AOMedia Video 1)",
+            "avc1": "AVC (H.264/Advanced Video Coding)"
+        },
+        "codecs": "Кодеки"
     },
     "footer": {
         "commit_message_1": "коміт {hash}",
