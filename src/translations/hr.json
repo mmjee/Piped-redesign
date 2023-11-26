@@ -87,7 +87,13 @@
             "5": "5 stupaca",
             "6": "6 stupaca"
         },
-        "disableDuplicateHistoryEntries": "Aktiviraj stvaranje duplih unosa povijesti gledanja"
+        "disableDuplicateHistoryEntries": "Aktiviraj stvaranje duplih unosa povijesti gledanja",
+        "codec_options": {
+            "vp9": "VP9",
+            "av01": "AV1 (AOMedia video 1)",
+            "avc1": "AVC (H.264/napredno kodiranje videa)"
+        },
+        "codecs": "Kodeksi"
     },
     "titles": {
         "feed": "Članak",
