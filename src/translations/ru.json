@@ -19,7 +19,7 @@
         "showRelatedVideos": "Показать похожие пидео",
         "clickbaitThumbnailAvoidance": "Заменить миниатюры по умолчанию на автоматически сгенерированные",
         "homepageButton": "Включить кнопку домашней страницы",
-        "disableDuplicateHistoryEntries": "Выключить создание дубликатов истории просмотров",
+        "disableDuplicateHistoryEntries": "Вимкнути створення дублікатів записів історії переглядів",
         "quality_opts": {
             "144p": "144p",
             "240p": "240p",
@@ -36,8 +36,7 @@
             "4": "4 столбца",
             "5": "5 столбцов",
             "6": "6 столбцов"
-        },
-        "disableDuplicateHistoryEntries": "Вимкнути створення дублікатів записів історії переглядів"
+        }
     },
     "actions": {
         "logOut": "Выйти",
@@ -95,7 +94,10 @@
         "add_to_playlist": "Добавить в плейлист",
         "confirm_addition": "Подтвердить добавление",
         "create_playlist": "Создать плейлист",
-        "playlist_field_name": "Название плейлиста"
+        "playlist_field_name": "Название плейлиста",
+        "rename_self": "Переименовать",
+        "delete_self": "Удалить",
+        "remove_video": "Удалить видео из плейлиста"
     },
     "misc": {
         "searchBarLabel": "Что ищете?",
