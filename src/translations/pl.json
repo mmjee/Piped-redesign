@@ -6,7 +6,7 @@
         "log_in": "Logowanie",
         "password": "Hasło",
         "username": "Nazwa użytkownika",
-        "title": "Logowanie",
+        "title": "Uwierzytelnianie",
         "sign_up": "Rejestracja"
     },
     "preferences": {
@@ -38,15 +38,15 @@
         "region": "Kraj",
         "bufferGoal": "Cel buforowania (w sekundach)",
         "disableLBRY": "Wyłącz LBRY",
-        "colorScheme": "Motyw",
+        "colorScheme": "Paleta kolorów",
         "playerAutoplay": "Autoodtwarzanie",
-        "clickbaitThumbnailAvoidance": "Zastąp domyślne miniaturki, wygenerowanymi automatycznie",
-        "showMarkers": "Pokaż segmenty na odtwarzaczu",
+        "clickbaitThumbnailAvoidance": "Wyłącz miniaturki",
+        "showMarkers": "Pokaż segmenty SponsorBlock na odtwarzaczu",
         "disableCommentsByDefault": "Ukryj sekcję komentarzy",
         "codecs": "Kodeki",
         "feedColumns": "Liczba kolumn w karcie \"Na Czasie\"",
         "quality": "Domyślna jakość",
-        "selectedSkip": "Pomijaj",
+        "selectedSkip": "Pomijaj za pomocą SponsorBlock",
         "disableDuplicateHistoryEntries": "Włącz tworzenie duplikatów w historii",
         "listen": "Tylko audio",
         "instance": "Instancja",
@@ -56,11 +56,12 @@
     },
     "video_sharing_panel": {
         "via_yt": "Przez Youtube",
-        "title": "Udostępnij",
+        "title": "Udostępnij ten film",
         "share": "Udostępnij",
         "via_pm": "Przez Piped Material",
         "with_timestamps": "Z kodem czasowym",
-        "without_timestamps": "Bez kodu czasowego"
+        "without_timestamps": "Bez kodu czasowego",
+        "share_system": "Udostępnij przez systemowe okno dialogowe"
     },
     "search_results": {
         "result_types": {
@@ -68,7 +69,7 @@
             "music_songs": "Utwory (YouTube Music)",
             "playlists": "Playlisty",
             "music_albums": "Albumy (YouTube Music)",
-            "music_videos": "Filmy (YouTube Music)",
+            "music_videos": "Wideo (YouTube Music)",
             "channels": "Kanały",
             "all": "Wyniki",
             "videos": "Wideo"
@@ -99,7 +100,7 @@
         "export_subscriptions": "Eksportuj subskrypcje",
         "related_comments": "Komentarze",
         "auto": "Automatyczny",
-        "channel_name_asc": "Nazwie kanału (A-Z)",
+        "channel_name_asc": "Nazwa kanału (A-Z)",
         "skip_intro": "Intra",
         "subscriptions_filename": "subs.pipedsubs.json",
         "subscribe": "Subskrybuj",
@@ -107,9 +108,9 @@
         "rss_of_subscriptions": "RSS subskrypcji",
         "skip_interaction": "Prośby o interakcję/subskrybcję",
         "unsubscribe": "Odsubskrybuj",
-        "channel_name_desc": "Nazwie kanału (Z-A)",
+        "channel_name_desc": "Nazwa kanału (Z-A)",
         "logInSignUp": "Logowanie/Rejestracja",
-        "loadReplies": "Odpowiedzi",
+        "loadReplies": "Wczytaj odpowiedzi",
         "loop_this_video": "Odtwarzaj w pętli",
         "theme": "Motyw",
         "skip_poi_highlights": "Podsumowania",
@@ -133,7 +134,17 @@
         "instances_list": "Lista instancji",
         "enable_sponsorblock": "Włącz SponsorBlock",
         "light": "Jasny",
-        "skip_preview": "Podgląd/Podsumowanie"
+        "skip_preview": "Podgląd/Podsumowanie",
+        "delAccountMessage": "Chcesz usunąć swoje konto?",
+        "skip_outro": "Karty końcowe/Napisy",
+        "autoplay_next_video": "Przejdź do następnego proponowanego filmu po zakończeniu tego filmu",
+        "confirmPWToDelAcc": "Potwierdź hasło, aby usunąć konto",
+        "minimize_description": "Ukryj opis",
+        "skip_filler": "Wstawki humorystyczne",
+        "store_watch_history": "Zachowaj historie",
+        "accounts": "Twoje konto",
+        "language_selection": "Wybór języka",
+        "uses_api_from": "Używa API "
     },
     "counts": {
         "views": "Brak wyświetleń | Jedno wyświetlenie | {n} wyświetleń",
