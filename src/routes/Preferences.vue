@@ -1,47 +1,34 @@
 <template>
-    <v-container style="max-width: 1080px">
-        <h1 class="text-h4 text-center">{{ $t('titles.preferences') }}</h1>
-        <v-divider class="ma-4"/>
-        <v-select
-            :label="$t('preferences.colorScheme')"
-            :value="$store.state.prefs.colorScheme"
-            @input="$store.commit('prefs/setColorScheme', { colorScheme: $event })"
-            :items="colorSchemeOptions"
-        />
-        <div v-for="(opt, optId) in options" :key="optId">
-            <v-checkbox
-                    v-if="opt.type === 'bool'"
-                    dense
-                    :label="$t('preferences.' + opt.id)"
-                    :input-value="$store.getters['prefs/getPreferenceBoolean'](opt.id, opt.default)"
-                    @change="setValue(opt.id, $event)"
-            />
-            <v-text-field
-                    v-else-if="opt.type === 'number'"
-                    type="number"
-                    :label="$t('preferences.' + opt.id)"
-                    :value="$store.getters['prefs/getPreferenceNumber'](opt.id, opt.default)"
-                    @input="setValue(opt.id, Number($event))"
-            />
-            <v-select
-                    v-else-if="opt.type === 'select'"
-                    :label="$t('preferences.' + opt.id)"
-                    :value="$store.getters['prefs/getPreference'](opt.id, opt.default)"
-                    :attach="opt.multi"
-                    :chips="opt.multi"
-                    :multiple="opt.multi"
-                    :items="opt.options"
-                    @input="setValue(opt.id, $event)"
-            />
-        </div>
-        <h5 class="text-h5">{{ $t('actions.instances_list') }}</h5>
-        <v-data-table :headers="tableHeaders" :items="instances" :items-per-page="-1">
+	<v-container style="max-width: 1080px">
+		<h1 class="text-h4 text-center">{{ $t('titles.preferences') }}</h1>
+		<v-divider class="ma-4" />
+		<v-select :label="$t('preferences.colorScheme')" :value="$store.state.prefs.colorScheme"
+			@input="$store.commit('prefs/setColorScheme', { colorScheme: $event })" :items="colorSchemeOptions" />
+		<div v-for="(opt, optId) in options" :key="optId">
+			<v-checkbox v-if="opt.type === 'bool'" dense :label="$t('preferences.' + opt.id)"
+				:input-value="$store.getters['prefs/getPreferenceBoolean'](opt.id, opt.default)"
+				@change="setValue(opt.id, $event)" />
+			<v-text-field v-else-if="opt.type === 'number'" type="number" :label="$t('preferences.' + opt.id)"
+				:value="$store.getters['prefs/getPreferenceNumber'](opt.id, opt.default)"
+				@input="setValue(opt.id, Number($event))" />
+			<v-select v-else-if="opt.type === 'select'" :label="$t('preferences.' + opt.id)"
+				:value="$store.getters['prefs/getPreference'](opt.id, opt.default)" :attach="opt.multi" :chips="opt.multi"
+				:multiple="opt.multi" :items="opt.options" @input="setValue(opt.id, $event)" />
+		</div>
+		<v-checkbox dense :label="$t('preferences.custom_instance.button_label')"
+			:input-value="$store.getters['prefs/getPreferenceBoolean']('enableCustomInstance', false)"
+			@change="setCustomInstanceStatus" />
+		<v-text-field v-if="$store.getters['prefs/getPreferenceBoolean']('enableCustomInstance', false)"
+			:label="$t('preferences.custom_instance.input_label')"
+			:value="$store.getters['prefs/getPreference']('custom_instance_v1')" @input="setValue('custom_instance_v1', $event)" />
+		<h5 class="text-h5">{{ $t('actions.instances_list') }}</h5>
+		<v-data-table :headers="tableHeaders" :items="instances" :items-per-page="-1">
 			<!-- eslint-disable-next-line vue/valid-v-slot -->
 			<template v-slot:item.registered="{ item }">
 				{{ $store.getters['i18n/fmtFullNumber'](item.registered) }}
 			</template>
-        </v-data-table>
-    </v-container>
+		</v-data-table>
+	</v-container>
 </template>
 
 <script>
@@ -51,8 +38,7 @@ import { COLOR_SCHEME_STATES } from '@/store/prefs-store'
 export default {
 	data () {
 		return {
-			instances: [],
-			instanceOption: null,
+			upstreamInstanceList: [],
 			countryOptions: null,
 			tableHeaders: [
 				{
@@ -288,11 +274,95 @@ export default {
 			if (this.countryOptions != null) {
 				opts.push(this.countryOptions)
 			}
-			if (this.instanceOption != null) {
-				opts.push(this.instanceOption)
-			}
+
+			opts.push({
+				id: 'instance',
+				type: 'select',
+				default: this.$store.getters['prefs/apiUrl'],
+				label: 'Instance',
+				options: this.instances.map(i => ({
+					text: i.name,
+					value: i.api_url
+				}))
+			})
 
 			return opts
+		},
+		instances () {
+			const instanceURLSet = new Set()
+
+			const instances = this.upstreamInstanceList.map((v) => {
+				try {
+					v._locations = v.locations.split(',')
+				} catch (e) {
+					v._locations = []
+					console.error('Error while parsing locations:', v.locations)
+				}
+				v._cdn = v.cdn
+				v.cdn = v._cdn === true ? '✔️' : '❌'
+				instanceURLSet.add(v.api_url)
+				return v
+			})
+
+			const customInstance = this.$store.getters['prefs/getPreference']('custom_instance_v1')
+			if (customInstance != null && customInstance.length !== 0 && !instanceURLSet.has(customInstance)) {
+				try {
+					const u = new URL(customInstance)
+					instances.push({
+						name: u.hostname,
+						api_url: customInstance,
+						locations: '???',
+						_locations: [],
+						registered: -1,
+						cdn: '???',
+						_cdn: false
+					})
+					instanceURLSet.add(customInstance)
+				} catch (e) {
+					console.error('Caught error while parsing custom instance URL, skipping:', e)
+				}
+			}
+
+			const currentInstance = this.$store.getters['prefs/apiUrl']
+			if (!instanceURLSet.has(currentInstance)) {
+				const u = new URL(currentInstance)
+
+				instances.push({
+					name: u.hostname,
+					api_url: currentInstance,
+					locations: '???',
+					_locations: [],
+					registered: -1,
+					cdn: '???',
+					_cdn: false
+				})
+				instanceURLSet.add(currentInstance)
+			}
+
+			const vapu = process.env.VUE_APP_PIPED_URL
+			if (!instanceURLSet.has(vapu)) {
+				const u = new URL(vapu)
+
+				instances.push({
+					name: u.hostname,
+					api_url: vapu,
+					locations: '???',
+					_locations: [],
+					registered: -1,
+					cdn: '???',
+					_cdn: false
+				})
+				instanceURLSet.add(vapu)
+			}
+
+			instances.sort((a, b) => this.$store.getters['i18n/compare'](a.name, b.name))
+			instances.sort((a, b) => b.registered - a.registered)
+			instances.sort((a, b) => ((a._cdn === b._cdn) ? 0 : a._cdn ? 1 : -1))
+			instances.sort((a, b) => {
+				return b._locations.length - a._locations.length
+			})
+
+			return instances
 		}
 	},
 	mounted () {
@@ -326,50 +396,7 @@ export default {
 				referrerPolicy: 'no-referrer'
 			}).then(resp => resp.json())
 
-			const instances = resp.map((v) => {
-				try {
-					v._locations = v.locations.split(',')
-				} catch (e) {
-					v._locations = []
-					console.error('Error while parsing locations:', v.locations)
-				}
-				v._cdn = v.cdn
-				v.cdn = v._cdn === true ? '✔️' : '❌'
-				return v
-			})
-
-			if (process.env.VUE_APP_PIPED_URL && !instances.includes(process.env.VUE_APP_PIPED_URL)) {
-				const u = new URL(process.env.VUE_APP_PIPED_URL)
-
-				instances.push({
-					name: u.hostname,
-					api_url: process.env.VUE_APP_PIPED_URL,
-					locations: '???',
-					_locations: [],
-					registered: -1,
-					cdn: '???',
-					_cdn: false
-				})
-			}
-
-			instances.sort((a, b) => this.$store.getters['i18n/compare'](a.name, b.name))
-			instances.sort((a, b) => b.registered - a.registered)
-			instances.sort((a, b) => ((a._cdn === b._cdn) ? 0 : a._cdn ? 1 : -1))
-			instances.sort((a, b) => {
-				return b._locations.length - a._locations.length
-			})
-
-			this.instances = instances
-			this.instanceOption = {
-				id: 'instance',
-				type: 'select',
-				default: this.$store.getters['prefs/apiUrl'],
-				label: 'Instance',
-				options: instances.map(i => ({
-					text: i.name,
-					value: i.api_url
-				}))
-			}
+			this.upstreamInstanceList = resp
 		},
 
 		setValue (k, v) {
@@ -377,6 +404,13 @@ export default {
 				id: k,
 				value: v
 			})
+		},
+
+		setCustomInstanceStatus (ev) {
+			if (ev === false) {
+				this.setValue('custom_instance_v1', null)
+			}
+			this.setValue('enableCustomInstance', ev)
 		},
 
 		sslScore (url) {

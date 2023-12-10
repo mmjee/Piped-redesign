@@ -30,6 +30,7 @@ const PrefsStore = {
 			disableLBRY: true,
 			proxyLBRY: true,
 			homepageButton: false,
+			enableCustomInstance: false,
 
 			selectedSkip: [],
 			codecs: ['av01', 'avc1', 'vp9']
