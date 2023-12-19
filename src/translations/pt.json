@@ -1,0 +1,181 @@
+{
+    "errors": {
+        "trendingFetchError": "Não foi possível buscar os vídeos em alta. Verifique se o seu país é compatível com o YouTube"
+    },
+    "auth_dialog": {
+        "log_in": "Entrar",
+        "password": "Palavra-passe",
+        "username": "Nome de utilizador",
+        "title": "Autenticação",
+        "sign_up": "Cadastrar-se"
+    },
+    "actions": {
+        "delAccountMessage": "Deseja eliminar a sua conta?",
+        "related_videos": "Vídeos relacionados",
+        "export_subscriptions": "Exportar inscrições",
+        "related_comments": "Comentários",
+        "auto": "Automático",
+        "skip_outro": "Encerramento/Créditos",
+        "channel_name_asc": "Nome do canal (A-Z)",
+        "autoplay_next_video": "Reproduzir primeiro vídeo relacionado ao fim desse",
+        "skip_intro": "Intervalo/Introdução",
+        "subscriptions_filename": "subs.pipedsubs.json",
+        "subscribe": "Inscrever-se",
+        "logOutFromAllDevices": "Sair de todos os dispositivos",
+        "confirmPWToDelAcc": "Confirme a sua palavra-passe para apagar a sua conta",
+        "minimize_description": "Minimizar descrição por padrão",
+        "rss_of_subscriptions": "RSS das suas inscriçoes",
+        "skip_interaction": "Lembrete de interação (Inscreva-se)",
+        "skip_filler": "Enchimentos",
+        "unsubscribe": "Cancelar inscrição",
+        "channel_name_desc": "Nome do canal (Z-A)",
+        "language_selection": "Seleção de idioma",
+        "logInSignUp": "Entrar/Cadastrar-se",
+        "loadReplies": "Mostrar Respostas",
+        "loop_this_video": "Repetir esse vídeo",
+        "theme": "Tema",
+        "skip_poi_highlights": "Melhores Momentos",
+        "dark": "Escuro",
+        "unauthenticated_rss": "RSS (Não-autenticado)",
+        "loadComments": "Mostrar comentários",
+        "least_recent": "Menos recentes",
+        "most_recent": "Mais recentes",
+        "skip_self_promo": "Autopromoção",
+        "enable_dark_mode": "Ativar o Modo Escuro",
+        "store_watch_history": "Armazenar histórico de exibição",
+        "hideReplies": "Ocultar respostas",
+        "logOut": "Sair",
+        "skip_sponsors": "Propagandas",
+        "sort_by": "Filtrar por:",
+        "back": "Atras",
+        "accounts": "A sua Conta",
+        "enabled_codecs": "Codecs ativos (Múltiplos)",
+        "showReplies": "Mostrar respostas",
+        "view_subscriptions": "Ver inscrições",
+        "skip_non_music": "Música: Secção Não-Musical",
+        "import_subscriptions": "Importar inscrições",
+        "instances_list": "Lista de instâncias",
+        "enable_sponsorblock": "Ativar Sponsorblock",
+        "light": "Claro",
+        "skip_preview": "Preview/Recapitulação",
+        "uses_api_from": "Usa o API de "
+    },
+    "preferences": {
+        "homepage": "Página Home padrão",
+        "quality_opts": {
+            "2160p": "2160p (4K)",
+            "1440p": "1440p",
+            "240p": "240p",
+            "480p": "480p",
+            "360p": "360p",
+            "1080p": "1080p",
+            "4320p": "4320p (8K)",
+            "auto": "Automática",
+            "720p": "720p",
+            "144p": "144p"
+        },
+        "showRelatedVideos": "Mostrar vídeos relacionados",
+        "codec_options": {
+            "vp9": "VP9",
+            "av01": "AV1",
+            "avc1": "AVC (H.264)"
+        },
+        "column_opts": {
+            "4": "4 colunas",
+            "6": "6 colunas",
+            "5": "5 colunas"
+        },
+        "skipToLastPoint": "Pular para o último ponto assistido num vídeo já visto",
+        "region": "Seleção de país",
+        "bufferGoal": "Quantidade de segundos que devem ser mantidos em buffer",
+        "disableLBRY": "Desativar LBRY",
+        "colorScheme": "Esquema de cores",
+        "playerAutoplay": "Autoplay",
+        "clickbaitThumbnailAvoidance": "Substituir thumbnail padrão por outra gerada automaticamente",
+        "showMarkers": "Mostrar marcadores do SponsorBlock",
+        "disableCommentsByDefault": "Não mostrar comentários por padrão",
+        "codecs": "Codecs",
+        "feedColumns": "Número de colunas no Feed",
+        "quality": "Qualidade padrão",
+        "selectedSkip": "Segmentos para pular",
+        "disableDuplicateHistoryEntries": "Desativar criação de duplicatas no histórico de exibição",
+        "listen": "Apenas áudio",
+        "instance": "Instância",
+        "sponsorblock": "Ativar SponsorBlock",
+        "proxyLBRY": "Utilizar proxy para vídeos LBRY",
+        "homepageButton": "Ativar botão da página Home"
+    },
+    "video_sharing_panel": {
+        "via_yt": "Via YouTube",
+        "share_system": "Partilhar via caixa de diálogo",
+        "title": "Partilhar este vídeo",
+        "share": "Partilhar",
+        "via_pm": "Via Piped Material",
+        "with_timestamps": "Com marcações de tempo",
+        "without_timestamps": "Sem marcações de tempo"
+    },
+    "search_results": {
+        "result_types": {
+            "music_playlists": "Playlists (YouTube Music)",
+            "music_songs": "Músicas (YouTube Music)",
+            "playlists": "Playlists",
+            "music_albums": "Álbuns (YouTube Music)",
+            "music_videos": "Vídeos Musicais (YouTube Music)",
+            "channels": "Canais",
+            "all": "Todos os resultados",
+            "videos": "Vídeos"
+        },
+        "filterLabel": "Filtrar por tipo"
+    },
+    "titles": {
+        "trending": "Em Alta",
+        "homepage": "Página inicial",
+        "preferences": "Preferências",
+        "feed": "Feed",
+        "history": "Histórico",
+        "playlists": "Playlists",
+        "register": "Registar"
+    },
+    "playlists": {
+        "rename_self": "Renomear",
+        "playlist_field_name": "Nome da playlist",
+        "create_playlist": "Criar playlist",
+        "add_to_playlist": "Adicionar à Playlist",
+        "delete_self": "Apagar",
+        "new_name_msg": "Que nome novo deseja?",
+        "confirm_addition": "Confirmar adição",
+        "remove_video": "Remover este vídeo da playlist"
+    },
+    "counts": {
+        "views": "Sem visualizações | Uma visualização | {n} visualizações",
+        "videos": "Nenhum vídeo | Um vídeo | {count} vídeos",
+        "subscribers": "Sem inscritos | Um inscrito | inscritos {n}"
+    },
+    "channel_sharing_panel": {
+        "via_yt": "Via YouTube",
+        "title": "Partilhar este canal",
+        "share": "Partilhar",
+        "via_pm": "Via Piped Material"
+    },
+    "misc": {
+        "searchBarLabel": "O que procura?",
+        "lastWatchedTill": "Última visualização até {t}",
+        "watchedAgo": "Assistiu {t} até {p}"
+    },
+    "channel_tabs": {
+        "livestreams": "Em direto",
+        "shorts": "Calções",
+        "videos": "Vídeos",
+        "playlists": "Playlists",
+        "channels": "Canais"
+    },
+    "footer": {
+        "translations_msg_2": "pelo Weblate",
+        "help_message_3": "participe da sala na Matrix ou do canal no IRC",
+        "commit_message_1": "commit {hash}",
+        "text": "A executar o Piped-Material pelo {1}. Ajude-nos à localizar o Piped-Material para mais idiomas {2}!{0} Para ajuda, sugestões e/ou feedback, por favor {3}."
+    },
+    "visibilities": {
+        "unlisted": "Não listado"
+    }
+}
