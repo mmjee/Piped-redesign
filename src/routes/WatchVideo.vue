@@ -104,7 +104,7 @@
                                 </div>
                             </div>
                         </router-link>
-                        <div class="mt-4" v-html="video.description" />
+                        <div class="mt-4" dir="auto" v-html="video.description" />
                         <v-divider class="my-4" />
                         <div class="mt-4" v-if="showDesc && sponsors && sponsors.segments">
                             Sponsors Segments: {{ sponsors.segments.length }}
