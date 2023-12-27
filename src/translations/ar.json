@@ -67,7 +67,10 @@
         "loop_this_video": "أعادة هذا الفيديو",
         "related_videos": "فيديوهات ذات صلة",
         "enable_dark_mode": "تفعيل الوضع الداكن",
-        "unauthenticated_rss": "الخلاصة (غير مصدق)"
+        "unauthenticated_rss": "الخلاصة (غير مصدق)",
+        "export_subscriptions": "تصدير الاشتراكات",
+        "subscriptions_filename": "subs.pipedsubs.json",
+        "import_subscriptions": "استيراد اشتراكات"
     },
     "preferences": {
         "feedColumns": "عدد الأعمدة في صفحة الخلاصة",
@@ -105,7 +108,14 @@
             "4": "4 أعمدة",
             "5": "5 أعمدة",
             "6": "6 أعمدة"
-        }
+        },
+        "codec_options": {
+            "vp9": "VP9",
+            "av01": "AV1 (AOMedia Video 1)",
+            "avc1": "AVC (H.264/Advanced Video Coding)"
+        },
+        "codecs": "برامج الترميز",
+        "disableDuplicateHistoryEntries": "تعطيل إنشاء إدخالات سجل المشاهدة المكررة"
     },
     "video_sharing_panel": {
         "share": "مشاركة",
@@ -164,5 +174,8 @@
         "translations_msg_2": "من خلال Weblate",
         "help_message_3": "انضم إلى غرفة Matrix أو قناة IRC",
         "text": "يشغل Piped-Material {1} ، الرجاء المساعدة في ترجمة Piped-Material إلى المزيد من اللغات {2}! {0} للحصول على مساعدة و / أو اقتراحات و / أو ملاحظات ، من فضلك {3}."
+    },
+    "visibilities": {
+        "unlisted": "غير معلن"
     }
 }
