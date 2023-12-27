@@ -67,7 +67,10 @@
         "related_comments": "کۆمێنتەکان",
         "autoplay_next_video": "بەردەوامبە بۆ یەکەم ڤیدیۆی پەیوەندیدار کاتێک ئەم ڤیدیۆیە کۆتایی دێت",
         "loop_this_video": "ئەم ڤیدیۆیە دووبارە بکەوە",
-        "unauthenticated_rss": "پوختە (بێ چوونەژوورەوە)"
+        "unauthenticated_rss": "پوختە (بێ چوونەژوورەوە)",
+        "export_subscriptions": "هەناردەکردنی بەشداریکردن",
+        "subscriptions_filename": "subs.pipedsubs.json",
+        "import_subscriptions": "هاوردەکردنی بەشداریکردن"
     },
     "preferences": {
         "feedColumns": "ژمارەی ئەستوونەکان لە پەڕەی پوختەکان",
@@ -105,7 +108,14 @@
             "4": "٤ ستوون",
             "5": "٥ ستوون",
             "6": "٦ ستوون"
-        }
+        },
+        "codec_options": {
+            "vp9": "VP9",
+            "av01": "AV1 (AOMedia Video 1)",
+            "avc1": "AVC (H.264/Advanced Video Coding)"
+        },
+        "codecs": "کۆدێکەکان",
+        "disableDuplicateHistoryEntries": "لەکارخستنی دروستکردنی سەیرکردنی مێژوویی دووبارەبوەوە"
     },
     "video_sharing_panel": {
         "share": "هاوبەشکردن",
@@ -164,5 +174,8 @@
         "commit_message_1": "commit {hash}",
         "translations_msg_2": "لە ڕێگەی Weblate",
         "help_message_3": "بەشداری ژووری ماتریکس یان کەناڵی IRC بکە"
+    },
+    "visibilities": {
+        "unlisted": "شاراوە"
     }
 }
