@@ -152,7 +152,13 @@
             "4": "4 colonne",
             "5": "5 colonne",
             "6": "6 colonne"
-        }
+        },
+        "codec_options": {
+            "vp9": "VP9",
+            "av01": "AV1 (AOMedia Video 1)",
+            "avc1": "AVC (H.264/Advanced Video Coding)"
+        },
+        "codecs": "Codec"
     },
     "footer": {
         "commit_message_1": "commit {hash}",
@@ -168,5 +174,8 @@
         "via_pm": "Attraverso Piped Material",
         "via_yt": "Attraverso YouTube",
         "share_system": "Condividi con dialogo di sistema"
+    },
+    "visibilities": {
+        "unlisted": "Non in elenco"
     }
 }
