@@ -1,17 +1,17 @@
 {
     "titles": {
         "homepage": "الصفحة الرئيسية",
-        "trending": "الرائجة",
+        "trending": "‏المحتوى الرائج",
         "register": "التسجيل",
-        "feed": "الخلاصة",
-        "preferences": "إعدادات",
+        "feed": "محتوى الإشتراكات",
+        "preferences": "الإعدادات",
         "history": "سجل المشاهدة",
         "playlists": "قوائم التشغيل"
     },
     "counts": {
-        "videos": "لا توجد مقاطع فيديو | فيديو واحد | {n} فيديوات",
+        "videos": "لا توجد مقاطع فيديو | مقطع فيديو واحد | {n} مقاطع فيديو",
         "views": "لا مشاهدات | مشاهدة واحدة | {n} مشاهدات",
-        "subscribers": "لا يوجد مشتركون | مشترك واحد | {n} مشترك"
+        "subscribers": "لا يوجد مشتركون | مشترك واحد | {n} مشتركين"
     },
     "errors": {
         "trendingFetchError": "تعذر تحميل المقاطع الفيديو الرائجة. تحقق مما إذا كان بلدك مدعوما من YouTube"
@@ -22,7 +22,7 @@
         "watchedAgo": "شاهد {t} حتى {p}"
     },
     "actions": {
-        "subscribe": "اشترك",
+        "subscribe": "إشترك",
         "unsubscribe": "إلغاء الاشتراك",
         "view_subscriptions": "عرض الاشتراكات",
         "rss_of_subscriptions": "RSS الاشتراكات الخاصة بك",
@@ -33,7 +33,7 @@
         "channel_name_desc": "اسم القناة (Z-A)",
         "back": "رجوع",
         "uses_api_from": "يستخدم واجهة برمجة التطبيقات من ",
-        "enable_sponsorblock": "تفعيل Sponsorblock",
+        "enable_sponsorblock": "تفعيل حظر الإعلانات",
         "skip_sponsors": "الرعاة",
         "skip_intro": "الفاصل / مقدمة الرسوم المتحركة",
         "skip_outro": "بطاقات النهاية/الاعتمادات",
@@ -56,16 +56,16 @@
         "hideReplies": "إخفاء الردود",
         "showReplies": "إظهار الردود",
         "skip_poi_highlights": "أبرز الأحداث",
-        "skip_filler": "مشاهد الفكاهة",
+        "skip_filler": "مشاهد الحشو",
         "loadComments": "تحميل التعليقات",
         "logOutFromAllDevices": "تسجيل الخروج من جميع الأجهزة",
-        "accounts": "الحساب الخاص بك",
+        "accounts": "حسابك",
         "confirmPWToDelAcc": "قم بتأكيد كلمة المرور لحذف حسابك",
         "delAccountMessage": "هل تريد حذف حسابك؟",
         "related_comments": "التعليقات",
         "autoplay_next_video": "تابع إلى أول فيديو ذي صلة بمجرد انتهاء هذا الفيديو",
         "loop_this_video": "أعادة هذا الفيديو",
-        "related_videos": "فيديوهات ذات صلة",
+        "related_videos": "مقاطع فيديو ذات صلة",
         "enable_dark_mode": "تفعيل الوضع الداكن",
         "unauthenticated_rss": "الخلاصة (غير مصدق)",
         "export_subscriptions": "تصدير الاشتراكات",
@@ -73,8 +73,8 @@
         "import_subscriptions": "استيراد اشتراكات"
     },
     "preferences": {
-        "feedColumns": "عدد الأعمدة في صفحة الخلاصة",
-        "sponsorblock": "تفعيل SponsorBlock",
+        "feedColumns": "عدد الأعمدة في صفحة محتوى الإشتراكات",
+        "sponsorblock": "تفعيل حظر الإعلانات",
         "selectedSkip": "تخطي أجزاء من الفيديو",
         "skipToLastPoint": "تخطي إلى آخر نقطة مشاهدة عند مواجهة فيديو تم مشاهدته بالفعل",
         "disableLBRY": "تعطيل LBRY",
@@ -88,7 +88,7 @@
         "instance": "الخادم",
         "clickbaitThumbnailAvoidance": "استبدال الصور المصغرة بإطار مستخرج تلقائيا من الفيديو",
         "showRelatedVideos": "عرض مقاطع الفيديو ذات الصلة",
-        "showMarkers": "إظهار علامات Sponsorblock",
+        "showMarkers": "إظهار علامات حظر الإعلانات",
         "disableCommentsByDefault": "عدم عرض التعليقات بشكل افتراضي",
         "colorScheme": "نظام الألوان",
         "homepageButton": "تمكين زر الصفحة الرئيسية",
@@ -101,8 +101,8 @@
             "720p": "720p",
             "1080p": "1080p",
             "1440p": "1440p",
-            "2160p": "2160p (يُطلق عليه عادةً 4K, 3840x2160)",
-            "4320p": "4320p (يُطلق عليه عادةً 8K, 7680x4320)"
+            "2160p": "2160p (يُطلق عليه عادةً 3840x2160, 4K)",
+            "4320p": "4320p (يُطلق عليه عادةً 7680x4320, 8K)"
         },
         "column_opts": {
             "4": "4 أعمدة",
@@ -129,7 +129,7 @@
     "playlists": {
         "add_to_playlist": "إضافة إلى قائمة التشغيل",
         "confirm_addition": "تأكيد الإضافة",
-        "create_playlist": "إنشاء قائمة تشغيل",
+        "create_playlist": "إنشاء قائمة التشغيل",
         "playlist_field_name": "اسم قائمة التشغيل",
         "remove_video": "إزالة هذا الفيديو من قائمة التشغيل",
         "delete_self": "حذف",
@@ -156,8 +156,8 @@
         "share": "مشاركة"
     },
     "channel_tabs": {
-        "videos": "الفيديوهات",
-        "livestreams": "بث مباشر",
+        "videos": "مقاطع الفيديو",
+        "livestreams": "بثوث مباشر",
         "playlists": "قوائم التشغيل",
         "channels": "القنوات",
         "shorts": "مقاطع فيديو قصيرة"
