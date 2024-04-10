@@ -103,7 +103,7 @@
         "homepageButton": "Activar el botón de la página de inicio",
         "quality_opts": {
             "1440p": "1440p",
-            "4320p": "4320p (También llamado 8K, 7680x4320)",
+            "4320p": "4320p (También llamado 8K, 7680×4320)",
             "auto": "Determinado automáticamente",
             "144p": "144p",
             "240p": "240p",
@@ -111,7 +111,7 @@
             "480p": "480p",
             "720p": "720p",
             "1080p": "1080p",
-            "2160p": "2160p (También llamado 4K, 3840x2160)"
+            "2160p": "2160p (También llamado 4K, 3840×2160)"
         },
         "column_opts": {
             "4": "4 columnas",
