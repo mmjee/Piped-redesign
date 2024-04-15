@@ -77,8 +77,8 @@
             "auto": "自動で判断",
             "144p": "144p",
             "240p": "240p",
-            "2160p": "2160p (通称 4K, 3840x2160)",
-            "4320p": "4320p (通称 8K, 7680x4320)"
+            "2160p": "2160p (通称 4K, 3840×2160)",
+            "4320p": "4320p (通称 8K, 7680×4320)"
         },
         "bufferGoal": "データをバッファリングする秒数",
         "sponsorblock": "SponsorBlock を使用",
@@ -104,7 +104,9 @@
             "av01": "AV1 (AOMedia Video 1)",
             "avc1": "AVC (H.264/Advanced Video Coding)"
         },
-        "codecs": "コーデック"
+        "codecs": "コーデック",
+        "filterOutShortsInSearchResults": "検索結果からショート動画を除外する",
+        "filterOutShortsInFeedPage": "フィード/急上昇からショート動画を除外する"
     },
     "titles": {
         "history": "再生履歴",
