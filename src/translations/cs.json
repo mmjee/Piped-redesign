@@ -124,7 +124,9 @@
             "av01": "AV1 (AOMedia Video 1)",
             "avc1": "AVC (H.264/Advanced Video Coding)"
         },
-        "codecs": "Kodeky"
+        "codecs": "Kodeky",
+        "filterOutShortsInFeedPage": "Filtrovat YT Shorts na hlavních stránkách (trendy, odběry atd.)",
+        "filterOutShortsInSearchResults": "Filtrovat YT Shorts ve výsledcích vyhledávání"
     },
     "playlists": {
         "add_to_playlist": "Přidat do playlistu",
