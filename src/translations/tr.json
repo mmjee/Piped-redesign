@@ -80,8 +80,8 @@
         "colorScheme": "Renk Düzeni",
         "homepageButton": "Ana Sayfa Düğmesini Etkinleştir",
         "quality_opts": {
-            "2160p": "2160p (Bu genellikle 4K, 3840x2160 olarak adlandırılır)",
-            "4320p": "4320p (Bu genellikle 8K, 7680x4320 olarak adlandırılır)",
+            "2160p": "2160p (Bu genellikle 4K, 3840×2160 olarak adlandırılır)",
+            "4320p": "4320p (Bu genellikle 8K, 7680×4320 olarak adlandırılır)",
             "auto": "Otomatik olarak belirlenir",
             "144p": "144p",
             "240p": "240p",
@@ -102,7 +102,9 @@
             "av01": "AV1 (AOMedia Video 1)",
             "avc1": "AVC (H.264/Advanced Video Coding)"
         },
-        "codecs": "Kod Çözücüler"
+        "codecs": "Kod Çözücüler",
+        "filterOutShortsInFeedPage": "Akış sayfalarında (öne çıkanlar, akış, vb.) YT kısa çekimlerini filtrele",
+        "filterOutShortsInSearchResults": "Arama sonucu sayfalarında YT kısa çekimlerini filtrele"
     },
     "counts": {
         "videos": "Video yok | Bir Video | {n} Video",
