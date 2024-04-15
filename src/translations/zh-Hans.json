@@ -42,7 +42,9 @@
             "av01": "AV1 (AOMedia Video 1)",
             "avc1": "AVC (H.264/高级视频编码)"
         },
-        "codecs": "编解码器"
+        "codecs": "编解码器",
+        "filterOutShortsInFeedPage": "在 feed 页面中过滤掉 Youtube 短视频（时下流行、feed等）",
+        "filterOutShortsInSearchResults": "在搜索结果页中过滤掉 Youtube 上的短视频"
     },
     "titles": {
         "homepage": "主页",
