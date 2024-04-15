@@ -124,7 +124,9 @@
             "av01": "AV1 (AOMedia Video 1)",
             "avc1": "AVC (H.264/Advanced Video Coding)"
         },
-        "codecs": "Codecs"
+        "codecs": "Codecs",
+        "filterOutShortsInFeedPage": "Filtra los vídeos cortos de Youtube en las páginas de feeds (tendencias, noticias, etc.)",
+        "filterOutShortsInSearchResults": "Filtrar los vídeos cortos de Youtube en las páginas de resultados de la búsqueda"
     },
     "channel_sharing_panel": {
         "via_pm": "Reproducir mediante Piped Material",
