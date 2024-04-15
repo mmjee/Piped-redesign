@@ -108,19 +108,27 @@
             "1080p": "1080p",
             "1440p": "1440p",
             "240p": "240p",
-            "2160p": "2160p (ini biasanya disebut 4K, 3840x2160)",
+            "2160p": "2160p (ini biasanya disebut 4K, 3840×2160)",
             "auto": "Secara otomatis ditentukan",
             "360p": "360p",
             "480p": "480p",
             "720p": "720p",
-            "4320p": "4320p (ini biasanya disebut 8K, 7680x4320)"
+            "4320p": "4320p (ini biasanya disebut 8K, 7680×4320)"
         },
         "column_opts": {
             "4": "4 kolom",
             "5": "5 kolom",
             "6": "6 kolom"
         },
-        "disableDuplicateHistoryEntries": "Nonaktifkan pembuatan entri riwayat tontonan duplikat"
+        "disableDuplicateHistoryEntries": "Nonaktifkan pembuatan entri riwayat tontonan duplikat",
+        "codecs": "Kodek",
+        "codec_options": {
+            "av01": "AV1 (AOMedia Video 1)",
+            "avc1": "AVC (H.264/Advanced Video Coding)",
+            "vp9": "VP9"
+        },
+        "filterOutShortsInSearchResults": "Saring YT Shorts dalam laman hasil pencarian",
+        "filterOutShortsInFeedPage": "Saring YT Shorts dalam laman umpan (tren, umpan, dll.)"
     },
     "counts": {
         "subscribers": "Tidak ada pelanggan | Satu pelanggan | {n} pelanggan",
