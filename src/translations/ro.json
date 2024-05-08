@@ -150,8 +150,8 @@
             "720p": "720p",
             "1080p": "1080p",
             "1440p": "1440p",
-            "2160p": "2160p (Acest lucru este de obicei numit 4K, 3840x2160)",
-            "4320p": "4320p (Acest lucru este de obicei numit 8K, 7680x4320)"
+            "2160p": "2160p (Acest lucru este de obicei numit 4K, 3840×2160)",
+            "4320p": "4320p (Acest lucru este de obicei numit 8K, 7680×4320)"
         },
         "column_opts": {
             "5": "5 coloane",
@@ -164,7 +164,9 @@
             "av01": "AV1 (AOMedia Video 1)",
             "avc1": "AVC (H.264/Codare video avansată)"
         },
-        "codecs": "Codec-uri"
+        "codecs": "Codec-uri",
+        "filterOutShortsInFeedPage": "Filtrează YT shorts în paginile de feed (trending, feed, etc.)",
+        "filterOutShortsInSearchResults": "Filtrează YT shorts în rezultatele căutării"
     },
     "errors": {
         "trendingFetchError": "Nu s-au putut prelua videoclipurile populare. Verificați dacă țara dvs. este acceptată de YouTube"
