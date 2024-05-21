@@ -126,7 +126,11 @@
         },
         "codecs": "Kodeky",
         "filterOutShortsInFeedPage": "Filtrovat YT Shorts na hlavních stránkách (trendy, odběry atd.)",
-        "filterOutShortsInSearchResults": "Filtrovat YT Shorts ve výsledcích vyhledávání"
+        "filterOutShortsInSearchResults": "Filtrovat YT Shorts ve výsledcích vyhledávání",
+        "custom_instance": {
+            "input_label": "Základní adresa URL instance",
+            "button_label": "Povolit zadání vlastní instance?"
+        }
     },
     "playlists": {
         "add_to_playlist": "Přidat do playlistu",
