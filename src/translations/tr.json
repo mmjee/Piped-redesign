@@ -104,7 +104,11 @@
         },
         "codecs": "Kod Çözücüler",
         "filterOutShortsInFeedPage": "Akış sayfalarında (öne çıkanlar, akış, vb.) YT kısa çekimlerini filtrele",
-        "filterOutShortsInSearchResults": "Arama sonucu sayfalarında YT kısa çekimlerini filtrele"
+        "filterOutShortsInSearchResults": "Arama sonucu sayfalarında YT kısa çekimlerini filtrele",
+        "custom_instance": {
+            "button_label": "Özel örnek girişi etkinleştirilsin mi?",
+            "input_label": "Örnek Temel URL'si"
+        }
     },
     "counts": {
         "videos": "Video yok | Bir Video | {n} Video",
