@@ -126,7 +126,11 @@
         },
         "codecs": "Codecs",
         "filterOutShortsInFeedPage": "Filtra los vídeos cortos de Youtube en las páginas de feeds (tendencias, noticias, etc.)",
-        "filterOutShortsInSearchResults": "Filtrar los vídeos cortos de Youtube en las páginas de resultados de la búsqueda"
+        "filterOutShortsInSearchResults": "Filtrar los vídeos cortos de Youtube en las páginas de resultados de la búsqueda",
+        "custom_instance": {
+            "button_label": "¿Permitir la entrada de instancias personalizadas?",
+            "input_label": "URL base de la instancia"
+        }
     },
     "channel_sharing_panel": {
         "via_pm": "Reproducir mediante Piped Material",
