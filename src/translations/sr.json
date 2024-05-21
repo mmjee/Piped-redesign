@@ -44,7 +44,11 @@
         },
         "codecs": "Кодеци",
         "filterOutShortsInSearchResults": "Филтрирај YT Shorts видео снимке на страницама резултата претраге",
-        "filterOutShortsInFeedPage": "Филтрирај YT Shorts видео снимке на страницама фида (у тренду, фидовима итд.)"
+        "filterOutShortsInFeedPage": "Филтрирај YT Shorts видео снимке на страницама фида (у тренду, фидовима итд.)",
+        "custom_instance": {
+            "input_label": "Основни URL инстанце",
+            "button_label": "Омогућити унос прилагођене инстанце?"
+        }
     },
     "channel_tabs": {
         "channels": "Канали",
