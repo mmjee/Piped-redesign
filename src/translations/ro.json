@@ -166,7 +166,11 @@
         },
         "codecs": "Codec-uri",
         "filterOutShortsInFeedPage": "Filtrează YT shorts în paginile de feed (trending, feed, etc.)",
-        "filterOutShortsInSearchResults": "Filtrează YT shorts în rezultatele căutării"
+        "filterOutShortsInSearchResults": "Filtrează YT shorts în rezultatele căutării",
+        "custom_instance": {
+            "input_label": "Instanță URL de bază",
+            "button_label": "Activați intrarea instanței customizate?"
+        }
     },
     "errors": {
         "trendingFetchError": "Nu s-au putut prelua videoclipurile populare. Verificați dacă țara dvs. este acceptată de YouTube"
