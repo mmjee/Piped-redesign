@@ -45,7 +45,9 @@
         "related_videos": "Ähnliche Videos",
         "related_comments": "Kommentare",
         "autoplay_next_video": "Zum nächsten ähnlichen Video springen, wenn dieses Video zuende ist",
-        "loop_this_video": "Video wiederholen"
+        "loop_this_video": "Video wiederholen",
+        "import_subscriptions": "Abonnements importieren",
+        "export_subscriptions": "Abonnements exportieren"
     },
     "titles": {
         "history": "Verlauf",
@@ -85,14 +87,27 @@
             "720p": "720p",
             "1080p": "1080p",
             "1440p": "1440p",
-            "2160p": "2160p",
-            "4320p": "4320p"
+            "2160p": "2160p (Dies wird gewöhnlich als 4K bezeichnet, 3840×2160)",
+            "4320p": "4320p (Dies wird gewöhnlich als 8K bezeichnet, 7680×4320)"
         },
         "column_opts": {
             "4": "4 Spalten",
             "5": "5 Spalten",
             "6": "6 Spalten"
-        }
+        },
+        "codec_options": {
+            "avc1": "AVC (H.264/Advanced Video Coding)",
+            "vp9": "VP9",
+            "av01": "AV1 (AOMedia Video 1)"
+        },
+        "custom_instance": {
+            "button_label": "Benutzerdefinierte Instanzeingabe aktivieren?",
+            "input_label": "Basis-URL der Instanz"
+        },
+        "filterOutShortsInFeedPage": "YT-Shorts auf den Feed-Seiten (Trending, Feed, etc.) herausfiltern",
+        "filterOutShortsInSearchResults": "YT-Shorts auf den Suchergebnisseiten herausfiltern",
+        "codecs": "Codecs",
+        "disableDuplicateHistoryEntries": "Erstellung von doppelten Einträgen im Wiedergabeverlauf deaktivieren"
     },
     "counts": {
         "videos": "Keine Videos | Ein Video | {n} Videos",
@@ -164,5 +179,8 @@
         "translations_msg_2": "über Weblate",
         "help_message_3": "tritt dem Matrix-Raum oder dem IRC-Kanal bei",
         "text": "Piped-Material {1}, bitte hilf mit, Piped-Material {2} in mehr Sprachen verfügbar zu machen!{0} Für Hilfe, Vorschläge und/oder Feedback, bitte {3}."
+    },
+    "visibilities": {
+        "unlisted": "Ungelistet"
     }
 }
