@@ -128,7 +128,11 @@
             "vp9": "VP9"
         },
         "filterOutShortsInSearchResults": "Saring YT Shorts dalam laman hasil pencarian",
-        "filterOutShortsInFeedPage": "Saring YT Shorts dalam laman umpan (tren, umpan, dll.)"
+        "filterOutShortsInFeedPage": "Saring YT Shorts dalam laman umpan (tren, umpan, dll.)",
+        "custom_instance": {
+            "button_label": "Aktifkan masukan server khusus?",
+            "input_label": "URL Dasar Server"
+        }
     },
     "counts": {
         "subscribers": "Tidak ada pelanggan | Satu pelanggan | {n} pelanggan",
