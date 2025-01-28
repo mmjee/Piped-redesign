@@ -1018,6 +1018,11 @@
   resolved "https://registry.yarnpkg.com/@fontsource-variable/baloo-da-2/-/baloo-da-2-5.0.19.tgz#3ddec3bf714eb6c3e674192cd4f1501546a4af65"
   integrity sha512-uWDl0ckN1DkRDtPFUeRTESpqgHtxTF3/UcH7HQ1y0c7+sv6tYUm7fXMng9y5xCkclfbLM7iDoA5htadTiwDP8w==
 
+"@fontsource-variable/baloo-thambi-2@^5.1.1":
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/@fontsource-variable/baloo-thambi-2/-/baloo-thambi-2-5.1.1.tgz#48a530c602c46f8c63cc27d59f31f2542158a343"
+  integrity sha512-mudPRtGqm9l8E/8Pgykzom7lVjCgl34OMc24X6sgIbSfzf6QRzJAnWGh6HSBuzAwt3PE7pJqP49XfSa/JsjG1Q==
+
 "@fontsource-variable/noto-naskh-arabic@^5.0.19":
   version "5.0.19"
   resolved "https://registry.yarnpkg.com/@fontsource-variable/noto-naskh-arabic/-/noto-naskh-arabic-5.0.19.tgz#f009f96ec34940c570914b65cfffc9d74fb5844f"

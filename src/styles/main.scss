@@ -31,6 +31,10 @@
   @include addFonts('Baloo Chettan 2 Variable');
 }
 
+.tamil {
+  @include addFonts('Baloo Thambi 2 Variable');
+}
+
 .arabic-script {
   @include addFonts('Noto Naskh Arabic Variable');
 

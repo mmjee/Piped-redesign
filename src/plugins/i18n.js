@@ -415,7 +415,8 @@ export const SUPPORTED_LANGUAGES = [
 	'uk',
 	'ro',
 	'pl',
-	'fi'
+	'fi',
+	'ta'
 ]
 
 export const VUETIFY_SUPPORTED_LANGUAGES = `af
@@ -501,6 +502,12 @@ async function syncStylesPerLanguage (locale) {
 			await import('@fontsource-variable/baloo-chettan-2/index.css')
 			document.body.classList.remove(...document.body.classList)
 			document.body.classList.add('malayalam')
+			break
+		// Tamil script
+		case 'Taml':
+			await import('@fontsource-variable/baloo-thambi-2/index.css')
+			document.body.classList.remove(...document.body.classList)
+			document.body.classList.add('tamil')
 			break
 		// Other languages
 		// NOTE: if you are a native speaker & want to see a different font, just email me or join the channel

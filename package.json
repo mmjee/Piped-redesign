@@ -9,6 +9,7 @@
   "dependencies": {
     "@fontsource-variable/baloo-chettan-2": "^5.0.19",
     "@fontsource-variable/baloo-da-2": "^5.0.19",
+    "@fontsource-variable/baloo-thambi-2": "^5.1.1",
     "@fontsource-variable/noto-naskh-arabic": "^5.0.19",
     "@fontsource/material-icons-round": "^5.0.11",
     "@formatjs/intl-localematcher": "^0.5.4",
